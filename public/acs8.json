@@ -1,0 +1,235 @@
+{
+  "questions": [
+    {
+      "question": "Which of the answers listed below refers to a mobile device's built-in functionality enabling the usage of locator applications?",
+      "options": ["WPS", "GSM", "SIM", "GPS"],
+      "correct_answers": ["GPS"]
+    },
+    {
+      "question": "Which of the following answers refers to a unique 48-bit address assigned to every network adapter?",
+      "options": ["PIN", "SSID", "IP", "MAC"],
+      "correct_answers": ["MAC"]
+    },
+    {
+      "question": "In older, non-UEFI based PCs, the first sector of a storage drive containing information about partitions and a piece of executable code used to load the installed OS is called:",
+      "options": ["MBR", "GPT", "PXE", "GUID"],
+      "correct_answers": ["MBR"]
+    },
+    {
+      "question": "In cloud computing, users on an on-premises network take advantage of a transit gateway to connect to:",
+      "options": ["WAN", "VPC", "SAN", "VLAN"],
+      "correct_answers": ["VPC"]
+    },
+    {
+      "question": "Which of the answers listed below refer to DSA? (Select 3 answers)",
+      "options": [
+        "Asymmetric algorithm",
+        "Used for the key exchange process",
+        "Symmetric algorithm",
+        "Provides authentication, integrity, and non-repudiation",
+        "Specifically designed for creating and verifying digital signatures",
+        "Used for encryption"
+      ],
+      "correct_answers": [
+        "Asymmetric algorithm",
+        "Provides authentication, integrity, and non-repudiation",
+        "Specifically designed for creating and verifying digital signatures"
+      ]
+    },
+    {
+      "question": "Which of the following acronyms refer to office equipment that combines the functionality of multiple devices? (Select 2 answers)",
+      "options": ["MFD", "IoT", "MFP", "PED", "MFA"],
+      "correct_answers": ["MFD", "MFP"]
+    },
+    {
+      "question": "Which of the answers listed below describe(s) the characteristics of ECDSA? (Select all that apply)",
+      "options": [
+        "Provides authentication, integrity, and non-repudiation",
+        "Based on elliptic curve cryptography",
+        "Designed for data encryption",
+        "Specifically designed for creating and verifying digital signatures",
+        "More computationally efficient than other signature algorithms",
+        "Enables the key exchange process"
+      ],
+      "correct_answers": [
+        "Provides authentication, integrity, and non-repudiation",
+        "Based on elliptic curve cryptography",
+        "Specifically designed for creating and verifying digital signatures",
+        "More computationally efficient than other signature algorithms"
+      ]
+    },
+    {
+      "question": "Which of the following answers refers to a deprecated stream cipher used in some legacy applications, such as WEP?",
+      "options": ["RSA", "DES", "SSL", "RC4"],
+      "correct_answers": ["RC4"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a wireless network authentication protocol that enhances security by encapsulating the authentication process within an encrypted TLS tunnel?",
+      "options": ["PEAP", "EAP", "LEAP", "RADIUS"],
+      "correct_answers": ["PEAP"]
+    },
+    {
+      "question": "A type of metric used to evaluate the profitability of an investment by comparing the return generated from the investment relative to its cost is referred to as:",
+      "options": ["ROA", "ROI", "ROS", "ROC"],
+      "correct_answers": ["ROI"]
+    },
+    {
+      "question": "Which of the following facilitates the enforcement of mobile device policies and procedures?",
+      "options": ["MFA", "MMC", "MDM", "MFD"],
+      "correct_answers": ["MDM"]
+    },
+    {
+      "question": "Which of the answers listed below refers to an identifier used for objects in a PKI, such as CAs, digital certificates, and public key algorithms?",
+      "options": ["OID", "DN", "SAN", "GUID"],
+      "correct_answers": ["OID"]
+    },
+    {
+      "question": "Which of the following answers refers to a solution designed to strengthen the security of session keys?",
+      "options": ["ECB", "PFS", "EFS", "PFX"],
+      "correct_answers": ["PFS"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a twisted-pair copper cabling type not surrounded by any shielding that would provide protection against interference from outside sources?",
+      "options": ["STP", "Coax", "UTP", "Twinax"],
+      "correct_answers": ["UTP"]
+    },
+    {
+      "question": "Which of the following terms refers to a technology that enables real-time audio and video communication between individuals or groups?",
+      "options": ["VPC", "VTC", "VoIP", "VDI"],
+      "correct_answers": ["VTC"]
+    },
+    {
+      "question": "A dedicated data storage solution that combines multiple disk drive components into a single logical unit to increase volume size, performance, or reliability is known as:",
+      "options": ["SAN", "RAID", "NAS", "JBOD"],
+      "correct_answers": ["RAID"]
+    },
+    {
+      "question": "Which of the answers listed below can be used to describe XSRF? (Select 3 answers)",
+      "options": [
+        "Exploits the trust a website has in the user's web browser",
+        "A user is tricked by an attacker into submitting unauthorized web requests",
+        "Website executes attacker's requests",
+        "Exploits the trust a user's web browser has in a website",
+        "A malicious script is injected into a trusted website",
+        "User's browser executes attacker's script"
+      ],
+      "correct_answers": [
+        "Exploits the trust a website has in the user's web browser",
+        "A user is tricked by an attacker into submitting unauthorized web requests",
+        "Website executes attacker's requests"
+      ]
+    },
+    {
+      "question": "Which of the following answers can be used to describe the characteristics of an XSS attack? (Select 3 answers)",
+      "options": [
+        "Exploits the trust a user's web browser has in a website",
+        "A malicious script is injected into a trusted website",
+        "User's browser executes attacker's script",
+        "Exploits the trust a website has in the user's web browser",
+        "A user is tricked by an attacker into submitting unauthorized web requests",
+        "Website executes attacker's requests"
+      ],
+      "correct_answers": [
+        "Exploits the trust a user's web browser has in a website",
+        "A malicious script is injected into a trusted website",
+        "User's browser executes attacker's script"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refers to an encoding method (and a file format) for storing cryptographic objects such as X.509 certificates, CRLs, and private keys?",
+      "options": ["ECB", "PEM", "FIM", "PFS"],
+      "correct_answers": ["PEM"]
+    },
+    {
+      "question": "Which of the following answers refers to a centralized server that is used to distribute cryptographic keys and authenticate users and services within a computer network?",
+      "options": ["PKI", "RAS", "KDC", "NAS"],
+      "correct_answers": ["KDC"]
+    },
+    {
+      "question": "An AI feature that enables it to accomplish tasks based on training data without explicit human instructions is called:",
+      "options": ["AGI", "ML", "NN", "LLM"],
+      "correct_answers": ["ML"]
+    },
+    {
+      "question": "Which data packet type is specifically used to detect and prevent network loops in Ethernet networks?",
+      "options": ["MTU", "Jumbo frame", "BPDU", "Magic packet"],
+      "correct_answers": ["BPDU"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a key exchange protocol that generates temporary keys for each session, providing forward secrecy to protect past and future communications?",
+      "options": ["PFS", "SHA", "PGP", "DHE"],
+      "correct_answers": ["DHE"]
+    },
+    {
+      "question": "Which of the following terms refers to a method for managing infrastructure resources through scripts and templates?",
+      "options": ["IaaS", "ML", "IaC", "SDN"],
+      "correct_answers": ["IaC"]
+    },
+    {
+      "question": "Which of the answers listed below refer to the characteristic features of NIDS? (Select 3 answers)",
+      "options": [
+        "Takes proactive measures to block or mitigate intrusion attempts",
+        "Does not take direct action to block or prevent attacks",
+        "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+        "Monitors network traffic without direct involvement in traffic routing or packet modification",
+        "Can drop or reject network packets, terminate connections, or take other actions to stop the attack",
+        "Operates in an inline mode, actively intercepting and inspecting network traffic"
+      ],
+      "correct_answers": [
+        "Does not take direct action to block or prevent attacks",
+        "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+        "Monitors network traffic without direct involvement in traffic routing or packet modification"
+      ]
+    },
+    {
+      "question": "Which of the following answers refers to a cybersecurity framework that combines network and security functions into a single cloud-based service?",
+      "options": ["SASE", "SIEM", "SWG", "SOAR"],
+      "correct_answers": ["SASE"]
+    },
+    {
+      "question": "A process used by organizations to assess and evaluate the potential impact of disruptive incidents or disasters on their critical business functions and operations is referred to as:",
+      "options": ["BPA", "BIA", "SLE", "BCP"],
+      "correct_answers": ["BIA"]
+    },
+    {
+      "question": "Which of the answers listed below refers to one of the last stages in SDLC?",
+      "options": ["UCD", "QA", "UAT", "AUT"],
+      "correct_answers": ["UAT"]
+    },
+    {
+      "question": "Which cipher mode transforms a block cipher into a stream cipher enabling the encryption of individual bits or bytes of data?",
+      "options": ["CFB", "CBC", "GCM", "ECB"],
+      "correct_answers": ["CFB"]
+    },
+    {
+      "question": "Rewriting the destination IP address of incoming data packets, commonly utilized to reroute traffic to alternative locations or ports is a characteristic feature of:",
+      "options": ["IDS", "DNAT", "QoS", "VPN"],
+      "correct_answers": ["DNAT"]
+    },
+    {
+      "question": "Which of the following answers refers to a deprecated encryption protocol?",
+      "options": ["SSH", "SHA-256", "S/MIME", "SSL"],
+      "correct_answers": ["SSL"]
+    },
+    {
+      "question": "A collection of precompiled functions designed to be used by more than one Microsoft Windows application simultaneously to save system resources is known as:",
+      "options": ["DLL", "API", "INI", "EXE"],
+      "correct_answers": ["DLL"]
+    },
+    {
+      "question": "Which of the terms listed below refers to a documented plan outlining the steps that should be taken in each phase of a cybersecurity incident?",
+      "options": ["DRP", "IRP", "BCP", "ERP"],
+      "correct_answers": ["IRP"]
+    },
+    {
+      "question": "A block cipher mode that combines a unique counter with encryption key to generate a stream of pseudorandom data blocks which are then used for encrypting data is called:",
+      "options": ["CBC", "GCM", "CFB", "CTM"],
+      "correct_answers": ["CTM"]
+    },
+    {
+      "question": "Which of the following combines a cryptographic hash function with a secret key to provide a means of verifying both the authenticity and integrity of a message or data?",
+      "options": ["MD5", "DSA", "HMAC", "DES"],
+      "correct_answers": ["HMAC"]
+    }
+  ]
+}

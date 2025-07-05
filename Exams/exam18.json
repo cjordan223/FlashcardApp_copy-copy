@@ -1,0 +1,156 @@
+{
+  "questions": [
+    {
+      "question": "In SNMP, each node in a MIB is uniquely identified by a(n):",
+      "options": ["DSU", "OID", "CSU", "OUI"],
+      "correct_answers": ["OID"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a network protocol developed by Cisco for collecting information about IP traffic flowing across network devices like routers, switches, and firewalls?",
+      "options": ["OpenVAS", "iPerf", "pfSense", "NetFlow"],
+      "correct_answers": ["NetFlow"]
+    },
+    {
+      "question": "Firewall rules are evaluated based on their order of precedence. Rules at the top of the list take precedence over rules further down the list. Once a matching rule is found, no further evaluation of subsequent rules occurs. The \"implicit deny\" policy on a firewall is a common default behavior in which any traffic that does not explicitly match any of the configured allow rules is automatically denied or blocked.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the following refers to a set of rules defining how a firewall manages network traffic?",
+      "options": ["MAC", "ACL", "NAC", "DLP"],
+      "correct_answers": ["ACL"]
+    },
+    {
+      "question": "A lightly protected subnet (a.k.a. DMZ) consisting of publicly available servers placed on the outside of the company's firewall is known as:",
+      "options": ["Captive portal", "Quarantine network", "Extranet", "Screened subnet"],
+      "correct_answers": ["Screened subnet"]
+    },
+    {
+      "question": "Which of the answers listed below most accurately describes patterns or behaviors observed in network traffic over time?",
+      "options": ["Trends", "Anomalies", "Threats", "Signatures"],
+      "correct_answers": ["Trends"]
+    },
+    {
+      "question": "Which of the following terms refers to predefined patterns or characteristics of known threats or attack methods?",
+      "options": ["Security logs", "Baselines", "Trends", "Signatures"],
+      "correct_answers": ["Signatures"]
+    },
+    {
+      "question": "A type of IDS/IPS that compares current network traffic against a database of known attack patterns is called:",
+      "options": ["Heuristic", "Anomaly-based", "Behavioral", "Signature-based"],
+      "correct_answers": ["Signature-based"]
+    },
+    {
+      "question": "Agent-based web filtering: (Select 3 answers)",
+      "options": [
+        "Requires installing software on each device that needs to be monitored",
+        "Provides flexibility and granular control over web activity at the device level",
+        "Involves increased management overhead and system resource consumption",
+        "Simplifies administration and ensures consistent enforcement of web filtering policies across the network",
+        "Does not require software to be installed on each individual device",
+        "Requires a functioning central server for web filtering to operate"
+      ],
+      "correct_answers": [
+        "Requires installing software on each device that needs to be monitored",
+        "Provides flexibility and granular control over web activity at the device level",
+        "Involves increased management overhead and system resource consumption"
+      ]
+    },
+    {
+      "question": "Web filtering via centralized proxy: (Select 3 answers)",
+      "options": [
+        "Involves increased management overhead and system resource consumption",
+        "Does not require software to be installed on each individual device",
+        "Requires installing software on each device that needs to be monitored",
+        "Simplifies administration and ensures consistent enforcement of web filtering policies across the network",
+        "Provides flexibility and granular control over web activity at the device level",
+        "Requires a functioning central server for web filtering to operate"
+      ],
+      "correct_answers": [
+        "Does not require software to be installed on each individual device",
+        "Simplifies administration and ensures consistent enforcement of web filtering policies across the network",
+        "Requires a functioning central server for web filtering to operate"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refer to filtering techniques that can allow or block access to a site based on its web address? (Select 2 answers)",
+      "options": ["SSL/TLS inspection", "URL scanning", "Content categorization", "DNS filtering", "Reputation-based filtering"],
+      "correct_answers": ["URL scanning", "DNS filtering"]
+    },
+    {
+      "question": "Content categorization in web filtering involves classifying web content into predefined categories based on its subject matter or type. This technique enables organizations to apply filtering policies selectively, for example restricting access to certain categories during work hours or blocking access to categories associated with security risks or non-work-related activities.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "In Windows Active Directory environment, this feature enables centralized management and configuration of operating systems, applications, and user account settings.",
+      "options": ["Local Users and Groups", "Resource Monitor", "Group Policy", "User Account Control"],
+      "correct_answers": ["Group Policy"]
+    },
+    {
+      "question": "What is SELinux?",
+      "options": [
+        "A security feature in Linux OSs",
+        "A secure boot mechanism implemented in certain Linux distributions",
+        "An open-source web server software",
+        "A Linux distribution"
+      ],
+      "correct_answers": ["A security feature in Linux OSs"]
+    },
+    {
+      "question": "Which of the following answers refers to a security mechanism imposed by SELinux over system access?",
+      "options": ["DAC", "RBAC", "MAC", "ABAC"],
+      "correct_answers": ["MAC"]
+    },
+    {
+      "question": "Which of the protocols listed below is used to enable secure web browsing?",
+      "options": ["L2TP", "HTTPS", "SSH", "IPsec"],
+      "correct_answers": ["HTTPS"]
+    },
+    {
+      "question": "Which of the following protocols allow(s) for secure file transfer? (Select all that apply)",
+      "options": ["FTPS", "TFTP", "FTP", "SFTP"],
+      "correct_answers": ["FTPS", "SFTP"]
+    },
+    {
+      "question": "FTPS is an extension to the SSH protocol and runs by default on TCP port 22.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a secure replacement for Telnet?",
+      "options": ["RSH", "IPsec", "SSH", "RTPS"],
+      "correct_answers": ["SSH"]
+    },
+    {
+      "question": "Which of the following answers refers to a deprecated protocol designed as a secure way to send emails from a client to a mail server and between mail servers?",
+      "options": ["IMAPS", "SFTP", "POP3S", "SMTPS"],
+      "correct_answers": ["SMTPS"]
+    },
+    {
+      "question": "Which of the protocols listed below enable secure retrieval of emails from a mail server to an email client? (Select 2 answers)",
+      "options": ["FTPS", "IMAPS", "POP3S", "STARTTLS", "SMTPS"],
+      "correct_answers": ["IMAPS", "POP3S"]
+    },
+    {
+      "question": "Which of the following protocols enables secure access and management of emails on a mail server from an email client?",
+      "options": ["POP3S", "SMTPS", "IMAPS", "S/MIME"],
+      "correct_answers": ["IMAPS"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a secure network protocol used to provide encryption, authentication, and integrity for real-time multimedia communication?",
+      "options": ["IPsec", "SIP", "VoIP", "SRTP"],
+      "correct_answers": ["SRTP"]
+    },
+    {
+      "question": "UDP is a connection-oriented protocol using a three-way handshake which is a set of initial steps required for establishing network connection. UDP supports retransmission of lost packets, flow control (managing the amount of data that is being sent), and sequencing (rearranging packets that arrived out of order). Example applications of UDP include transmission of text and image data.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "TCP is an example of a connectionless protocol. Because TCP does not support three-way handshake while establishing a network connection, it is referred to as unreliable or best-effort protocol. Example applications of TCP include transmission of video and audio streaming data.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    }
+  ]
+}

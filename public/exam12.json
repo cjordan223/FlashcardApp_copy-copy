@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "question": "A computer system or an application that acts as an intermediary between another computer and the Internet is commonly referred to as:",
+      "options": ["Bridge", "Active hub", "Server", "Proxy"],
+      "correct_answers": ["Proxy"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a solution that simplifies web browser configurations by using predefined rules or scripts to make server selection decisions for specific web traffic?",
+      "options": ["PAC", "DDNS", "PAM", "NAT"],
+      "correct_answers": ["PAC"]
+    },
+    {
+      "question": "Which of the following provides passive network security breach response on an individual computer system?",
+      "options": ["HIDS", "NIPS", "HIPS", "NIDS"],
+      "correct_answers": ["HIDS"]
+    },
+    {
+      "question": "Which of the answers listed below refer to the characteristic features of a NIDS? (Select 3 answers)",
+      "options": [
+        "Takes proactive measures to block or mitigate intrusion attempts",
+        "Does not take direct action to block or prevent attacks",
+        "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+        "Monitors network traffic without direct involvement in traffic routing or packet modification",
+        "Can drop or reject network packets, terminate connections, or take other actions to stop the attack",
+        "Operates in an inline mode, actively intercepting and inspecting network traffic"
+      ],
+      "correct_answers": [
+        "Does not take direct action to block or prevent attacks",
+        "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+        "Monitors network traffic without direct involvement in traffic routing or packet modification"
+      ]
+    },
+    {
+      "question": "Which of the following answers refer to a NIPS? (Select 3 answers)",
+      "options": [
+        "Takes proactive measures to block or mitigate intrusion attempts",
+        "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+        "Operates in an inline mode, actively intercepting and inspecting network traffic",
+        "Monitors network traffic without direct involvement in traffic routing or packet modification",
+        "Can drop or reject network packets, terminate connections, or take other actions to stop the attack"
+      ],
+      "correct_answers": [
+        "Takes proactive measures to block or mitigate intrusion attempts",
+        "Operates in an inline mode, actively intercepting and inspecting network traffic",
+        "Can drop or reject network packets, terminate connections, or take other actions to stop the attack"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refers to network security technology designed to monitor WLANs for unauthorized access, security threats, and suspicious activities?",
+      "options": ["UTM", "WIDS", "NGFW", "WAF"],
+      "correct_answers": ["WIDS"]
+    },
+    {
+      "question": "Which of the following answers refers to network security technology designed to monitor, detect, and mitigate unauthorized access, security threats, and suspicious activities in WLANs?",
+      "options": ["WIPS", "NIDS", "WIDS", "NIPS"],
+      "correct_answers": ["WIPS"]
+    },
+    {
+      "question": "A network hardware or software solution designed for managing the optimal distribution of workloads across multiple computing resources is known as:",
+      "options": ["Content filter", "Proxy server", "Load balancer", "Domain controller"],
+      "correct_answers": ["Load balancer"]
+    },
+    {
+      "question": "In active-active mode, load balancers distribute network traffic across:",
+      "options": ["Least utilized servers", "None of the servers", "All servers", "Most utilized servers"],
+      "correct_answers": ["All servers"]
+    },
+    {
+      "question": "In active-passive mode, load balancers distribute network traffic across:",
+      "options": ["All servers", "Servers marked as active", "Least utilized servers", "Servers marked as passive"],
+      "correct_answers": ["Servers marked as active"]
+    },
+    {
+      "question": "Which of the answers listed below refers to an IEEE standard that can be implemented in a situation where an Ethernet switch acts as an authenticator for devices that intend to connect to a network through one of its ports?",
+      "options": ["IEEE 802.1X", "IEEE 802.11ac", "IEEE 802.1D", "IEEE 802.11x"],
+      "correct_answers": ["IEEE 802.1X"]
+    },
+    {
+      "question": "Extensible Authentication Protocol (EAP) is an authentication framework frequently used in wireless networks and point-to-point connections. EAP provides an authentication framework, not a specific authentication mechanism. There are many authentication mechanisms (referred to as EAP methods) that can be used with EAP. Wireless networks take advantage of several EAP methods, including PEAP, LEAP, EAP-FAST, EAP-TLS, and EAP-TTLS.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the following EAP methods offers the highest level of security?",
+      "options": ["PEAP", "EAP-FAST", "EAP-TLS", "EAP-TTLS"],
+      "correct_answers": ["EAP-TLS"]
+    },
+    {
+      "question": "A dedicated security solution that filters, monitors, and blocks HTTP/HTTPS traffic between a web application and the Internet is called:",
+      "options": ["UTM", "NGFW", "UEM", "WAF"],
+      "correct_answers": ["WAF"]
+    },
+    {
+      "question": "The term \"Unified Threat Management\" (UTM) refers to a network security solution, commonly in the form of a dedicated device (called UTM appliance or web security gateway), which combines the functionality of a firewall with additional features such as URL filtering, content inspection, spam filtering, gateway antivirus protection, IDS/IPS function, or malware inspection.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a firewall type that improves upon first- and second-generation firewalls by offering additional features, such as more in-depth inspection of network traffic and application-level inspection?",
+      "options": ["IDS", "Packet filter", "NGFW", "Stateful firewall"],
+      "correct_answers": ["NGFW"]
+    },
+    {
+      "question": "Which of the following answers refer to the characteristic features of a Layer 4 firewall? (Select 3 answers)",
+      "options": [
+        "Operates at the application layer of the OSI model",
+        "Offers complex (slower) traffic filtering",
+        "Filters traffic based on source/destination IP addresses, ports, and protocol types (e.g., TCP/UDP)",
+        "Offers basic (faster) traffic filtering",
+        "Operates at the transport layer of the OSI model",
+        "Adds the ability to inspect the contents of data packets in addition to the header information"
+      ],
+      "correct_answers": [
+        "Filters traffic based on source/destination IP addresses, ports, and protocol types (e.g., TCP/UDP)",
+        "Offers basic (faster) traffic filtering",
+        "Operates at the transport layer of the OSI model"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refer to a Layer 7 firewall? (Select 3 answers)",
+      "options": [
+        "Offers complex (slower) traffic filtering",
+        "Filters traffic based on source/destination IP addresses, ports, and protocol types (e.g., TCP/UDP)",
+        "Operates at the transport layer of the OSI model",
+        "Adds the ability to inspect the contents of data packets in addition to the header information",
+        "Offers basic (faster) traffic filtering",
+        "Operates at the application layer of the OSI model"
+      ],
+      "correct_answers": [
+        "Offers complex (slower) traffic filtering",
+        "Adds the ability to inspect the contents of data packets in addition to the header information",
+        "Operates at the application layer of the OSI model"
+      ]
+    },
+    {
+      "question": "Examples of protocols typically used for implementing secure VPN tunnels include: (Select all that apply)",
+      "options": ["IPsec", "SRTP", "TLS", "bcrypt", "L2TP"],
+      "correct_answers": ["IPsec", "TLS", "L2TP"]
+    },
+    {
+      "question": "Which of the following terms is used to describe a type of VPN that alleviates bottlenecks and conserves bandwidth by enabling utilization of both the VPN and public network links?",
+      "options": ["Split tunnel", "Clientless", "Full tunnel", "Remote access"],
+      "correct_answers": ["Split tunnel"]
+    },
+    {
+      "question": "Which VPN type is used for connecting computers to a network? (Select 2 answers)",
+      "options": ["Remote access", "Intranet-based", "Client-to-site", "Site-to-site", "Extranet-based"],
+      "correct_answers": ["Remote access", "Client-to-site"]
+    },
+    {
+      "question": "Which type of VPN enables connectivity between two networks?",
+      "options": ["Site-to-site", "Host-to-network", "Remote access", "Client-to-site"],
+      "correct_answers": ["Site-to-site"]
+    },
+    {
+      "question": "An HTML5 VPN portal is an example of clientless VPN implementation where an HTML5-compliant web browser along with TLS encryption can be used instead of a dedicated VPN client software.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a hardware or software solution providing secure remote access to networks and resources?",
+      "options": ["NAC", "RDP", "SSH", "RAS"],
+      "correct_answers": ["RAS"]
+    },
+    {
+      "question": "Which of the following answers refers to a protocol designed to secure data transmitted over WLANs?",
+      "options": ["SCP", "IPsec", "SSH", "WTLS"],
+      "correct_answers": ["WTLS"]
+    }
+  ]
+}

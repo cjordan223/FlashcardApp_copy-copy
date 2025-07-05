@@ -1,0 +1,140 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following answers refers to a deprecated wireless authentication protocol developed by Cisco?",
+      "options": ["PEAP", "EAP-TTLS", "LEAP", "EAP-TLS"],
+      "correct_answers": ["LEAP"]
+    },
+    {
+      "question": "Which of the answers listed below refers to an open standard wireless network authentication protocol that enhances security by encapsulating authentication process within an encrypted TLS tunnel?",
+      "options": ["PEAP", "EAP", "LEAP", "RADIUS"],
+      "correct_answers": ["PEAP"]
+    },
+    {
+      "question": "Which of the programming aspects listed below are critical in the secure application development process? (Select 2 answers)",
+      "options": ["Patch management", "Input validation", "Password protection", "Error and exception handling", "Application whitelisting"],
+      "correct_answers": ["Input validation", "Error and exception handling"]
+    },
+    {
+      "question": "A situation in which a web form field accepts data other than expected (e.g., server commands) is an example of:",
+      "options": ["Zero-day vulnerability", "Improper input validation", "Default configuration", "Improper error handling"],
+      "correct_answers": ["Improper input validation"]
+    },
+    {
+      "question": "Which of the following answers refers to a countermeasure against code injection?",
+      "options": ["Fuzzing", "Input validation", "Code signing", "Normalization"],
+      "correct_answers": ["Input validation"]
+    },
+    {
+      "question": "The term \"Secure cookie\" refers to a type of HTTP cookie that is transmitted over an encrypted HTTPS connection, which helps prevent the cookie from being intercepted or tampered with during transit.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the terms listed below refers to an automated or manual code review process aimed at discovering logic and syntax errors in the application's source code?",
+      "options": ["Input validation", "Dynamic code analysis", "Fuzzing", "Static code analysis"],
+      "correct_answers": ["Static code analysis"]
+    },
+    {
+      "question": "A dynamic code analysis allows for detecting application flaws without the need for actual execution of the application code.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "The term \"Static code analysis\" refers to the process of discovering application runtime errors.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "What is the purpose of code signing? (Select 2 answers)",
+      "options": ["Disables code reuse", "Confirms the application's source of origin", "Enables application installation", "Validates the application's integrity", "Protects the application against unauthorized use"],
+      "correct_answers": ["Confirms the application's source of origin", "Validates the application's integrity"]
+    },
+    {
+      "question": "The practice of finding vulnerabilities in an application by feeding it incorrect input is called:",
+      "options": ["Normalization", "Hardening", "Dynamic code analysis", "Fuzzing"],
+      "correct_answers": ["Fuzzing"]
+    },
+    {
+      "question": "In computer security, a mechanism for safe execution of untested code or untrusted applications is referred to as:",
+      "options": ["Sideloading", "Virtualization", "Sandboxing", "Stress testing"],
+      "correct_answers": ["Sandboxing"]
+    },
+    {
+      "question": "Which of the following answers refers to a Windows-specific feature for handling exceptions, errors, and abnormal conditions in software?",
+      "options": ["EPC", "SEH", "EH", "EXR"],
+      "correct_answers": ["SEH"]
+    },
+    {
+      "question": "Address Space Layout Randomization (ASLR) is an OS security technique that randomizes the location of key data areas in memory. The purpose of ASLR is to prevent attackers from predicting the location of specific code or data in memory, which adds a layer of defense against memory-based attacks, such as buffer overflows.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "A type of user identification mechanism used as a countermeasure against automated software (such as network bots) is known as:",
+      "options": ["MFA", "CAPTCHA", "SSO", "NIDS"],
+      "correct_answers": ["CAPTCHA"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a hardware monitoring and asset tracking method?",
+      "options": ["Barcode labels", "QR codes", "RFID tags", "GPS tracking", "All of the above"],
+      "correct_answers": ["All of the above"]
+    },
+    {
+      "question": "Which of the following wireless technologies enables identification and tracking of tags attached to objects?",
+      "options": ["GPS", "IR", "RFID", "NFC"],
+      "correct_answers": ["RFID"]
+    },
+    {
+      "question": "Which type of software enables monitoring and tracking of mobile devices?",
+      "options": ["MDM", "GPS", "NFC", "GSM"],
+      "correct_answers": ["MDM"]
+    },
+    {
+      "question": "One of the ways to prevent data recovery from a storage drive is to overwrite its contents. The data overwriting technique is used by drive wipe utilities which might employ different methods (including multiple overwriting rounds) to decrease the likelihood of data retrieval. As an example, a disk sanitization utility might overwrite the data on the drive with the value of one in the first pass, change that value to zero in the second pass, and finally perform a few more passes, overwriting the contents with random characters.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the destruction tools/methods listed below allow(s) for secure disposal of physical documents? (Select all that apply)",
+      "options": ["Shredding", "Overwriting", "Burning", "Formatting", "Degaussing"],
+      "correct_answers": ["Shredding", "Burning"]
+    },
+    {
+      "question": "Which of the following methods provides the most effective way for permanent removal of data stored on a magnetic drive?",
+      "options": ["Cryptographic erasure", "Data overwriting", "Degaussing", "Low-level formatting"],
+      "correct_answers": ["Degaussing"]
+    },
+    {
+      "question": "Certificate of destruction is a document issued by companies that conduct secure device/document disposal. The certificate verifies proper asset destruction and can be used for auditing purposes. In case of device disposal, the document includes a list of all the items that have been destroyed along with their serial numbers. It may also describe the destruction method, specify location (on-site/off-site), or list the names of witnesses who oversaw the entire process.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which policy typically specifies the period during which certain types of data must be stored prior to disposal?",
+      "options": ["Data protection policy", "Data classification policy", "Data backup policy", "Data retention policy"],
+      "correct_answers": ["Data retention policy"]
+    },
+    {
+      "question": "Vulnerability scanning: (Select all that apply)",
+      "options": ["Identifies lack of security controls", "Actively tests security controls", "Identifies common misconfigurations", "Exploits vulnerabilities", "Passively tests security controls"],
+      "correct_answers": ["Identifies lack of security controls", "Identifies common misconfigurations", "Passively tests security controls"]
+    },
+    {
+      "question": "Which of the answers listed below refer to the characteristic features of static code analysis? (Select 3 answers)",
+      "options": [
+        "Involves examining the code without executing it",
+        "Often used early in the development process",
+        "Examines code structure, syntax, and semantics to detect issues like syntax errors, coding standards violations, security vulnerabilities, and bugs",
+        "Typically used later in the software development lifecycle",
+        "Involves executing the code and analyzing its behavior at runtime",
+        "Analyzes runtime properties like memory usage, performance, and error handling to identify issues such as memory leaks, performance bottlenecks, and runtime errors"
+      ],
+      "correct_answers": [
+        "Involves examining the code without executing it",
+        "Often used early in the development process",
+        "Examines code structure, syntax, and semantics to detect issues like syntax errors, coding standards violations, security vulnerabilities, and bugs"
+      ]
+    }
+  ]
+}

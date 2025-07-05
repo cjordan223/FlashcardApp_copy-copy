@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following terms refers to the use of technology to perform individual tasks with minimal human intervention?",
+      "options": ["Automation", "Scripting", "Orchestration", "Sequencing"],
+      "correct_answers": ["Automation"]
+    },
+    {
+      "question": "Which of the terms listed below refers to a process that deals with coordinating and managing multiple repetitive tasks?",
+      "options": ["Sequencing", "Orchestration", "Scripting", "Automation"],
+      "correct_answers": ["Orchestration"]
+    },
+    {
+      "question": "Which of the following technologies enables automated handling of multiple security incidents?",
+      "options": ["SOAP", "SASE", "SOAR", "SIEM"],
+      "correct_answers": ["SOAR"]
+    },
+    {
+      "question": "A checklist of actions that can be performed in response to a security incident is known as a:",
+      "options": ["Runbook", "Template", "Playbook", "Script"],
+      "correct_answers": ["Playbook"]
+    },
+    {
+      "question": "Which of the terms listed below refers to an exact sequence of steps, including both manual and automated actions, to be taken in response to a specific security incident?",
+      "options": ["Runbook", "Script", "Template", "Playbook"],
+      "correct_answers": ["Runbook"]
+    },
+    {
+      "question": "Which of the following answers refers to a set of rules, policies, or automated controls designed to regulate technology-related decisions and actions within an organization?",
+      "options": ["Technical standards", "Compliance requirements", "Guardrails", "Security baselines"],
+      "correct_answers": ["Guardrails"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a term primarily used in software development to describe the cost of short-term decisions that can lead to long-term problems?",
+      "options": ["Code entropy", "Exposure factor", "Risk register", "Technical debt"],
+      "correct_answers": ["Technical debt"]
+    },
+    {
+      "question": "Which part of the incident response process involves establishing and maintaining the incident response capability as well as setting up an incident response team?",
+      "options": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+      "correct_answers": ["Preparation"]
+    },
+    {
+      "question": "In the incident response process, the step that involves identifying and understanding potential incidents to determine their scope, impact, and root cause is part of the:",
+      "options": ["Preparation stage", "Detection and analysis stage", "Containment, eradication, and recovery stage", "Post-incident activity stage"],
+      "correct_answers": ["Detection and analysis stage"]
+    },
+    {
+      "question": "Which of the following answers refer(s) to the containment, eradication, and recovery stage of the incident response process? (Select all that apply)",
+      "options": [
+        "Restoring normal operations",
+        "Eliminating the threat",
+        "Monitoring and detecting potential incidents",
+        "Establishing and maintaining an incident response policy",
+        "Mitigating the impact of the incident"
+      ],
+      "correct_answers": [
+        "Restoring normal operations",
+        "Eliminating the threat",
+        "Mitigating the impact of the incident"
+      ]
+    },
+    {
+      "question": "Which stage of the incident response process involves updating incident response plans, policies, and procedures?",
+      "options": ["Preparation", "Detection and analysis", "Containment, eradication, and recovery", "Post-incident activity"],
+      "correct_answers": ["Post-incident activity"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a discussion-based activity where team members walk through different scenarios to evaluate the incident response plan without activating any systems?",
+      "options": ["Tabletop exercise", "Simulation", "Threat hunting", "Root cause analysis"],
+      "correct_answers": ["Tabletop exercise"]
+    },
+    {
+      "question": "Which of the following answers refers to a more in-depth exercise, which can include activating systems and performing real actions to respond to the incident?",
+      "options": ["Penetration testing", "Threat hunting", "Simulation", "Vulnerability scanning"],
+      "correct_answers": ["Simulation"]
+    },
+    {
+      "question": "During the post-incident activity stage, this step involves analyzing logs, forensics data, and other evidence to prevent incident reoccurrence.",
+      "options": ["Reporting", "E-discovery", "Root cause analysis", "Threat hunting"],
+      "correct_answers": ["Root cause analysis"]
+    },
+    {
+      "question": "The term \"Threat hunting\" refers to a proactive search for IoC to identify and address potential threats and vulnerabilities before they can escalate into full-blown incidents.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "The process of maintaining a documented record of the handling and movement of evidence to ensure its integrity and admissibility in court is called:",
+      "options": ["Chain of custody", "Chain of evidence", "Chain of accountability", "Chain of responsibility"],
+      "correct_answers": ["Chain of custody"]
+    },
+    {
+      "question": "The process of identifying, collecting, and producing electronically stored information with the intent of using it in a legal proceeding or investigation is referred to as:",
+      "options": ["Litigation hold", "Evidence management", "Digital forensics", "E-discovery"],
+      "correct_answers": ["E-discovery"]
+    },
+    {
+      "question": "Which type of server is used for collecting diagnostic and monitoring data from networked devices?",
+      "options": ["Jump server", "C2 server", "Syslog server", "ICS server"],
+      "correct_answers": ["Syslog server"]
+    },
+    {
+      "question": "The term \"Metadata\" refers to data that provides information about other data, but not the actual content of the data... Typically, metadata is not visible to the user by default but can be accessed if needed.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "A correlation engine used for processing various types of log data into actionable information is a feature of:",
+      "options": ["Syslog server", "SIEM dashboard", "REST API", "Log repository"],
+      "correct_answers": ["SIEM dashboard"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a process of intercepting network traffic data for analysis and troubleshooting purposes?",
+      "options": ["AIS", "PCAP", "EDR", "MaaS"],
+      "correct_answers": ["PCAP"]
+    },
+    {
+      "question": "A type of document stipulating rules of behavior to be followed by users of computers, networks, and associated resources is known as:",
+      "options": ["SLA", "EULA", "AUP", "BPA"],
+      "correct_answers": ["AUP"]
+    },
+    {
+      "question": "Which of the following acronyms refers to a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event?",
+      "options": ["DRP", "CP", "BCP", "COOP"],
+      "correct_answers": ["BCP"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a set of procedures put in place to recover IT systems and data following a major disruption?",
+      "options": ["BCP", "DRP", "IRP", "ERP"],
+      "correct_answers": ["DRP"]
+    },
+    {
+      "question": "Which of the following terms refers to a documented plan outlining the steps that should be taken in each phase of a cybersecurity incident?",
+      "options": ["DRP", "IRP", "BCP", "ERP"],
+      "correct_answers": ["IRP"]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "questions": [
+    {
+      "question": "A type of user identification mechanism used as a countermeasure against automated software (such as network bots) is known as:",
+      "options": ["MFA", "CAPTCHA", "ACL", "NIPS"],
+      "correct_answers": ["CAPTCHA"]
+    },
+    {
+      "question": "Which of the following is the recommended replacement for DES?",
+      "options": ["DSA", "RSA", "RC4", "AES"],
+      "correct_answers": ["AES"]
+    },
+    {
+      "question": "Which of the terms listed below refers to the process of creating and maintaining computer applications?",
+      "options": ["RAD", "SDLC", "OOP", "SaaS"],
+      "correct_answers": ["SDLC"]
+    },
+    {
+      "question": "A type of firmware interface designed as a replacement for BIOS is called:",
+      "options": ["UEFI", "GPT", "ACPI", "PXE"],
+      "correct_answers": ["UEFI"]
+    },
+    {
+      "question": "Which of the following answers refers to a network security solution providing a single point of protection against various types of threats?",
+      "options": ["IDP", "AV", "UTM", "NGFW"],
+      "correct_answers": ["UTM"]
+    },
+    {
+      "question": "A WAP is a specific type of AP that is used to create WLANs.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a language used for creating and organizing the content of web pages?",
+      "options": ["HTML", "CSS", "JS", "HTTP"],
+      "correct_answers": ["HTML"]
+    },
+    {
+      "question": "Which network protocol enables retrieving contents of an Internet page from a web server?",
+      "options": ["SNMP", "HTTP", "SMTP", "IMAP"],
+      "correct_answers": ["HTTP"]
+    },
+    {
+      "question": "What is the name of a network protocol that secures web traffic via SSL/TLS encryption?",
+      "options": ["SFTP", "HTTPS", "FTPS", "SHTTP"],
+      "correct_answers": ["HTTPS"]
+    },
+    {
+      "question": "The purpose of PCI DSS is to provide protection for:",
+      "options": ["Credit cardholder data", "Licensed software", "User passwords", "Personal health information"],
+      "correct_answers": ["Credit cardholder data"]
+    },
+    {
+      "question": "Which term describes the predicted loss of value to an asset based on a single security incident?",
+      "options": ["SLE", "ARO", "ALE", "SLA"],
+      "correct_answers": ["SLE"]
+    },
+    {
+      "question": "Which of the following acronyms refers to a software that provides the functionality of a physical computer?",
+      "options": ["SDN", "SaaS", "VM", "SoC"],
+      "correct_answers": ["VM"]
+    },
+    {
+      "question": "What is the common term for a group of protocols used to carry voice data over a packet-switched network?",
+      "options": ["ISDN", "PBX", "VoIP", "PSTN"],
+      "correct_answers": ["VoIP"]
+    },
+    {
+      "question": "Which of the terms listed below refers to a formal contract between business partners outlining the rights, responsibilities, and obligations of each partner regarding the management, operation, and decision-making processes within the business?",
+      "options": ["MSA", "SLA", "BPA", "MOA"],
+      "correct_answers": ["BPA"]
+    },
+    {
+      "question": "Which of the following file transfer protocols does not provide encryption?",
+      "options": ["SCP", "FTPS", "FTP", "SFTP"],
+      "correct_answers": ["FTP"]
+    },
+    {
+      "question": "The US Health Insurance Portability and Accountability Act (HIPAA) provides privacy protection for:",
+      "options": ["PII", "ESN", "PHI", "PIV"],
+      "correct_answers": ["PHI"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a hierarchical system for the creation, management, storage, distribution, and revocation of digital certificates?",
+      "options": ["PKI", "RA", "PKCS", "CA"],
+      "correct_answers": ["PKI"]
+    },
+    {
+      "question": "Which of the following acronyms refers to any type of information pertaining to an individual that can be used to uniquely identify that person?",
+      "options": ["PHI", "PIV", "PII", "PKI"],
+      "correct_answers": ["PII"]
+    },
+    {
+      "question": "An authentication subsystem that enables a user to access multiple, connected system components (such as separate hosts on a network) after a single login on only one of the components is referred to as:",
+      "options": ["NAC", "SSO", "AAA", "MFA"],
+      "correct_answers": ["SSO"]
+    },
+    {
+      "question": "Which of the cryptographic algorithms listed below is the least vulnerable to attacks?",
+      "options": ["AES", "DES", "RC4", "3DES"],
+      "correct_answers": ["AES"]
+    },
+    {
+      "question": "Which of the following answers illustrates the difference between passive and active network security breach response?",
+      "options": ["HIPS vs. NIPS", "UTM vs. Firewall", "NIPS vs. UTM", "IDS vs. IPS"],
+      "correct_answers": ["IDS vs. IPS"]
+    },
+    {
+      "question": "An SELinux kernel security feature for implementing stricter access controls and policies is known as:",
+      "options": ["DAC", "RBAC", "MAC", "ABAC"],
+      "correct_answers": ["MAC"]
+    },
+    {
+      "question": "Which wireless security protocol has been deprecated in favor of newer standards due to known vulnerabilities resulting from implementation flaws?",
+      "options": ["EAP", "AES", "WPA2", "WEP"],
+      "correct_answers": ["WEP"]
+    },
+    {
+      "question": "Which access control model allows for defining granular rules that consider user roles, time constraints, and network access restrictions?",
+      "options": ["ABAC", "MAC", "RuBAC", "DAC", "RBAC"],
+      "correct_answers": ["ABAC"]
+    },
+    {
+      "question": "Which type of control access model connects user permissions to their specific responsibilities?",
+      "options": ["DAC", "RBAC", "MAC", "ABAC"],
+      "correct_answers": ["RBAC"]
+    },
+    {
+      "question": "The term \"CIA triad\" is used to describe the basic principles of information security.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "A type of document stipulating rules of behavior to be followed by users of computers, networks, and associated resources is called:",
+      "options": ["SLA", "EULA", "AUP", "BPA"],
+      "correct_answers": ["AUP"]
+    },
+    {
+      "question": "LDAP is an example of:",
+      "options": ["Data encryption protocol", "Address resolution protocol", "Directory access protocol", "File exchange protocol"],
+      "correct_answers": ["Directory access protocol"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a suite of protocols used for connecting hosts on the Internet?",
+      "options": ["NetBIOS", "IPv4", "TCP/IP", "IPv6"],
+      "correct_answers": ["TCP/IP"]
+    },
+    {
+      "question": "The SMTP protocol is used for: (Select 2 answers)",
+      "options": [
+        "Sending email messages between mail servers",
+        "Name resolution services",
+        "Serving of web pages",
+        "Retrieving email messages from mail servers",
+        "Sending email messages from a client device"
+      ],
+      "correct_answers": [
+        "Sending email messages between mail servers",
+        "Sending email messages from a client device"
+      ]
+    },
+    {
+      "question": "Which of the following answers refers to a data storage device equipped with hardware-level encryption functionality?",
+      "options": ["HSM", "TPM", "EFS", "SED"],
+      "correct_answers": ["SED"]
+    },
+    {
+      "question": "A documented plan outlining the steps that should be taken in each phase of a cybersecurity incident is referred to as:",
+      "options": ["DRP", "BCP", "IRP", "ERP"],
+      "correct_answers": ["IRP"]
+    },
+    {
+      "question": "Which of the terms listed below refers to a company that provides Internet access?",
+      "options": ["ISP", "CSP", "IdP", "MSP"],
+      "correct_answers": ["ISP"]
+    },
+    {
+      "question": "As opposed to simple DoS attacks that usually are performed from a single system, a DDoS attack uses multiple compromised computer systems to perform the attack against its target... True or False?",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "A type of cryptographic network protocol for secure data communication, remote command-line login, remote command execution, and other secure network services between two networked computers is known as:",
+      "options": ["RDP", "SSH", "Telnet", "SCP"],
+      "correct_answers": ["SSH"]
+    }
+  ]
+}

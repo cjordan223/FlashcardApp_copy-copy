@@ -1,0 +1,192 @@
+{
+  "questions": [
+    {
+      "question": "Which of the answers listed below refers to a concept that provides insights into methods and tools that cybercriminals use to carry out attacks?",
+      "options": ["TTP", "CVE", "ATT&CK", "CVSS"],
+      "correct_answers": ["TTP"]
+    },
+    {
+      "question": "A dedicated security solution that filters, monitors, and blocks HTTP/HTTPS traffic between a web application and the Internet is referred to as:",
+      "options": ["UTM", "NGFW", "UEM", "WAF"],
+      "correct_answers": ["WAF"]
+    },
+    {
+      "question": "Which of the following solutions provides active network security breach response on an individual computer system?",
+      "options": ["NIDS", "HIDS", "NIPS", "HIPS"],
+      "correct_answers": ["HIPS"]
+    },
+    {
+      "question": "Which of the acronyms listed below refers to a risk assessment formula defining probable financial loss due to a risk over a one-year period?",
+      "options": ["ARO", "SLE", "ALE", "SLA"],
+      "correct_answers": ["ALE"]
+    },
+    {
+      "question": "A software technology designed to provide confidentiality for an entire data storage device is known as:",
+      "options": ["TPM", "FDE", "EFS", "HSM"],
+      "correct_answers": ["FDE"]
+    },
+    {
+      "question": "High MTBF value indicates that a component or system provides low reliability and is more likely to fail.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "Which part of the AAA security architecture deals with the verification of the identity of a person or process?",
+      "options": ["Accounting", "Authentication", "Auditing", "Authorization"],
+      "correct_answers": ["Authentication"]
+    },
+    {
+      "question": "Which of the following answers refers to a routing protocol used in computer networks to determine the best path for routing data packets from one network node to another?",
+      "options": ["BGP", "EIGRP", "RIP", "OSPF"],
+      "correct_answers": ["OSPF"]
+    },
+    {
+      "question": "Which of the answers listed below refers to an industry standard for assessing and scoring the severity of computer system security vulnerabilities?",
+      "options": ["SIEM", "CVSS", "OSINT", "SOAR"],
+      "correct_answers": ["CVSS"]
+    },
+    {
+      "question": "Which of the following answers refers to a hardware or software solution providing secure remote access to networks and resources?",
+      "options": ["NAC", "RDP", "SSH", "RAS"],
+      "correct_answers": ["RAS"]
+    },
+    {
+      "question": "Which of the wireless technologies listed below are deprecated and should not be used due to their known vulnerabilities?",
+      "options": ["WPS", "WAP", "WPA2", "WAF", "WEP"],
+      "correct_answers": ["WPS", "WEP"]
+    },
+    {
+      "question": "Which of the following answers refer(s) to SSDs? (Select all that apply)",
+      "options": [
+        "Low performance",
+        "Relatively high device cost",
+        "Lower capacity in comparison to magnetic drives",
+        "High performance",
+        "Relatively low device cost",
+        "Higher capacity in comparison to magnetic drives",
+        "Lack of moving parts (takes advantage of memory chips instead of magnetic platters)"
+      ],
+      "correct_answers": [
+        "Relatively high device cost",
+        "Lower capacity in comparison to magnetic drives",
+        "High performance",
+        "Lack of moving parts (takes advantage of memory chips instead of magnetic platters)"
+      ]
+    },
+    {
+      "question": "An SWG is a software component, or a hardware device designed to prevent unauthorized traffic from entering an internal network of an organization. An SWG implementation may include various security services, such as packet filtering, URL/content filtering, malware inspection, application controls, AUP enforcement, or DLP.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "A type of forensic evidence that can be used to detect unauthorized access attempts or other malicious activities is called:",
+      "options": ["CVE", "IoC", "AIS", "OSINT"],
+      "correct_answers": ["IoC"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a remote access authentication protocol that periodically re-authenticates client at random intervals to prevent session hijacking?",
+      "options": ["EAP", "CHAP", "PAP", "PEAP"],
+      "correct_answers": ["CHAP"]
+    },
+    {
+      "question": "A type of surveillance system comprising video cameras and monitors that enable continuous monitoring and recording of specific areas is commonly referred to as CCTV.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the following answers refers to an ECC-based method for creating and verifying digital signatures?",
+      "options": ["DHE", "ECDSA", "HMAC", "ECDHE"],
+      "correct_answers": ["ECDSA"]
+    },
+    {
+      "question": "Which of the actions listed below can be taken by an IDS? (Select 2 answers)",
+      "options": ["Firewall reconfiguration", "Closing down connection", "Logging", "Terminating process", "Sending an alert"],
+      "correct_answers": ["Logging", "Sending an alert"]
+    },
+    {
+      "question": "FTPS is an extension to the SSH protocol and runs by default on port number 22.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "Which of the following terms refers to a dedicated transport mechanism for cyber threat information?",
+      "options": ["STIX", "CVE", "TAXII", "CVSS"],
+      "correct_answers": ["TAXII"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a legacy symmetric-key block cipher encryption algorithm?",
+      "options": ["RC4", "DES", "RSA", "DSA"],
+      "correct_answers": ["DES"]
+    },
+    {
+      "question": "A Microsoft-proprietary protocol providing a user with graphical interface for connecting to another networked host is known as:",
+      "options": ["VDI", "RDP", "SSH", "VNC"],
+      "correct_answers": ["RDP"]
+    },
+    {
+      "question": "Which of the following acronyms refers to a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event?",
+      "options": ["DRP", "CP", "BCP", "COOP"],
+      "correct_answers": ["BCP"]
+    },
+    {
+      "question": "Which type of Trojan enables unauthorized remote access to a compromised system?",
+      "options": ["APT", "RAT", "MaaS", "PUP"],
+      "correct_answers": ["RAT"]
+    },
+    {
+      "question": "The term \"AI\" refers to computer systems and algorithms that can perform tasks typically requiring human intelligence, such as problem-solving, learning, and decision-making.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the algorithms listed below does not fall into the category of asymmetric encryption?",
+      "options": ["RSA", "GPG", "DSA", "AES", "DHE", "ECDHE", "PGP"],
+      "correct_answers": ["AES"]
+    },
+    {
+      "question": "A type of cyberattack focused on making a website, service, or network unavailable to users by overloading it with traffic or malicious requests is called:",
+      "options": ["SQLi", "XSS", "CSRF", "DoS"],
+      "correct_answers": ["DoS"]
+    },
+    {
+      "question": "In quantitative risk assessment, this term is used for estimating the likelihood of occurrence of a future threat.",
+      "options": ["ALE", "SLA", "ARO", "SLE"],
+      "correct_answers": ["ARO"]
+    },
+    {
+      "question": "Which of the following answers refers to a cryptographic file generated by an entity requesting a digital certificate from a CA?",
+      "options": ["OID", "CSR", "DN", "CRL"],
+      "correct_answers": ["CSR"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a broad term that encompasses various control and automation systems used in industrial settings to control and monitor physical processes and machinery?",
+      "options": ["ICS", "PLC", "SCADA", "HMI"],
+      "correct_answers": ["ICS"]
+    },
+    {
+      "question": "ACL, FACL, DAC, MAC, and RBAC are all access control mechanisms that can be used to manage user permissions and protect the confidentiality, integrity, and availability of data.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "A type of access control model that grants object owners the authority to determine access permissions is referred to as:",
+      "options": ["ACL", "RBAC", "DAC", "MAC"],
+      "correct_answers": ["DAC"]
+    },
+    {
+      "question": "Which wireless technology enables identification and tracking of tags attached to objects?",
+      "options": ["WTLS", "GPS", "RFID", "NFC"],
+      "correct_answers": ["RFID"]
+    },
+    {
+      "question": "Which of the following answers refers to a tunneling protocol that is often used in combination with IPsec to secure VPN connections?",
+      "options": ["GRE", "L2TP", "BGP", "SSL"],
+      "correct_answers": ["L2TP"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a cloud computing service model in which clients, instead of buying all the hardware and software, purchase computing resources as an outsourced service from suppliers who own and maintain all the necessary equipment and software?",
+      "options": ["SaaS", "DaaS", "PaaS", "IaaS"],
+      "correct_answers": ["IaaS"]
+    }
+  ]
+}

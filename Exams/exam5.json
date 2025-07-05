@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following answers refers to a family of cryptographic hash functions designed for various security-related applications, including digital signatures, password storage, secure communications, and data integrity verification?",
+      "options": ["RSA", "AES", "PKCS", "SHA"],
+      "correct_answers": ["SHA"]
+    },
+    {
+      "question": "Which of the hash functions listed below offers the highest level of security?",
+      "options": ["MD5", "SHA-3", "RIPEMD-160", "HMAC"],
+      "correct_answers": ["SHA-3"]
+    },
+    {
+      "question": "Which of the following combines a cryptographic hash function with a secret key to provide a means of verifying both the authenticity and integrity of a message or data?",
+      "options": ["MD5", "DSA", "HMAC", "DES"],
+      "correct_answers": ["HMAC"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a non-cryptographic hash function often used for error-checking purposes?",
+      "options": ["MD5", "CRC", "SHA", "RIPEMD"],
+      "correct_answers": ["CRC"]
+    },
+    {
+      "question": "Which of the following answers refers to a type of additional input that increases password complexity and provides better protection against brute-force, dictionary, and rainbow table attacks?",
+      "options": ["Seed", "IV", "Salt", "Shim"],
+      "correct_answers": ["Salt"]
+    },
+    {
+      "question": "A pseudo-random data added to a password before hashing is referred to as:",
+      "options": ["Shim", "Salt", "IV", "Seed"],
+      "correct_answers": ["Salt"]
+    },
+    {
+      "question": "Which cryptographic technique is used to prevent the effectiveness of rainbow tables in cracking hashed passwords?",
+      "options": ["Data masking", "Two-Factor Authentication (2FA)", "Key stretching", "Salting"],
+      "correct_answers": ["Salting"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a cryptographic technique that verifies the authenticity and integrity of digital documents or messages by using a unique encrypted identifier from the sender?",
+      "options": ["Digital signature", "Cryptographic hash function", "Digital certificate", "Asymmetric encryption"],
+      "correct_answers": ["Digital signature"]
+    },
+    {
+      "question": "Which of the following answers refer to algorithms used for generating and verifying digital signatures? (Select 3 answers)",
+      "options": ["ECDSA", "RSA", "ECDHE", "DSA", "GPG/PGP"],
+      "correct_answers": ["ECDSA", "RSA", "DSA"]
+    },
+    {
+      "question": "Which of the answers listed below refer to DSA? (Select 3 answers)",
+      "options": [
+        "Asymmetric algorithm",
+        "Used for the key exchange process",
+        "Symmetric algorithm",
+        "Provides authentication, integrity, and non-repudiation",
+        "Specifically designed for creating and verifying digital signatures",
+        "Used for encryption"
+      ],
+      "correct_answers": [
+        "Asymmetric algorithm",
+        "Provides authentication, integrity, and non-repudiation",
+        "Specifically designed for creating and verifying digital signatures"
+      ]
+    },
+    {
+      "question": "Which of the following answers refer to the characteristic features of RSA? (Select 3 answers)",
+      "options": [
+        "Asymmetric encryption algorithm",
+        "A public key used for encryption and a private key used for decryption",
+        "Suitable for bulk data encryption",
+        "Used for secure communications, digital signatures, and key exchange",
+        "Symmetric encryption algorithm",
+        "A single key used for both encryption and decryption"
+      ],
+      "correct_answers": [
+        "Asymmetric encryption algorithm",
+        "A public key used for encryption and a private key used for decryption",
+        "Used for secure communications, digital signatures, and key exchange"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below describe(s) the characteristics of ECDSA? (Select all that apply)",
+      "options": [
+        "Provides authentication, integrity, and non-repudiation",
+        "Based on elliptic curve cryptography",
+        "Designed for data encryption",
+        "Specifically designed for creating and verifying digital signatures",
+        "More computationally efficient than other signature algorithms",
+        "Enables the key exchange process"
+      ],
+      "correct_answers": [
+        "Provides authentication, integrity, and non-repudiation",
+        "Based on elliptic curve cryptography",
+        "Specifically designed for creating and verifying digital signatures",
+        "More computationally efficient than other signature algorithms"
+      ]
+    },
+    {
+      "question": "Given the computational limitations of IoT devices, smartcards, and mobile devices, which of the following digital signature algorithms would be the most efficient choice due to its smaller key size and lower processing requirements?",
+      "options": ["RSA", "ECDHE", "DSA", "ECDSA", "ECC"],
+      "correct_answers": ["ECDSA"]
+    },
+    {
+      "question": "Key stretching is a cryptographic technique that enhances the security of sensitive data, such as cryptographic keys and passwords. It works by repeatedly applying a resource-intensive function or algorithm to the input data, thus increasing the computational effort required to derive the original key or password, which makes the data more resistant to brute-force, dictionary, or rainbow table attacks.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the following is an example of a key stretching algorithm?",
+      "options": ["RIPEMD", "SHA", "HMAC", "PBKDF2"],
+      "correct_answers": ["PBKDF2"]
+    },
+    {
+      "question": "The term \"Open public ledger\" is used to describe a distributed database stored across multiple computers in a P2P network.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Blockchain technology is an example of:",
+      "options": ["Online payment gateway", "Centralized database", "Open public ledger", "Cloud storage system"],
+      "correct_answers": ["Open public ledger"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a set of standards and specifications that define various cryptographic techniques, including formats for public keys, private keys, digital signatures, and digital certificates?",
+      "options": ["ITIL", "RFC", "PKCS", "ISO/IEC"],
+      "correct_answers": ["PKCS"]
+    },
+    {
+      "question": "Which of the following defines a file format for storing and exchanging personal identity information, including private keys and digital certificates?",
+      "options": ["P10", "P11", "P12", "P13"],
+      "correct_answers": ["P12"]
+    },
+    {
+      "question": "A type of digital document that verifies the identity of an individual, device, service, or organization in online communications is known as:",
+      "options": ["Encryption key", "Digital certificate", "Identity token", "Digital signature"],
+      "correct_answers": ["Digital certificate"]
+    },
+    {
+      "question": "What is the role of Registration Authority (RA) in PKI? (Select 2 answers)",
+      "options": [
+        "Accepting requests for digital certificates",
+        "Validating digital certificates",
+        "Authenticating the entity making the request",
+        "Providing backup source for cryptographic keys",
+        "Issuing digital certificates"
+      ],
+      "correct_answers": [
+        "Accepting requests for digital certificates",
+        "Authenticating the entity making the request"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refers to a trusted third party responsible for issuing, revoking, and managing digital certificates?",
+      "options": ["RA", "DN", "CA", "CSP"],
+      "correct_answers": ["CA"]
+    },
+    {
+      "question": "Which of the following answers refers to a means for periodic publication of all digital certificates that have been revoked?",
+      "options": ["CRL", "OSPF", "RA", "CSR"],
+      "correct_answers": ["CRL"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a protocol that enables on-demand querying of the revocation status of a digital certificate?",
+      "options": ["CSP", "OCSP", "DN", "CRL"],
+      "correct_answers": ["OCSP"]
+    },
+    {
+      "question": "What is the fastest way to check the validity of a single digital certificate?",
+      "options": ["CSR", "DN", "CRL", "OCSP"],
+      "correct_answers": ["OCSP"]
+    }
+  ]
+}

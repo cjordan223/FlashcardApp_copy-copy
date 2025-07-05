@@ -1,0 +1,270 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following answers can be used to describe technical security controls? (Select 3 answers)",
+      "options": [
+        "Focused on protecting material assets",
+        "Sometimes called logical security controls",
+        "Executed by computer systems (instead of people)",
+        "Also known as administrative controls",
+        "Implemented with technology",
+        "Primarily implemented and executed by people (as opposed to computer systems)"
+      ],
+      "correct_answers": [
+        "Sometimes called logical security controls",
+        "Executed by computer systems (instead of people)",
+        "Implemented with technology"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refer to examples of technical security controls? (Select 3 answers)",
+      "options": [
+        "Security audits",
+        "Encryption",
+        "Organizational security policy",
+        "IDSs",
+        "Configuration management",
+        "Firewalls"
+      ],
+      "correct_answers": [
+        "Encryption",
+        "IDSs",
+        "Firewalls"
+      ]
+    },
+    {
+      "question": "Which of the following answers refer to the characteristic features of managerial security controls? (Select 3 answers)",
+      "options": [
+        "Also known as administrative controls",
+        "Sometimes referred to as logical security controls",
+        "Focused on reducing the risk of security incidents",
+        "Executed by computer systems (instead of people)",
+        "Documented in written policies",
+        "Focused on protecting material assets"
+      ],
+      "correct_answers": [
+        "Also known as administrative controls",
+        "Focused on reducing the risk of security incidents",
+        "Documented in written policies"
+      ]
+    },
+    {
+      "question": "Examples of managerial security controls include: (Select 3 answers)",
+      "options": [
+        "Configuration management",
+        "Data backups",
+        "Organizational security policy",
+        "Risk assessments",
+        "Security awareness training"
+      ],
+      "correct_answers": [
+        "Organizational security policy",
+        "Risk assessments",
+        "Security awareness training"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below can be used to describe operational security controls? (Select 3 answers)",
+      "options": [
+        "Also known as administrative controls",
+        "Focused on the day-to-day procedures of an organization",
+        "Executed by computer systems (instead of people)",
+        "Used to ensure that the equipment continues to work as specified",
+        "Focused on managing risk",
+        "Primarily implemented and executed by people (as opposed to computer systems)"
+      ],
+      "correct_answers": [
+        "Focused on the day-to-day procedures of an organization",
+        "Used to ensure that the equipment continues to work as specified",
+        "Primarily implemented and executed by people (as opposed to computer systems)"
+      ]
+    },
+    {
+      "question": "Which of the following examples fall into the category of operational security controls? (Select 3 answers)",
+      "options": [
+        "Risk assessments",
+        "Configuration management",
+        "System backups",
+        "Authentication protocols",
+        "Patch management"
+      ],
+      "correct_answers": [
+        "Configuration management",
+        "System backups",
+        "Patch management"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refers to security controls designed to deter, detect, and prevent unauthorized access, theft, damage, or destruction of material assets?",
+      "options": [
+        "Managerial security controls",
+        "Physical security controls",
+        "Technical security controls",
+        "Operational security controls"
+      ],
+      "correct_answers": [
+        "Physical security controls"
+      ]
+    },
+    {
+      "question": "Which of the following examples do not fall into the category of physical security controls? (Select 3 answers)",
+      "options": [
+        "Lighting",
+        "Access control vestibules",
+        "Data backups",
+        "Fencing/Bollards/Barricades",
+        "Firewalls",
+        "Security guards",
+        "Asset management"
+      ],
+      "correct_answers": [
+        "Data backups",
+        "Firewalls",
+        "Asset management"
+      ]
+    },
+    {
+      "question": "What are the examples of preventive security controls? (Select 3 answers)",
+      "options": [
+        "Encryption",
+        "IDS",
+        "Sensors",
+        "Firewalls",
+        "Warning signs",
+        "AV software"
+      ],
+      "correct_answers": [
+        "Encryption",
+        "Firewalls",
+        "AV software"
+      ]
+    },
+    {
+      "question": "Examples of deterrent security controls include: (Select 3 answers)",
+      "options": [
+        "Warning signs",
+        "Sensors",
+        "Lighting",
+        "Video surveillance",
+        "Security audits",
+        "Fencing/Bollards"
+      ],
+      "correct_answers": [
+        "Warning signs",
+        "Lighting",
+        "Fencing/Bollards"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refer(s) to detective security control(s)? (Select all that apply)",
+      "options": [
+        "Lighting",
+        "Log monitoring",
+        "Sandboxing",
+        "Security audits",
+        "CCTV",
+        "IDS",
+        "Vulnerability scanning"
+      ],
+      "correct_answers": [
+        "Log monitoring",
+        "Security audits",
+        "CCTV",
+        "IDS",
+        "Vulnerability scanning"
+      ]
+    },
+    {
+      "question": "Which of the following answers refer(s) to corrective security control(s)? (Select all that apply)",
+      "options": [
+        "Recovering data from backup copies",
+        "Applying software updates and patches to fix vulnerabilities",
+        "Developing and implementing IRPs to respond to and recover from security incidents",
+        "Regularly reviewing logs for anomalies or patterns indicative of attacks",
+        "Activating and executing DRPs to restore operations after a major incident"
+      ],
+      "correct_answers": [
+        "Recovering data from backup copies",
+        "Applying software updates and patches to fix vulnerabilities",
+        "Developing and implementing IRPs to respond to and recover from security incidents",
+        "Activating and executing DRPs to restore operations after a major incident"
+      ]
+    },
+    {
+      "question": "Which of the answers listed below refer(s) to compensating security control(s)? (Select all that apply)",
+      "options": [
+        "Backup power systems",
+        "Video surveillance",
+        "MFA",
+        "Application sandboxing",
+        "Network segmentation"
+      ],
+      "correct_answers": [
+        "Backup power systems",
+        "MFA",
+        "Application sandboxing",
+        "Network segmentation"
+      ]
+    },
+    {
+      "question": "The term \"Directive security controls\" refers to the category of security controls that are implemented through policies and procedures.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the following terms fall into the category of directive security controls? (Select 2 answers)",
+      "options": ["IRP", "AUP", "IDS", "MFA", "IPS"],
+      "correct_answers": ["IRP", "AUP"]
+    },
+    {
+      "question": "Which of the terms listed below can be used to describe the basic principles of information security?",
+      "options": ["PKI", "AAA", "GDPR", "CIA"],
+      "correct_answers": ["CIA"]
+    },
+    {
+      "question": "The term \"Non-repudiation\" describes the inability to deny responsibility for performing a specific action. In the context of data security, non-repudiation ensures data confidentiality, provides proof of data integrity, and proof of data origin.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the following best applies to the concept of non-repudiation?",
+      "options": ["Digital certificate", "MFA", "Hashing", "Encryption"],
+      "correct_answers": ["Digital certificate"]
+    },
+    {
+      "question": "Which type of user account violates the concept of non-repudiation?",
+      "options": ["Standard user account", "Shared account", "Guest user account", "Service account"],
+      "correct_answers": ["Shared account"]
+    },
+    {
+      "question": "Which part of the AAA security architecture deals with the verification of the identity of a person or process?",
+      "options": ["Authentication", "Authorization", "Accounting"],
+      "correct_answers": ["Authentication"]
+    },
+    {
+      "question": "In the AAA security architecture, the process of granting or denying access to resources is known as:",
+      "options": ["Authentication", "Authorization", "Accounting"],
+      "correct_answers": ["Authorization"]
+    },
+    {
+      "question": "In the AAA security architecture, the process of tracking accessed services and logging resource consumption is called:",
+      "options": ["Authentication", "Authorization", "Accounting"],
+      "correct_answers": ["Accounting"]
+    },
+    {
+      "question": "Which of the following solutions provide(s) the AAA functionality? (Select all that apply)",
+      "options": ["CHAP", "TACACS+", "PAP", "RADIUS", "MS-CHAP"],
+      "correct_answers": ["CHAP", "TACACS+", "PAP", "RADIUS", "MS-CHAP"]
+    },
+    {
+      "question": "In the context of the AAA framework, common methods for authenticating people include: (Select 3 answers)",
+      "options": ["IP addresses", "Usernames and passwords", "MAC addresses", "Biometrics", "MFA"],
+      "correct_answers": ["Usernames and passwords", "Biometrics", "MFA"]
+    },
+    {
+      "question": "Which of the answers listed below refer to common methods of device authentication used within the AAA framework? (Select 3 answers)",
+      "options": ["Usernames and passwords", "Digital certificates", "IP addresses", "MFA", "Biometric authentication", "MAC addresses"],
+      "correct_answers": ["Digital certificates", "MFA", "MAC addresses"]
+    }
+  ]
+}

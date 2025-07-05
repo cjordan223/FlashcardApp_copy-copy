@@ -1,0 +1,179 @@
+{
+  "questions": [
+    {
+      "question": "A network protocol used for secure file transfer over SSH is known as:",
+      "options": ["TFTP", "SFTP", "SCP", "FTPS"],
+      "correct_answers": ["SFTP"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a virtualization platform for delivering virtual desktops to a community of users?",
+      "options": ["VDE", "VNC", "VDI", "RDP"],
+      "correct_answers": ["VDI"]
+    },
+    {
+      "question": "A solution that simplifies configuration of new wireless networks by allowing non-technical users to easily configure network security settings and add new devices to an existing network is called:",
+      "options": ["WPA", "WPS", "WEP", "WAP"],
+      "correct_answers": ["WPS"]
+    },
+    {
+      "question": "Which of the following answers refers to a text-based command interpreter and scripting language for Unix-like operating systems?",
+      "options": ["CLI", "JS", "Bash", "cmd.exe"],
+      "correct_answers": ["Bash"]
+    },
+    {
+      "question": "A networking hardware device connecting wireless devices to a wired network is referred to as:",
+      "options": ["WAF", "AP", "RAS", "NIC"],
+      "correct_answers": ["AP"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a mobile device deployment model where organizations provide and own the devices while allowing their personal use?",
+      "options": ["BYOD", "COPE", "VDI", "CYOD"],
+      "correct_answers": ["COPE"]
+    },
+    {
+      "question": "Which of the following answers refers to a non-cryptographic hash function often used for error-checking purposes?",
+      "options": ["MD5", "CRC", "SHA", "RIPEMD"],
+      "correct_answers": ["CRC"]
+    },
+    {
+      "question": "What is the name of a network layer protocol that specifies the format of packets and addressing scheme in network communications?",
+      "options": ["UDP", "IP", "TCP", "NetBIOS"],
+      "correct_answers": ["IP"]
+    },
+    {
+      "question": "The term \"P2P\" refers to a centralized network architecture in which each participant in the network can act both as a client and a server, enabling direct communication and file sharing between individual users without the need for a central server or intermediary.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a set of standards and specifications that define various cryptographic techniques, including formats for public keys, private keys, digital signatures, and digital certificates?",
+      "options": ["ITIL", "RFC", "PKCS", "ISO/IEC"],
+      "correct_answers": ["PKCS"]
+    },
+    {
+      "question": "Which of the following answers refers to a tunneling point-to-point protocol?",
+      "options": ["EAP", "PPTP", "MPLS", "PPP"],
+      "correct_answers": ["PPTP"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a logical operation commonly used in the context of cybersecurity, particularly in encryption and obfuscation techniques?",
+      "options": ["AND", "OR", "NOT", "XOR"],
+      "correct_answers": ["XOR"]
+    },
+    {
+      "question": "Which of the following answers refers to a public-key cryptosystem used for digital signatures, secure key exchange, and encryption?",
+      "options": ["DHE", "RSA", "AES", "DSA"],
+      "correct_answers": ["RSA"]
+    },
+    {
+      "question": "An authentication mechanism that generates one-time passwords based on the current time and a secret key is known as:",
+      "options": ["OAuth", "TOTP", "RADIUS", "HOTP"],
+      "correct_answers": ["TOTP"]
+    },
+    {
+      "question": "Which of the answers listed below refers to the process of maintaining the integrity of files and data?",
+      "options": ["DLP", "SIEM", "FIM", "SHA"],
+      "correct_answers": ["FIM"]
+    },
+    {
+      "question": "Which of the following provides a countermeasure against SPOF?",
+      "options": ["HA", "DLP", "VM", "AAA"],
+      "correct_answers": ["HA"]
+    },
+    {
+      "question": "In the AAA security architecture, the process of tracking accessed services and logging resource consumption is called:",
+      "options": ["Auditing", "Authentication", "Authorization", "Accounting"],
+      "correct_answers": ["Accounting"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a method that enables secure conversion of user passwords into cryptographic keys?",
+      "options": ["PBKDF2", "PFS", "RIPEMD", "PKCS #7"],
+      "correct_answers": ["PBKDF2"]
+    },
+    {
+      "question": "Which of the following solutions provides passive network security breach response on an individual computer system?",
+      "options": ["HIDS", "NIPS", "HIPS", "NIDS"],
+      "correct_answers": ["HIDS"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a system that identifies, defines, and catalogs publicly known cybersecurity vulnerabilities?",
+      "options": ["TAXII", "CVE", "STIX", "CVSS"],
+      "correct_answers": ["CVE"]
+    },
+    {
+      "question": "Which of the following answers refers to a deprecated (largely replaced by AES) symmetric-key block cipher encryption algorithm?",
+      "options": ["ECDSA", "RSA", "IDEA", "DSA"],
+      "correct_answers": ["IDEA"]
+    },
+    {
+      "question": "A limit on the maximum amount of data that can be transmitted over a network without fragmentation is referred to as:",
+      "options": ["DSU", "CSU", "FPS", "MTU"],
+      "correct_answers": ["MTU"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a standardized method employed by the U.S. federal government to authenticate the identities of employees and contractors via smart card-based credentials?",
+      "options": ["PIV", "MFA", "SAE", "PKI"],
+      "correct_answers": ["PIV"]
+    },
+    {
+      "question": "Which of the following answers refers to an organized approach to managing and mitigating security incidents?",
+      "options": ["XDR", "IR", "SOAR", "IRP"],
+      "correct_answers": ["IR"]
+    },
+    {
+      "question": "Which type of technology enables contactless payment transactions?",
+      "options": ["NFC", "IR", "PED", "WAP"],
+      "correct_answers": ["NFC"]
+    },
+    {
+      "question": "An agreement between a service provider and users defining the nature, availability, quality, and scope of the service to be provided is known as:",
+      "options": ["SOW", "MSA", "SLA", "MOU"],
+      "correct_answers": ["SLA"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a cybersecurity approach that focuses on recognizing and addressing potential threats originating from multiple sources?",
+      "options": ["XDR", "WAF", "EDR", "SWG"],
+      "correct_answers": ["XDR"]
+    },
+    {
+      "question": "Which of the following acronyms refers to a client authentication method used in WPA3?",
+      "options": ["SAE", "IKE", "PSK", "AES"],
+      "correct_answers": ["SAE"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a solution used for authentication, authorization, and user identity management?",
+      "options": ["ICS", "AAA", "CIA", "IAM"],
+      "correct_answers": ["IAM"]
+    },
+    {
+      "question": "Which of the following answers refers to a security solution that provides control over elevated (i.e., administrative type) accounts?",
+      "options": ["MFA", "IAM", "SSO", "PAM"],
+      "correct_answers": ["PAM"]
+    },
+    {
+      "question": "A device designed to provide emergency power during an unexpected main power source outage is called:",
+      "options": ["UPS", "PoE", "SVC", "PSU"],
+      "correct_answers": ["UPS"]
+    },
+    {
+      "question": "Which of the answers listed below refers to an authentication method that enables the signing of an outbound email message with a digital signature?",
+      "options": ["SPF", "DKIM", "SRV", "DMARC"],
+      "correct_answers": ["DKIM"]
+    },
+    {
+      "question": "The term \"VLAN\" refers to a logical grouping of computers that allow computer hosts to function as if they were attached to the same broadcast domain regardless of their physical location.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the following answers refers to a method that binds a combination of private IP address and port number with a corresponding public IP address and port information?",
+      "options": ["PAT", "NAC", "DNS", "ARP"],
+      "correct_answers": ["PAT"]
+    },
+    {
+      "question": "A file system format used in Windows OSs that offers improved performance, security, and file management is referred to as:",
+      "options": ["ext4", "EFS", "NTFS", "HFS+"],
+      "correct_answers": ["NTFS"]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "questions": [
+    {
+      "question": "Which access control model allows for defining granular rules that consider user roles, time constraints, and network access restrictions?",
+      "options": ["ABAC", "MAC", "RuBAC", "DAC", "RBAC"],
+      "correct_answers": ["ABAC"]
+    },
+    {
+      "question": "Examples of properties used for defining access policies in Attribute-Based Access Control (ABAC) model include:",
+      "options": [
+        "Subject (i.e., user or process requesting access)",
+        "Type of action (for example \"read\", \"write\", \"execute\")",
+        "Resource type (medical record, bank account etc.)",
+        "Environment (contextual data, such as time of day or geolocation)",
+        "All of the above"
+      ],
+      "correct_answers": ["All of the above"]
+    },
+    {
+      "question": "Which access control model defines access control rules with the use of statements that closely resemble natural language?",
+      "options": ["DAC", "ABAC", "MAC", "RBAC"],
+      "correct_answers": ["ABAC"]
+    },
+    {
+      "question": "Which of the access control models listed below enforces the strictest set of access rules?",
+      "options": ["MAC", "RBAC", "DAC", "ABAC"],
+      "correct_answers": ["MAC"]
+    },
+    {
+      "question": "Which of the following access control methods would be the most suitable for scheduling system maintenance tasks during periods of low user activity?",
+      "options": ["Resource provisioning", "Time-of-day restrictions", "Principle of least privilege", "Just-in-time permissions"],
+      "correct_answers": ["Time-of-day restrictions"]
+    },
+    {
+      "question": "The principle of least privilege is a security rule that prevents users from accessing information and resources that lie beyond the scope of their responsibilities.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "In the context of IT security, the term \"Biometrics\" refers to both biological characteristics of the human body and behavioral traits that can be used for identification and access control purposes.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "A measure of the likelihood that a biometric security system will incorrectly reject an access attempt by an authorized user is called:",
+      "options": ["FAR", "CER", "CRC", "FRR"],
+      "correct_answers": ["FRR"]
+    },
+    {
+      "question": "Which of the answers listed below refer(s) to a medium type that can be used as a hardware authentication token? (Select all that apply)",
+      "options": ["Smart card", "Key fob", "Security key", "Passphrase", "Biometric reader", "RFID badge"],
+      "correct_answers": ["Smart card", "Key fob", "Security key", "RFID badge"]
+    },
+    {
+      "question": "Which of the following examples does not fall into the category of software authentication tokens?",
+      "options": ["QR code token", "Security key", "SMS-based OTP", "Authenticator app", "Email-based OTP"],
+      "correct_answers": ["Security key"]
+    },
+    {
+      "question": "Which of the answers listed below refer to the features of a security key? (Select 3 answers)",
+      "options": [
+        "Used for OTP generation, remote vehicle access, and building access",
+        "Hardware authentication token",
+        "Typically, a physical USB stick or key fob-sized device",
+        "Primarily used for digital security (2FA/MFA)",
+        "Software authentication token",
+        "Typically, a credit card-sized plastic card with an embedded chip"
+      ],
+      "correct_answers": [
+        "Hardware authentication token",
+        "Typically, a physical USB stick or key fob-sized device",
+        "Primarily used for digital security (2FA/MFA)"
+      ]
+    },
+    {
+      "question": "Authentication process can be based on various categories of authentication factors... A multifactor authentication system requires the implementation of authentication factors from two or more distinct categories.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "The two factors that are considered important for creating strong passwords are: (Select 2 answers)",
+      "options": ["Password length", "Minimum password age", "Password history", "Password complexity", "Maximum password age"],
+      "correct_answers": ["Password length", "Password complexity"]
+    },
+    {
+      "question": "A strong password that meets the password complexity requirement should contain: (Select the best answer)",
+      "options": [
+        "Uppercase letters (A-Z)",
+        "Digits (0-9)",
+        "Non-alphanumeric characters if permitted (e.g., !, @, #, $)",
+        "Lowercase letters (a-z)",
+        "A combination of characters from at least 3 character groups"
+      ],
+      "correct_answers": ["A combination of characters from at least 3 character groups"]
+    },
+    {
+      "question": "Which of the following passwords is the most complex?",
+      "options": ["T$7C52WL4SU", "GdL3tU8wxYz", "@TxBL$nW@Xt", "G$L3tU8wY@z"],
+      "correct_answers": ["G$L3tU8wY@z"]
+    },
+    {
+      "question": "Which password policy would be the most effective in decreasing the risk of a security breach across multiple accounts?",
+      "options": ["Password expiration policy", "Minimum password age policy", "Password reuse policy", "Maximum password age policy"],
+      "correct_answers": ["Password reuse policy"]
+    },
+    {
+      "question": "Which password policy enforces a mandatory password change after a specific time?",
+      "options": ["Password expiration policy", "Password history policy", "Minimum password age policy", "Password reuse policy"],
+      "correct_answers": ["Password expiration policy"]
+    },
+    {
+      "question": "The minimum password age policy setting determines the period of time that a password can be used before the system requires the user to change it.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "The maximum password age policy setting determines the period of time that a password must be used before the user can change it.",
+      "options": ["True", "False"],
+      "correct_answers": ["False"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a software tool specifically designed to store and manage login credentials?",
+      "options": ["BitLocker", "Password manager", "Key escrow", "Password vault"],
+      "correct_answers": ["Password manager"]
+    },
+    {
+      "question": "Which of the following technologies cannot be used as a passwordless authentication method?",
+      "options": [
+        "Biometrics",
+        "Hardware tokens",
+        "QR codes",
+        "OTPs",
+        "Passkeys",
+        "All of the above can be used as a means for passwordless authentication"
+      ],
+      "correct_answers": ["All of the above can be used as a means for passwordless authentication"]
+    },
+    {
+      "question": "A security solution that provides control over elevated (i.e., administrative type) accounts is referred to as:",
+      "options": ["MFA", "IAM", "SSO", "PAM"],
+      "correct_answers": ["PAM"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a solution designed to minimize the risk of unauthorized access to privileged accounts?",
+      "options": ["Principle of least privilege", "Just-in-time permissions", "Passwordless authentication", "Multifactor authentication"],
+      "correct_answers": ["Just-in-time permissions"]
+    },
+    {
+      "question": "Which of the following answers refers to an encrypted database that provides secure storage space for user credentials?",
+      "options": ["Secure enclave", "Password manager", "Rainbow table", "Password vault"],
+      "correct_answers": ["Password vault"]
+    },
+    {
+      "question": "Which of the terms listed below refer(s) to the concept of ephemeral access, where access to systems, resources, or permissions is provided for a limited duration? (Select all that apply)",
+      "options": ["TOTP", "OTP", "Just-in-time permissions", "User password", "API key"],
+      "correct_answers": ["TOTP", "OTP", "Just-in-time permissions"]
+    }
+  ]
+}

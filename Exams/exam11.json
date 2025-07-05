@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "question": "Which of the answers listed below refer to the concept of data isolation? (Select 2 answers)",
+      "options": ["DLP", "SDN", "EFS", "SWG", "EDR"],
+      "correct_answers": ["DLP", "EFS"]
+    },
+    {
+      "question": "A type of firewall used for protecting a single computer is commonly referred to as: (Select 2 answers)",
+      "options": ["Hardware firewall", "Host-based firewall", "Proxy firewall", "Network-based firewall", "Personal firewall"],
+      "correct_answers": ["Host-based firewall", "Personal firewall"]
+    },
+    {
+      "question": "Which of the following provides active network security breach response on an individual computer system?",
+      "options": ["NIDS", "HIDS", "NIPS", "HIPS"],
+      "correct_answers": ["HIPS"]
+    },
+    {
+      "question": "The process of securing networking devices should include the practice of disabling unused physical and logical ports.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "The importance of changing default usernames and passwords can be illustrated on the example of certain network devices (such as routers) which are often shipped with default and well-known admin credentials that can be looked up on the web.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "A type of document outlining the shared responsibilities between a CSP and its customers for securing and managing data and resources is known as: (Select best answer)",
+      "options": ["Service Level Agreement", "Acceptable Use Policy", "Cloud Responsibility Matrix", "Master Service Agreement"],
+      "correct_answers": ["Cloud Responsibility Matrix"]
+    },
+    {
+      "question": "The term \"Hybrid cloud\" refers to a mixed computing environment that can include different cloud service models like public and private clouds, as well as on-premises infrastructure.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the terms listed below refers to a method for managing infrastructure resources through scripts and templates?",
+      "options": ["IaaS", "ML", "IaC", "SDN"],
+      "correct_answers": ["IaC"]
+    },
+    {
+      "question": "A serverless architecture allows developers to create apps and services without having to manage the required infrastructure resources (such as servers, databases, and storage systems), which are handled by:",
+      "options": ["CSP", "ISP", "MSP", "IdP"],
+      "correct_answers": ["CSP"]
+    },
+    {
+      "question": "In software engineering, the term \"Microservice\" describes independent and self-contained code components that can be put together to form an application.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which of the following provides isolation from external computer networks?",
+      "options": ["Network segmentation", "Air gap", "Hardware firewall", "Protected cable distribution"],
+      "correct_answers": ["Air gap"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a means for logical network segmentation?",
+      "options": ["Switch", "VLAN", "Screened subnet", "Router"],
+      "correct_answers": ["VLAN"]
+    },
+    {
+      "question": "Which of the following answers refers to software technology designed to simplify network infrastructure management?",
+      "options": ["SDN", "SaaS", "VDI", "SNMP"],
+      "correct_answers": ["SDN"]
+    },
+    {
+      "question": "Which of the answers listed below refers to the process of packaging an application and its dependencies into a single, self-contained unit, which can run across different computing environments?",
+      "options": ["Edge computing", "Containerization", "Virtualization", "Cloud computing"],
+      "correct_answers": ["Containerization"]
+    },
+    {
+      "question": "Which of the following answers refers to a solution that allows multiple OSs to work simultaneously on the same hardware?",
+      "options": ["Clustering", "Hyperthreading", "Multitasking", "Virtualization"],
+      "correct_answers": ["Virtualization"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a network of interconnected devices equipped with sensors (such as wearable tech or home automation devices) that can interact with each other to perform various tasks and functions?",
+      "options": ["ICS", "PAN", "IoT", "SoC"],
+      "correct_answers": ["IoT"]
+    },
+    {
+      "question": "Which of the following refers to a broad term that encompasses various control and automation systems used in industrial settings to control and monitor physical processes and machinery?",
+      "options": ["ICS", "PLC", "SCADA", "HMI"],
+      "correct_answers": ["ICS"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a specific type of ICS?",
+      "options": ["SoC", "CMS", "SCADA", "RTOS"],
+      "correct_answers": ["SCADA"]
+    },
+    {
+      "question": "Which of the following answers refers to an OS type characterized by low delay between the execution of tasks required in specific applications, such as in military missile guidance systems or in automotive braking systems?",
+      "options": ["Unix-like OS", "SoC", "Firmware", "RTOS"],
+      "correct_answers": ["RTOS"]
+    },
+    {
+      "question": "Which of the answers listed below refer(s) to embedded systems? (Select all that apply)",
+      "options": [
+        "Often designed to operate in real-time or with low latency",
+        "Typically equipped with constrained computing resources and storage",
+        "Designed to perform a single task or a few closely related tasks within a larger system",
+        "Often integrated with hardware components like sensors and actuators"
+      ],
+      "correct_answers": [
+        "Often designed to operate in real-time or with low latency",
+        "Typically equipped with constrained computing resources and storage",
+        "Designed to perform a single task or a few closely related tasks within a larger system",
+        "Often integrated with hardware components like sensors and actuators"
+      ]
+    },
+    {
+      "question": "Which of the following terms can be used to describe a system designed to aim for minimized downtime and uninterrupted operation?",
+      "options": ["ICS", "HA", "RTOS", "SoC"],
+      "correct_answers": ["HA"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a device failure mode in which maintaining service availability is prioritized over security?",
+      "options": ["Fail-safe", "Fail-close", "Fail-open", "Fail-secure"],
+      "correct_answers": ["Fail-open"]
+    },
+    {
+      "question": "Which failure mode prioritizes security over availability, ensuring that no potentially malicious traffic can get through the device?",
+      "options": ["Fail-soft", "Fail-through", "Fail-safe", "Fail-close"],
+      "correct_answers": ["Fail-close"]
+    },
+    {
+      "question": "Which of the following answers refer to passive network monitoring techniques? (Select 2 answers)",
+      "options": ["Network tap", "Trunk port", "Port mirroring", "SNMP trap", "Registered port"],
+      "correct_answers": ["Network tap", "Port mirroring"]
+    },
+    {
+      "question": "A type of hardened server used as a secure gateway for remote administration of devices placed in a different security zone is called:",
+      "options": ["C2 server", "Jump server", "UC server", "Proxy server"],
+      "correct_answers": ["Jump server"]
+    }
+  ]
+}

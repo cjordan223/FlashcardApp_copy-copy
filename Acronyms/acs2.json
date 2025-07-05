@@ -1,0 +1,190 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following acronyms refers to software or hardware-based security solutions designed to detect and prevent unauthorized use and transmission of confidential information?",
+      "options": ["IPS", "DLP", "IDS", "DEP"],
+      "correct_answers": ["DLP"]
+    },
+    {
+      "question": "A rule-based access control mechanism implemented on routers, switches, and firewalls is referred to as:",
+      "options": ["ACL", "CSR", "MAC", "AUP"],
+      "correct_answers": ["ACL"]
+    },
+    {
+      "question": "Which type of firmware performs initial hardware checks after the computer is powered on?",
+      "options": ["BIOS", "POST", "CMOS", "PROM"],
+      "correct_answers": ["POST"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a software technology designed to simplify network infrastructure management?",
+      "options": ["SDN", "QoS", "VDI", "CDN"],
+      "correct_answers": ["SDN"]
+    },
+    {
+      "question": "Which of the following is an MS Windows component that enables encryption of individual files?",
+      "options": ["EFS", "NTFS", "DFS", "NFS"],
+      "correct_answers": ["EFS"]
+    },
+    {
+      "question": "A system that uses public network (such as the Internet) as a means for creating private encrypted connections between remote locations is known as:",
+      "options": ["WWAN", "VPN", "PAN", "VLAN"],
+      "correct_answers": ["VPN"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a security standard introduced to address the vulnerabilities found in WEP?",
+      "options": ["TKIP", "AES", "WPA", "CCMP"],
+      "correct_answers": ["WPA"]
+    },
+    {
+      "question": "The term \"KEK\" refers to a type of cryptographic key often used in key management systems to add an additional layer of security when encrypting and decrypting other cryptographic keys.",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "POP3 is used for:",
+      "options": ["Name resolution", "Sending email messages", "File exchange", "Email retrieval"],
+      "correct_answers": ["Email retrieval"]
+    },
+    {
+      "question": "Which cloud service model would provide the best solution for a web developer intending to create a web app?",
+      "options": ["XaaS", "SaaS", "PaaS", "IaaS"],
+      "correct_answers": ["PaaS"]
+    },
+    {
+      "question": "Which of the following answers refers to a cryptographic hash function that has been widely used in the past but is now considered deprecated for security-sensitive applications due to known vulnerabilities?",
+      "options": ["MD5", "SHA", "CRC", "HMAC"],
+      "correct_answers": ["MD5"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a suite of protocols and technologies providing encryption, authentication, and data integrity for network traffic?",
+      "options": ["TLS", "SSH", "IPsec", "VPN"],
+      "correct_answers": ["IPsec"]
+    },
+    {
+      "question": "A network protocol providing an alternative solution to the manual allocation of IP addresses is called:",
+      "options": ["DNS", "SNMP", "NAT", "DHCP"],
+      "correct_answers": ["DHCP"]
+    },
+    {
+      "question": "Which of the following regulations protects the privacy and personal data of the EU citizens?",
+      "options": ["PHI", "HIPAA", "PCI DSS", "GDPR"],
+      "correct_answers": ["GDPR"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a mechanical data storage medium type that relies on magnetic plates and moving parts for data storage and retrieval?",
+      "options": ["RAM", "HDD", "NVMe", "SSD"],
+      "correct_answers": ["HDD"]
+    },
+    {
+      "question": "Which of the following terms refers to an environmental control system?",
+      "options": ["SCADA", "HIPS", "TEMPEST", "HVAC"],
+      "correct_answers": ["HVAC"]
+    },
+    {
+      "question": "A type of network connecting computers within a small geographical area such as a building or group of buildings is referred to as:",
+      "options": ["PAN", "LAN", "MAN", "WAN"],
+      "correct_answers": ["LAN"]
+    },
+    {
+      "question": "Which of the solutions listed below hides the internal IP addresses by modifying IP address information in IP packet headers while in transit across a traffic routing device?",
+      "options": ["QoS", "DHCP", "NAT", "DNS"],
+      "correct_answers": ["NAT"]
+    },
+    {
+      "question": "Which of the following answers refers to a shared secret authentication method used in WPA, WPA2, and EAP?",
+      "options": ["PSK", "802.1X", "SAE", "TKIP"],
+      "correct_answers": ["PSK"]
+    },
+    {
+      "question": "Copies of lost private encryption keys can be retrieved from a key escrow by RAs (i.e., individuals with access to key database and permission level allowing them to extract keys from escrow).",
+      "options": ["True", "False"],
+      "correct_answers": ["True"]
+    },
+    {
+      "question": "Which type of unsolicited messaging relies on text-based communication?",
+      "options": ["VAM", "SPIM", "JMS", "SPIT"],
+      "correct_answers": ["SPIM"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a secure replacement for Telnet?",
+      "options": ["CHAP", "FTP", "SNMP", "SSH"],
+      "correct_answers": ["SSH"]
+    },
+    {
+      "question": "Which of the following answers refers to a family of cryptographic hash functions used in a variety of security applications, including digital signatures, password storage, secure communications, and data integrity verification?",
+      "options": ["RSA", "IDEA", "AES", "SHA"],
+      "correct_answers": ["SHA"]
+    },
+    {
+      "question": "In the AAA security architecture, the process of granting or denying access to resources is known as:",
+      "options": ["Auditing", "Authentication", "Authorization", "Accounting"],
+      "correct_answers": ["Authorization"]
+    },
+    {
+      "question": "Which of the terms listed below applies to the authentication process?",
+      "options": ["MFA", "MMC", "MDM", "MFD"],
+      "correct_answers": ["MFA"]
+    },
+    {
+      "question": "Which of the following answers refer to NIPS? (Select 3 answers)",
+      "options": [
+        "Takes proactive measures to block or mitigate intrusion attempts",
+        "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
+        "Operates in an inline mode, actively intercepting and inspecting network traffic",
+        "Monitors network traffic without direct involvement in traffic routing or packet modification",
+        "Does not take direct action to block or prevent attacks",
+        "It can drop or reject network packets, terminate connections, or take other actions to stop the attack"
+      ],
+      "correct_answers": [
+        "Takes proactive measures to block or mitigate intrusion attempts",
+        "Operates in an inline mode, actively intercepting and inspecting network traffic",
+        "It can drop or reject network packets, terminate connections, or take other actions to stop the attack"
+      ]
+    },
+    {
+      "question": "Which of the terms listed below refers to threat intelligence gathered from publicly available sources?",
+      "options": ["IoC", "OSINT", "RFC", "CVE/NVD"],
+      "correct_answers": ["OSINT"]
+    },
+    {
+      "question": "Which of the following answers refers to a common PnP interface that allows a PC to communicate with peripherals and other devices?",
+      "options": ["IDE", "PCIe", "USB", "eSATA"],
+      "correct_answers": ["USB"]
+    },
+    {
+      "question": "Which of the solutions listed below allows to check whether a digital certificate has been revoked?",
+      "options": ["OCR", "CRL", "CSR", "OSPF"],
+      "correct_answers": ["CRL"]
+    },
+    {
+      "question": "A type of computer security solution that allows to define and enforce network access policies is called:",
+      "options": ["NAT", "ACL", "NAC", "DLP"],
+      "correct_answers": ["NAC"]
+    },
+    {
+      "question": "Which of the following solutions alleviates the problem of the depleting IPv4 address space by allowing multiple hosts on the same private LAN to share a single public IP address?",
+      "options": ["DNS", "APIPA", "NAT", "DHCP"],
+      "correct_answers": ["NAT"]
+    },
+    {
+      "question": "Which of the answers listed below refers to an individual or role responsible for overseeing and ensuring compliance with data protection laws and policies within an organization?",
+      "options": ["CTO", "DPO", "CIO", "CSO"],
+      "correct_answers": ["DPO"]
+    },
+    {
+      "question": "Which of the following terms refers to an agreement that specifies performance requirements for a vendor?",
+      "options": ["MSA", "SLA", "MOU", "SOW"],
+      "correct_answers": ["SLA"]
+    },
+    {
+      "question": "A legal contract between the holder of confidential information and another person to whom that information is disclosed restricting that other person from disclosing the confidential information to any other party is referred to as:",
+      "options": ["ISA", "NDA", "BPA", "SLA"],
+      "correct_answers": ["NDA"]
+    },
+    {
+      "question": "Which of the answers listed below refers to a protocol designed to secure data transmitted over WLANs?",
+      "options": ["SCP", "IPsec", "SSH", "WTLS"],
+      "correct_answers": ["WTLS"]
+    }
+  ]
+}
