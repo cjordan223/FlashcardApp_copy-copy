@@ -3,6 +3,8 @@ import './App.css';
 import DeckSelector from './components/DeckSelector';
 import Flashcard from './components/Flashcard';
 import ProgressBar from './components/ProgressBar';
+import { FiChevronLeft, FiX } from 'react-icons/fi';
+import { useSwipeable } from 'react-swipeable';
 
 function App() {
   const [selectedDeck, setSelectedDeck] = useState(null);
@@ -13,6 +15,8 @@ function App() {
   const [showReview, setShowReview] = useState(false);
   const [answeredQuestions, setAnsweredQuestions] = useState(new Set());
   const [userAnswers, setUserAnswers] = useState({});
+  const [showProgressModal, setShowProgressModal] = useState(false);
+  const [showFinishConfirm, setShowFinishConfirm] = useState(false);
 
   useEffect(() => {
     if (selectedDeck) {
@@ -93,6 +97,41 @@ function App() {
 
   const goToQuestion = (idx) => {
     setCurrentQuestionIndex(idx);
+    setShowProgressModal(false);
+  };
+
+  // Swipe handlers
+  const swipeHandlers = useSwipeable({
+    onSwipedLeft: () => {
+      if (currentQuestionIndex < questions.length - 1 && answeredQuestions.has(currentQuestionIndex)) {
+        setCurrentQuestionIndex(currentQuestionIndex + 1);
+      }
+    },
+    onSwipedRight: () => {
+      if (currentQuestionIndex > 0) {
+        setCurrentQuestionIndex(currentQuestionIndex - 1);
+      }
+    },
+    trackMouse: true,
+    preventScrollOnSwipe: true,
+  });
+
+  // Main quiz UI
+  const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+  const currentQuestion = questions[currentQuestionIndex];
+
+  // Handlers for bottom nav
+  const handlePrev = () => {
+    if (currentQuestionIndex > 0) setCurrentQuestionIndex(currentQuestionIndex - 1);
+  };
+  const handleNext = () => {
+    if (currentQuestionIndex < questions.length - 1 && answeredQuestions.has(currentQuestionIndex)) setCurrentQuestionIndex(currentQuestionIndex + 1);
+  };
+  const handleFinish = () => setShowFinishConfirm(true);
+  const confirmFinish = () => {
+    setShowFinishConfirm(false);
+    setShowResults(true);
+    setShowReview(true);
   };
 
   if (!selectedDeck) {
@@ -181,70 +220,89 @@ function App() {
     );
   }
 
-  const currentQuestion = questions[currentQuestionIndex];
-  const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
-
   return (
-    <div className="app">
-      <div className="header">
-        <button onClick={backToDeckSelection} className="back-button">
-          ← Back to Decks
+    <div className="app mobile-stack">
+      <div className="mobile-header">
+        <button className="chevron-back" onClick={() => setSelectedDeck(null)} aria-label="Back to Decks">
+          <FiChevronLeft size={28} />
         </button>
-        <h1>{selectedDeck.name}</h1>
-        <div className="score">
-          Score: {score} / {questions.length}
+        <div className="mobile-title">{selectedDeck.name}</div>
+      </div>
+      <div className="mobile-progress-bar-wrap">
+        <div className="progress-bar-tappable" onClick={() => setShowProgressModal(true)}>
+          <ProgressBar progress={progress} />
         </div>
       </div>
-
-      <ProgressBar progress={progress} />
-
-      <div className="question-counter">
-        Question {currentQuestionIndex + 1} of {questions.length}
-      </div>
-
-      <div className="pagination-bar pagination-above">
-        {questions.map((_, idx) => (
-          <button
-            key={idx}
-            className={`pagination-btn${idx === currentQuestionIndex ? ' active' : ''}${answeredQuestions.has(idx) ? ' answered' : ''}`}
-            onClick={() => goToQuestion(idx)}
-          >
-            {idx + 1}
-          </button>
-        ))}
-      </div>
-
-      <div className="flashcard-row">
-        <button
-          onClick={previousQuestion}
-          disabled={currentQuestionIndex === 0}
-          className="btn btn-secondary nav-side-btn prev-btn"
-        >
-          Previous
-        </button>
+      {showProgressModal && (
+        <div className="progress-modal-overlay" onClick={() => setShowProgressModal(false)}>
+          <div className="progress-modal" onClick={e => e.stopPropagation()}>
+            <div className="progress-modal-header">
+              <span>Jump to Question</span>
+              <button className="progress-modal-close" onClick={() => setShowProgressModal(false)} aria-label="Close">
+                <FiX size={24} />
+              </button>
+            </div>
+            <div className="progress-modal-grid">
+              {questions.map((_, idx) => (
+                <button
+                  key={idx}
+                  className={`progress-modal-btn${idx === currentQuestionIndex ? ' current' : ''}${answeredQuestions.has(idx) ? ' answered' : ''}`}
+                  onClick={() => goToQuestion(idx)}
+                >
+                  {idx + 1}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+      <div className="mobile-content-stack" {...swipeHandlers}>
+        <div className="mobile-question-number">
+          Question {currentQuestionIndex + 1} of {questions.length}
+        </div>
         <Flashcard
           question={currentQuestion}
           onAnswer={handleAnswer}
           userAnswer={userAnswers[currentQuestionIndex]}
           isAnswered={answeredQuestions.has(currentQuestionIndex)}
         />
-        <div className="right-nav-btns">
-          <button
-            onClick={nextQuestion}
-            disabled={!answeredQuestions.has(currentQuestionIndex)}
-            className="btn btn-primary nav-side-btn next-btn"
-          >
-            {currentQuestionIndex === questions.length - 1 ? 'Finish' : 'Next'}
-          </button>
-          <button
-            onClick={finishExam}
-            className="btn btn-danger nav-side-btn finish-btn"
-            style={{ marginLeft: 8, marginTop: 8 }}
-          >
-            Finish Exam
-          </button>
-        </div>
       </div>
+      {/* Bottom Navigation Bar */}
+      <div className="mobile-bottom-nav">
+        <button
+          className="bottom-nav-btn prev"
+          onClick={handlePrev}
+          disabled={currentQuestionIndex === 0}
+        >
+          Previous
+        </button>
+        <button
+          className="bottom-nav-btn finish"
+          onClick={handleFinish}
+        >
+          Finish Exam
+        </button>
+        <button
+          className="bottom-nav-btn next"
+          onClick={handleNext}
+          disabled={!answeredQuestions.has(currentQuestionIndex) || currentQuestionIndex === questions.length - 1}
+        >
+          Next
+        </button>
+      </div>
+      {/* Finish Exam Confirmation Popup */}
+      {showFinishConfirm && (
+        <div className="finish-confirm-overlay" onClick={() => setShowFinishConfirm(false)}>
+          <div className="finish-confirm-modal" onClick={e => e.stopPropagation()}>
+            <div className="finish-confirm-title">Finish Exam?</div>
+            <div className="finish-confirm-desc">Are you sure you want to finish the exam? You can review your answers after finishing.</div>
+            <div className="finish-confirm-actions">
+              <button className="finish-confirm-btn cancel" onClick={() => setShowFinishConfirm(false)}>Cancel</button>
+              <button className="finish-confirm-btn confirm" onClick={confirmFinish}>Yes, Finish</button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

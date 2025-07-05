@@ -3,97 +3,116 @@
     {
       "question": "Which of the answers listed below refer to the concept of data isolation? (Select 2 answers)",
       "options": ["DLP", "SDN", "EFS", "SWG", "EDR"],
-      "correct_answers": ["DLP", "EFS"]
+      "correct_answers": ["DLP", "EFS"],
+      "explanation": "Data Loss Prevention (DLP) and Encrypting File System (EFS) are both methods of data isolation. DLP solutions are designed to prevent data from leaving a network, while EFS allows for the encryption of individual files, isolating them from unauthorized access."
     },
     {
       "question": "A type of firewall used for protecting a single computer is commonly referred to as: (Select 2 answers)",
       "options": ["Hardware firewall", "Host-based firewall", "Proxy firewall", "Network-based firewall", "Personal firewall"],
-      "correct_answers": ["Host-based firewall", "Personal firewall"]
+      "correct_answers": ["Host-based firewall", "Personal firewall"],
+      "explanation": "A host-based or personal firewall is a software application that runs on a single computer and protects it from network-based threats."
     },
     {
       "question": "Which of the following provides active network security breach response on an individual computer system?",
       "options": ["NIDS", "HIDS", "NIPS", "HIPS"],
-      "correct_answers": ["HIPS"]
+      "correct_answers": ["HIPS"],
+      "explanation": "A HIPS (Host-based Intrusion Prevention System) is a type of security software that monitors a single computer for suspicious activity and can take action to block it."
     },
     {
       "question": "The process of securing networking devices should include the practice of disabling unused physical and logical ports.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Disabling unused ports is a basic security measure that reduces the attack surface of a network device."
     },
     {
       "question": "The importance of changing default usernames and passwords can be illustrated on the example of certain network devices (such as routers) which are often shipped with default and well-known admin credentials that can be looked up on the web.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Many network devices are shipped with default credentials that are publicly known. Changing these credentials is a critical step in securing a network device."
     },
     {
       "question": "A type of document outlining the shared responsibilities between a CSP and its customers for securing and managing data and resources is known as: (Select best answer)",
       "options": ["Service Level Agreement", "Acceptable Use Policy", "Cloud Responsibility Matrix", "Master Service Agreement"],
-      "correct_answers": ["Cloud Responsibility Matrix"]
+      "correct_answers": ["Cloud Responsibility Matrix"],
+      "explanation": "A cloud responsibility matrix is a document that outlines the security responsibilities of the cloud service provider (CSP) and the customer."
     },
     {
       "question": "The term \"Hybrid cloud\" refers to a mixed computing environment that can include different cloud service models like public and private clouds, as well as on-premises infrastructure.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A hybrid cloud is a cloud computing environment that uses a mix of on-premises, private cloud and third-party, public cloud services with orchestration between the two platforms."
     },
     {
       "question": "Which of the terms listed below refers to a method for managing infrastructure resources through scripts and templates?",
       "options": ["IaaS", "ML", "IaC", "SDN"],
-      "correct_answers": ["IaC"]
+      "correct_answers": ["IaC"],
+      "explanation": "Infrastructure as Code (IaC) is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools."
     },
     {
       "question": "A serverless architecture allows developers to create apps and services without having to manage the required infrastructure resources (such as servers, databases, and storage systems), which are handled by:",
       "options": ["CSP", "ISP", "MSP", "IdP"],
-      "correct_answers": ["CSP"]
+      "correct_answers": ["CSP"],
+      "explanation": "In a serverless architecture, the cloud service provider (CSP) is responsible for managing the underlying infrastructure, allowing developers to focus on writing code."
     },
     {
       "question": "In software engineering, the term \"Microservice\" describes independent and self-contained code components that can be put together to form an application.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Microservices are a software development technique—a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services."
     },
     {
       "question": "Which of the following provides isolation from external computer networks?",
       "options": ["Network segmentation", "Air gap", "Hardware firewall", "Protected cable distribution"],
-      "correct_answers": ["Air gap"]
+      "correct_answers": ["Air gap"],
+      "explanation": "An air gap is a security measure where a computer or network is physically isolated from other networks, such as the internet."
     },
     {
       "question": "Which of the answers listed below refers to a means for logical network segmentation?",
       "options": ["Switch", "VLAN", "Screened subnet", "Router"],
-      "correct_answers": ["VLAN"]
+      "correct_answers": ["VLAN"],
+      "explanation": "A VLAN (Virtual Local Area Network) is a logical group of computers that are on the same broadcast domain, regardless of their physical location."
     },
     {
       "question": "Which of the following answers refers to software technology designed to simplify network infrastructure management?",
       "options": ["SDN", "SaaS", "VDI", "SNMP"],
-      "correct_answers": ["SDN"]
+      "correct_answers": ["SDN"],
+      "explanation": "SDN (Software-Defined Networking) is an approach to network management that enables dynamic, programmatically efficient network configuration in order to improve network performance and monitoring."
     },
     {
       "question": "Which of the answers listed below refers to the process of packaging an application and its dependencies into a single, self-contained unit, which can run across different computing environments?",
       "options": ["Edge computing", "Containerization", "Virtualization", "Cloud computing"],
-      "correct_answers": ["Containerization"]
+      "correct_answers": ["Containerization"],
+      "explanation": "Containerization is a lightweight alternative to full machine virtualization that involves encapsulating an application in a container with its own operating environment."
     },
     {
       "question": "Which of the following answers refers to a solution that allows multiple OSs to work simultaneously on the same hardware?",
       "options": ["Clustering", "Hyperthreading", "Multitasking", "Virtualization"],
-      "correct_answers": ["Virtualization"]
+      "correct_answers": ["Virtualization"],
+      "explanation": "Virtualization is the process of creating a virtual version of something, such as a server, desktop, storage device, operating system or network resources."
     },
     {
       "question": "Which of the answers listed below refers to a network of interconnected devices equipped with sensors (such as wearable tech or home automation devices) that can interact with each other to perform various tasks and functions?",
       "options": ["ICS", "PAN", "IoT", "SoC"],
-      "correct_answers": ["IoT"]
+      "correct_answers": ["IoT"],
+      "explanation": "The Internet of Things (IoT) is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction."
     },
     {
       "question": "Which of the following refers to a broad term that encompasses various control and automation systems used in industrial settings to control and monitor physical processes and machinery?",
       "options": ["ICS", "PLC", "SCADA", "HMI"],
-      "correct_answers": ["ICS"]
+      "correct_answers": ["ICS"],
+      "explanation": "An Industrial Control System (ICS) is a general term that encompasses several types of control systems and associated instrumentation used for industrial process control."
     },
     {
       "question": "Which of the answers listed below refers to a specific type of ICS?",
       "options": ["SoC", "CMS", "SCADA", "RTOS"],
-      "correct_answers": ["SCADA"]
+      "correct_answers": ["SCADA"],
+      "explanation": "SCADA (Supervisory Control and Data Acquisition) is a category of software application program for process control, the gathering of data in real time from remote locations to control equipment and conditions."
     },
     {
       "question": "Which of the following answers refers to an OS type characterized by low delay between the execution of tasks required in specific applications, such as in military missile guidance systems or in automotive braking systems?",
       "options": ["Unix-like OS", "SoC", "Firmware", "RTOS"],
-      "correct_answers": ["RTOS"]
+      "correct_answers": ["RTOS"],
+      "explanation": "A real-time operating system (RTOS) is an operating system (OS) intended to serve real-time applications that process data as it comes in, typically without buffer delays."
     },
     {
       "question": "Which of the answers listed below refer(s) to embedded systems? (Select all that apply)",
@@ -108,32 +127,38 @@
         "Typically equipped with constrained computing resources and storage",
         "Designed to perform a single task or a few closely related tasks within a larger system",
         "Often integrated with hardware components like sensors and actuators"
-      ]
+      ],
+      "explanation": "An embedded system is a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electrical system."
     },
     {
       "question": "Which of the following terms can be used to describe a system designed to aim for minimized downtime and uninterrupted operation?",
       "options": ["ICS", "HA", "RTOS", "SoC"],
-      "correct_answers": ["HA"]
+      "correct_answers": ["HA"],
+      "explanation": "High availability (HA) is a characteristic of a system, which aims to ensure an agreed level of operational performance, usually uptime, for a higher than normal period."
     },
     {
       "question": "Which of the answers listed below refers to a device failure mode in which maintaining service availability is prioritized over security?",
       "options": ["Fail-safe", "Fail-close", "Fail-open", "Fail-secure"],
-      "correct_answers": ["Fail-open"]
+      "correct_answers": ["Fail-open"],
+      "explanation": "In a fail-open system, if a component fails, the system will default to a state where access is allowed. This prioritizes availability over security."
     },
     {
       "question": "Which failure mode prioritizes security over availability, ensuring that no potentially malicious traffic can get through the device?",
       "options": ["Fail-soft", "Fail-through", "Fail-safe", "Fail-close"],
-      "correct_answers": ["Fail-close"]
+      "correct_answers": ["Fail-close"],
+      "explanation": "In a fail-close system, if a component fails, the system will default to a state where access is denied. This prioritizes security over availability."
     },
     {
       "question": "Which of the following answers refer to passive network monitoring techniques? (Select 2 answers)",
       "options": ["Network tap", "Trunk port", "Port mirroring", "SNMP trap", "Registered port"],
-      "correct_answers": ["Network tap", "Port mirroring"]
+      "correct_answers": ["Network tap", "Port mirroring"],
+      "explanation": "A network tap and port mirroring are both passive network monitoring techniques. A network tap is a hardware device that provides a way to access the data flowing across a computer network. Port mirroring is a feature on a network switch that sends a copy of all network packets seen on one port to a network monitoring connection on another port."
     },
     {
       "question": "A type of hardened server used as a secure gateway for remote administration of devices placed in a different security zone is called:",
       "options": ["C2 server", "Jump server", "UC server", "Proxy server"],
-      "correct_answers": ["Jump server"]
+      "correct_answers": ["Jump server"],
+      "explanation": "A jump server is a hardened and monitored device that spans two dissimilar security zones and provides a controlled means of access between them."
     }
   ]
 }

@@ -3,127 +3,152 @@
     {
       "question": "Which of the following acronyms refers to software or hardware-based security solutions designed to detect and prevent unauthorized use and transmission of confidential information?",
       "options": ["IPS", "DLP", "IDS", "DEP"],
-      "correct_answers": ["DLP"]
+      "correct_answers": ["DLP"],
+      "explanation": "DLP (Data Loss Prevention) is a set of tools and processes used to ensure that sensitive data is not lost, misused, or accessed by unauthorized users. DLP solutions classify and protect sensitive information, preventing accidental or malicious data breaches."
     },
     {
       "question": "A rule-based access control mechanism implemented on routers, switches, and firewalls is referred to as:",
       "options": ["ACL", "CSR", "MAC", "AUP"],
-      "correct_answers": ["ACL"]
+      "correct_answers": ["ACL"],
+      "explanation": "An ACL (Access Control List) is a set of rules that defines how a router, switch, or firewall manages network traffic. It specifies which traffic is allowed or denied based on criteria such as source and destination IP addresses, ports, and protocols."
     },
     {
       "question": "Which type of firmware performs initial hardware checks after the computer is powered on?",
       "options": ["BIOS", "POST", "CMOS", "PROM"],
-      "correct_answers": ["POST"]
+      "correct_answers": ["POST"],
+      "explanation": "POST (Power-On Self-Test) is a diagnostic testing sequence that a computer's BIOS or UEFI firmware runs to determine if the computer hardware is working correctly before loading the operating system."
     },
     {
       "question": "Which of the answers listed below refers to a software technology designed to simplify network infrastructure management?",
       "options": ["SDN", "QoS", "VDI", "CDN"],
-      "correct_answers": ["SDN"]
+      "correct_answers": ["SDN"],
+      "explanation": "SDN (Software-Defined Networking) is an approach to network management that enables dynamic, programmatically efficient network configuration in order to improve network performance and monitoring. It separates the network's control plane from the data plane."
     },
     {
       "question": "Which of the following is an MS Windows component that enables encryption of individual files?",
       "options": ["EFS", "NTFS", "DFS", "NFS"],
-      "correct_answers": ["EFS"]
+      "correct_answers": ["EFS"],
+      "explanation": "EFS (Encrypting File System) is a feature of Windows that allows users to encrypt individual files and folders on an NTFS file system. It provides file-level encryption to protect sensitive data."
     },
     {
       "question": "A system that uses public network (such as the Internet) as a means for creating private encrypted connections between remote locations is known as:",
       "options": ["WWAN", "VPN", "PAN", "VLAN"],
-      "correct_answers": ["VPN"]
+      "correct_answers": ["VPN"],
+      "explanation": "A VPN (Virtual Private Network) extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network."
     },
     {
       "question": "Which of the answers listed below refers to a security standard introduced to address the vulnerabilities found in WEP?",
       "options": ["TKIP", "AES", "WPA", "CCMP"],
-      "correct_answers": ["WPA"]
+      "correct_answers": ["WPA"],
+      "explanation": "WPA (Wi-Fi Protected Access) is a security standard for users of computing devices equipped with wireless Internet connections. It was developed by the Wi-Fi Alliance to address the security vulnerabilities of WEP."
     },
     {
       "question": "The term \"KEK\" refers to a type of cryptographic key often used in key management systems to add an additional layer of security when encrypting and decrypting other cryptographic keys.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A KEK (Key-Encrypting Key) is a cryptographic key that is used for the encryption or decryption of other keys. It adds an additional layer of security in key management systems."
     },
     {
       "question": "POP3 is used for:",
       "options": ["Name resolution", "Sending email messages", "File exchange", "Email retrieval"],
-      "correct_answers": ["Email retrieval"]
+      "correct_answers": ["Email retrieval"],
+      "explanation": "POP3 (Post Office Protocol version 3) is an application-layer Internet standard protocol used by local e-mail clients to retrieve e-mail from a remote server over a TCP/IP connection."
     },
     {
       "question": "Which cloud service model would provide the best solution for a web developer intending to create a web app?",
       "options": ["XaaS", "SaaS", "PaaS", "IaaS"],
-      "correct_answers": ["PaaS"]
+      "correct_answers": ["PaaS"],
+      "explanation": "PaaS (Platform as a Service) is a cloud computing service model that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app."
     },
     {
       "question": "Which of the following answers refers to a cryptographic hash function that has been widely used in the past but is now considered deprecated for security-sensitive applications due to known vulnerabilities?",
       "options": ["MD5", "SHA", "CRC", "HMAC"],
-      "correct_answers": ["MD5"]
+      "correct_answers": ["MD5"],
+      "explanation": "MD5 (Message Digest 5) is a widely used cryptographic hash function that produces a 128-bit hash value. However, it is now considered cryptographically broken and unsuitable for security-sensitive applications due to known collision vulnerabilities."
     },
     {
       "question": "Which of the answers listed below refers to a suite of protocols and technologies providing encryption, authentication, and data integrity for network traffic?",
       "options": ["TLS", "SSH", "IPsec", "VPN"],
-      "correct_answers": ["IPsec"]
+      "correct_answers": ["IPsec"],
+      "explanation": "IPsec (Internet Protocol Security) is a suite of protocols for securing Internet Protocol (IP) communications by authenticating and encrypting each IP packet of a communication session. It provides data confidentiality, integrity, and authenticity."
     },
     {
       "question": "A network protocol providing an alternative solution to the manual allocation of IP addresses is called:",
       "options": ["DNS", "SNMP", "NAT", "DHCP"],
-      "correct_answers": ["DHCP"]
+      "correct_answers": ["DHCP"],
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) is a network management protocol used on Internet Protocol (IP) networks for dynamically distributing network configuration parameters, such as IP addresses, to devices connected to the network."
     },
     {
       "question": "Which of the following regulations protects the privacy and personal data of the EU citizens?",
       "options": ["PHI", "HIPAA", "PCI DSS", "GDPR"],
-      "correct_answers": ["GDPR"]
+      "correct_answers": ["GDPR"],
+      "explanation": "GDPR (General Data Protection Regulation) is a regulation in EU law on data protection and privacy in the European Union and the European Economic Area. It aims to give individuals control over their personal data."
     },
     {
       "question": "Which of the answers listed below refers to a mechanical data storage medium type that relies on magnetic plates and moving parts for data storage and retrieval?",
       "options": ["RAM", "HDD", "NVMe", "SSD"],
-      "correct_answers": ["HDD"]
+      "correct_answers": ["HDD"],
+      "explanation": "HDD (Hard Disk Drive) is an electromechanical data storage device that stores and retrieves digital data using rapidly rotating platters coated with magnetic material. It is a mechanical storage medium."
     },
     {
       "question": "Which of the following terms refers to an environmental control system?",
       "options": ["SCADA", "HIPS", "TEMPEST", "HVAC"],
-      "correct_answers": ["HVAC"]
+      "correct_answers": ["HVAC"],
+      "explanation": "HVAC (Heating, Ventilation, and Air Conditioning) refers to an environmental control system that provides thermal comfort and acceptable indoor air quality. In data centers, it's crucial for maintaining optimal operating temperatures for equipment."
     },
     {
       "question": "A type of network connecting computers within a small geographical area such as a building or group of buildings is referred to as:",
       "options": ["PAN", "LAN", "MAN", "WAN"],
-      "correct_answers": ["LAN"]
+      "correct_answers": ["LAN"],
+      "explanation": "LAN (Local Area Network) is a computer network that interconnects computers within a limited area such as a residence, school, laboratory, university campus, or office building."
     },
     {
       "question": "Which of the solutions listed below hides the internal IP addresses by modifying IP address information in IP packet headers while in transit across a traffic routing device?",
       "options": ["QoS", "DHCP", "NAT", "DNS"],
-      "correct_answers": ["NAT"]
+      "correct_answers": ["NAT"],
+      "explanation": "NAT (Network Address Translation) is a method of remapping one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device. It is commonly used to hide internal IP addresses."
     },
     {
       "question": "Which of the following answers refers to a shared secret authentication method used in WPA, WPA2, and EAP?",
       "options": ["PSK", "802.1X", "SAE", "TKIP"],
-      "correct_answers": ["PSK"]
+      "correct_answers": ["PSK"],
+      "explanation": "PSK (Pre-Shared Key) is a shared secret that was previously shared between the two parties using some secure channel before it needs to be used. It is a common authentication method in WPA and WPA2 Personal modes."
     },
     {
       "question": "Copies of lost private encryption keys can be retrieved from a key escrow by RAs (i.e., individuals with access to key database and permission level allowing them to extract keys from escrow).",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Key escrow is a cryptographic technique that enables storing copies of encryption keys with a trusted third party. RAs (Recovery Agents) are authorized individuals who can retrieve these keys, ensuring that encrypted data can be decrypted even if the original key is lost."
     },
     {
       "question": "Which type of unsolicited messaging relies on text-based communication?",
       "options": ["VAM", "SPIM", "JMS", "SPIT"],
-      "correct_answers": ["SPIM"]
+      "correct_answers": ["SPIM"],
+      "explanation": "SPIM (Spam over Internet Messaging) is a type of unsolicited messaging that relies on text-based communication, similar to email spam but delivered through instant messaging platforms."
     },
     {
       "question": "Which of the answers listed below refers to a secure replacement for Telnet?",
       "options": ["CHAP", "FTP", "SNMP", "SSH"],
-      "correct_answers": ["SSH"]
+      "correct_answers": ["SSH"],
+      "explanation": "SSH (Secure Shell) is a cryptographic network protocol for operating network services securely over an unsecured network. It is widely used as a secure replacement for Telnet, which sends data in plaintext."
     },
     {
       "question": "Which of the following answers refers to a family of cryptographic hash functions used in a variety of security applications, including digital signatures, password storage, secure communications, and data integrity verification?",
       "options": ["RSA", "IDEA", "AES", "SHA"],
-      "correct_answers": ["SHA"]
+      "correct_answers": ["SHA"],
+      "explanation": "SHA (Secure Hash Algorithm) is a family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST). It is widely used for digital signatures, password storage, and data integrity verification."
     },
     {
       "question": "In the AAA security architecture, the process of granting or denying access to resources is known as:",
       "options": ["Auditing", "Authentication", "Authorization", "Accounting"],
-      "correct_answers": ["Authorization"]
+      "correct_answers": ["Authorization"],
+      "explanation": "Authorization is the process of granting or denying access to resources based on the identity of the user or device. It is the second step in the AAA (Authentication, Authorization, and Accounting) security architecture."
     },
     {
       "question": "Which of the terms listed below applies to the authentication process?",
       "options": ["MFA", "MMC", "MDM", "MFD"],
-      "correct_answers": ["MFA"]
+      "correct_answers": ["MFA"],
+      "explanation": "MFA (Multi-Factor Authentication) applies to the authentication process, requiring users to provide two or more verification factors to gain access to a resource. This enhances security by requiring multiple proofs of identity."
     },
     {
       "question": "Which of the following answers refer to NIPS? (Select 3 answers)",
@@ -139,52 +164,62 @@
         "Takes proactive measures to block or mitigate intrusion attempts",
         "Operates in an inline mode, actively intercepting and inspecting network traffic",
         "It can drop or reject network packets, terminate connections, or take other actions to stop the attack"
-      ]
+      ],
+      "explanation": "NIPS (Network Intrusion Prevention System) is an active security system that operates in an inline mode, actively intercepting and inspecting network traffic. It takes proactive measures to block or mitigate intrusion attempts by dropping or rejecting packets, terminating connections, or taking other actions."
     },
     {
       "question": "Which of the terms listed below refers to threat intelligence gathered from publicly available sources?",
       "options": ["IoC", "OSINT", "RFC", "CVE/NVD"],
-      "correct_answers": ["OSINT"]
+      "correct_answers": ["OSINT"],
+      "explanation": "OSINT (Open-Source Intelligence) refers to threat intelligence gathered from publicly available sources, such as news articles, social media, and public reports. It is a valuable source of information for cybersecurity professionals."
     },
     {
       "question": "Which of the following answers refers to a common PnP interface that allows a PC to communicate with peripherals and other devices?",
       "options": ["IDE", "PCIe", "USB", "eSATA"],
-      "correct_answers": ["USB"]
+      "correct_answers": ["USB"],
+      "explanation": "USB (Universal Serial Bus) is a common PnP (Plug and Play) interface that allows a PC to communicate with peripherals and other devices. It is widely used for connecting various devices like keyboards, mice, printers, and external storage."
     },
     {
       "question": "Which of the solutions listed below allows to check whether a digital certificate has been revoked?",
       "options": ["OCR", "CRL", "CSR", "OSPF"],
-      "correct_answers": ["CRL"]
+      "correct_answers": ["CRL"],
+      "explanation": "CRL (Certificate Revocation List) is a list of digital certificates that have been revoked by the Certificate Authority (CA) before their scheduled expiration date. It allows systems to check whether a digital certificate is still valid."
     },
     {
       "question": "A type of computer security solution that allows to define and enforce network access policies is called:",
       "options": ["NAT", "ACL", "NAC", "DLP"],
-      "correct_answers": ["NAC"]
+      "correct_answers": ["NAC"],
+      "explanation": "NAC (Network Access Control) is a type of computer security solution that allows to define and enforce network access policies. It authenticates and authorizes devices and users before granting them access to the network."
     },
     {
       "question": "Which of the following solutions alleviates the problem of the depleting IPv4 address space by allowing multiple hosts on the same private LAN to share a single public IP address?",
       "options": ["DNS", "APIPA", "NAT", "DHCP"],
-      "correct_answers": ["NAT"]
+      "correct_answers": ["NAT"],
+      "explanation": "NAT (Network Address Translation) alleviates the problem of depleting IPv4 address space by allowing multiple hosts on the same private LAN to share a single public IP address. It translates private IP addresses to public IP addresses and vice versa."
     },
     {
       "question": "Which of the answers listed below refers to an individual or role responsible for overseeing and ensuring compliance with data protection laws and policies within an organization?",
       "options": ["CTO", "DPO", "CIO", "CSO"],
-      "correct_answers": ["DPO"]
+      "correct_answers": ["DPO"],
+      "explanation": "DPO (Data Protection Officer) is an individual or role responsible for overseeing and ensuring compliance with data protection laws and policies within an organization, particularly under regulations like GDPR."
     },
     {
       "question": "Which of the following terms refers to an agreement that specifies performance requirements for a vendor?",
       "options": ["MSA", "SLA", "MOU", "SOW"],
-      "correct_answers": ["SLA"]
+      "correct_answers": ["SLA"],
+      "explanation": "SLA (Service Level Agreement) is a contractual agreement that specifies performance requirements for a vendor, outlining the quality, availability, and responsibilities of the service provided."
     },
     {
       "question": "A legal contract between the holder of confidential information and another person to whom that information is disclosed restricting that other person from disclosing the confidential information to any other party is referred to as:",
       "options": ["ISA", "NDA", "BPA", "SLA"],
-      "correct_answers": ["NDA"]
+      "correct_answers": ["NDA"],
+      "explanation": "NDA (Non-Disclosure Agreement) is a legal contract between two or more parties that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to or by third parties."
     },
     {
       "question": "Which of the answers listed below refers to a protocol designed to secure data transmitted over WLANs?",
       "options": ["SCP", "IPsec", "SSH", "WTLS"],
-      "correct_answers": ["WTLS"]
+      "correct_answers": ["WTLS"],
+      "explanation": "WTLS (Wireless Transport Layer Security) is a security layer used in Wireless Application Protocol (WAP) to provide privacy, data integrity, and authentication for wireless communication. It is designed to secure data transmitted over WLANs."
     }
   ]
 }

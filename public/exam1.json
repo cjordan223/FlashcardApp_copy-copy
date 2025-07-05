@@ -14,7 +14,8 @@
         "Sometimes called logical security controls",
         "Executed by computer systems (instead of people)",
         "Implemented with technology"
-      ]
+      ],
+      "explanation": "Technical security controls, also known as logical controls, are safeguards implemented through technology. They are executed by computer systems to protect data and systems, as opposed to administrative or physical controls, which involve people and physical barriers."
     },
     {
       "question": "Which of the answers listed below refer to examples of technical security controls? (Select 3 answers)",
@@ -30,7 +31,8 @@
         "Encryption",
         "IDSs",
         "Firewalls"
-      ]
+      ],
+      "explanation": "Encryption, Intrusion Detection Systems (IDSs), and firewalls are all examples of technical security controls. They are technologies used to protect data and systems. Security audits and organizational security policies are managerial controls, while configuration management is an operational control."
     },
     {
       "question": "Which of the following answers refer to the characteristic features of managerial security controls? (Select 3 answers)",
@@ -46,7 +48,8 @@
         "Also known as administrative controls",
         "Focused on reducing the risk of security incidents",
         "Documented in written policies"
-      ]
+      ],
+      "explanation": "Managerial security controls, or administrative controls, are high-level policies and procedures designed to manage and reduce risk. They are documented in writing and guide the organization's security practices."
     },
     {
       "question": "Examples of managerial security controls include: (Select 3 answers)",
@@ -61,7 +64,8 @@
         "Organizational security policy",
         "Risk assessments",
         "Security awareness training"
-      ]
+      ],
+      "explanation": "Organizational security policies, risk assessments, and security awareness training are all examples of managerial controls. They are high-level controls that are not implemented by technology but by people and processes."
     },
     {
       "question": "Which of the answers listed below can be used to describe operational security controls? (Select 3 answers)",
@@ -77,7 +81,8 @@
         "Focused on the day-to-day procedures of an organization",
         "Used to ensure that the equipment continues to work as specified",
         "Primarily implemented and executed by people (as opposed to computer systems)"
-      ]
+      ],
+      "explanation": "Operational security controls are the day-to-day procedures that an organization follows to ensure that security policies are implemented correctly. They are primarily executed by people."
     },
     {
       "question": "Which of the following examples fall into the category of operational security controls? (Select 3 answers)",
@@ -92,7 +97,8 @@
         "Configuration management",
         "System backups",
         "Patch management"
-      ]
+      ],
+      "explanation": "Configuration management, system backups, and patch management are all examples of operational controls. They are day-to-day tasks that are performed to maintain the security of systems."
     },
     {
       "question": "Which of the answers listed below refers to security controls designed to deter, detect, and prevent unauthorized access, theft, damage, or destruction of material assets?",
@@ -104,7 +110,8 @@
       ],
       "correct_answers": [
         "Physical security controls"
-      ]
+      ],
+      "explanation": "Physical security controls are measures taken to protect the physical assets of an organization, such as buildings, equipment, and data centers."
     },
     {
       "question": "Which of the following examples do not fall into the category of physical security controls? (Select 3 answers)",
@@ -121,7 +128,8 @@
         "Data backups",
         "Firewalls",
         "Asset management"
-      ]
+      ],
+      "explanation": "Data backups are an operational control, firewalls are a technical control, and asset management is a managerial control. The other options are all examples of physical security controls."
     },
     {
       "question": "What are the examples of preventive security controls? (Select 3 answers)",
@@ -137,7 +145,8 @@
         "Encryption",
         "Firewalls",
         "AV software"
-      ]
+      ],
+      "explanation": "Preventive security controls are designed to prevent security incidents from happening in the first place. Encryption, firewalls, and antivirus software are all examples of preventive controls."
     },
     {
       "question": "Examples of deterrent security controls include: (Select 3 answers)",
@@ -153,7 +162,8 @@
         "Warning signs",
         "Lighting",
         "Fencing/Bollards"
-      ]
+      ],
+      "explanation": "Deterrent security controls are designed to discourage attackers from attempting to breach security. Warning signs, lighting, and fencing are all examples of deterrent controls."
     },
     {
       "question": "Which of the answers listed below refer(s) to detective security control(s)? (Select all that apply)",
@@ -172,7 +182,8 @@
         "CCTV",
         "IDS",
         "Vulnerability scanning"
-      ]
+      ],
+      "explanation": "Detective security controls are designed to detect security incidents after they have occurred. Log monitoring, security audits, CCTV, IDSs, and vulnerability scanning are all examples of detective controls."
     },
     {
       "question": "Which of the following answers refer(s) to corrective security control(s)? (Select all that apply)",
@@ -188,7 +199,8 @@
         "Applying software updates and patches to fix vulnerabilities",
         "Developing and implementing IRPs to respond to and recover from security incidents",
         "Activating and executing DRPs to restore operations after a major incident"
-      ]
+      ],
+      "explanation": "Corrective security controls are designed to correct the damage caused by a security incident. Recovering data from backups, applying patches, and implementing incident response plans are all examples of corrective controls."
     },
     {
       "question": "Which of the answers listed below refer(s) to compensating security control(s)? (Select all that apply)",
@@ -204,67 +216,80 @@
         "MFA",
         "Application sandboxing",
         "Network segmentation"
-      ]
+      ],
+      "explanation": "Compensating security controls are alternative controls that are put in place when a primary control cannot be used. For example, if a firewall cannot be used, network segmentation can be used to compensate."
     },
     {
       "question": "The term \"Directive security controls\" refers to the category of security controls that are implemented through policies and procedures.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Directive security controls are a type of administrative control that provides guidance to employees on how to act in certain situations. They are implemented through policies and procedures."
     },
     {
       "question": "Which of the following terms fall into the category of directive security controls? (Select 2 answers)",
       "options": ["IRP", "AUP", "IDS", "MFA", "IPS"],
-      "correct_answers": ["IRP", "AUP"]
+      "correct_answers": ["IRP", "AUP"],
+      "explanation": "An Incident Response Plan (IRP) and an Acceptable Use Policy (AUP) are both examples of directive security controls. They provide guidance to employees on how to respond to security incidents and how to use company resources."
     },
     {
       "question": "Which of the terms listed below can be used to describe the basic principles of information security?",
       "options": ["PKI", "AAA", "GDPR", "CIA"],
-      "correct_answers": ["CIA"]
+      "correct_answers": ["CIA"],
+      "explanation": "The CIA triad (Confidentiality, Integrity, and Availability) is a model that describes the three basic principles of information security."
     },
     {
       "question": "The term \"Non-repudiation\" describes the inability to deny responsibility for performing a specific action. In the context of data security, non-repudiation ensures data confidentiality, provides proof of data integrity, and proof of data origin.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Non-repudiation is the assurance that someone cannot deny something. In the context of data security, it provides proof of origin, integrity, and delivery of data."
     },
     {
       "question": "Which of the following best applies to the concept of non-repudiation?",
       "options": ["Digital certificate", "MFA", "Hashing", "Encryption"],
-      "correct_answers": ["Digital certificate"]
+      "correct_answers": ["Digital certificate"],
+      "explanation": "A digital certificate is a digital file that is used to prove the identity of a person or device. It is used to provide non-repudiation by ensuring that the sender of a message cannot deny sending it."
     },
     {
       "question": "Which type of user account violates the concept of non-repudiation?",
       "options": ["Standard user account", "Shared account", "Guest user account", "Service account"],
-      "correct_answers": ["Shared account"]
+      "correct_answers": ["Shared account"],
+      "explanation": "A shared account is an account that is used by multiple people. This violates the concept of non-repudiation because it is impossible to know who performed a specific action."
     },
     {
       "question": "Which part of the AAA security architecture deals with the verification of the identity of a person or process?",
       "options": ["Authentication", "Authorization", "Accounting"],
-      "correct_answers": ["Authentication"]
+      "correct_answers": ["Authentication"],
+      "explanation": "Authentication is the process of verifying the identity of a user or device. It is the first step in the AAA security architecture."
     },
     {
       "question": "In the AAA security architecture, the process of granting or denying access to resources is known as:",
       "options": ["Authentication", "Authorization", "Accounting"],
-      "correct_answers": ["Authorization"]
+      "correct_answers": ["Authorization"],
+      "explanation": "Authorization is the process of granting or denying access to resources based on the identity of the user or device. It is the second step in the AAA security architecture."
     },
     {
       "question": "In the AAA security architecture, the process of tracking accessed services and logging resource consumption is called:",
       "options": ["Authentication", "Authorization", "Accounting"],
-      "correct_answers": ["Accounting"]
+      "correct_answers": ["Accounting"],
+      "explanation": "Accounting is the process of tracking the resources that a user or device has accessed. It is the third step in the AAA security architecture."
     },
     {
       "question": "Which of the following solutions provide(s) the AAA functionality? (Select all that apply)",
       "options": ["CHAP", "TACACS+", "PAP", "RADIUS", "MS-CHAP"],
-      "correct_answers": ["CHAP", "TACACS+", "PAP", "RADIUS", "MS-CHAP"]
+      "correct_answers": ["CHAP", "TACACS+", "PAP", "RADIUS", "MS-CHAP"],
+      "explanation": "CHAP, TACACS+, PAP, RADIUS, and MS-CHAP are all protocols that can be used to provide AAA functionality."
     },
     {
       "question": "In the context of the AAA framework, common methods for authenticating people include: (Select 3 answers)",
       "options": ["IP addresses", "Usernames and passwords", "MAC addresses", "Biometrics", "MFA"],
-      "correct_answers": ["Usernames and passwords", "Biometrics", "MFA"]
+      "correct_answers": ["Usernames and passwords", "Biometrics", "MFA"],
+      "explanation": "Usernames and passwords, biometrics, and multi-factor authentication (MFA) are all common methods for authenticating people."
     },
     {
       "question": "Which of the answers listed below refer to common methods of device authentication used within the AAA framework? (Select 3 answers)",
       "options": ["Usernames and passwords", "Digital certificates", "IP addresses", "MFA", "Biometric authentication", "MAC addresses"],
-      "correct_answers": ["Digital certificates", "MFA", "MAC addresses"]
+      "correct_answers": ["Digital certificates", "MFA", "MAC addresses"],
+      "explanation": "Digital certificates, multi-factor authentication (MFA), and MAC addresses are all common methods for authenticating devices."
     }
   ]
 }

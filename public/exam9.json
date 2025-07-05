@@ -3,12 +3,14 @@
     {
       "question": "As opposed to simple DoS attacks that usually are performed from a single system, a DDoS attack uses multiple compromised computer systems to perform the attack against its target. The intermediary systems that are used as a platform for the attack (often referred to as zombies, and collectively as a botnet) are the secondary victims of the DDoS attack.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A DDoS (Distributed Denial of Service) attack uses a network of compromised systems (a botnet) to overwhelm a target with traffic, making it unavailable to legitimate users."
     },
     {
       "question": "A type of DDoS attack where an attacker exploits vulnerabilities in certain services or protocols to generate responses that are much larger than the original request is referred to as:",
       "options": ["Amplified DDoS attack", "Volumetric DDoS attack", "Reflected DDoS attack", "Application DDoS attack"],
-      "correct_answers": ["Amplified DDoS attack"]
+      "correct_answers": ["Amplified DDoS attack"],
+      "explanation": "An amplification attack is a type of DDoS attack where the attacker uses a small request to generate a much larger response, amplifying the amount of traffic sent to the target."
     },
     {
       "question": "What defines a reflected DDoS attack?",
@@ -18,62 +20,74 @@
         "Utilizing third-party servers to reflect and amplify attack traffic towards the target",
         "Targeting vulnerabilities in applications or web servers to exhaust resources"
       ],
-      "correct_answers": ["Utilizing third-party servers to reflect and amplify attack traffic towards the target"]
+      "correct_answers": ["Utilizing third-party servers to reflect and amplify attack traffic towards the target"],
+      "explanation": "A reflected DDoS attack involves sending requests to third-party servers with a spoofed source IP address (the target's IP). The servers then send their responses to the target, overwhelming it with traffic."
     },
     {
       "question": "A DNS amplification attack is a type of DDoS attack wherein an attacker sends a small, specially crafted DNS query containing a spoofed IP address (the victim’s IP) to a compromised DNS server. Upon receiving the query, the DNS server generates a much larger response packet, which is then sent to the victim's IP address, causing potential disruption due to overwhelming traffic.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "This statement accurately describes a DNS amplification attack, a common type of reflected and amplified DDoS attack."
     },
     {
       "question": "Which of the answers listed below refers to a cyberattack technique that relies on providing false DNS information to a DNS resolver for the purpose of redirecting or manipulating the resolution of domain names to malicious IP addresses?",
       "options": ["DNS spoofing", "Credential stuffing", "URL hijacking", "Domain hijacking"],
-      "correct_answers": ["DNS spoofing"]
+      "correct_answers": ["DNS spoofing"],
+      "explanation": "DNS spoofing, also known as DNS cache poisoning, is an attack where an attacker provides false DNS information to a DNS resolver, causing it to redirect users to malicious websites."
     },
     {
       "question": "Remapping a domain name to a rogue IP address is an example of what kind of exploit?",
       "options": ["URL hijacking", "DNS cache poisoning", "Domain hijacking", "ARP poisoning"],
-      "correct_answers": ["DNS cache poisoning"]
+      "correct_answers": ["DNS cache poisoning"],
+      "explanation": "DNS cache poisoning is the act of corrupting a DNS cache with a rogue IP address, causing users to be redirected to a malicious website."
     },
     {
       "question": "When domain registrants due to unlawful actions of third parties lose control over their domain names, they fall victim to:",
       "options": ["Sybil attack", "Domain hijacking", "Typosquatting", "URL hijacking"],
-      "correct_answers": ["Domain hijacking"]
+      "correct_answers": ["Domain hijacking"],
+      "explanation": "Domain hijacking is the act of stealing a domain name from its rightful owner. This can be done by gaining unauthorized access to the domain registrar's control panel."
     },
     {
       "question": "Which of the following can be classified as malicious activity indicator on a wireless network?",
       "options": ["Rogue AP", "Jump server", "Unmanaged switch", "Network tap"],
-      "correct_answers": ["Rogue AP"]
+      "correct_answers": ["Rogue AP"],
+      "explanation": "A rogue access point (AP) is an unauthorized access point that is connected to a network. It can be used by attackers to gain unauthorized access to the network."
     },
     {
       "question": "The practice of gaining unauthorized access to a Bluetooth device is known as:",
       "options": ["Phishing", "Bluejacking", "Smishing", "Bluesnarfing"],
-      "correct_answers": ["Bluesnarfing"]
+      "correct_answers": ["Bluesnarfing"],
+      "explanation": "Bluesnarfing is the unauthorized access of information from a wireless device through a Bluetooth connection. It allows access to calendars, contact lists, emails and text messages."
     },
     {
       "question": "A wireless disassociation attack is a type of: (Select 2 answers)",
       "options": ["Downgrade attack", "Deauthentication attack", "Brute-force attack", "DoS attack", "Cryptographic attack"],
-      "correct_answers": ["Deauthentication attack", "DoS attack"]
+      "correct_answers": ["Deauthentication attack", "DoS attack"],
+      "explanation": "A wireless disassociation attack is a type of denial-of-service (DoS) attack where an attacker sends a disassociation frame to a wireless client, causing it to disconnect from the network."
     },
     {
       "question": "A wireless jamming attack is a type of:",
       "options": ["Cryptographic attack", "DoS attack", "Brute-force attack", "Downgrade attack"],
-      "correct_answers": ["DoS attack"]
+      "correct_answers": ["DoS attack"],
+      "explanation": "A wireless jamming attack is a type of denial-of-service (DoS) attack where an attacker uses a radio transmitter to disrupt wireless communications."
     },
     {
       "question": "Which of the answers listed below refers to RFID vulnerability?",
       "options": ["Spoofing", "Eavesdropping", "RFID cloning", "Data interception", "Replay attack", "DoS attack", "All of the above"],
-      "correct_answers": ["All of the above"]
+      "correct_answers": ["All of the above"],
+      "explanation": "RFID systems are vulnerable to a variety of attacks, including spoofing, eavesdropping, cloning, data interception, replay attacks, and denial-of-service attacks."
     },
     {
       "question": "Which of the following is a vulnerability characteristic to NFC communication?",
       "options": ["Eavesdropping", "Data interception", "Replay attacks", "DoS attacks", "All of the above"],
-      "correct_answers": ["All of the above"]
+      "correct_answers": ["All of the above"],
+      "explanation": "NFC (Near Field Communication) is vulnerable to a variety of attacks, including eavesdropping, data interception, replay attacks, and denial-of-service attacks."
     },
     {
       "question": "Which wireless attack focuses on exploiting vulnerabilities found in WEP?",
       "options": ["IV attack", "War driving", "SSID spoofing", "Bluejacking"],
-      "correct_answers": ["IV attack"]
+      "correct_answers": ["IV attack"],
+      "explanation": "An IV (Initialization Vector) attack is a type of attack that exploits vulnerabilities in the WEP protocol to recover the WEP key."
     },
     {
       "question": "Which of the statements listed below can be used to describe the characteristics of an on-path attack? (Select all that apply)",
@@ -87,12 +101,14 @@
         "An on-path attack is also known as MITM attack",
         "Attackers place themselves on the communication route between two devices",
         "Attackers intercept or modify packets sent between two communicating devices"
-      ]
+      ],
+      "explanation": "An on-path attack, also known as a man-in-the-middle (MITM) attack, is a type of attack where an attacker intercepts and relays messages between two parties who believe they are communicating directly with each other."
     },
     {
       "question": "A network replay attack occurs when an attacker captures sensitive user data and resends it to the receiver with the intent of gaining unauthorized access or tricking the receiver into unauthorized operations.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A replay attack is a form of network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed. This is carried out either by the originator or by an adversary who intercepts the data and re-transmits it."
     },
     {
       "question": "What are the characteristic features of a session ID? (Select all that apply)",
@@ -109,32 +125,38 @@
         "A unique identifier assigned by the website to a specific user",
         "A piece of data that can be stored in a cookie, or embedded as a URL parameter",
         "Stored on the client side (in the user's browser) and sent to the server with each request"
-      ]
+      ],
+      "explanation": "A session ID is a unique number that a web server assigns to a specific user for the duration of that user's visit (session). The session ID can be stored as a cookie, form field, or URL."
     },
     {
       "question": "In a session replay attack, an attacker intercepts and steals a valid session ID of a user and resends it to the server with the intent of gaining unauthorized access to the user's session or tricking the server into unauthorized operations on behalf of the legitimate user.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A session replay attack is a type of attack where an attacker intercepts and replays a valid session ID to gain unauthorized access to a user's session."
     },
     {
       "question": "A technique that allows an attacker to authenticate to a remote server without extracting cleartext password from a digest is called:",
       "options": ["Pass the hash", "Replay attack", "Brute-force attack", "Spraying attack"],
-      "correct_answers": ["Pass the hash"]
+      "correct_answers": ["Pass the hash"],
+      "explanation": "A pass-the-hash attack is a type of attack where an attacker captures a password hash (as opposed to the password itself) and then passes it to the server for authentication."
     },
     {
       "question": "What type of action allows an attacker to exploit the XSS vulnerability?",
       "options": ["Code injection", "Privilege escalation", "Session hijacking", "Packet sniffing"],
-      "correct_answers": ["Code injection"]
+      "correct_answers": ["Code injection"],
+      "explanation": "Cross-site scripting (XSS) is a type of code injection attack where an attacker injects malicious code into a website. This code is then executed by the victim's browser, which can allow the attacker to steal information or to take control of the victim's account."
     },
     {
       "question": "Which of the following exploits targets a protocol used for managing and accessing networked resources?",
       "options": ["CSRF/XSRF attack", "XML injection attack", "LDAP injection attack", "SQL injection attack"],
-      "correct_answers": ["LDAP injection attack"]
+      "correct_answers": ["LDAP injection attack"],
+      "explanation": "An LDAP injection attack is a type of attack that exploits vulnerabilities in the LDAP protocol to gain unauthorized access to a directory service."
     },
     {
       "question": "Which type of exploit targets web applications that generate content used to store and transport data?",
       "options": ["SQL injection attack", "CSRF/XSRF attack", "XML injection attack", "LDAP injection attack"],
-      "correct_answers": ["XML injection attack"]
+      "correct_answers": ["XML injection attack"],
+      "explanation": "An XML injection attack is a type of attack that exploits vulnerabilities in web applications that use XML to store and transport data. This can allow an attacker to gain unauthorized access to data or to execute arbitrary code on the system."
     },
     {
       "question": "Which of the following facilitate(s) privilege escalation attacks? (Select all that apply)",
@@ -149,7 +171,8 @@
         "System/application vulnerabilities",
         "System/application misconfigurations",
         "Social engineering techniques"
-      ]
+      ],
+      "explanation": "Privilege escalation attacks are attacks that allow an attacker to gain a higher level of privilege on a system. This can be done by exploiting system or application vulnerabilities, by taking advantage of system or application misconfigurations, or by using social engineering techniques."
     },
     {
       "question": "Which of the statements listed below apply to the CSRF/XSRF attack? (Select 3 answers)",
@@ -165,12 +188,14 @@
         "Exploits the trust a website has in the user's web browser",
         "A user is tricked by an attacker into submitting unauthorized web requests",
         "Website executes attacker's requests"
-      ]
+      ],
+      "explanation": "A CSRF (Cross-Site Request Forgery) attack is a type of attack where an attacker tricks a user into submitting an unauthorized web request. This can be done by sending the user a malicious link or by embedding a malicious script in a website."
     },
     {
       "question": "A dot-dot-slash attack is also referred to as:",
       "options": ["Disassociation attack", "On-path attack", "Directory traversal attack", "Downgrade attack"],
-      "correct_answers": ["Directory traversal attack"]
+      "correct_answers": ["Directory traversal attack"],
+      "explanation": "A directory traversal attack is a type of attack where an attacker uses the \"../\" sequence to access files and directories that are stored outside the web root folder. This can be used to gain unauthorized access to sensitive information or to execute arbitrary code on the system."
     }
   ]
 }

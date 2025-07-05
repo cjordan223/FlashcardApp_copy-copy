@@ -3,7 +3,8 @@
     {
       "question": "Which of the answers listed below refers to a security vulnerability that enables inserting malicious code into input fields, such as search bars or login forms, to execute unauthorized commands on a database?",
       "options": ["RCE", "SQLi", "XSS", "CSRF"],
-      "correct_answers": ["SQLi"]
+      "correct_answers": ["SQLi"],
+      "explanation": "SQL injection (SQLi) is a code injection technique that might destroy your database. SQL injection is one of the most common web hacking techniques. SQL injection is the placement of malicious code in SQL statements, via web page input."
     },
     {
       "question": "Which of the following indicates an SQL injection attack attempt?",
@@ -13,7 +14,8 @@
         "DROP TABLE itemDB;",
         "SELECT * FROM users WHERE email = 'example@example.com' AND password = '';"
       ],
-      "correct_answers": ["SELECT * FROM users WHERE userName = 'Alice' AND password = '' OR '1' = '1';"]
+      "correct_answers": ["SELECT * FROM users WHERE userName = 'Alice' AND password = '' OR '1' = '1';"],
+      "explanation": "The query \"SELECT * FROM users WHERE userName = 'Alice' AND password = '' OR '1' = '1';\" is a classic example of an SQL injection attack. The \"OR '1' = '1'\" part of the query will always be true, so the query will return all rows from the users table, regardless of the password."
     },
     {
       "question": "Which of the answers listed below describe the characteristics of a cross-site scripting attack? (Select 3 answers)",
@@ -29,17 +31,20 @@
         "Exploits the trust a user's web browser has in a website",
         "A malicious script is injected into a trusted website",
         "User's browser executes attacker's script"
-      ]
+      ],
+      "explanation": "Cross-site scripting (XSS) is a type of security vulnerability typically found in web applications. XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass access controls such as the same-origin policy."
     },
     {
       "question": "Which of the following answers refers to a type of software embedded into a hardware chip?",
       "options": ["Firmware", "Middleware", "Device driver", "Machine code"],
-      "correct_answers": ["Firmware"]
+      "correct_answers": ["Firmware"],
+      "explanation": "Firmware is a specific class of computer software that provides the low-level control for a device's specific hardware. Firmware, such as the BIOS of a personal computer, may contain basic functions of a device, and may provide services to higher-level software such as operating systems."
     },
     {
       "question": "Which of the terms listed below refers to a product's life-cycle management phase in which a product is no longer being produced or sold?",
       "options": ["EOS", "EOF", "EOL", "EOA"],
-      "correct_answers": ["EOL"]
+      "correct_answers": ["EOL"],
+      "explanation": "EOL (End-of-Life) is a term used by a vendor to indicate that a product is at the end of its useful life from the vendor's perspective. After this date, the vendor will no longer be marketing, selling, or updating the product."
     },
     {
       "question": "What is the main vulnerability related to legacy hardware?",
@@ -49,17 +54,20 @@
         "Worn-out physical components",
         "Lack of skilled personnel to run it and maintain it"
       ],
-      "correct_answers": ["Lack of security updates and patches"]
+      "correct_answers": ["Lack of security updates and patches"],
+      "explanation": "Legacy hardware is often no longer supported by the manufacturer, which means that it does not receive security updates or patches. This makes it vulnerable to attack."
     },
     {
       "question": "The term \"VM escape\" refers to the process of breaking out of the boundaries of a guest operating system installation to access the primary hypervisor controlling all the virtual machines on the host machine.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "VM escape is a security exploit that allows a program to break out of a virtual machine and access the host operating system. This can be a serious security vulnerability, as it can allow an attacker to gain control of the host system."
     },
     {
       "question": "Which of the following answers refers to a virtualization-related vulnerability where virtualized assets allocated to one VM are improperly isolated and can be accessed or compromised by another VM?",
       "options": ["Resource reuse", "Privilege escalation", "Resource exhaustion", "Concurrent session usage"],
-      "correct_answers": ["Resource reuse"]
+      "correct_answers": ["Resource reuse"],
+      "explanation": "Resource reuse is a vulnerability that can occur in virtualized environments when resources are not properly isolated between virtual machines. This can allow an attacker to access or compromise data on another virtual machine."
     },
     {
       "question": "Which of the answers listed below refers to a cloud-related vulnerability type?",
@@ -71,52 +79,62 @@
         "Shadow IT / Malicious insiders",
         "All of the above"
       ],
-      "correct_answers": ["All of the above"]
+      "correct_answers": ["All of the above"],
+      "explanation": "All of the listed options are common cloud-related vulnerabilities. It is important to be aware of these vulnerabilities and to take steps to mitigate them."
     },
     {
       "question": "The practice of installing mobile apps from websites and app stores other than the official marketplaces is referred to as:",
       "options": ["Jailbreaking", "Rooting", "Sideloading", "Carrier unlocking"],
-      "correct_answers": ["Sideloading"]
+      "correct_answers": ["Sideloading"],
+      "explanation": "Sideloading is the process of installing an application package in APK format onto an Android device, or an IPA package onto an iOS device. This is usually done by downloading the package from a website or a third-party app store."
     },
     {
       "question": "Which of the following terms is used to describe the process of removing software restrictions imposed by Apple on its iOS operating system?",
       "options": ["Sideloading", "Carrier unlocking", "Rooting", "Jailbreaking"],
-      "correct_answers": ["Jailbreaking"]
+      "correct_answers": ["Jailbreaking"],
+      "explanation": "Jailbreaking is the process of removing software restrictions imposed by Apple on iOS, iPadOS, tvOS, and watchOS. It gives users root access to the operating system and allows them to install software that is not available through the App Store."
     },
     {
       "question": "The term \"Rooting\" refers to the capability of gaining administrative access to the operating system and system applications on:",
       "options": ["Android devices", "iOS devices", "Microsoft devices", "All types of mobile devices"],
-      "correct_answers": ["Android devices"]
+      "correct_answers": ["Android devices"],
+      "explanation": "Rooting is the process of allowing users of smartphones, tablets and other devices running the Android mobile operating system to attain privileged control (known as root access) over various Android subsystems."
     },
     {
       "question": "A type of attack aimed at exploiting a vulnerability that is present in already released software but unknown to the software developer is known as:",
       "options": ["On-path attack", "IV attack", "Zero-day attack", "Replay attack"],
-      "correct_answers": ["Zero-day attack"]
+      "correct_answers": ["Zero-day attack"],
+      "explanation": "A zero-day attack is an attack that exploits a previously unknown vulnerability in a computer application or operating system. The term \"zero-day\" refers to the fact that the developer has had zero days to fix the vulnerability."
     },
     {
       "question": "Malware that restricts access to a computer system by encrypting files or locking the entire system down until the user performs the requested action is called:",
       "options": ["Grayware", "Adware", "Ransomware", "Spyware"],
-      "correct_answers": ["Ransomware"]
+      "correct_answers": ["Ransomware"],
+      "explanation": "Ransomware is a type of malware that threatens to publish the victim's data or perpetually block access to it unless a ransom is paid. While some simple ransomware may lock the system in a way which is not difficult for a knowledgeable person to reverse, more advanced malware uses a technique called cryptoviral extortion."
     },
     {
       "question": "A Trojan horse is a type of software that performs harmful actions under the guise of a legitimate and useful program. The most characteristic feature of a Trojan horse is that while it may function as a legitimate program and possess all the expected functionalities, it also contains a concealed portion of malicious code that the user is unaware of.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A Trojan horse is a type of malware that is often disguised as legitimate software. Trojans can be employed by cyber-thieves and hackers trying to gain access to users' systems. Users are typically tricked by some form of social engineering into loading and executing Trojans on their systems."
     },
     {
       "question": "Which type of Trojan enables unauthorized remote access to a compromised system?",
       "options": ["APT", "RAT", "MaaS", "PUP"],
-      "correct_answers": ["RAT"]
+      "correct_answers": ["RAT"],
+      "explanation": "A RAT (Remote Access Trojan) is a type of malware that allows an attacker to remotely control a compromised computer. RATs can be used to steal data, install other malware, or to launch attacks on other computers."
     },
     {
       "question": "A standalone malicious computer program that typically propagates itself over a computer network to adversely affect system resources and network bandwidth is referred to as:",
       "options": ["Worm", "Fileless virus", "Bot", "Logic bomb"],
-      "correct_answers": ["Worm"]
+      "correct_answers": ["Worm"],
+      "explanation": "A computer worm is a standalone malware computer program that replicates itself in order to spread to other computers. It often uses a computer network to spread itself, relying on security failings on the target computer to access it."
     },
     {
       "question": "Malicious software collecting information about users without their knowledge/consent is known as:",
       "options": ["Cryptomalware", "Adware", "Ransomware", "Spyware"],
-      "correct_answers": ["Spyware"]
+      "correct_answers": ["Spyware"],
+      "explanation": "Spyware is a type of malware that is installed on a computer without the user's knowledge. It is designed to collect information about the user, such as their browsing habits, and to send that information to a third party."
     },
     {
       "question": "Which of the answers listed below refer to the characteristic features of bloatware? (Select 3 answers)",
@@ -131,7 +149,8 @@
         "Pre-installed on a device by the device manufacturer or retailer",
         "Generally considered undesirable due to negative impact on system performance",
         "Installed without user consent"
-      ]
+      ],
+      "explanation": "Bloatware is software that is pre-installed on a new computer or mobile device. It is often undesirable because it can slow down the device and take up valuable storage space."
     },
     {
       "question": "Which of the following answers refer to the characteristics of a PUP? (Select 3 answers)",
@@ -146,7 +165,8 @@
         "Often installed without clear user consent",
         "Can be pre-installed, downloaded, or bundled with other software",
         "Generally considered undesirable due to negative impact on system performance, privacy, and security"
-      ]
+      ],
+      "explanation": "A PUP (Potentially Unwanted Program) is a program that may be unwanted, despite the user having consented to download it. PUPs include spyware, adware, and dialers, and are often downloaded in conjunction with a program that the user wants."
     },
     {
       "question": "Which of the statements listed below apply to the definition of a computer virus? (Select 3 answers)",
@@ -162,27 +182,32 @@
         "A self-replicating computer program containing malicious segment",
         "Malware that typically requires its host application to be run to make the virus active",
         "Malicious code that typically attaches itself to an application program or other executable component"
-      ]
+      ],
+      "explanation": "A computer virus is a type of computer program that, when executed, replicates itself by modifying other computer programs and inserting its own code. When this replication succeeds, the affected areas are then said to be \"infected\" with a computer virus."
     },
     {
       "question": "Which of the following is an example of spyware?",
       "options": ["Keylogger", "Vulnerability scanner", "Computer worm", "Packet sniffer"],
-      "correct_answers": ["Keylogger"]
+      "correct_answers": ["Keylogger"],
+      "explanation": "A keylogger is a type of spyware that records the keys struck on a keyboard, typically covertly, so that the person using the keyboard is unaware that their actions are being monitored."
     },
     {
       "question": "Malicious code activated by a specific event is called:",
       "options": ["Cryptomalware", "Backdoor", "Rootkit", "Logic bomb"],
-      "correct_answers": ["Logic bomb"]
+      "correct_answers": ["Logic bomb"],
+      "explanation": "A logic bomb is a piece of code intentionally inserted into a software system that will set off a malicious function when specified conditions are met. For example, a programmer may hide a piece of code that starts deleting files, should they ever be terminated from the company."
     },
     {
       "question": "Which of the following answers refers to a collection of software tools used by a hacker to mask intrusion and obtain administrator-level access to a computer or computer network?",
       "options": ["Rootkit", "Spyware", "Backdoor", "Trojan"],
-      "correct_answers": ["Rootkit"]
+      "correct_answers": ["Rootkit"],
+      "explanation": "A rootkit is a collection of computer software, typically malicious, designed to enable access to a computer or an area of its software that is not otherwise allowed (for example, to an unauthorized user) and often masks its existence or the existence of other software."
     },
     {
       "question": "The term \"RFID cloning\" refers to copying the data stored on any RFID-enabled device (including tags, cards, key fobs, implants, and other objects embedded with RFID technology) onto another RFID-enabled device, which then can be read and used in the same way as the original tag. While RFID cloning can be utilized for legitimate purposes, such as replicating important tags for backup and testing purposes, it also poses significant security risk, as duplicate tags can potentially be used for gaining unauthorized access or unauthorized information disclosure.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "RFID cloning is the process of creating a copy of an RFID tag. This can be done for legitimate purposes, such as creating a backup of a tag, or for malicious purposes, such as creating a fake tag to gain unauthorized access to a system."
     }
   ]
 }

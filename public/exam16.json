@@ -3,122 +3,146 @@
     {
       "question": "Which of the following answers refers to a deprecated wireless authentication protocol developed by Cisco?",
       "options": ["PEAP", "EAP-TTLS", "LEAP", "EAP-TLS"],
-      "correct_answers": ["LEAP"]
+      "correct_answers": ["LEAP"],
+      "explanation": "LEAP (Lightweight Extensible Authentication Protocol) is a deprecated wireless authentication protocol that was developed by Cisco. It has been replaced by more secure protocols, such as PEAP and EAP-TLS."
     },
     {
       "question": "Which of the answers listed below refers to an open standard wireless network authentication protocol that enhances security by encapsulating authentication process within an encrypted TLS tunnel?",
       "options": ["PEAP", "EAP", "LEAP", "RADIUS"],
-      "correct_answers": ["PEAP"]
+      "correct_answers": ["PEAP"],
+      "explanation": "PEAP (Protected Extensible Authentication Protocol) is an open standard wireless network authentication protocol that enhances security by encapsulating the authentication process within an encrypted TLS tunnel."
     },
     {
       "question": "Which of the programming aspects listed below are critical in the secure application development process? (Select 2 answers)",
       "options": ["Patch management", "Input validation", "Password protection", "Error and exception handling", "Application whitelisting"],
-      "correct_answers": ["Input validation", "Error and exception handling"]
+      "correct_answers": ["Input validation", "Error and exception handling"],
+      "explanation": "Input validation and error and exception handling are two of the most critical aspects of secure application development. Input validation helps to prevent attacks such as SQL injection and cross-site scripting, while error and exception handling helps to prevent attackers from gaining information about the application."
     },
     {
       "question": "A situation in which a web form field accepts data other than expected (e.g., server commands) is an example of:",
       "options": ["Zero-day vulnerability", "Improper input validation", "Default configuration", "Improper error handling"],
-      "correct_answers": ["Improper input validation"]
+      "correct_answers": ["Improper input validation"],
+      "explanation": "Improper input validation is a vulnerability that occurs when a web form field accepts data other than expected. This can be used by attackers to inject malicious code into the application."
     },
     {
       "question": "Which of the following answers refers to a countermeasure against code injection?",
       "options": ["Fuzzing", "Input validation", "Code signing", "Normalization"],
-      "correct_answers": ["Input validation"]
+      "correct_answers": ["Input validation"],
+      "explanation": "Input validation is a countermeasure against code injection. It involves checking all input to ensure that it is valid before it is processed by the application."
     },
     {
       "question": "The term \"Secure cookie\" refers to a type of HTTP cookie that is transmitted over an encrypted HTTPS connection, which helps prevent the cookie from being intercepted or tampered with during transit.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A secure cookie is a type of HTTP cookie that is transmitted over an encrypted HTTPS connection. This helps to prevent the cookie from being intercepted or tampered with during transit."
     },
     {
       "question": "Which of the terms listed below refers to an automated or manual code review process aimed at discovering logic and syntax errors in the application's source code?",
       "options": ["Input validation", "Dynamic code analysis", "Fuzzing", "Static code analysis"],
-      "correct_answers": ["Static code analysis"]
+      "correct_answers": ["Static code analysis"],
+      "explanation": "Static code analysis is an automated or manual code review process that is aimed at discovering logic and syntax errors in the application's source code."
     },
     {
       "question": "A dynamic code analysis allows for detecting application flaws without the need for actual execution of the application code.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "Dynamic code analysis requires the execution of the application code to detect flaws."
     },
     {
       "question": "The term \"Static code analysis\" refers to the process of discovering application runtime errors.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "Static code analysis is the process of discovering errors in an application's source code, not its runtime errors."
     },
     {
       "question": "What is the purpose of code signing? (Select 2 answers)",
       "options": ["Disables code reuse", "Confirms the application's source of origin", "Enables application installation", "Validates the application's integrity", "Protects the application against unauthorized use"],
-      "correct_answers": ["Confirms the application's source of origin", "Validates the application's integrity"]
+      "correct_answers": ["Confirms the application's source of origin", "Validates the application's integrity"],
+      "explanation": "Code signing is the process of digitally signing an application to confirm its source of origin and to validate its integrity."
     },
     {
       "question": "The practice of finding vulnerabilities in an application by feeding it incorrect input is called:",
       "options": ["Normalization", "Hardening", "Dynamic code analysis", "Fuzzing"],
-      "correct_answers": ["Fuzzing"]
+      "correct_answers": ["Fuzzing"],
+      "explanation": "Fuzzing is the practice of finding vulnerabilities in an application by feeding it incorrect input."
     },
     {
       "question": "In computer security, a mechanism for safe execution of untested code or untrusted applications is referred to as:",
       "options": ["Sideloading", "Virtualization", "Sandboxing", "Stress testing"],
-      "correct_answers": ["Sandboxing"]
+      "correct_answers": ["Sandboxing"],
+      "explanation": "Sandboxing is a mechanism for safe execution of untested code or untrusted applications."
     },
     {
       "question": "Which of the following answers refers to a Windows-specific feature for handling exceptions, errors, and abnormal conditions in software?",
       "options": ["EPC", "SEH", "EH", "EXR"],
-      "correct_answers": ["SEH"]
+      "correct_answers": ["SEH"],
+      "explanation": "SEH (Structured Exception Handling) is a Windows-specific feature for handling exceptions, errors, and abnormal conditions in software."
     },
     {
       "question": "Address Space Layout Randomization (ASLR) is an OS security technique that randomizes the location of key data areas in memory. The purpose of ASLR is to prevent attackers from predicting the location of specific code or data in memory, which adds a layer of defense against memory-based attacks, such as buffer overflows.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "ASLR is a security technique that randomizes the location of key data areas in memory to prevent attackers from predicting the location of specific code or data."
     },
     {
       "question": "A type of user identification mechanism used as a countermeasure against automated software (such as network bots) is known as:",
       "options": ["MFA", "CAPTCHA", "SSO", "NIDS"],
-      "correct_answers": ["CAPTCHA"]
+      "correct_answers": ["CAPTCHA"],
+      "explanation": "CAPTCHA is a type of user identification mechanism that is used as a countermeasure against automated software."
     },
     {
       "question": "Which of the answers listed below refers to a hardware monitoring and asset tracking method?",
       "options": ["Barcode labels", "QR codes", "RFID tags", "GPS tracking", "All of the above"],
-      "correct_answers": ["All of the above"]
+      "correct_answers": ["All of the above"],
+      "explanation": "Barcode labels, QR codes, RFID tags, and GPS tracking are all hardware monitoring and asset tracking methods."
     },
     {
       "question": "Which of the following wireless technologies enables identification and tracking of tags attached to objects?",
       "options": ["GPS", "IR", "RFID", "NFC"],
-      "correct_answers": ["RFID"]
+      "correct_answers": ["RFID"],
+      "explanation": "RFID (Radio-Frequency Identification) is a wireless technology that enables identification and tracking of tags attached to objects."
     },
     {
       "question": "Which type of software enables monitoring and tracking of mobile devices?",
       "options": ["MDM", "GPS", "NFC", "GSM"],
-      "correct_answers": ["MDM"]
+      "correct_answers": ["MDM"],
+      "explanation": "MDM (Mobile Device Management) is a type of software that enables monitoring and tracking of mobile devices."
     },
     {
       "question": "One of the ways to prevent data recovery from a storage drive is to overwrite its contents. The data overwriting technique is used by drive wipe utilities which might employ different methods (including multiple overwriting rounds) to decrease the likelihood of data retrieval. As an example, a disk sanitization utility might overwrite the data on the drive with the value of one in the first pass, change that value to zero in the second pass, and finally perform a few more passes, overwriting the contents with random characters.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Data overwriting is a technique that is used to prevent data recovery from a storage drive."
     },
     {
       "question": "Which of the destruction tools/methods listed below allow(s) for secure disposal of physical documents? (Select all that apply)",
       "options": ["Shredding", "Overwriting", "Burning", "Formatting", "Degaussing"],
-      "correct_answers": ["Shredding", "Burning"]
+      "correct_answers": ["Shredding", "Burning"],
+      "explanation": "Shredding and burning are both secure methods for disposing of physical documents."
     },
     {
       "question": "Which of the following methods provides the most effective way for permanent removal of data stored on a magnetic drive?",
       "options": ["Cryptographic erasure", "Data overwriting", "Degaussing", "Low-level formatting"],
-      "correct_answers": ["Degaussing"]
+      "correct_answers": ["Degaussing"],
+      "explanation": "Degaussing is the most effective way to permanently remove data from a magnetic drive."
     },
     {
       "question": "Certificate of destruction is a document issued by companies that conduct secure device/document disposal. The certificate verifies proper asset destruction and can be used for auditing purposes. In case of device disposal, the document includes a list of all the items that have been destroyed along with their serial numbers. It may also describe the destruction method, specify location (on-site/off-site), or list the names of witnesses who oversaw the entire process.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A certificate of destruction is a document that is issued by a company that conducts secure device or document disposal."
     },
     {
       "question": "Which policy typically specifies the period during which certain types of data must be stored prior to disposal?",
       "options": ["Data protection policy", "Data classification policy", "Data backup policy", "Data retention policy"],
-      "correct_answers": ["Data retention policy"]
+      "correct_answers": ["Data retention policy"],
+      "explanation": "A data retention policy is a policy that specifies the period during which certain types of data must be stored prior to disposal."
     },
     {
       "question": "Vulnerability scanning: (Select all that apply)",
       "options": ["Identifies lack of security controls", "Actively tests security controls", "Identifies common misconfigurations", "Exploits vulnerabilities", "Passively tests security controls"],
-      "correct_answers": ["Identifies lack of security controls", "Identifies common misconfigurations", "Passively tests security controls"]
+      "correct_answers": ["Identifies lack of security controls", "Identifies common misconfigurations", "Passively tests security controls"],
+      "explanation": "Vulnerability scanning is the process of identifying security vulnerabilities in a system or network."
     },
     {
       "question": "Which of the answers listed below refer to the characteristic features of static code analysis? (Select 3 answers)",
@@ -134,7 +158,8 @@
         "Involves examining the code without executing it",
         "Often used early in the development process",
         "Examines code structure, syntax, and semantics to detect issues like syntax errors, coding standards violations, security vulnerabilities, and bugs"
-      ]
+      ],
+      "explanation": "Static code analysis is the process of examining code without executing it to find security vulnerabilities."
     }
   ]
 }

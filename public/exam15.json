@@ -8,17 +8,20 @@
         "Access control levels",
         "Principle of least privilege"
       ],
-      "correct_answers": ["Secure baseline"]
+      "correct_answers": ["Secure baseline"],
+      "explanation": "A secure baseline is a standardized level of security configuration for a system or network. It is used to ensure that all systems are configured in a consistent and secure manner."
     },
     {
       "question": "Installing mobile apps from trusted sources (e.g., Apple's App Store for iOS devices, or Google Play for Android devices) instead of third-party application stores decreases malware-related security risks.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Official app stores have a review process that helps to ensure that apps are safe and secure. Third-party app stores may not have such a process, so there is a higher risk of downloading malware from them."
     },
     {
       "question": "Data on a lost or stolen mobile device can be erased by:",
       "options": ["Rooting", "Sideloading", "Low-level formatting", "Remote wipe"],
-      "correct_answers": ["Remote wipe"]
+      "correct_answers": ["Remote wipe"],
+      "explanation": "Remote wipe is a feature that allows you to remotely erase all data from a lost or stolen mobile device. This can be used to protect your personal information if your device is lost or stolen."
     },
     {
       "question": "Which of the following answers refers to a mobile security solution that enables separate controls over the user and enterprise data?",
@@ -28,17 +31,20 @@
         "Storage segmentation",
         "Just-in-time permissions"
       ],
-      "correct_answers": ["Storage segmentation"]
+      "correct_answers": ["Storage segmentation"],
+      "explanation": "Storage segmentation is a mobile security solution that separates user data from enterprise data. This can be used to protect enterprise data if the device is lost or stolen."
     },
     {
       "question": "Implementing full device encryption is one of the methods for securing sensitive data on a smartphone. When enabled, this type of encryption works in conjunction with the phone's screen lock, i.e., to decrypt the phone (which stays encrypted whenever the phone is locked), a user must first unlock the screen. On Android devices, the unlocking methods include entering a PIN, password, or drawing a simple pattern with a finger. Apple devices use passcodes, facial recognition (Face ID), and fingerprint (Touch ID).",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Full device encryption is a security feature that encrypts all data on a mobile device. This can be used to protect your personal information if your device is lost or stolen."
     },
     {
       "question": "In the context of MDM, the isolation of corporate applications and data from other parts of the mobile device is referred to as:",
       "options": ["Containerization", "Storage segmentation", "Virtualization", "Content management"],
-      "correct_answers": ["Containerization"]
+      "correct_answers": ["Containerization"],
+      "explanation": "Containerization is a mobile security solution that isolates corporate applications and data from other parts of the mobile device. This can be used to protect corporate data if the device is lost or stolen."
     },
     {
       "question": "Which of the answers listed below refer to workstation hardening techniques? (Select 3 answers)",
@@ -53,7 +59,8 @@
         "Regularly applying security patches and updates to the OS and installed software",
         "Removing or disabling unnecessary drivers, services, software, and network protocols",
         "Limiting unauthorized or unauthenticated user access"
-      ]
+      ],
+      "explanation": "Workstation hardening is the process of securing a workstation to reduce its vulnerability to attack. This can be done by applying security patches, disabling unnecessary services, and limiting user access."
     },
     {
       "question": "Which of the following answers refer(s) to (a) router hardening technique(s)? (Select all that apply)",
@@ -68,62 +75,74 @@
         "Changing default credentials",
         "Disabling unused services and ports",
         "Implementing regular firmware updates"
-      ]
+      ],
+      "explanation": "Router hardening is the process of securing a router to reduce its vulnerability to attack. This can be done by changing default credentials, disabling unused services, and implementing regular firmware updates."
     },
     {
       "question": "Which of the answers listed below refers to the process of assessing the physical environment, such as the layout of the building, to identify potential sources of interference and determine the optimal placement of a WAP?",
       "options": ["Gap analysis", "Capacity planning", "Site survey", "Vulnerability scanning"],
-      "correct_answers": ["Site survey"]
+      "correct_answers": ["Site survey"],
+      "explanation": "A site survey is the process of assessing the physical environment to determine the optimal placement of a WAP. This can be used to improve wireless signal coverage and to reduce the risk of interference."
     },
     {
       "question": "An administrator needs to adjust the placement of multiple APs to ensure the best wireless signal coverage for the network. Which of the following would be of help in identifying areas of low signal strength?",
       "options": ["Heat map", "Power level controls", "Logical network diagram", "Wi-Fi hotspots"],
-      "correct_answers": ["Heat map"]
+      "correct_answers": ["Heat map"],
+      "explanation": "A heat map is a graphical representation of wireless signal strength. It can be used to identify areas of low signal strength and to determine the optimal placement of APs."
     },
     {
       "question": "Which type of software allows centralized control over the configuration, monitoring, and security of mobile devices used within an organization?",
       "options": ["MDR", "IAM", "SIEM", "MDM"],
-      "correct_answers": ["MDM"]
+      "correct_answers": ["MDM"],
+      "explanation": "MDM (Mobile Device Management) is a type of software that allows centralized control over the configuration, monitoring, and security of mobile devices used within an organization."
     },
     {
       "question": "Which of the answers listed below refers to software that facilitates the enforcement of mobile device policies and procedures?",
       "options": ["NAC", "MDM", "XDR", "PAM"],
-      "correct_answers": ["MDM"]
+      "correct_answers": ["MDM"],
+      "explanation": "MDM (Mobile Device Management) is a type of software that facilitates the enforcement of mobile device policies and procedures."
     },
     {
       "question": "A mobile device deployment model that allows employees to use private mobile devices for accessing the company's restricted data and applications is known as:",
       "options": ["COPE", "BYOD", "MDM", "CYOD"],
-      "correct_answers": ["BYOD"]
+      "correct_answers": ["BYOD"],
+      "explanation": "BYOD (Bring Your Own Device) is a mobile device deployment model that allows employees to use their personal mobile devices for work-related tasks."
     },
     {
       "question": "Which of the answers listed below refers to a mobile device deployment model where organizations provide and own the devices while allowing their personal use?",
       "options": ["BYOD", "COPE", "ZTA", "CYOD"],
-      "correct_answers": ["COPE"]
+      "correct_answers": ["COPE"],
+      "explanation": "COPE (Corporate-Owned, Personally Enabled) is a mobile device deployment model where organizations provide and own the devices while allowing their personal use."
     },
     {
       "question": "What is the name of a mobile device deployment model in which employees select devices for work-related tasks from a company-approved device list?",
       "options": ["CYOD", "UEM", "BYOD", "COPE"],
-      "correct_answers": ["CYOD"]
+      "correct_answers": ["CYOD"],
+      "explanation": "CYOD (Choose Your Own Device) is a mobile device deployment model in which employees select devices for work-related tasks from a company-approved device list."
     },
     {
       "question": "An SSID is a unique identifier (a.k.a. wireless network name) for a WLAN. Wireless networks advertise their presence by regularly broadcasting SSID in a special packet called beacon frame. In wireless networks with disabled security features, knowing the network SSID is enough to get access to the network. SSID also pinpoints the wireless router that acts as a WAP. Wireless routers from the same manufacturer are frequently configured with default (well-known) SSID names. Since multiple devices with the same SSID displayed on the list of available networks create confusion and encourage accidental access by unauthorized users (applies to networks that lack security), changing the default SSID is a recommended practice.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "An SSID (Service Set Identifier) is the name of a wireless network. It is important to change the default SSID to prevent unauthorized access to the network."
     },
     {
       "question": "For a wireless client to be able to connect to a network, the security type (e.g., WEP, WPA, WPA2, or WPA3) and encryption type (e.g., TKIP or AES) settings on the connecting host must match the corresponding wireless security settings on a WAP.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "The security settings on a wireless client must match the security settings on the WAP for the client to be able to connect to the network."
     },
     {
       "question": "Which of the following answers refers to a security feature used in Bluetooth device pairing?",
       "options": ["SAE", "PIN", "MFA", "ACL"],
-      "correct_answers": ["PIN"]
+      "correct_answers": ["PIN"],
+      "explanation": "A PIN (Personal Identification Number) is a security feature that is used in Bluetooth device pairing. It is a short code that is used to authenticate the two devices to each other."
     },
     {
       "question": "Which of the following solutions would offer the strongest security for a small network that lacks an authentication server?",
       "options": ["WPA3-SAE", "WPA2-Enterprise", "WPA2-PSK", "WPA3-Enterprise"],
-      "correct_answers": ["WPA3-SAE"]
+      "correct_answers": ["WPA3-SAE"],
+      "explanation": "WPA3-SAE is the strongest security solution for a small network that lacks an authentication server. It uses a more secure method of key exchange than WPA2-PSK, and it is not vulnerable to the same types of attacks."
     },
     {
       "question": "What are the characteristic features of WPA2/WPA3 Enterprise mode? (Select 3 answers)",
@@ -139,17 +158,20 @@
         "Suitable for large corporate networks",
         "IEEE 802.1X",
         "Requires RADIUS authentication server"
-      ]
+      ],
+      "explanation": "WPA2/WPA3 Enterprise mode is a more secure version of WPA2/WPA3 that is designed for large corporate networks. It uses a RADIUS authentication server to authenticate users and devices."
     },
     {
       "question": "What is the name of the encryption protocol primarily used in Wi-Fi networks implementing the WPA3 security standard?",
       "options": ["AES-CCMP", "CBC-MAC", "AES-GCMP", "WPA-TKIP"],
-      "correct_answers": ["AES-GCMP"]
+      "correct_answers": ["AES-GCMP"],
+      "explanation": "AES-GCMP is the encryption protocol that is primarily used in Wi-Fi networks that implement the WPA3 security standard. It is a more secure version of AES-CCMP, which was used in WPA2."
     },
     {
       "question": "Which of the following acronyms refers to a client authentication method used in WPA3 Personal mode?",
       "options": ["SAE", "IKE", "PSK", "AES"],
-      "correct_answers": ["SAE"]
+      "correct_answers": ["SAE"],
+      "explanation": "SAE (Simultaneous Authentication of Equals) is a client authentication method that is used in WPA3 Personal mode. It is a more secure method of key exchange than the PSK method that was used in WPA2."
     },
     {
       "question": "What are the characteristics of TACACS+? (Select 3 answers)",
@@ -165,7 +187,8 @@
         "Encrypts the entire payload of the access-request packet",
         "Primarily used for device administration",
         "Separates authentication and authorization"
-      ]
+      ],
+      "explanation": "TACACS+ is a protocol that is used for device administration. It encrypts the entire payload of the access-request packet, and it separates authentication and authorization."
     },
     {
       "question": "What are the characteristic features of RADIUS? (Select 3 answers)",
@@ -181,12 +204,14 @@
         "Primarily used for network access",
         "Combines authentication and authorization",
         "Encrypts only the password in the access-request packet"
-      ]
+      ],
+      "explanation": "RADIUS is a protocol that is used for network access. It combines authentication and authorization, and it encrypts only the password in the access-request packet."
     },
     {
       "question": "Which of the wireless encryption schemes listed below offers the highest level of protection?",
       "options": ["WPS", "WPA3", "AES", "TKIP"],
-      "correct_answers": ["WPA3"]
+      "correct_answers": ["WPA3"],
+      "explanation": "WPA3 is the most secure wireless encryption scheme. It uses a more secure method of key exchange than WPA2, and it is not vulnerable to the same types of attacks."
     }
   ]
 }

@@ -3,57 +3,68 @@
     {
       "question": "Which of the answers listed below refers to a concept that provides insights into methods and tools that cybercriminals use to carry out attacks?",
       "options": ["TTP", "CVE", "ATT&CK", "CVSS"],
-      "correct_answers": ["TTP"]
+      "correct_answers": ["TTP"],
+      "explanation": "TTP (Tactics, Techniques, and Procedures) is a concept that provides insights into methods and tools that cybercriminals use to carry out attacks. It helps in understanding adversary behavior."
     },
     {
       "question": "A dedicated security solution that filters, monitors, and blocks HTTP/HTTPS traffic between a web application and the Internet is referred to as:",
       "options": ["UTM", "NGFW", "UEM", "WAF"],
-      "correct_answers": ["WAF"]
+      "correct_answers": ["WAF"],
+      "explanation": "A WAF (Web Application Firewall) is a dedicated security solution that filters, monitors, and blocks HTTP/HTTPS traffic between a web application and the Internet. It protects web applications from various attacks."
     },
     {
       "question": "Which of the following solutions provides active network security breach response on an individual computer system?",
       "options": ["NIDS", "HIDS", "NIPS", "HIPS"],
-      "correct_answers": ["HIPS"]
+      "correct_answers": ["HIPS"],
+      "explanation": "A HIPS (Host-based Intrusion Prevention System) is a security solution that provides active network security breach response on an individual computer system. It monitors and blocks malicious activity on the host."
     },
     {
       "question": "Which of the acronyms listed below refers to a risk assessment formula defining probable financial loss due to a risk over a one-year period?",
       "options": ["ARO", "SLE", "ALE", "SLA"],
-      "correct_answers": ["ALE"]
+      "correct_answers": ["ALE"],
+      "explanation": "ALE (Annualized Loss Expectancy) is a risk assessment formula defining probable financial loss due to a risk over a one-year period. It is calculated as SLE (Single Loss Expectancy) multiplied by ARO (Annualized Rate of Occurrence)."
     },
     {
       "question": "A software technology designed to provide confidentiality for an entire data storage device is known as:",
       "options": ["TPM", "FDE", "EFS", "HSM"],
-      "correct_answers": ["FDE"]
+      "correct_answers": ["FDE"],
+      "explanation": "FDE (Full Disk Encryption) is a software technology designed to provide confidentiality for an entire data storage device. It encrypts all data on the disk, including the operating system."
     },
     {
       "question": "High MTBF value indicates that a component or system provides low reliability and is more likely to fail.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. A high MTBF (Mean Time Between Failures) value indicates that a component or system provides high reliability and is less likely to fail. It represents the average time a device operates before failing."
     },
     {
       "question": "Which part of the AAA security architecture deals with the verification of the identity of a person or process?",
       "options": ["Accounting", "Authentication", "Auditing", "Authorization"],
-      "correct_answers": ["Authentication"]
+      "correct_answers": ["Authentication"],
+      "explanation": "Authentication is the process of verifying the identity of a person or process. It is the first step in the AAA (Authentication, Authorization, and Accounting) security architecture."
     },
     {
       "question": "Which of the following answers refers to a routing protocol used in computer networks to determine the best path for routing data packets from one network node to another?",
       "options": ["BGP", "EIGRP", "RIP", "OSPF"],
-      "correct_answers": ["OSPF"]
+      "correct_answers": ["OSPF"],
+      "explanation": "OSPF (Open Shortest Path First) is a routing protocol used in computer networks to determine the best path for routing data packets from one network node to another. It is a link-state routing protocol."
     },
     {
       "question": "Which of the answers listed below refers to an industry standard for assessing and scoring the severity of computer system security vulnerabilities?",
       "options": ["SIEM", "CVSS", "OSINT", "SOAR"],
-      "correct_answers": ["CVSS"]
+      "correct_answers": ["CVSS"],
+      "explanation": "CVSS (Common Vulnerability Scoring System) is an industry standard for assessing and scoring the severity of computer system security vulnerabilities. It provides a numerical score representing the severity of a vulnerability."
     },
     {
       "question": "Which of the following answers refers to a hardware or software solution providing secure remote access to networks and resources?",
       "options": ["NAC", "RDP", "SSH", "RAS"],
-      "correct_answers": ["RAS"]
+      "correct_answers": ["RAS"],
+      "explanation": "RAS (Remote Access Service) is a hardware or software solution providing secure remote access to networks and resources. It allows users to connect to a private network from a remote location."
     },
     {
       "question": "Which of the wireless technologies listed below are deprecated and should not be used due to their known vulnerabilities?",
       "options": ["WPS", "WAP", "WPA2", "WAF", "WEP"],
-      "correct_answers": ["WPS", "WEP"]
+      "correct_answers": ["WPS", "WEP"],
+      "explanation": "WPS (Wi-Fi Protected Setup) and WEP (Wired Equivalent Privacy) are wireless technologies that have known vulnerabilities and should not be used. WEP is easily cracked, and WPS has a design flaw that makes it vulnerable to brute-force attacks."
     },
     {
       "question": "Which of the following answers refer(s) to SSDs? (Select all that apply)",
@@ -71,122 +82,146 @@
         "Lower capacity in comparison to magnetic drives",
         "High performance",
         "Lack of moving parts (takes advantage of memory chips instead of magnetic platters)"
-      ]
+      ],
+      "explanation": "SSDs (Solid State Drives) offer high performance and lack moving parts, but they are typically more expensive and have lower capacities compared to traditional HDDs."
     },
     {
       "question": "An SWG is a software component, or a hardware device designed to prevent unauthorized traffic from entering an internal network of an organization. An SWG implementation may include various security services, such as packet filtering, URL/content filtering, malware inspection, application controls, AUP enforcement, or DLP.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "An SWG (Secure Web Gateway) is a security solution that protects organizations from web-based threats. It filters, monitors, and blocks unauthorized traffic, and can include various security services."
     },
     {
       "question": "A type of forensic evidence that can be used to detect unauthorized access attempts or other malicious activities is called:",
       "options": ["CVE", "IoC", "AIS", "OSINT"],
-      "correct_answers": ["IoC"]
+      "correct_answers": ["IoC"],
+      "explanation": "IoC (Indicator of Compromise) is a piece of forensic evidence that can be used to detect unauthorized access attempts or other malicious activities. Examples include unusual network traffic, suspicious file changes, and abnormal user behavior."
     },
     {
       "question": "Which of the answers listed below refers to a remote access authentication protocol that periodically re-authenticates client at random intervals to prevent session hijacking?",
       "options": ["EAP", "CHAP", "PAP", "PEAP"],
-      "correct_answers": ["CHAP"]
+      "correct_answers": ["CHAP"],
+      "explanation": "CHAP (Challenge-Handshake Authentication Protocol) is a remote access authentication protocol that periodically re-authenticates clients at random intervals to prevent session hijacking. It is more secure than PAP."
     },
     {
       "question": "A type of surveillance system comprising video cameras and monitors that enable continuous monitoring and recording of specific areas is commonly referred to as CCTV.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "CCTV (Closed-Circuit Television) is a surveillance system that uses video cameras to transmit a signal to a specific set of monitors. It is commonly used for security and monitoring purposes."
     },
     {
       "question": "Which of the following answers refers to an ECC-based method for creating and verifying digital signatures?",
       "options": ["DHE", "ECDSA", "HMAC", "ECDHE"],
-      "correct_answers": ["ECDSA"]
+      "correct_answers": ["ECDSA"],
+      "explanation": "ECDSA (Elliptic Curve Digital Signature Algorithm) is an ECC-based method for creating and verifying digital signatures. It provides strong security with smaller key sizes compared to RSA."
     },
     {
       "question": "Which of the actions listed below can be taken by an IDS? (Select 2 answers)",
       "options": ["Firewall reconfiguration", "Closing down connection", "Logging", "Terminating process", "Sending an alert"],
-      "correct_answers": ["Logging", "Sending an alert"]
+      "correct_answers": ["Logging", "Sending an alert"],
+      "explanation": "An IDS (Intrusion Detection System) is a passive security system that monitors network traffic for suspicious activity. It can log events and send alerts to administrators, but it does not actively block or prevent attacks."
     },
     {
       "question": "FTPS is an extension to the SSH protocol and runs by default on port number 22.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. FTPS (FTP Secure) is an extension to the FTP protocol that adds support for SSL/TLS encryption. SFTP (SSH File Transfer Protocol) is the one that runs over SSH on port 22."
     },
     {
       "question": "Which of the following terms refers to a dedicated transport mechanism for cyber threat information?",
       "options": ["STIX", "CVE", "TAXII", "CVSS"],
-      "correct_answers": ["TAXII"]
+      "correct_answers": ["TAXII"],
+      "explanation": "TAXII (Trusted Automated eXchange of Indicator Information) is a dedicated transport mechanism for cyber threat information. It enables automated sharing of threat intelligence between organizations."
     },
     {
       "question": "Which of the answers listed below refers to a legacy symmetric-key block cipher encryption algorithm?",
       "options": ["RC4", "DES", "RSA", "DSA"],
-      "correct_answers": ["DES"]
+      "correct_answers": ["DES"],
+      "explanation": "DES (Data Encryption Standard) is a legacy symmetric-key block cipher encryption algorithm. It is considered insecure due to its small key size and has been replaced by AES."
     },
     {
       "question": "A Microsoft-proprietary protocol providing a user with graphical interface for connecting to another networked host is known as:",
       "options": ["VDI", "RDP", "SSH", "VNC"],
-      "correct_answers": ["RDP"]
+      "correct_answers": ["RDP"],
+      "explanation": "RDP (Remote Desktop Protocol) is a Microsoft-proprietary protocol that provides a user with a graphical interface for connecting to another networked host. It allows users to control a remote computer as if they were sitting in front of it."
     },
     {
       "question": "Which of the following acronyms refers to a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event?",
       "options": ["DRP", "CP", "BCP", "COOP"],
-      "correct_answers": ["BCP"]
+      "correct_answers": ["BCP"],
+      "explanation": "BCP (Business Continuity Plan) is a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event. It focuses on maintaining business operations during and after a disaster."
     },
     {
       "question": "Which type of Trojan enables unauthorized remote access to a compromised system?",
       "options": ["APT", "RAT", "MaaS", "PUP"],
-      "correct_answers": ["RAT"]
+      "correct_answers": ["RAT"],
+      "explanation": "A RAT (Remote Access Trojan) is a type of Trojan that enables unauthorized remote access to a compromised system. It allows attackers to control the infected computer remotely."
     },
     {
       "question": "The term \"AI\" refers to computer systems and algorithms that can perform tasks typically requiring human intelligence, such as problem-solving, learning, and decision-making.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "AI (Artificial Intelligence) refers to computer systems and algorithms that can perform tasks typically requiring human intelligence, such as problem-solving, learning, and decision-making. It is a broad field that encompasses various subfields like machine learning and deep learning."
     },
     {
       "question": "Which of the algorithms listed below does not fall into the category of asymmetric encryption?",
       "options": ["RSA", "GPG", "DSA", "AES", "DHE", "ECDHE", "PGP"],
-      "correct_answers": ["AES"]
+      "correct_answers": ["AES"],
+      "explanation": "AES (Advanced Encryption Standard) is a symmetric encryption algorithm. All other options (RSA, GPG, DSA, DHE, ECDHE, PGP) are either asymmetric encryption algorithms or use asymmetric encryption principles."
     },
     {
       "question": "A type of cyberattack focused on making a website, service, or network unavailable to users by overloading it with traffic or malicious requests is called:",
       "options": ["SQLi", "XSS", "CSRF", "DoS"],
-      "correct_answers": ["DoS"]
+      "correct_answers": ["DoS"],
+      "explanation": "A DoS (Denial of Service) attack is a type of cyberattack focused on making a website, service, or network unavailable to users by overloading it with traffic or malicious requests. It aims to disrupt normal operations."
     },
     {
       "question": "In quantitative risk assessment, this term is used for estimating the likelihood of occurrence of a future threat.",
       "options": ["ALE", "SLA", "ARO", "SLE"],
-      "correct_answers": ["ARO"]
+      "correct_answers": ["ARO"],
+      "explanation": "ARO (Annualized Rate of Occurrence) is a term used in quantitative risk assessment for estimating the likelihood of occurrence of a future threat over a one-year period. It helps in calculating the ALE."
     },
     {
       "question": "Which of the following answers refers to a cryptographic file generated by an entity requesting a digital certificate from a CA?",
       "options": ["OID", "CSR", "DN", "CRL"],
-      "correct_answers": ["CSR"]
+      "correct_answers": ["CSR"],
+      "explanation": "A CSR (Certificate Signing Request) is a cryptographic file generated by an entity requesting a digital certificate from a CA (Certificate Authority). It contains the public key and other information needed to create the certificate."
     },
     {
       "question": "Which of the answers listed below refers to a broad term that encompasses various control and automation systems used in industrial settings to control and monitor physical processes and machinery?",
       "options": ["ICS", "PLC", "SCADA", "HMI"],
-      "correct_answers": ["ICS"]
+      "correct_answers": ["ICS"],
+      "explanation": "ICS (Industrial Control Systems) is a broad term that encompasses various control and automation systems used in industrial settings to control and monitor physical processes and machinery. Examples include SCADA and DCS."
     },
     {
       "question": "ACL, FACL, DAC, MAC, and RBAC are all access control mechanisms that can be used to manage user permissions and protect the confidentiality, integrity, and availability of data.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "This statement is true. ACL (Access Control List), FACL (File Access Control List), DAC (Discretionary Access Control), MAC (Mandatory Access Control), and RBAC (Role-Based Access Control) are all different types of access control mechanisms used to manage permissions and protect data."
     },
     {
       "question": "A type of access control model that grants object owners the authority to determine access permissions is referred to as:",
       "options": ["ACL", "RBAC", "DAC", "MAC"],
-      "correct_answers": ["DAC"]
+      "correct_answers": ["DAC"],
+      "explanation": "DAC (Discretionary Access Control) is an access control model that grants object owners the authority to determine access permissions. This means the owner of a file or resource can decide who has access to it."
     },
     {
       "question": "Which wireless technology enables identification and tracking of tags attached to objects?",
       "options": ["WTLS", "GPS", "RFID", "NFC"],
-      "correct_answers": ["RFID"]
+      "correct_answers": ["RFID"],
+      "explanation": "RFID (Radio-Frequency Identification) is a wireless technology that enables identification and tracking of tags attached to objects. It uses radio waves to read information stored on RFID tags."
     },
     {
       "question": "Which of the following answers refers to a tunneling protocol that is often used in combination with IPsec to secure VPN connections?",
       "options": ["GRE", "L2TP", "BGP", "SSL"],
-      "correct_answers": ["L2TP"]
+      "correct_answers": ["L2TP"],
+      "explanation": "L2TP (Layer 2 Tunneling Protocol) is a tunneling protocol that is often used in combination with IPsec to secure VPN connections. It provides a way to tunnel PPP frames over an IP network."
     },
     {
       "question": "Which of the answers listed below refers to a cloud computing service model in which clients, instead of buying all the hardware and software, purchase computing resources as an outsourced service from suppliers who own and maintain all the necessary equipment and software?",
       "options": ["SaaS", "DaaS", "PaaS", "IaaS"],
-      "correct_answers": ["IaaS"]
+      "correct_answers": ["IaaS"],
+      "explanation": "IaaS (Infrastructure as a Service) is a cloud computing service model in which clients purchase computing resources as an outsourced service from suppliers who own and maintain all the necessary equipment and software. It provides virtualized computing resources over the internet."
     }
   ]
 }

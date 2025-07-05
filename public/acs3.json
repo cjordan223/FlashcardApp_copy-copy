@@ -3,107 +3,128 @@
     {
       "question": "A less formal document outlining mutual goals and cooperation established between two or more parties is referred to as:",
       "options": ["MOA", "SOW", "MOU", "MSA"],
-      "correct_answers": ["MOU"]
+      "correct_answers": ["MOU"],
+      "explanation": "A MOU (Memorandum of Understanding) is a less formal agreement between two or more parties. It outlines mutual goals and cooperation but is generally not legally binding."
     },
     {
       "question": "Which of the following answers refers to a global standard development organization composed of different national standards bodies?",
       "options": ["NIST", "ISO", "IEEE", "ANSI"],
-      "correct_answers": ["ISO"]
+      "correct_answers": ["ISO"],
+      "explanation": "ISO (International Organization for Standardization) is a global standard development organization composed of different national standards bodies. It develops and publishes a wide range of standards, including those related to information security."
     },
     {
       "question": "The term \"SD-WAN\" refers to a network technology that uses software to manage and optimize network connections that extend over large geographic areas.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "SD-WAN (Software-Defined Wide Area Network) is a network technology that uses software to manage and optimize network connections that extend over large geographic areas. It provides a more flexible and cost-effective way to manage WAN connections."
     },
     {
       "question": "Which of the answers listed below refers to a dedicated programming language used in database management?",
       "options": ["PHP", "C", "SQL", "JS"],
-      "correct_answers": ["SQL"]
+      "correct_answers": ["SQL"],
+      "explanation": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS)."
     },
     {
       "question": "Which of the following devices fall(s) into the category of PEDs? (Select all that apply)",
       "options": ["Smartphone", "Tablet", "Desktop", "Mainframe"],
-      "correct_answers": ["Smartphone", "Tablet"]
+      "correct_answers": ["Smartphone", "Tablet"],
+      "explanation": "PEDs (Portable Electronic Devices) are small, portable electronic devices that can be carried and used by individuals. Smartphones and tablets are common examples."
     },
     {
       "question": "Which of the terms listed below is used to describe an average time required to repair a failed component or device?",
       "options": ["MTTF", "RPO", "MTTR", "MTBF"],
-      "correct_answers": ["MTTR"]
+      "correct_answers": ["MTTR"],
+      "explanation": "MTTR (Mean Time To Repair) is the average time required to repair a failed component or device. It is a measure of maintainability."
     },
     {
       "question": "Which of the following answers refers to a firewall type that improves upon first- and second-generation firewalls by offering additional features, such as more in-depth inspection of network traffic and application-level inspection?",
       "options": ["IDS", "Packet filter", "NGFW", "Stateful firewall"],
-      "correct_answers": ["NGFW"]
+      "correct_answers": ["NGFW"],
+      "explanation": "NGFW (Next-Generation Firewall) is a type of firewall that provides more advanced features than traditional firewalls, such as application-level inspection and intrusion prevention."
     },
     {
       "question": "Which protocol enables secure, real-time delivery of audio and video over an IP network?",
       "options": ["S/MIME", "RTP", "SIP", "SRTP"],
-      "correct_answers": ["SRTP"]
+      "correct_answers": ["SRTP"],
+      "explanation": "SRTP (Secure Real-time Transport Protocol) is a security profile for RTP (Real-time Transport Protocol) that adds confidentiality, message authentication, and replay protection to that protocol. It is used for secure voice and video communications."
     },
     {
       "question": "Which of the answers listed below refers to a network security technology designed to monitor, detect, and mitigate unauthorized access, security threats, and suspicious activities in WLANs?",
       "options": ["WIPS", "NIDS", "NIPS", "WIDS"],
-      "correct_answers": ["WIPS"]
+      "correct_answers": ["WIPS"],
+      "explanation": "WIPS (Wireless Intrusion Prevention System) is a network security technology designed to monitor, detect, and mitigate unauthorized access, security threats, and suspicious activities in WLANs. It can actively block threats."
     },
     {
       "question": "Which of the following answers refers to a method for creating and verifying digital signatures?",
       "options": ["DHE", "AES", "DSA", "SHA"],
-      "correct_answers": ["DSA"]
+      "correct_answers": ["DSA"],
+      "explanation": "DSA (Digital Signature Algorithm) is a Federal Information Processing Standard (FIPS) for digital signatures. It is used for creating and verifying digital signatures."
     },
     {
       "question": "A type of legally binding contract that establishes the foundational terms and conditions governing future agreements between two parties is known as:",
       "options": ["MOU", "SLA", "MSA", "SOW"],
-      "correct_answers": ["MSA"]
+      "correct_answers": ["MSA"],
+      "explanation": "An MSA (Master Service Agreement) is a legally binding contract that establishes the foundational terms and conditions governing future agreements between two parties. It streamlines future negotiations by setting out general terms."
     },
     {
       "question": "Which part of IPsec provides authentication, integrity, and confidentiality?",
       "options": ["SPD", "PFS", "AH", "ESP"],
-      "correct_answers": ["ESP"]
+      "correct_answers": ["ESP"],
+      "explanation": "ESP (Encapsulating Security Payload) is a member of the IPsec protocol suite. It provides origin authenticity, integrity, and confidentiality protection of packets."
     },
     {
       "question": "Which of the answers listed below refers to a multi-protocol authentication framework frequently used in 802.11 networks and point-to-point connections?",
       "options": ["PAP", "MS-CHAP", "EAP", "CHAP"],
-      "correct_answers": ["EAP"]
+      "correct_answers": ["EAP"],
+      "explanation": "EAP (Extensible Authentication Protocol) is an authentication framework frequently used in 802.11 networks and point-to-point connections. It provides a flexible framework for various authentication methods."
     },
     {
       "question": "Which of the following acronyms represents evidence that helps cybersecurity professionals detect potential security incidents?",
       "options": ["APT", "IoC", "ATT&CK", "EDR"],
-      "correct_answers": ["IoC"]
+      "correct_answers": ["IoC"],
+      "explanation": "IoC (Indicator of Compromise) is forensic evidence, such as data found in system log entries or files, that indicates a high probability of a security intrusion."
     },
     {
       "question": "For a wireless client to be able to connect to a network, the security type (e.g., WEP, WPA, WPA2, or WPA3) and encryption type (e.g., TKIP or AES) settings on the connecting host must match the corresponding wireless security settings on a WAP.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "This statement is true. For a wireless client to connect to a network, its security and encryption settings must match those configured on the Wireless Access Point (WAP). This ensures secure communication."
     },
     {
       "question": "Which of the answers listed below refers to an obsolete authentication protocol that sends passwords in cleartext?",
       "options": ["PAP", "CHAP", "EAP", "MS-CHAP"],
-      "correct_answers": ["PAP"]
+      "correct_answers": ["PAP"],
+      "explanation": "PAP (Password Authentication Protocol) is an obsolete authentication protocol that sends passwords in cleartext (unencrypted) over the network, making it highly insecure."
     },
     {
       "question": "Which of the following answers refers to an internal telephone exchange or switching system implemented in a business or office?",
       "options": ["POTS", "VoIP", "PBX", "PSTN"],
-      "correct_answers": ["PBX"]
+      "correct_answers": ["PBX"],
+      "explanation": "A PBX (Private Branch Exchange) is a private telephone network used within a company or organization. It allows internal calls and connects to the public switched telephone network (PSTN) for external calls."
     },
     {
       "question": "Which of the acronyms listed below refers to a maximum tolerable period of time required for restoring business functions after a failure or disaster?",
       "options": ["SLA", "RTO", "AUP", "RPO"],
-      "correct_answers": ["RTO"]
+      "correct_answers": ["RTO"],
+      "explanation": "RTO (Recovery Time Objective) is the maximum tolerable period of time required for restoring business functions after a failure or disaster. It defines the acceptable downtime."
     },
     {
       "question": "A computer network connecting multiple LANs over an area of a city is called:",
       "options": ["PAN", "SAN", "MAN", "CAN"],
-      "correct_answers": ["MAN"]
+      "correct_answers": ["MAN"],
+      "explanation": "A MAN (Metropolitan Area Network) is a computer network that interconnects users with computer resources in a geographic area or region larger than that covered by even a large local area network (LAN) but smaller than the area covered by a wide area network (WAN)."
     },
     {
       "question": "Which cryptographic protocol is designed to provide secure communications over a computer network and is the successor to SSL?",
       "options": ["WEP", "CCMP", "TLS", "AES"],
-      "correct_answers": ["TLS"]
+      "correct_answers": ["TLS"],
+      "explanation": "TLS (Transport Layer Security) is a cryptographic protocol designed to provide secure communications over a computer network. It is the successor to SSL (Secure Sockets Layer) and is widely used for secure web browsing (HTTPS)."
     },
     {
       "question": "Which of the following answers refers to an embedded microcontroller used for secure boot, disk encryption, and system integrity verification?",
       "options": ["TPM", "SoC", "UEFI", "HSM"],
-      "correct_answers": ["TPM"]
+      "correct_answers": ["TPM"],
+      "explanation": "A TPM (Trusted Platform Module) is an embedded microcontroller that stores cryptographic keys and provides secure boot, disk encryption, and system integrity verification. It enhances the security of hardware."
     },
     {
       "question": "Which of the answers listed below refer to IMAP? (Select 2 answers)",
@@ -117,32 +138,38 @@
       "correct_answers": [
         "Offers improved functionality in comparison to POP3",
         "Serves the same function as POP3"
-      ]
+      ],
+      "explanation": "IMAP (Internet Message Access Protocol) is an email protocol that allows an email client to access email on a remote mail server. It offers improved functionality compared to POP3, such as keeping messages on the server and synchronizing across multiple devices."
     },
     {
       "question": "Which cryptographic solution would be best suited for low-power devices, such as IoT devices, embedded systems, and mobile devices?",
       "options": ["ECC", "DES", "RSA", "AES"],
-      "correct_answers": ["ECC"]
+      "correct_answers": ["ECC"],
+      "explanation": "ECC (Elliptic-Curve Cryptography) is an approach to public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC allows smaller keys compared to non-EC cryptography (based on plain Galois fields) to provide equivalent security, making it suitable for low-power devices."
     },
     {
       "question": "The term \"ASLR\" refers to a technique used in modern OSs to enhance:",
       "options": ["Data redundancy", "System security", "Performance", "Storage capacity"],
-      "correct_answers": ["System security"]
+      "correct_answers": ["System security"],
+      "explanation": "ASLR (Address Space Layout Randomization) is a computer security technique involved in preventing exploitation of memory corruption vulnerabilities. It randomly arranges the address space positions of key data areas, including the base of the executable and the positions of the stack, heap, and libraries."
     },
     {
       "question": "Which of the following solutions provide the AAA functionality? (Select 2 answers)",
       "options": ["CHAP", "TACACS+", "PAP", "RADIUS", "MS-CHAP"],
-      "correct_answers": ["TACACS+", "RADIUS"]
+      "correct_answers": ["TACACS+", "RADIUS"],
+      "explanation": "TACACS+ (Terminal Access Controller Access-Control System Plus) and RADIUS (Remote Authentication Dial-In User Service) are both protocols that provide AAA (Authentication, Authorization, and Accounting) functionality. They are commonly used for centralized access control."
     },
     {
       "question": "Which of the acronyms listed below refers to a set of rules that specify which users or system processes are granted access to objects as well as what operations are allowed on a given object?",
       "options": ["CRL", "NAT", "BCP", "ACL"],
-      "correct_answers": ["ACL"]
+      "correct_answers": ["ACL"],
+      "explanation": "An ACL (Access Control List) is a list of permissions associated with an object. The list specifies which users or system processes are granted access to objects, as well as what operations are allowed on given objects."
     },
     {
       "question": "A network admin can ping remote host by its IP address, but not by its domain name. Which of the following is the most probable source of this problem?",
       "options": ["ICMP", "DNS", "HTTP", "DHCP"],
-      "correct_answers": ["DNS"]
+      "correct_answers": ["DNS"],
+      "explanation": "If a network administrator can ping a remote host by its IP address but not by its domain name, it indicates a problem with DNS (Domain Name System) resolution. DNS is responsible for translating domain names into IP addresses."
     },
     {
       "question": "The role of a RA in PKI is to: (Select 2 answers)",
@@ -156,37 +183,44 @@
       "correct_answers": [
         "Accept requests for digital certificates",
         "Authenticate the entity making the request"
-      ]
+      ],
+      "explanation": "A RA (Registration Authority) in PKI is responsible for verifying the identity of individuals or organizations requesting digital certificates and for accepting their requests. The CA (Certificate Authority) then issues the certificate."
     },
     {
       "question": "Which of the answers listed below refers to a generic term used to identify any resource?",
       "options": ["OUI", "URI", "OID", "URL"],
-      "correct_answers": ["URI"]
+      "correct_answers": ["URI"],
+      "explanation": "A URI (Uniform Resource Identifier) is a string of characters used to identify a name or a web resource. It is a generic term that encompasses both URLs and URNs."
     },
     {
       "question": "Which of the following answers refers to a framework widely used for enabling secure third-party access to user accounts?",
       "options": ["SSO", "OAuth", "MFA", "SAML"],
-      "correct_answers": ["OAuth"]
+      "correct_answers": ["OAuth"],
+      "explanation": "OAuth (Open Authorization) is an open standard for access delegation, commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords."
     },
     {
       "question": "An IV is a random or pseudorandom value used in cryptography to ensure that the same plaintext input does not produce the same ciphertext output, even when the same encryption key is used. The IV is typically used with encryption algorithms in block cipher modes to enhance security by introducing randomness to the encryption process.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "An IV (Initialization Vector) is a fixed-size input to a cryptographic primitive that is typically required to be random or pseudorandom. Randomization is crucial for encryption schemes to achieve semantic security, a property whereby repeated usage of the scheme with the same key does not allow an attacker to infer relationships between segments of the encrypted message."
     },
     {
       "question": "Which of the answers listed below refers to a security vulnerability that allows an attacker to inject malicious code into input fields, such as search bars or login forms, to execute unauthorized commands on a database?",
       "options": ["RCE", "SQLi", "XSS", "CSRF"],
-      "correct_answers": ["SQLi"]
+      "correct_answers": ["SQLi"],
+      "explanation": "SQLi (SQL injection) is a code injection technique that might destroy your database. SQL injection is one of the most common web hacking techniques. SQL injection is the placement of malicious code in SQL statements, via web page input."
     },
     {
       "question": "What is the name of a mobile device deployment model in which employees select devices for work-related tasks from a company-approved device list?",
       "options": ["VDI", "CYOD", "BYOD", "COPE"],
-      "correct_answers": ["CYOD"]
+      "correct_answers": ["CYOD"],
+      "explanation": "CYOD (Choose Your Own Device) is a mobile device deployment model in which employees select devices for work-related tasks from a company-approved device list. This offers a balance between employee choice and organizational control."
     },
     {
       "question": "Which of the following terms is used to describe sophisticated and prolonged cyberattacks often carried out by well-funded and organized groups, such as nation-states?",
       "options": ["MitM", "APT", "XSRF", "DDoS"],
-      "correct_answers": ["APT"]
+      "correct_answers": ["APT"],
+      "explanation": "An APT (Advanced Persistent Threat) is a type of cyberattack that is carried out over a long period of time. These attacks are typically well-funded and highly sophisticated, often associated with nation-states."
     },
     {
       "question": "What is STIX?",
@@ -196,7 +230,8 @@
         "US government initiative for real-time sharing of cyber threat indicators",
         "Transport mechanism for cyber threat information"
       ],
-      "correct_answers": ["Common language for describing cyber threat information"]
+      "correct_answers": ["Common language for describing cyber threat information"],
+      "explanation": "STIX (Structured Threat Information Expression) is a structured language for describing cyber threat information. It enables organizations to share threat intelligence in a standardized and automated manner."
     }
   ]
 }

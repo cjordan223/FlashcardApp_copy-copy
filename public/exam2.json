@@ -3,32 +3,38 @@
     {
       "question": "Which of the following terms describes the process of identifying differences between an organization's current security posture and its desired security posture?",
       "options": ["Tabletop exercise", "Gap analysis", "Security awareness training", "Risk assessment"],
-      "correct_answers": ["Gap analysis"]
+      "correct_answers": ["Gap analysis"],
+      "explanation": "A gap analysis is a method of assessing the differences in performance between a business's information systems or software applications to determine whether business requirements are being met and, if not, what steps should be taken to ensure they are met successfully. In security, this means comparing the current security posture to the desired security posture."
     },
     {
       "question": "The term \"Zero Trust security\" refers to a cybersecurity model that eliminates implicit trust from networks and requires all users and devices to be continuously verified before being granted access to resources. The implementation of the Zero Trust security involves two distinct components: a Data Plane, responsible for defining and managing security policies, and a Control Plane, responsible for enforcing the security policies established by the Data Plane.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Zero Trust is a security model based on the principle of maintaining strict access controls and not trusting anyone by default, even those already inside the network perimeter. The Control Plane makes access decisions, and the Data Plane enforces them."
     },
     {
       "question": "Which of the answers listed below refers to a Zero Trust Control Plane security approach that takes into account user identity, device security, network conditions, and other contextual information to enable dynamic access decisions?",
       "options": ["Implicit trust", "Monitoring and logging", "Adaptive identity", "Microsegmentation"],
-      "correct_answers": ["Adaptive identity"]
+      "correct_answers": ["Adaptive identity"],
+      "explanation": "Adaptive identity is a key component of Zero Trust that uses context (user, device, location, etc.) to make dynamic access decisions. This allows for more granular and risk-based access control."
     },
     {
       "question": "What are the key components of the Zero Trust Control Plane's Policy Decision Point (PDP)? (Select 2 answers)",
       "options": ["Policy Engine (PE)", "Monitoring and logging", "Policy Enforcement Point (PEP)", "Microsegmentation", "Policy Administrator (PA)"],
-      "correct_answers": ["Policy Engine (PE)", "Policy Administrator (PA)"]
+      "correct_answers": ["Policy Engine (PE)", "Policy Administrator (PA)"],
+      "explanation": "The Policy Decision Point (PDP) in Zero Trust is made up of the Policy Engine (PE), which evaluates access requests against policies, and the Policy Administrator (PA), which manages the policies."
     },
     {
       "question": "In the Zero Trust security architecture, the Policy Enforcement Point (PEP) is a Data Plane component that enforces the security policies defined at the Control Plane by the Policy Decision Point (PDP).",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "The Policy Enforcement Point (PEP) is the component that actually enforces the access control decisions made by the PDP. It acts as a gatekeeper, allowing or denying access based on the policies."
     },
     {
       "question": "An access control vestibule (a.k.a. mantrap) is a physical security access control system used to prevent unauthorized users from gaining access to restricted areas. An example mantrap could be a two-door entrance point connected to a guard station wherein a person entering from the outside remains locked inside until he/she provides authentication token required to unlock the inner door.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A mantrap is a physical security control that uses a small space with two interlocking doors to control access. This prevents tailgating and ensures that only authorized individuals can enter a secure area."
     },
     {
       "question": "Which of the following statements about honeypots are true? (Select 2 answers)",
@@ -42,27 +48,32 @@
       "correct_answers": [
         "Honeypots mimic real systems to attract cyber attackers",
         "Honeypots contain apparent vulnerabilities that are closely monitored by a security team"
-      ]
+      ],
+      "explanation": "Honeypots are decoy systems designed to attract and trap attackers, allowing security teams to study their methods and tools. They are not used to launch attacks."
     },
     {
       "question": "What is a honeynet in the context of cybersecurity?",
       "options": ["A network of IDSs", "A network of honeypots", "A network of infected hosts", "A network of IPSs"],
-      "correct_answers": ["A network of honeypots"]
+      "correct_answers": ["A network of honeypots"],
+      "explanation": "A honeynet is a network of honeypots, creating a more realistic and attractive target for attackers. This allows security teams to observe how attackers move between systems and gather more comprehensive threat intelligence."
     },
     {
       "question": "Which of the answers listed below refers to a honeynet example?",
       "options": ["A network of fake websites", "A network of fake servers", "A network of fake databases", "A network of fake file shares", "All of the above"],
-      "correct_answers": ["All of the above"]
+      "correct_answers": ["All of the above"],
+      "explanation": "A honeynet can be composed of various decoy systems, including fake websites, servers, databases, and file shares, to create a convincing environment for attackers."
     },
     {
       "question": "A honeyfile can be any type of file (e.g., a document, email message, image, or video file) containing real user data intentionally placed within a network or system to attract potential attackers or unauthorized users.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A honeyfile is a decoy file that is intentionally placed to attract attackers and trigger an alert when accessed. It can be used to detect and track unauthorized access to a system."
     },
     {
       "question": "A honeyfile can be used for:",
       "options": ["Attracting cyber attackers", "Triggering alerts when accessed", "Monitoring network activity", "All of the above"],
-      "correct_answers": ["All of the above"]
+      "correct_answers": ["All of the above"],
+      "explanation": "Honeyfiles have multiple uses, including attracting attackers, triggering alerts upon access, and monitoring network activity for signs of a breach."
     },
     {
       "question": "What is a honeytoken?",
@@ -72,7 +83,8 @@
         "A decoy system that is designed to lure potential attackers",
         "A unique identifier that is designed to track attackers"
       ],
-      "correct_answers": ["A unique identifier that is designed to track attackers"]
+      "correct_answers": ["A unique identifier that is designed to track attackers"],
+      "explanation": "A honeytoken is a unique identifier, such as a fake username, password, or API key, that is used to track attackers. If the honeytoken is used, it triggers an alert, indicating that the system has been compromised."
     },
     {
       "question": "Which of the following should not be used as honeytokens? (Select all that apply)",
@@ -86,17 +98,20 @@
       "correct_answers": [
         "Active user account credentials",
         "Actual URLs to live websites or resources"
-      ]
+      ],
+      "explanation": "Using active credentials or real URLs as honeytokens is dangerous because if an attacker uses them, they could gain access to real systems and data."
     },
     {
       "question": "A process used by organizations to assess and evaluate the potential impact of disruptive incidents or disasters on their critical business functions and operations is referred to as:",
       "options": ["BPA", "BIA", "SLE", "BCP"],
-      "correct_answers": ["BIA"]
+      "correct_answers": ["BIA"],
+      "explanation": "A Business Impact Analysis (BIA) is a systematic process to determine and evaluate the potential effects of an interruption to critical business operations as a result of a disaster, accident, or emergency."
     },
     {
       "question": "A hierarchical system for the creation, management, storage, distribution, and revocation of digital certificates is known as:",
       "options": ["PKI", "RA", "PKCS", "CA"],
-      "correct_answers": ["PKI"]
+      "correct_answers": ["PKI"],
+      "explanation": "A Public Key Infrastructure (PKI) is a set of roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption."
     },
     {
       "question": "Which of the answers listed below best describes the characteristics of a public-private key pair?",
@@ -106,52 +121,62 @@
         "A pair of keys where one is used for encryption and the other for decryption",
         "Both keys are examples of a shared key"
       ],
-      "correct_answers": ["A pair of keys where one is used for encryption and the other for decryption"]
+      "correct_answers": ["A pair of keys where one is used for encryption and the other for decryption"],
+      "explanation": "A public-private key pair is the foundation of asymmetric cryptography. The public key can be shared with anyone and is used to encrypt data, while the private key is kept secret and is used to decrypt the data."
     },
     {
       "question": "What is the typical use of a public key?",
       "options": ["Data encryption", "Data decryption", "User/device authentication", "All of the above"],
-      "correct_answers": ["Data encryption"]
+      "correct_answers": ["Data encryption"],
+      "explanation": "A public key is used to encrypt data. The corresponding private key is then used to decrypt the data. This ensures that only the intended recipient can read the message."
     },
     {
       "question": "Key escrow is a cryptographic technique that enables storing copies of encryption keys with a trusted third party. A Recovery Agent (RA) is a trusted third party (an individual, entity, or system) who is authorized to assist in the retrieval of encryption keys and data on behalf of the data owner. Key escrow and RA are both used to ensure that encrypted data can be decrypted even if the data owner loses access to their encryption key. Since key escrow and RAs are both components of a single security solution, the only way to implement key escrow systems is with the use of RAs.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Key escrow is the storage of a cryptographic key with a trusted third party. A Recovery Agent (RA) is the entity authorized to retrieve that key. This is a critical component of a key management system, ensuring that data can be recovered in case of key loss."
     },
     {
       "question": "Which of the following answers refers to a data storage device equipped with hardware-level encryption functionality?",
       "options": ["HSM", "TPM", "EFS", "SED"],
-      "correct_answers": ["SED"]
+      "correct_answers": ["SED"],
+      "explanation": "A Self-Encrypting Drive (SED) is a hard drive with a built-in encryption chip. This provides a high level of security as the encryption is always on and cannot be disabled."
     },
     {
       "question": "Which of the answers listed below refers to software technology designed to provide confidentiality for an entire data storage device?",
       "options": ["TPM", "FDE", "EFS", "HSM"],
-      "correct_answers": ["FDE"]
+      "correct_answers": ["FDE"],
+      "explanation": "Full Disk Encryption (FDE) is a technology that encrypts all data on a hard drive, including the operating system and all user files. This provides a high level of security for data at rest."
     },
     {
       "question": "An MS Windows component that enables encryption of individual files is called:",
       "options": ["SED", "EFS", "BitLocker", "FDE"],
-      "correct_answers": ["EFS"]
+      "correct_answers": ["EFS"],
+      "explanation": "The Encrypting File System (EFS) is a feature of Windows that allows users to encrypt individual files and folders. This provides a more granular level of control over data encryption than FDE."
     },
     {
       "question": "Which of the following software application tools are specifically designed for implementing encryption algorithms to secure data communication and storage? (Select 2 answers)",
       "options": ["VPN", "GPG", "SSH", "IPsec", "PGP"],
-      "correct_answers": ["GPG", "PGP"]
+      "correct_answers": ["GPG", "PGP"],
+      "explanation": "GPG (GNU Privacy Guard) and PGP (Pretty Good Privacy) are encryption programs that provide cryptographic privacy and authentication for data communication. They are widely used for securing emails and files."
     },
     {
       "question": "What is the name of a network protocol that secures web traffic via SSL/TLS encryption?",
       "options": ["SFTP", "HTTPS", "FTPS", "SNMP"],
-      "correct_answers": ["HTTPS"]
+      "correct_answers": ["HTTPS"],
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP, which uses SSL/TLS to encrypt communication between a web browser and a web server."
     },
     {
       "question": "Which of the answers listed below refers to a deprecated TLS-based method for secure transmission of email messages?",
       "options": ["S/MIME", "STARTTLS", "DKIM", "SMTPS"],
-      "correct_answers": ["SMTPS"]
+      "correct_answers": ["SMTPS"],
+      "explanation": "SMTPS (Simple Mail Transfer Protocol Secure) is a deprecated method for securing SMTP with SSL/TLS. It has been replaced by STARTTLS."
     },
     {
       "question": "Which of the following answers refers to an obsolete protocol used for secure data transfer over the web?",
       "options": ["SMTPS", "SRTP", "SHTTP", "S/MIME"],
-      "correct_answers": ["SHTTP"]
+      "correct_answers": ["SHTTP"],
+      "explanation": "S-HTTP (Secure HTTP) is an obsolete protocol for encrypting web communications. It was never widely adopted and has been replaced by HTTPS."
     }
   ]
 }

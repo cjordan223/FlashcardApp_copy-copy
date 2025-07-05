@@ -3,127 +3,152 @@
     {
       "question": "Which of the terms listed below refers to the process of creating and maintaining computer applications?",
       "options": ["RAD", "SDLC", "OOP", "SaaS"],
-      "correct_answers": ["SDLC"]
+      "correct_answers": ["SDLC"],
+      "explanation": "SDLC (Software Development Life Cycle) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates."
     },
     {
       "question": "Which of the following terms is used to describe all aspects of software development?",
       "options": ["PLC", "SDLC", "QA", "SDLM"],
-      "correct_answers": ["SDLC"]
+      "correct_answers": ["SDLC"],
+      "explanation": "SDLC (Software Development Life Cycle) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates."
     },
     {
       "question": "A new-user setup checklist includes all the activities that enable a new hire to become productive... An end-user termination checklist deals with all the actions that should take place during the offboarding process. True or False?",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "This statement is true. A new-user setup checklist ensures that a new hire has all the necessary access and resources to be productive. An end-user termination checklist ensures that all access is revoked and company assets are recovered when an employee leaves."
     },
     {
       "question": "Which of the terms listed below best describes GDPR as an act of law?",
       "options": ["Regulatory", "Local", "Industry-specific", "Global"],
-      "correct_answers": ["Regulatory"]
+      "correct_answers": ["Regulatory"],
+      "explanation": "GDPR (General Data Protection Regulation) is a regulatory act of law that protects the personal data of EU citizens. It is a comprehensive data protection law that applies to all organizations that process personal data of EU citizens."
     },
     {
       "question": "Which of the following terms refers to an industry-specific regulation?",
       "options": ["RFC", "ISO", "PCI DSS", "GDPR"],
-      "correct_answers": ["PCI DSS"]
+      "correct_answers": ["PCI DSS"],
+      "explanation": "PCI DSS (Payment Card Industry Data Security Standard) is an industry-specific regulation that applies to all organizations that accept, process, store, or transmit credit card information."
     },
     {
       "question": "Which of the answers listed below refers to an organization that develops a wide range of standards on a global level?",
       "options": ["IEEE", "ANSI", "ISO", "NIST"],
-      "correct_answers": ["ISO"]
+      "correct_answers": ["ISO"],
+      "explanation": "ISO (International Organization for Standardization) is an international standard-setting body composed of representatives from various national standards organizations. It develops and publishes a wide range of standards, including those related to information security."
     },
     {
       "question": "Which decision-making authorities assume responsibility for strategic direction and governance oversight at the highest level of an organization?",
       "options": ["Stakeholders", "Boards", "Committees", "Government entities"],
-      "correct_answers": ["Boards"]
+      "correct_answers": ["Boards"],
+      "explanation": "Boards of directors or governing bodies are typically responsible for strategic direction and governance oversight at the highest level of an organization. They set the overall vision and ensure compliance with laws and regulations."
     },
     {
       "question": "Which of the following answers refers to a general term used to describe a specialized group within an organization focusing on specific tasks or areas of responsibility?",
       "options": ["Council", "Advisory board", "Committee", "Task force"],
-      "correct_answers": ["Committee"]
+      "correct_answers": ["Committee"],
+      "explanation": "A committee is a general term used to describe a specialized group within an organization focusing on specific tasks or areas of responsibility. Committees are often formed to address specific issues or to provide guidance on certain topics."
     },
     {
       "question": "Which of the answers listed below refers to public sector organizations that set and enforce laws and regulations at local, regional, or national levels?",
       "options": ["Government entities", "Trade associations", "Statutory bodies", "Regulatory agencies"],
-      "correct_answers": ["Government entities"]
+      "correct_answers": ["Government entities"],
+      "explanation": "Government entities are public sector organizations that set and enforce laws and regulations at local, regional, or national levels. They play a crucial role in establishing legal frameworks for data protection and cybersecurity."
     },
     {
       "question": "Which of the following terms describes individuals or entities with overall accountability and authority over the data or system?",
       "options": ["Custodians", "Owners", "Processors", "Controllers"],
-      "correct_answers": ["Owners"]
+      "correct_answers": ["Owners"],
+      "explanation": "Owners are individuals or entities with overall accountability and authority over the data or system. They are ultimately responsible for the security and integrity of the data."
     },
     {
       "question": "Which of the answers listed below refers to organizations or individuals responsible for ensuring compliance with data protection laws?",
       "options": ["Controllers", "Stewards", "Owners", "Processors"],
-      "correct_answers": ["Controllers"]
+      "correct_answers": ["Controllers"],
+      "explanation": "Controllers are organizations or individuals responsible for ensuring compliance with data protection laws. They determine the purposes and means of processing personal data."
     },
     {
       "question": "Which of the following answers refers to entities that act on behalf of the data controller to perform specific data-related tasks?",
       "options": ["Stewards", "Owners", "Processors", "Controllers"],
-      "correct_answers": ["Processors"]
+      "correct_answers": ["Processors"],
+      "explanation": "Processors are entities that act on behalf of the data controller to perform specific data-related tasks. They process personal data only on the instructions of the controller."
     },
     {
       "question": "Which of the answers listed below refer(s) to individuals responsible for the day-to-day management, storage, and protection of data? (Select all that apply)",
       "options": ["Processors", "Controllers", "Stewards", "Owners", "Custodians"],
-      "correct_answers": ["Stewards", "Custodians"]
+      "correct_answers": ["Stewards", "Custodians"],
+      "explanation": "Stewards and custodians are individuals responsible for the day-to-day management, storage, and protection of data. They implement the policies and procedures set by the data owners and controllers."
     },
     {
       "question": "The process of determining potential risks that could affect an organization's ability to achieve its objectives is called:",
       "options": ["Risk assessment", "Risk identification", "Risk analysis", "Risk management"],
-      "correct_answers": ["Risk identification"]
+      "correct_answers": ["Risk identification"],
+      "explanation": "Risk identification is the process of determining potential risks that could affect an organization's ability to achieve its objectives. It involves identifying potential threats and vulnerabilities."
     },
     {
       "question": "The process of evaluating discovered risks to understand their potential impact and likelihood is referred to as:",
       "options": ["Risk analysis", "Risk assessment", "Risk identification", "Risk management"],
-      "correct_answers": ["Risk assessment"]
+      "correct_answers": ["Risk assessment"],
+      "explanation": "Risk assessment is the process of evaluating discovered risks to understand their potential impact and likelihood. It involves analyzing the identified risks and prioritizing them based on their severity."
     },
     {
       "question": "Which of the following answers refers to a risk assessment method based on need, typically conducted in response to specific events or changes?",
       "options": ["Ad hoc", "Recurring", "One-time", "Continuous"],
-      "correct_answers": ["Ad hoc"]
+      "correct_answers": ["Ad hoc"],
+      "explanation": "An ad hoc risk assessment is conducted as needed, typically in response to specific events or changes, such as a new project, a security incident, or a change in regulations."
     },
     {
       "question": "Which of the answers listed below refers to an example of recurring risk assessment?",
       "options": ["Real-time monitoring of network security threats", "Assessing risk after a major change or breach", "Quarterly or annual risk assessments", "Risk assessment for a new product launch"],
-      "correct_answers": ["Quarterly or annual risk assessments"]
+      "correct_answers": ["Quarterly or annual risk assessments"],
+      "explanation": "Recurring risk assessments are conducted at regular intervals, such as quarterly or annually, to monitor changes in the risk landscape and to ensure that controls remain effective."
     },
     {
       "question": "Which of the following answers refers to a risk assessment conducted for a specific purpose or project, without plans for regular reassessment?",
       "options": ["One-time", "Recurring", "Ad hoc", "Continuous"],
-      "correct_answers": ["One-time"]
+      "correct_answers": ["One-time"],
+      "explanation": "A one-time risk assessment is conducted for a specific purpose or project, without plans for regular reassessment. It is typically used for projects with a defined scope and duration."
     },
     {
       "question": "Which of the answers listed below refers to an example of continuous risk assessment?",
       "options": ["Quarterly or annual assessments", "Risk assessment for a new product launch", "Assessing risk after a major change or breach", "Real-time monitoring of network security threats"],
-      "correct_answers": ["Real-time monitoring of network security threats"]
+      "correct_answers": ["Real-time monitoring of network security threats"],
+      "explanation": "Continuous risk assessment involves real-time monitoring of network security threats and other risk factors. It provides ongoing visibility into the organization's risk posture and enables timely response to emerging threats."
     },
     {
       "question": "Assessment of risk probability and its impact based on subjective judgment falls into the category of:",
       "options": ["Risk acceptance", "Quantitative risk assessment", "Risk tolerance", "Qualitative risk assessment"],
-      "correct_answers": ["Qualitative risk assessment"]
+      "correct_answers": ["Qualitative risk assessment"],
+      "explanation": "Qualitative risk assessment is a subjective assessment of risk probability and its impact. It uses descriptive terms, such as high, medium, and low, to describe the likelihood and impact of risks."
     },
     {
       "question": "A calculation of SLE is an example of:",
       "options": ["Quantitative risk assessment", "Ad hoc risk assessment", "Qualitative risk assessment", "Recurring risk assessment"],
-      "correct_answers": ["Quantitative risk assessment"]
+      "correct_answers": ["Quantitative risk assessment"],
+      "explanation": "Quantitative risk assessment is an objective assessment of risk probability and its impact. It uses numerical values to describe the likelihood and impact of risks, allowing for calculations such as SLE (Single Loss Expectancy)."
     },
     {
       "question": "Which of the following terms is used to describe the predicted loss of value to an asset based on a single security incident?",
       "options": ["SLE", "ARO", "ALE", "SLA"],
-      "correct_answers": ["SLE"]
+      "correct_answers": ["SLE"],
+      "explanation": "SLE (Single Loss Expectancy) is the predicted loss of value to an asset based on a single security incident. It is a key metric in quantitative risk assessment."
     },
     {
       "question": "Which of the acronyms listed below refers to a risk assessment formula defining probable financial loss due to a risk over a one-year period?",
       "options": ["ARO", "SLE", "ALE", "SLA"],
-      "correct_answers": ["ALE"]
+      "correct_answers": ["ALE"],
+      "explanation": "ALE (Annualized Loss Expectancy) is a risk assessment formula that defines the probable financial loss due to a risk over a one-year period. It is calculated by multiplying SLE by ARO."
     },
     {
       "question": "Which of the following answers refers to the correct formula for calculating probable financial loss due to a risk over a one-year period?",
       "options": ["SLE = AV × EF", "ALE = ARO × SLE", "SLE = ALE × AV", "ALE = AV × EF"],
-      "correct_answers": ["ALE = ARO × SLE"]
+      "correct_answers": ["ALE = ARO × SLE"],
+      "explanation": "The correct formula for calculating ALE (Annualized Loss Expectancy) is ARO (Annualized Rate of Occurrence) multiplied by SLE (Single Loss Expectancy)."
     },
     {
       "question": "In quantitative risk assessment, this term is used for estimating the likelihood of occurrence of a future threat.",
       "options": ["ALE", "SLA", "ARO", "SLE"],
-      "correct_answers": ["ARO"]
+      "correct_answers": ["ARO"],
+      "explanation": "ARO (Annualized Rate of Occurrence) is a term used in quantitative risk assessment for estimating the likelihood of occurrence of a future threat over a one-year period."
     }
   ]
 }

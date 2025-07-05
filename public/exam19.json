@@ -3,102 +3,122 @@
     {
       "question": "Which of the following answers refers to a policy framework that allows domain owners to specify how email receivers should handle emails that fail authentication checks?",
       "options": ["DKIM", "SPF", "PEM", "DMARC"],
-      "correct_answers": ["DMARC"]
+      "correct_answers": ["DMARC"],
+      "explanation": "DMARC (Domain-based Message Authentication, Reporting & Conformance) is an email authentication policy and reporting protocol. It builds on the widely deployed SPF and DKIM protocols, adding linkage to the author \"From:\" domain name, publishing policies for recipient handling of authentication failures, and reporting from receivers to senders to improve and monitor authentication."
     },
     {
       "question": "Which of the answers listed below refers to an authentication method that enables the signing of an outbound email message with a digital signature?",
       "options": ["SPF", "DKIM", "DMARC", "PEM"],
-      "correct_answers": ["DKIM"]
+      "correct_answers": ["DKIM"],
+      "explanation": "DKIM (DomainKeys Identified Mail) is an email authentication method designed to detect forged sender addresses in emails (email spoofing), a technique often used in phishing and email spam. It allows the receiver to check that an email claimed to come from a specific domain was indeed authorized by the owner of that domain."
     },
     {
       "question": "Which of the following answers refers to an email authentication mechanism that allows domain owners to specify which IP addresses are authorized to send emails on behalf of their domain?",
       "options": ["DMARC", "PEM", "DKIM", "SPF"],
-      "correct_answers": ["SPF"]
+      "correct_answers": ["SPF"],
+      "explanation": "SPF (Sender Policy Framework) is an email authentication method designed to detect forging sender addresses during email delivery. SPF allows administrators to prevent spammers from sending messages with forged From addresses at their domains."
     },
     {
       "question": "Which of the answers listed below refers to a cryptographic standard (and a file format) used for the storage and transmission of private keys in email communications?",
       "options": ["PEM", "DMARC", "SPF", "DKIM"],
-      "correct_answers": ["PEM"]
+      "correct_answers": ["PEM"],
+      "explanation": "PEM (Privacy-Enhanced Mail) is a standard for securing email messages. It defines a set of procedures for encrypting, authenticating, and digitally signing email messages."
     },
     {
       "question": "Which of the following solutions would be the best choice for real-time protection against spam and phishing attacks?",
       "options": ["Email client filter", "Host-based AV software", "Email security gateway", "Cloud-based email service"],
-      "correct_answers": ["Email security gateway"]
+      "correct_answers": ["Email security gateway"],
+      "explanation": "An email security gateway is a dedicated solution that provides real-time protection against spam and phishing attacks. It inspects all incoming and outgoing email traffic and blocks malicious emails."
     },
     {
       "question": "Which of the answers listed below refers to the process of maintaining the integrity of files and data?",
       "options": ["DLP", "SIEM", "FIM", "SHA"],
-      "correct_answers": ["FIM"]
+      "correct_answers": ["FIM"],
+      "explanation": "FIM (File Integrity Monitoring) is a technology that monitors changes to files and data. It is used to detect unauthorized changes to files, which can indicate a security breach."
     },
     {
       "question": "Which of the following answers refers to a solution that helps organizations mitigate risks associated with data breaches, insider threats, and compliance violations?",
       "options": ["EDR", "DLP", "IAM", "UTM"],
-      "correct_answers": ["DLP"]
+      "correct_answers": ["DLP"],
+      "explanation": "DLP (Data Loss Prevention) is a set of tools and processes used to ensure that sensitive data is not lost, misused, or accessed by unauthorized users. DLP solutions classify and protect sensitive information, preventing accidental or malicious data breaches."
     },
     {
       "question": "Network Access Control (NAC) defines a set of rules enforced in a network that the clients attempting to access the network must comply with. NAC can be implemented with agent software (permanent or dissolvable) or agentless by an external device.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "NAC (Network Access Control) is a computer networking solution that uses a set of protocols to define and implement a policy that describes how to secure access to network nodes by devices when they initially attempt to access the network."
     },
     {
       "question": "Which of the answers listed below refers to a security solution that provides the capability for detection, analysis, response, and real-time monitoring of cyber threats at the device level?",
       "options": ["SWG", "CASB", "EDR", "NGFW"],
-      "correct_answers": ["EDR"]
+      "correct_answers": ["EDR"],
+      "explanation": "EDR (Endpoint Detection and Response) is a cybersecurity solution that continuously monitors and collects data from endpoint devices (such as laptops, desktops, and servers) to detect, analyze, and respond to cyber threats."
     },
     {
       "question": "Which of the following answers refers to a cybersecurity approach that focuses on recognizing and addressing potential threats originating from multiple sources?",
       "options": ["XDR", "WAF", "EDR", "SWG"],
-      "correct_answers": ["XDR"]
+      "correct_answers": ["XDR"],
+      "explanation": "XDR (Extended Detection and Response) is a cybersecurity approach that unifies and correlates security data from multiple sources, including endpoints, networks, and cloud environments, to provide a more comprehensive view of threats and enable faster response."
     },
     {
       "question": "Which of the answers listed below refers to a cybersecurity approach aimed at identifying insider threats, compromised accounts, or malicious activity?",
       "options": ["Threat intelligence", "User behavior analytics", "Security policies and procedures", "Defense in depth"],
-      "correct_answers": ["User behavior analytics"]
+      "correct_answers": ["User behavior analytics"],
+      "explanation": "User behavior analytics (UBA) is a cybersecurity approach that analyzes user behavior to identify insider threats, compromised accounts, or malicious activity. It uses machine learning and statistical analysis to detect anomalies in user behavior."
     },
     {
       "question": "Which of the following answers refers to a framework for managing access control to digital resources?",
       "options": ["PAM", "SSO", "IAM", "MFA"],
-      "correct_answers": ["IAM"]
+      "correct_answers": ["IAM"],
+      "explanation": "IAM (Identity and Access Management) is a framework for managing access control to digital resources. It includes policies, processes, and technologies that enable organizations to manage digital identities and control user access to resources."
     },
     {
       "question": "Which of the terms listed below is used to describe the technical process of removing a user's access to an organization's systems and resources?",
       "options": ["De-provisioning", "Group Policy", "IAM", "Offboarding"],
-      "correct_answers": ["De-provisioning"]
+      "correct_answers": ["De-provisioning"],
+      "explanation": "De-provisioning is the technical process of removing a user's access to an organization's systems and resources. It is an important part of the offboarding process to ensure that former employees no longer have access to sensitive information."
     },
     {
       "question": "A general characteristic of a standard user account is that it provides access to basic system resources but does not allow the user to make system changes.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A standard user account is designed to provide access to basic system resources without allowing the user to make system-wide changes. This is a security best practice to limit the impact of a compromised account."
     },
     {
       "question": "An authentication subsystem in which a single set of authentication credentials provides access to multiple systems across different organizations or security domains is referred to as:",
       "options": ["Syndication", "Federation", "Association", "Propagation"],
-      "correct_answers": ["Federation"]
+      "correct_answers": ["Federation"],
+      "explanation": "Federation is an authentication subsystem in which a single set of authentication credentials provides access to multiple systems across different organizations or security domains. This simplifies user management and improves security."
     },
     {
       "question": "An authentication subsystem that enables a user to access multiple, connected system components after a single login on one component is known as:",
       "options": ["NAC", "SSO", "AAA", "MFA"],
-      "correct_answers": ["SSO"]
+      "correct_answers": ["SSO"],
+      "explanation": "SSO (Single Sign-On) is an authentication subsystem that enables a user to access multiple, connected system components after a single login on one component. This improves user convenience and security."
     },
     {
       "question": "Which of the following answers refers to a protocol designed for accessing and managing information related to user accounts, groups, devices, and other resources within an organization?",
       "options": ["SOAP", "RDP", "LDAP", "SAML"],
-      "correct_answers": ["LDAP"]
+      "correct_answers": ["LDAP"],
+      "explanation": "LDAP (Lightweight Directory Access Protocol) is a protocol designed for accessing and managing information related to user accounts, groups, devices, and other resources within an organization. It is commonly used for centralized authentication and authorization."
     },
     {
       "question": "OAuth is an open standard for:",
       "options": ["Auditing", "Authentication", "Authorization", "Attestation"],
-      "correct_answers": ["Authorization"]
+      "correct_answers": ["Authorization"],
+      "explanation": "OAuth (Open Authorization) is an open standard for authorization. It allows a user to grant a third-party application limited access to their resources without sharing their credentials."
     },
     {
       "question": "OpenID Connect is a protocol used for:",
       "options": ["Attestation", "Authorization", "Auditing", "Authentication"],
-      "correct_answers": ["Authentication"]
+      "correct_answers": ["Authentication"],
+      "explanation": "OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the end-user based on the authentication performed by an authorization server, as well as to obtain basic profile information about the end-user in an interoperable and REST-like manner."
     },
     {
       "question": "A common implementation of identity and access controls in federated SSO systems uses OpenID Connect and OAuth 2.0 together to provide authentication and authorization services.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "OpenID Connect and OAuth 2.0 are often used together in federated SSO systems. OpenID Connect provides authentication, while OAuth 2.0 provides authorization."
     },
     {
       "question": "What are the characteristic features of SAML? (Select 3 answers)",
@@ -115,12 +135,14 @@
         "Handles both authentication and authorization for SSO",
         "Uses XML for data exchange",
         "Commonly used in enterprise environments and legacy systems"
-      ]
+      ],
+      "explanation": "SAML (Security Assertion Markup Language) is an XML-based open standard for exchanging authentication and authorization data between an identity provider and a service provider. It is commonly used in enterprise environments and legacy systems for SSO."
     },
     {
       "question": "Which of the terms listed below refers to the process of confirming the integrity and compliance status of various components such as devices, software, configurations, and user privileges?",
       "options": ["Attestation", "Authentication", "Auditing", "Authorization"],
-      "correct_answers": ["Attestation"]
+      "correct_answers": ["Attestation"],
+      "explanation": "Attestation is the process of confirming the integrity and compliance status of various components such as devices, software, configurations, and user privileges. It is used to ensure that systems are secure and compliant with policies."
     },
     {
       "question": "Which of the following answers refer(s) to the Mandatory Access Control (MAC) model? (Select all that apply)",
@@ -135,17 +157,20 @@
         "Users are not allowed to change access policies at their own discretion",
         "Labels and clearance levels can only be applied and changed by an administrator",
         "Every resource has a sensitivity label matching a clearance level assigned to a user"
-      ]
+      ],
+      "explanation": "MAC (Mandatory Access Control) is a security model where access rights are regulated by a central authority based on multiple levels of security. Users cannot override or modify these access policies."
     },
     {
       "question": "Discretionary Access Control (DAC) is an access control model based on user identity. In DAC, every object has an owner who at their own discretion determines what kind of permissions other users can have for that object.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "DAC (Discretionary Access Control) is an access control model where the owner of a resource can grant or deny access to other users at their discretion. This is a less restrictive model than MAC."
     },
     {
       "question": "Which type of control access model connects user permissions to their specific responsibilities?",
       "options": ["DAC", "RBAC", "MAC", "ABAC"],
-      "correct_answers": ["RBAC"]
+      "correct_answers": ["RBAC"],
+      "explanation": "RBAC (Role-Based Access Control) is an access control model where permissions are assigned to roles, and users are assigned to roles. This simplifies access management and ensures that users have only the permissions they need to perform their job responsibilities."
     }
   ]
 }

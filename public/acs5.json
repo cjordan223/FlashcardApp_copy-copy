@@ -3,57 +3,68 @@
     {
       "question": "Which of the following answers refers to a protocol used to set up secure connections and exchange of cryptographic keys in IPsec VPNs?",
       "options": ["SSL", "IKE", "ESP", "DHE"],
-      "correct_answers": ["IKE"]
+      "correct_answers": ["IKE"],
+      "explanation": "IKE (Internet Key Exchange) is the protocol used to set up a security association (SA) in the IPsec protocol suite. It is responsible for negotiating the cryptographic keys and algorithms to be used in the VPN tunnel."
     },
     {
       "question": "An access control model that enforces the strictest set of access rules is known as:",
       "options": ["MAC", "RBAC", "DAC", "ABAC"],
-      "correct_answers": ["MAC"]
+      "correct_answers": ["MAC"],
+      "explanation": "MAC (Mandatory Access Control) is an access control model that enforces the strictest set of access rules. In MAC, access decisions are made by a central authority based on security labels assigned to subjects and objects. Users cannot override these rules."
     },
     {
       "question": "Which of the acronyms listed below refers to a cryptographic software tool for secure email communication and data protection?",
       "options": ["DES", "PEM", "EFS", "PGP"],
-      "correct_answers": ["PGP"]
+      "correct_answers": ["PGP"],
+      "explanation": "PGP (Pretty Good Privacy) is a cryptographic software tool for secure email communication and data protection. It provides encryption, digital signatures, and key management."
     },
     {
       "question": "What type of action allows an attacker to exploit the XSS vulnerability?",
       "options": ["Code injection", "Banner grabbing", "PIN recovery", "Input validation"],
-      "correct_answers": ["Code injection"]
+      "correct_answers": ["Code injection"],
+      "explanation": "XSS (Cross-Site Scripting) is a type of code injection vulnerability that allows an attacker to inject malicious code into a web page. This code is then executed by the victim's browser, which can lead to various attacks."
     },
     {
       "question": "A type of vulnerability where the state of a resource is verified at one point in time but may change before the resource is actually used is called:",
       "options": ["TOC", "TOC/TOU", "TOU", "TSIG"],
-      "correct_answers": ["TOC/TOU"]
+      "correct_answers": ["TOC/TOU"],
+      "explanation": "TOC/TOU (Time-of-Check to Time-of-Use) is a type of vulnerability where the state of a resource is verified at one point in time, but the resource is used at a later point in time. This can lead to security vulnerabilities if the state of the resource changes between the time it is checked and the time it is used."
     },
     {
       "question": "The term \"SMS\" is used in reference to:",
       "options": ["Text messaging services", "Enhanced messaging services", "Multimedia messaging services", "Rich communication services"],
-      "correct_answers": ["Text messaging services"]
+      "correct_answers": ["Text messaging services"],
+      "explanation": "SMS (Short Message Service) is a text messaging service component of most telephone, Internet, and mobile device systems. It uses standardized communication protocols that let mobile devices exchange short text messages."
     },
     {
       "question": "Which of the following terms refers to a framework and knowledge base that provides understanding of TTPs used during cyberattacks?",
       "options": ["CVSS", "ATT&CK", "TAXII", "STIX"],
-      "correct_answers": ["ATT&CK"]
+      "correct_answers": ["ATT&CK"],
+      "explanation": "ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) is a framework and knowledge base that provides understanding of TTPs (Tactics, Techniques, and Procedures) used during cyberattacks. It is a valuable resource for threat intelligence and defense."
     },
     {
       "question": "Which of the answers listed below refers to a security solution that provides the capability for detection, analysis, response, and real-time monitoring of cyber threats at the device level?",
       "options": ["SWG", "CASB", "EDR", "NGFW"],
-      "correct_answers": ["EDR"]
+      "correct_answers": ["EDR"],
+      "explanation": "EDR (Endpoint Detection and Response) is a security solution that provides the capability for detection, analysis, response, and real-time monitoring of cyber threats at the device level. It focuses on endpoint visibility and threat hunting."
     },
     {
       "question": "Which of the following answers refers to a system containing mappings of domain names to various types of data, such as numerical IP addresses?",
       "options": ["TCP/IP", "DNS", "SQL", "DHCP"],
-      "correct_answers": ["DNS"]
+      "correct_answers": ["DNS"],
+      "explanation": "DNS (Domain Name System) is a hierarchical and decentralized naming system for computers, services, or any resource connected to the Internet or a private network. It translates human-readable domain names into numerical IP addresses."
     },
     {
       "question": "The term \"OTA\" refers to the process of wirelessly transmitting data, updates, or information to electronic devices, such as smartphones, tablets, or IoT devices, typically using cellular networks, Wi-Fi, or other wireless communication methods.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "OTA (Over-The-Air) refers to the wireless transmission of data, updates, or information to electronic devices. This is commonly used for software updates on mobile phones and IoT devices."
     },
     {
       "question": "Which of the acronyms listed below refers to a piece of hardware and associated software/firmware designed to provide cryptographic and key management functions?",
       "options": ["EFS", "HSM", "SFC", "TPM"],
-      "correct_answers": ["HSM"]
+      "correct_answers": ["HSM"],
+      "explanation": "An HSM (Hardware Security Module) is a physical computing device that safeguards and manages digital keys for strong authentication and provides cryptoprocessing. These modules traditionally come in the form of a plug-in card or an external device that attaches directly to a computer or network server."
     },
     {
       "question": "What is a PUP? (Select 3 answers)",
@@ -69,122 +80,146 @@
         "A type of computer program not explicitly classified as malware by AV software",
         "A type of software that may adversely affect the computer's security and performance, compromise user's privacy, or display unsolicited ads",
         "An application downloaded and installed with the user's consent"
-      ]
+      ],
+      "explanation": "A PUP (Potentially Unwanted Program) is a program that may be unwanted, despite the user having consented to download it. PUPs include spyware, adware, and dialers, and are often downloaded in conjunction with a program that the user wants."
     },
     {
       "question": "A measure of the likelihood that a biometric security system will incorrectly reject an access attempt by an authorized user is referred to as:",
       "options": ["FAR", "CER", "CRC", "FRR"],
-      "correct_answers": ["FRR"]
+      "correct_answers": ["FRR"],
+      "explanation": "FRR (False Rejection Rate) is a measure of the likelihood that a biometric security system will incorrectly reject an access attempt by an authorized user. A high FRR can lead to user frustration."
     },
     {
       "question": "Which of the following enables the automation of vulnerability scanning and compliance checking?",
       "options": ["SAML", "OVAL", "SCAP", "SASE"],
-      "correct_answers": ["SCAP"]
+      "correct_answers": ["SCAP"],
+      "explanation": "SCAP (Security Content Automation Protocol) is a suite of specifications that standardize the way security software communicates and interprets security-related information. It enables the automation of vulnerability scanning and compliance checking."
     },
     {
       "question": "Which of the acronyms listed below refers to a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event?",
       "options": ["BIA", "SLE", "BCP", "BPA"],
-      "correct_answers": ["BCP"]
+      "correct_answers": ["BCP"],
+      "explanation": "BCP (Business Continuity Plan) is a comprehensive strategy and set of procedures designed to ensure that an organization can continue its critical operations and functions during and after a disruptive event. It focuses on maintaining business operations during and after a disaster."
     },
     {
       "question": "Given the computational limitations of IoT devices, smartcards, and mobile devices, which of the following digital signature algorithms would be the most efficient choice due to its smaller key size and lower computational requirements?",
       "options": ["RSA", "ECDHE", "DSA", "ECDSA", "ECC"],
-      "correct_answers": ["ECDSA"]
+      "correct_answers": ["ECDSA"],
+      "explanation": "ECDSA (Elliptic Curve Digital Signature Algorithm) is a digital signature algorithm that is based on elliptic curve cryptography. It is more computationally efficient than other signature algorithms and provides strong security with smaller key sizes, making it suitable for resource-constrained devices."
     },
     {
       "question": "Which type of software is used to prevent, detect, and remove malware from computer systems and networks?",
       "options": ["IDS", "SaaS", "AV", "WAF"],
-      "correct_answers": ["AV"]
+      "correct_answers": ["AV"],
+      "explanation": "AV (Antivirus) software is used to prevent, detect, and remove malware from computer systems and networks. It scans for known malware signatures and can also use heuristic analysis to detect new or unknown malware."
     },
     {
       "question": "An estimate based on the historical data of how often a threat would be successful in exploiting a vulnerability is known as:",
       "options": ["ALE", "SLA", "ARO", "SLE"],
-      "correct_answers": ["ARO"]
+      "correct_answers": ["ARO"],
+      "explanation": "ARO (Annualized Rate of Occurrence) is an estimate based on the historical data of how often a threat would be successful in exploiting a vulnerability. It is a key component in quantitative risk assessment."
     },
     {
       "question": "Which of the answers listed below refers to a rule-based access control mechanism associated with files and/or directories?",
       "options": ["EFS", "FACL", "FIM", "NTFS"],
-      "correct_answers": ["FACL"]
+      "correct_answers": ["FACL"],
+      "explanation": "FACL (File Access Control List) is a rule-based access control mechanism associated with files and/or directories. It defines permissions for users and groups to access specific files or directories."
     },
     {
       "question": "Which of the following answers refers to a DNS TXT record that allows the owner of a domain to specify all the servers authorized to send mail from their domain?",
       "options": ["DKIM", "SRV", "CNAME", "SPF"],
-      "correct_answers": ["SPF"]
+      "correct_answers": ["SPF"],
+      "explanation": "SPF (Sender Policy Framework) is a DNS TXT record that allows the owner of a domain to specify all the servers authorized to send mail from their domain. It helps to prevent email spoofing."
     },
     {
       "question": "Which of the answers listed below refers to a cryptographic method used to verify that a message or data has remained unaltered during transmission and originates from an authorized source?",
       "options": ["MAC", "CBC", "PEM", "GCM"],
-      "correct_answers": ["MAC"]
+      "correct_answers": ["MAC"],
+      "explanation": "MAC (Message Authentication Code) is a cryptographic method used to verify that a message or data has remained unaltered during transmission and originates from an authorized source. It provides data integrity and authenticity."
     },
     {
       "question": "Which of the following answers refers to a network security technology designed to monitor WLANs for unauthorized access, security threats, and suspicious activities?",
       "options": ["UTM", "WIDS", "NGFW", "WAF"],
-      "correct_answers": ["WIDS"]
+      "correct_answers": ["WIDS"],
+      "explanation": "WIDS (Wireless Intrusion Detection System) is a network security technology designed to monitor WLANs for unauthorized access, security threats, and suspicious activities. It detects and alerts on suspicious activity but does not actively block it."
     },
     {
       "question": "Which of the acronyms listed below refers to a client-server protocol that provides centralized AAA services for remote-access users?",
       "options": ["OAuth", "RADIUS", "LDAP", "OpenID"],
-      "correct_answers": ["RADIUS"]
+      "correct_answers": ["RADIUS"],
+      "explanation": "RADIUS (Remote Authentication Dial-In User Service) is a client-server protocol that provides centralized AAA (Authentication, Authorization, and Accounting) services for remote-access users. It is widely used for network access control."
     },
     {
       "question": "Which type of software enables centralized administration of mobile devices?",
       "options": ["MFA", "MMC", "MDM", "MFD"],
-      "correct_answers": ["MDM"]
+      "correct_answers": ["MDM"],
+      "explanation": "MDM (Mobile Device Management) is a type of software that enables centralized administration of mobile devices. It allows organizations to manage and secure mobile devices, applications, and data."
     },
     {
       "question": "Which of the following defines a file format for storing and exchanging personal identity information, including private keys and digital certificates?",
       "options": ["P10", "P11", "P12", "P13"],
-      "correct_answers": ["P12"]
+      "correct_answers": ["P12"],
+      "explanation": "P12 is a file format that defines a file format for storing and exchanging personal identity information, including private keys and digital certificates. It is commonly used for exporting and importing cryptographic keys."
     },
     {
       "question": "Which of the answers listed below refers to a cryptographic key exchange protocol that leverages ECC for enhanced security and efficiency?",
       "options": ["IKE", "ECDHE", "DHE", "ECDSA"],
-      "correct_answers": ["ECDHE"]
+      "correct_answers": ["ECDHE"],
+      "explanation": "ECDHE (Elliptic Curve Diffie-Hellman Ephemeral) is a cryptographic key exchange protocol that leverages ECC (Elliptic Curve Cryptography) for enhanced security and efficiency. It provides perfect forward secrecy."
     },
     {
       "question": "The term \"MTTF\" refers to a metric that represents the average amount of time a device or system is expected to operate before experiencing its first failure.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "MTTF (Mean Time To Failure) is a metric that represents the average amount of time a device or system is expected to operate before experiencing its first failure. It is a measure of reliability for non-repairable items."
     },
     {
       "question": "In modern OSs, this feature prevents malicious code from executing in certain memory regions intended for data.",
       "options": ["DEP", "ECB", "DLP", "CRC"],
-      "correct_answers": ["DEP"]
+      "correct_answers": ["DEP"],
+      "explanation": "DEP (Data Execution Prevention) is a security feature in modern operating systems that prevents malicious code from executing in certain memory regions intended for data. It helps to prevent buffer overflow attacks."
     },
     {
       "question": "Which of the following enables the exchange of information between computer programs?",
       "options": ["API", "UI", "Device drivers", "SDK"],
-      "correct_answers": ["API"]
+      "correct_answers": ["API"],
+      "explanation": "API (Application Programming Interface) is a set of definitions, protocols, and tools for building application software. It enables the exchange of information between computer programs."
     },
     {
       "question": "A cloud computing service model offering remote access to applications based on monthly or annual subscription fee is called:",
       "options": ["PaaS", "SaaS", "IaaS", "DaaS"],
-      "correct_answers": ["SaaS"]
+      "correct_answers": ["SaaS"],
+      "explanation": "SaaS (Software as a Service) is a cloud computing service model offering remote access to applications based on a monthly or annual subscription fee. Users access software over the internet, eliminating the need for local installation and maintenance."
     },
     {
       "question": "RTBH is a type of DDoS attack.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. RTBH (Remotely Triggered Black Hole) is a technique used to mitigate DDoS attacks by dropping malicious traffic at the network edge. It is a defense mechanism, not an attack."
     },
     {
       "question": "Which AES key length provides the highest level of security?",
       "options": ["128-bit key", "192-bit key", "256-bit key", "320-bit key"],
-      "correct_answers": ["256-bit key"]
+      "correct_answers": ["256-bit key"],
+      "explanation": "AES (Advanced Encryption Standard) supports key lengths of 128, 192, and 256 bits. A 256-bit key provides the highest level of security, making it more resistant to brute-force attacks."
     },
     {
       "question": "Which of the answers listed below refers to a specific type of ICS?",
       "options": ["SoC", "CVSS", "SCADA", "RTOS"],
-      "correct_answers": ["SCADA"]
+      "correct_answers": ["SCADA"],
+      "explanation": "SCADA (Supervisory Control and Data Acquisition) is a specific type of ICS (Industrial Control System). SCADA systems are used to control and monitor industrial processes, such as power generation, water treatment, and manufacturing."
     },
     {
       "question": "The MIME specification extends the email message format beyond simple text, enabling the transfer of graphics, audio, and video files over the Internet mail system. S/MIME is an enhanced version of the MIME protocol that enables email security features by providing encryption, authentication, message integrity, and other related services.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "This statement is true. S/MIME (Secure/Multipurpose Internet Mail Extensions) is an enhanced version of the MIME protocol that enables email security features by providing encryption, authentication, message integrity, and other related services. It allows for secure exchange of various content types over email."
     },
     {
       "question": "Which part of the IPsec protocol suite provides authentication and integrity?",
       "options": ["CRC", "AH", "SIEM", "AES"],
-      "correct_answers": ["AH"]
+      "correct_answers": ["AH"],
+      "explanation": "AH (Authentication Header) is a member of the IPsec protocol suite that provides authentication and integrity for IP packets. It ensures that data has not been tampered with and originates from an authorized source."
     }
   ]
 }

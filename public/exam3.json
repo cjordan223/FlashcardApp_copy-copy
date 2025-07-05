@@ -3,127 +3,152 @@
     {
       "question": "The MIME specification extends the email message format beyond plain text, enabling the transfer of graphics, audio, and video files over the Internet mail system. S/MIME is an enhanced version of the MIME protocol that enables email security features by providing encryption, authentication, message integrity, and other related services.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. It provides cryptographic security services for electronic messaging applications: authentication, message integrity and non-repudiation of origin (using digital signatures) and privacy and data security (using encryption)."
     },
     {
       "question": "What is the name of a network protocol that enables secure file transfer over SSH?",
       "options": ["TFTP", "SFTP", "Telnet", "FTPS"],
-      "correct_answers": ["SFTP"]
+      "correct_answers": ["SFTP"],
+      "explanation": "SFTP (SSH File Transfer Protocol) is a network protocol that provides file access, file transfer, and file management over any reliable data stream. It was designed by the Internet Engineering Task Force (IETF) as an extension of the Secure Shell protocol (SSH) version 2.0 to provide secure file transfer capabilities."
     },
     {
       "question": "SFTP is an extension of the FTP protocol that adds support for SSL/TLS encryption.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. SFTP is not an extension of FTP. FTPS (FTP over SSL/TLS) is the protocol that adds a layer of security to FTP with SSL/TLS. SFTP is a completely different protocol that runs over SSH."
     },
     {
       "question": "A type of cryptographic network protocol for secure data communication, remote command-line login, remote command execution, and other secure network services between two networked computers is known as:",
       "options": ["RDP", "SSH", "Telnet", "SCP"],
-      "correct_answers": ["SSH"]
+      "correct_answers": ["SSH"],
+      "explanation": "SSH (Secure Shell) is a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution."
     },
     {
       "question": "Which of the answers listed below refers to a suite of protocols and technologies providing encryption, authentication, and data integrity for network traffic?",
       "options": ["TLS", "SSH", "IPsec", "VPN"],
-      "correct_answers": ["IPsec"]
+      "correct_answers": ["IPsec"],
+      "explanation": "IPsec (Internet Protocol Security) is a secure network protocol suite that authenticates and encrypts the packets of data sent over an Internet Protocol network. It is used in virtual private networks (VPNs)."
     },
     {
       "question": "Which part of IPsec provides authentication, integrity, and confidentiality?",
       "options": ["SPD", "PFS", "AH", "ESP"],
-      "correct_answers": ["ESP"]
+      "correct_answers": ["ESP"],
+      "explanation": "ESP (Encapsulating Security Payload) is a member of the IPsec protocol suite. It provides origin authenticity, integrity, and confidentiality protection of packets."
     },
     {
       "question": "A system that uses a public network (such as the Internet) as a means for creating private encrypted connections between remote locations is referred to as:",
       "options": ["WWAN", "VPN", "PAN", "VLAN"],
-      "correct_answers": ["VPN"]
+      "correct_answers": ["VPN"],
+      "explanation": "A VPN (Virtual Private Network) extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network."
     },
     {
       "question": "Which protocol enables secure, real-time delivery of audio and video over an IP network?",
       "options": ["S/MIME", "RTP", "SIP", "SRTP"],
-      "correct_answers": ["SRTP"]
+      "correct_answers": ["SRTP"],
+      "explanation": "SRTP (Secure Real-time Transport Protocol) is a security profile for RTP (Real-time Transport Protocol) that adds confidentiality, message authentication, and replay protection to that protocol. It is used for secure voice and video communications."
     },
     {
       "question": "An encryption protocol primarily used in Wi-Fi networks implementing the WPA2 security standard is called:",
       "options": ["TKIP", "CCMP", "SSL", "IPsec"],
-      "correct_answers": ["CCMP"]
+      "correct_answers": ["CCMP"],
+      "explanation": "CCMP (Counter Mode Cipher Block Chaining Message Authentication Code Protocol) is an encryption protocol designed for Wireless LAN products that implements the standards of the IEEE 802.11i amendment to the original IEEE 802.11 standard. CCMP is an enhanced data cryptographic encapsulation mechanism designed for data confidentiality and based on the Counter Mode with CBC-MAC (CCM) of the AES standard."
     },
     {
       "question": "A security protocol designed to improve the security of existing WEP implementations is known as:",
       "options": ["WPA2", "RC4", "CCMP", "TKIP"],
-      "correct_answers": ["TKIP"]
+      "correct_answers": ["TKIP"],
+      "explanation": "TKIP (Temporal Key Integrity Protocol) was a stopgap security protocol used in the IEEE 802.11 wireless networking standard. TKIP was designed to replace WEP without requiring the replacement of legacy hardware."
     },
     {
       "question": "Which of the following answers refer(s) to deprecated/insecure encryption protocols and cryptographic hash functions? (Select all that apply)",
       "options": ["DES", "AES-256", "MD5", "ECC", "SHA-1", "SSL", "RC4"],
-      "correct_answers": ["DES", "MD5", "SHA-1", "SSL", "RC4"]
+      "correct_answers": ["DES", "MD5", "SHA-1", "SSL", "RC4"],
+      "explanation": "DES, MD5, SHA-1, SSL, and RC4 are all considered insecure and should not be used. DES has a small key size, MD5 and SHA-1 have known collision vulnerabilities, SSL has been replaced by TLS, and RC4 has several cryptographic weaknesses."
     },
     {
       "question": "Which cryptographic protocol is designed to provide secure communications over a computer network and is the successor to SSL?",
       "options": ["IPsec", "TLS", "AES", "CCMP"],
-      "correct_answers": ["TLS"]
+      "correct_answers": ["TLS"],
+      "explanation": "TLS (Transport Layer Security) is a cryptographic protocol designed to provide communications security over a computer network. The protocol is widely used in applications such as email, instant messaging, and voice over IP, but its use as the Security layer in HTTPS remains the most publicly visible."
     },
     {
       "question": "Examples of techniques used for encrypting information include symmetric encryption (also called public-key encryption) and asymmetric encryption (also called secret-key encryption, or session-key encryption).",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. Symmetric encryption is also known as secret-key or session-key encryption. Asymmetric encryption is also known as public-key encryption."
     },
     {
       "question": "In asymmetric encryption, any message encrypted with the use of a public key can only be decrypted by applying the same algorithm and a matching private key (and vice versa).",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "This statement is true. In asymmetric encryption, the public key is used to encrypt the message, and the private key is used to decrypt it. This ensures that only the intended recipient can read the message."
     },
     {
       "question": "Which of the algorithms listed below are not symmetric ciphers? (Select 3 answers)",
       "options": ["AES", "DES", "DHE", "ECC", "IDEA", "RC4", "RSA"],
-      "correct_answers": ["DHE", "ECC", "RSA"]
+      "correct_answers": ["DHE", "ECC", "RSA"],
+      "explanation": "DHE, ECC, and RSA are all asymmetric ciphers. AES, DES, IDEA, and RC4 are all symmetric ciphers."
     },
     {
       "question": "Which of the following algorithms do(es) not fall into the category of asymmetric encryption? (Select all that apply)",
       "options": ["AES", "DES", "DHE", "ECC", "IDEA", "RC4", "RSA"],
-      "correct_answers": ["AES", "DES", "IDEA", "RC4"]
+      "correct_answers": ["AES", "DES", "IDEA", "RC4"],
+      "explanation": "AES, DES, IDEA, and RC4 are all symmetric ciphers. DHE, ECC, and RSA are all asymmetric ciphers."
     },
     {
       "question": "The term \"KEK\" refers to a type of cryptographic key often used in key management systems to add an additional layer of security when encrypting and decrypting other cryptographic keys.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A KEK (Key-Encrypting Key) is a cryptographic key that is used for the encryption or decryption of other keys."
     },
     {
       "question": "Which of the answers listed below refers to a shared secret authentication method used in WPA, WPA2, and EAP?",
       "options": ["PSK", "802.1X", "SAE", "TKIP"],
-      "correct_answers": ["PSK"]
+      "correct_answers": ["PSK"],
+      "explanation": "A PSK (Pre-Shared Key) is a shared secret that was previously shared between the two parties using some secure channel before it needs to be used."
     },
     {
       "question": "Which of the following answers refers to a protocol used to set up secure connections and exchange of cryptographic keys in IPsec VPNs?",
       "options": ["SSL", "IKE", "ESP", "DHE"],
-      "correct_answers": ["IKE"]
+      "correct_answers": ["IKE"],
+      "explanation": "IKE (Internet Key Exchange) is the protocol used to set up a security association (SA) in the IPsec protocol suite. IKE builds upon the Oakley protocol and ISAKMP."
     },
     {
       "question": "Which of the answers listed below refers to a key exchange protocol that generates temporary keys for each session, providing forward secrecy to protect past and future communications?",
       "options": ["PFS", "SHA", "PGP", "DHE"],
-      "correct_answers": ["DHE"]
+      "correct_answers": ["DHE"],
+      "explanation": "DHE (Diffie-Hellman Exchange) is a method of securely exchanging cryptographic keys over a public channel and was one of the first public-key protocols as conceived by Ralph Merkle and named after Whitfield Diffie and Martin Hellman."
     },
     {
       "question": "Which of the following answers refers to a cryptographic key exchange protocol that leverages ECC for enhanced security and efficiency?",
       "options": ["IKE", "ECDHE", "DHE", "ECDSA"],
-      "correct_answers": ["ECDHE"]
+      "correct_answers": ["ECDHE"],
+      "explanation": "ECDHE (Elliptic Curve Diffie-Hellman Exchange) is a key agreement protocol that allows two parties, each having an elliptic-curve public–private key pair, to establish a shared secret over an insecure channel."
     },
     {
       "question": "Which of the answers listed below refers to a solution designed to strengthen the security of session keys?",
       "options": ["ECB", "PFS", "EFS", "PFX"],
-      "correct_answers": ["PFS"]
+      "correct_answers": ["PFS"],
+      "explanation": "PFS (Perfect Forward Secrecy) is a property of secure communication protocols in which a compromise of long-term keys does not compromise past session keys."
     },
     {
       "question": "Which of the following answers refers to a public-key cryptosystem used for digital signatures, secure key exchange, and encryption?",
       "options": ["ECC", "RSA", "PKI", "DSA"],
-      "correct_answers": ["RSA"]
+      "correct_answers": ["RSA"],
+      "explanation": "RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem that is widely used for secure data transmission. It is also one of the oldest."
     },
     {
       "question": "Which cryptographic solution would be best suited for low-power devices, such as IoT devices, embedded systems, and mobile devices?",
       "options": ["ECC", "DES", "RSA", "AES"],
-      "correct_answers": ["ECC"]
+      "correct_answers": ["ECC"],
+      "explanation": "ECC (Elliptic-Curve Cryptography) is an approach to public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC allows smaller keys compared to non-EC cryptography (based on plain Galois fields) to provide equivalent security."
     },
     {
       "question": "Which of the cryptographic algorithms listed below is the least vulnerable to attacks?",
       "options": ["AES", "DES", "RC4", "3DES"],
-      "correct_answers": ["AES"]
+      "correct_answers": ["AES"],
+      "explanation": "AES (Advanced Encryption Standard) is a symmetric block cipher chosen by the U.S. government to protect classified information and is implemented in software and hardware throughout the world to encrypt sensitive data."
     }
   ]
 }

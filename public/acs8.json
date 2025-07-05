@@ -3,22 +3,26 @@
     {
       "question": "Which of the answers listed below refers to a mobile device's built-in functionality enabling the usage of locator applications?",
       "options": ["WPS", "GSM", "SIM", "GPS"],
-      "correct_answers": ["GPS"]
+      "correct_answers": ["GPS"],
+      "explanation": "GPS (Global Positioning System) is a satellite-based navigation system that provides location and time information in all weather conditions, anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. It is a built-in functionality in many mobile devices."
     },
     {
       "question": "Which of the following answers refers to a unique 48-bit address assigned to every network adapter?",
       "options": ["PIN", "SSID", "IP", "MAC"],
-      "correct_answers": ["MAC"]
+      "correct_answers": ["MAC"],
+      "explanation": "A MAC (Media Access Control) address is a unique identifier assigned to network interfaces for communications within a network segment. MAC addresses are used as a network address for most IEEE 802 network technologies, including Ethernet and Wi-Fi."
     },
     {
       "question": "In older, non-UEFI based PCs, the first sector of a storage drive containing information about partitions and a piece of executable code used to load the installed OS is called:",
       "options": ["MBR", "GPT", "PXE", "GUID"],
-      "correct_answers": ["MBR"]
+      "correct_answers": ["MBR"],
+      "explanation": "MBR (Master Boot Record) is the first sector of a data storage device that has been partitioned. The MBR holds the information about the partitions of the hard drive and a small piece of executable code, known as the master boot code."
     },
     {
       "question": "In cloud computing, users on an on-premises network take advantage of a transit gateway to connect to:",
       "options": ["WAN", "VPC", "SAN", "VLAN"],
-      "correct_answers": ["VPC"]
+      "correct_answers": ["VPC"],
+      "explanation": "VPC (Virtual Private Cloud) is a virtual network that is logically isolated from other virtual networks in the cloud. Users on an on-premises network can connect to a VPC using a transit gateway, which acts as a central hub for network connections."
     },
     {
       "question": "Which of the answers listed below refer to DSA? (Select 3 answers)",
@@ -34,12 +38,14 @@
         "Asymmetric algorithm",
         "Provides authentication, integrity, and non-repudiation",
         "Specifically designed for creating and verifying digital signatures"
-      ]
+      ],
+      "explanation": "DSA (Digital Signature Algorithm) is an asymmetric algorithm specifically designed for creating and verifying digital signatures. It provides authentication, integrity, and non-repudiation, ensuring the authenticity and integrity of digital data."
     },
     {
       "question": "Which of the following acronyms refer to office equipment that combines the functionality of multiple devices? (Select 2 answers)",
       "options": ["MFD", "IoT", "MFP", "PED", "MFA"],
-      "correct_answers": ["MFD", "MFP"]
+      "correct_answers": ["MFD", "MFP"],
+      "explanation": "MFD (Multi-Function Device) and MFP (Multi-Function Printer) are terms that refer to office equipment that combines the functionality of multiple devices, such as a printer, scanner, copier, and fax machine."
     },
     {
       "question": "Which of the answers listed below describe(s) the characteristics of ECDSA? (Select all that apply)",
@@ -56,52 +62,62 @@
         "Based on elliptic curve cryptography",
         "Specifically designed for creating and verifying digital signatures",
         "More computationally efficient than other signature algorithms"
-      ]
+      ],
+      "explanation": "ECDSA (Elliptic Curve Digital Signature Algorithm) is a digital signature algorithm that is based on elliptic curve cryptography. It provides authentication, integrity, and non-repudiation, and is more computationally efficient than other signature algorithms."
     },
     {
       "question": "Which of the following answers refers to a deprecated stream cipher used in some legacy applications, such as WEP?",
       "options": ["RSA", "DES", "SSL", "RC4"],
-      "correct_answers": ["RC4"]
+      "correct_answers": ["RC4"],
+      "explanation": "RC4 (Rivest Cipher 4) is a stream cipher that was used in some legacy applications, such as WEP. It is now considered deprecated due to known vulnerabilities."
     },
     {
       "question": "Which of the answers listed below refers to a wireless network authentication protocol that enhances security by encapsulating the authentication process within an encrypted TLS tunnel?",
       "options": ["PEAP", "EAP", "LEAP", "RADIUS"],
-      "correct_answers": ["PEAP"]
+      "correct_answers": ["PEAP"],
+      "explanation": "PEAP (Protected Extensible Authentication Protocol) is a wireless network authentication protocol that enhances security by encapsulating the authentication process within an encrypted TLS tunnel. It is commonly used in enterprise wireless networks."
     },
     {
       "question": "A type of metric used to evaluate the profitability of an investment by comparing the return generated from the investment relative to its cost is referred to as:",
       "options": ["ROA", "ROI", "ROS", "ROC"],
-      "correct_answers": ["ROI"]
+      "correct_answers": ["ROI"],
+      "explanation": "ROI (Return on Investment) is a type of metric used to evaluate the profitability of an investment by comparing the return generated from the investment relative to its cost. It is a common measure of financial performance."
     },
     {
       "question": "Which of the following facilitates the enforcement of mobile device policies and procedures?",
       "options": ["MFA", "MMC", "MDM", "MFD"],
-      "correct_answers": ["MDM"]
+      "correct_answers": ["MDM"],
+      "explanation": "MDM (Mobile Device Management) is a type of software that facilitates the enforcement of mobile device policies and procedures. It allows organizations to manage and secure mobile devices, applications, and data."
     },
     {
       "question": "Which of the answers listed below refers to an identifier used for objects in a PKI, such as CAs, digital certificates, and public key algorithms?",
       "options": ["OID", "DN", "SAN", "GUID"],
-      "correct_answers": ["OID"]
+      "correct_answers": ["OID"],
+      "explanation": "An OID (Object Identifier) is a unique identifier used for objects in a PKI (Public Key Infrastructure), such as CAs, digital certificates, and public key algorithms. It is a globally unique identifier."
     },
     {
       "question": "Which of the following answers refers to a solution designed to strengthen the security of session keys?",
       "options": ["ECB", "PFS", "EFS", "PFX"],
-      "correct_answers": ["PFS"]
+      "correct_answers": ["PFS"],
+      "explanation": "PFS (Perfect Forward Secrecy) is a solution designed to strengthen the security of session keys. It ensures that a compromise of long-term keys does not compromise past session keys."
     },
     {
       "question": "Which of the answers listed below refers to a twisted-pair copper cabling type not surrounded by any shielding that would provide protection against interference from outside sources?",
       "options": ["STP", "Coax", "UTP", "Twinax"],
-      "correct_answers": ["UTP"]
+      "correct_answers": ["UTP"],
+      "explanation": "UTP (Unshielded Twisted Pair) is a twisted-pair copper cabling type not surrounded by any shielding that would provide protection against interference from outside sources. It is commonly used in Ethernet networks."
     },
     {
       "question": "Which of the following terms refers to a technology that enables real-time audio and video communication between individuals or groups?",
       "options": ["VPC", "VTC", "VoIP", "VDI"],
-      "correct_answers": ["VTC"]
+      "correct_answers": ["VTC"],
+      "explanation": "VTC (Video Teleconferencing) is a technology that enables real-time audio and video communication between individuals or groups. It is commonly used for remote meetings and collaboration."
     },
     {
       "question": "A dedicated data storage solution that combines multiple disk drive components into a single logical unit to increase volume size, performance, or reliability is known as:",
       "options": ["SAN", "RAID", "NAS", "JBOD"],
-      "correct_answers": ["RAID"]
+      "correct_answers": ["RAID"],
+      "explanation": "RAID (Redundant Array of Independent Disks) is a dedicated data storage solution that combines multiple disk drive components into a single logical unit to increase volume size, performance, or reliability. It is commonly used in servers and storage systems."
     },
     {
       "question": "Which of the answers listed below can be used to describe XSRF? (Select 3 answers)",
@@ -117,7 +133,8 @@
         "Exploits the trust a website has in the user's web browser",
         "A user is tricked by an attacker into submitting unauthorized web requests",
         "Website executes attacker's requests"
-      ]
+      ],
+      "explanation": "XSRF (Cross-Site Request Forgery) is a type of attack that exploits the trust a website has in the user's web browser. An attacker tricks a user into submitting unauthorized web requests, which are then executed by the website."
     },
     {
       "question": "Which of the following answers can be used to describe the characteristics of an XSS attack? (Select 3 answers)",
@@ -133,37 +150,44 @@
         "Exploits the trust a user's web browser has in a website",
         "A malicious script is injected into a trusted website",
         "User's browser executes attacker's script"
-      ]
+      ],
+      "explanation": "XSS (Cross-Site Scripting) is a type of attack that exploits the trust a user's web browser has in a website. A malicious script is injected into a trusted website, which is then executed by the user's browser."
     },
     {
       "question": "Which of the answers listed below refers to an encoding method (and a file format) for storing cryptographic objects such as X.509 certificates, CRLs, and private keys?",
       "options": ["ECB", "PEM", "FIM", "PFS"],
-      "correct_answers": ["PEM"]
+      "correct_answers": ["PEM"],
+      "explanation": "PEM (Privacy-Enhanced Mail) is an encoding method and a file format for storing cryptographic objects such as X.509 certificates, CRLs, and private keys. It is commonly used for secure email communication."
     },
     {
       "question": "Which of the following answers refers to a centralized server that is used to distribute cryptographic keys and authenticate users and services within a computer network?",
       "options": ["PKI", "RAS", "KDC", "NAS"],
-      "correct_answers": ["KDC"]
+      "correct_answers": ["KDC"],
+      "explanation": "A KDC (Key Distribution Center) is a centralized server that is used to distribute cryptographic keys and authenticate users and services within a computer network. It is a key component of the Kerberos authentication system."
     },
     {
       "question": "An AI feature that enables it to accomplish tasks based on training data without explicit human instructions is called:",
       "options": ["AGI", "ML", "NN", "LLM"],
-      "correct_answers": ["ML"]
+      "correct_answers": ["ML"],
+      "explanation": "ML (Machine Learning) is an AI feature that enables it to accomplish tasks based on training data without explicit human instructions. It is a subset of AI that focuses on developing algorithms that can learn from data."
     },
     {
       "question": "Which data packet type is specifically used to detect and prevent network loops in Ethernet networks?",
       "options": ["MTU", "Jumbo frame", "BPDU", "Magic packet"],
-      "correct_answers": ["BPDU"]
+      "correct_answers": ["BPDU"],
+      "explanation": "BPDU (Bridge Protocol Data Unit) is a data packet type that is specifically used to detect and prevent network loops in Ethernet networks. It is used by the Spanning Tree Protocol (STP) to prevent loops."
     },
     {
       "question": "Which of the answers listed below refers to a key exchange protocol that generates temporary keys for each session, providing forward secrecy to protect past and future communications?",
       "options": ["PFS", "SHA", "PGP", "DHE"],
-      "correct_answers": ["DHE"]
+      "correct_answers": ["DHE"],
+      "explanation": "DHE (Diffie-Hellman Ephemeral) is a key exchange protocol that generates temporary keys for each session, providing forward secrecy to protect past and future communications. It ensures that even if the long-term private key is compromised, past communications remain secure."
     },
     {
       "question": "Which of the following terms refers to a method for managing infrastructure resources through scripts and templates?",
       "options": ["IaaS", "ML", "IaC", "SDN"],
-      "correct_answers": ["IaC"]
+      "correct_answers": ["IaC"],
+      "explanation": "IaC (Infrastructure as Code) is a method for managing infrastructure resources through scripts and templates. It allows organizations to automate the provisioning and management of infrastructure, improving efficiency and consistency."
     },
     {
       "question": "Which of the answers listed below refer to the characteristic features of NIDS? (Select 3 answers)",
@@ -179,57 +203,68 @@
         "Does not take direct action to block or prevent attacks",
         "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
         "Monitors network traffic without direct involvement in traffic routing or packet modification"
-      ]
+      ],
+      "explanation": "NIDS (Network Intrusion Detection System) is a passive security system that monitors network traffic for suspicious activity. It generates alerts and notifies administrators but does not actively block or prevent attacks."
     },
     {
       "question": "Which of the following answers refers to a cybersecurity framework that combines network and security functions into a single cloud-based service?",
       "options": ["SASE", "SIEM", "SWG", "SOAR"],
-      "correct_answers": ["SASE"]
+      "correct_answers": ["SASE"],
+      "explanation": "SASE (Secure Access Service Edge) is a cybersecurity framework that combines network and security functions into a single cloud-based service. It provides secure access to applications and data from anywhere, on any device."
     },
     {
       "question": "A process used by organizations to assess and evaluate the potential impact of disruptive incidents or disasters on their critical business functions and operations is referred to as:",
       "options": ["BPA", "BIA", "SLE", "BCP"],
-      "correct_answers": ["BIA"]
+      "correct_answers": ["BIA"],
+      "explanation": "BIA (Business Impact Analysis) is a process used by organizations to assess and evaluate the potential impact of disruptive incidents or disasters on their critical business functions and operations. It helps to identify critical business processes and their recovery requirements."
     },
     {
       "question": "Which of the answers listed below refers to one of the last stages in SDLC?",
       "options": ["UCD", "QA", "UAT", "AUT"],
-      "correct_answers": ["UAT"]
+      "correct_answers": ["UAT"],
+      "explanation": "UAT (User Acceptance Testing) is one of the last stages in SDLC (Software Development Life Cycle). It is a type of testing performed by the end-users to verify that the software meets their requirements and is fit for purpose."
     },
     {
       "question": "Which cipher mode transforms a block cipher into a stream cipher enabling the encryption of individual bits or bytes of data?",
       "options": ["CFB", "CBC", "GCM", "ECB"],
-      "correct_answers": ["CFB"]
+      "correct_answers": ["CFB"],
+      "explanation": "CFB (Cipher Feedback) is a cipher mode that transforms a block cipher into a stream cipher, enabling the encryption of individual bits or bytes of data. It uses the previous ciphertext block to encrypt the current plaintext block."
     },
     {
       "question": "Rewriting the destination IP address of incoming data packets, commonly utilized to reroute traffic to alternative locations or ports is a characteristic feature of:",
       "options": ["IDS", "DNAT", "QoS", "VPN"],
-      "correct_answers": ["DNAT"]
+      "correct_answers": ["DNAT"],
+      "explanation": "DNAT (Destination Network Address Translation) is a characteristic feature of rewriting the destination IP address of incoming data packets, commonly utilized to reroute traffic to alternative locations or ports. It is often used for port forwarding and load balancing."
     },
     {
       "question": "Which of the following answers refers to a deprecated encryption protocol?",
       "options": ["SSH", "SHA-256", "S/MIME", "SSL"],
-      "correct_answers": ["SSL"]
+      "correct_answers": ["SSL"],
+      "explanation": "SSL (Secure Sockets Layer) is a deprecated encryption protocol that was used to secure communications over a computer network. It has been replaced by TLS (Transport Layer Security) due to known vulnerabilities."
     },
     {
       "question": "A collection of precompiled functions designed to be used by more than one Microsoft Windows application simultaneously to save system resources is known as:",
       "options": ["DLL", "API", "INI", "EXE"],
-      "correct_answers": ["DLL"]
+      "correct_answers": ["DLL"],
+      "explanation": "A DLL (Dynamic Link Library) is a collection of precompiled functions designed to be used by more than one Microsoft Windows application simultaneously to save system resources. It allows multiple programs to share the same code."
     },
     {
       "question": "Which of the terms listed below refers to a documented plan outlining the steps that should be taken in each phase of a cybersecurity incident?",
       "options": ["DRP", "IRP", "BCP", "ERP"],
-      "correct_answers": ["IRP"]
+      "correct_answers": ["IRP"],
+      "explanation": "IRP (Incident Response Plan) is a documented plan outlining the steps that should be taken in each phase of a cybersecurity incident. It provides a structured approach to managing security incidents."
     },
     {
       "question": "A block cipher mode that combines a unique counter with encryption key to generate a stream of pseudorandom data blocks which are then used for encrypting data is called:",
       "options": ["CBC", "GCM", "CFB", "CTM"],
-      "correct_answers": ["CTM"]
+      "correct_answers": ["CTM"],
+      "explanation": "CTM (Counter Mode) is a block cipher mode that combines a unique counter with an encryption key to generate a stream of pseudorandom data blocks, which are then used for encrypting data. It transforms a block cipher into a stream cipher."
     },
     {
       "question": "Which of the following combines a cryptographic hash function with a secret key to provide a means of verifying both the authenticity and integrity of a message or data?",
       "options": ["MD5", "DSA", "HMAC", "DES"],
-      "correct_answers": ["HMAC"]
+      "correct_answers": ["HMAC"],
+      "explanation": "HMAC (Hash-based Message Authentication Code) combines a cryptographic hash function with a secret key to provide a means of verifying both the authenticity and integrity of a message or data. It ensures that the message has not been tampered with and originates from an authorized source."
     }
   ]
 }

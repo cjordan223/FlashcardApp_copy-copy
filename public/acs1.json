@@ -3,147 +3,176 @@
     {
       "question": "A type of user identification mechanism used as a countermeasure against automated software (such as network bots) is known as:",
       "options": ["MFA", "CAPTCHA", "ACL", "NIPS"],
-      "correct_answers": ["CAPTCHA"]
+      "correct_answers": ["CAPTCHA"],
+      "explanation": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a type of challenge–response test used in computing to determine whether or not the user is human."
     },
     {
       "question": "Which of the following is the recommended replacement for DES?",
       "options": ["DSA", "RSA", "RC4", "AES"],
-      "correct_answers": ["AES"]
+      "correct_answers": ["AES"],
+      "explanation": "AES (Advanced Encryption Standard) is a symmetric block cipher chosen by the U.S. government to protect classified information and is implemented in software and hardware throughout the world to encrypt sensitive data."
     },
     {
       "question": "Which of the terms listed below refers to the process of creating and maintaining computer applications?",
       "options": ["RAD", "SDLC", "OOP", "SaaS"],
-      "correct_answers": ["SDLC"]
+      "correct_answers": ["SDLC"],
+      "explanation": "SDLC (Software Development Life Cycle) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates."
     },
     {
       "question": "A type of firmware interface designed as a replacement for BIOS is called:",
       "options": ["UEFI", "GPT", "ACPI", "PXE"],
-      "correct_answers": ["UEFI"]
+      "correct_answers": ["UEFI"],
+      "explanation": "UEFI (Unified Extensible Firmware Interface) is a software interface between an operating system and platform firmware. UEFI replaces the Basic Input/Output System (BIOS) firmware interface."
     },
     {
       "question": "Which of the following answers refers to a network security solution providing a single point of protection against various types of threats?",
       "options": ["IDP", "AV", "UTM", "NGFW"],
-      "correct_answers": ["UTM"]
+      "correct_answers": ["UTM"],
+      "explanation": "UTM (Unified Threat Management) is a term used to describe a network security solution that provides multiple security functions in a single appliance or service. These functions typically include firewall, intrusion prevention, antivirus, and content filtering."
     },
     {
       "question": "A WAP is a specific type of AP that is used to create WLANs.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A WAP (Wireless Access Point) is a networking hardware device that allows a Wi-Fi device to connect to a wired network. A WAP is a specific type of AP (Access Point) that is used to create WLANs (Wireless Local Area Networks)."
     },
     {
       "question": "Which of the answers listed below refers to a language used for creating and organizing the content of web pages?",
       "options": ["HTML", "CSS", "JS", "HTTP"],
-      "correct_answers": ["HTML"]
+      "correct_answers": ["HTML"],
+      "explanation": "HTML (Hypertext Markup Language) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript."
     },
     {
       "question": "Which network protocol enables retrieving contents of an Internet page from a web server?",
       "options": ["SNMP", "HTTP", "SMTP", "IMAP"],
-      "correct_answers": ["HTTP"]
+      "correct_answers": ["HTTP"],
+      "explanation": "HTTP (Hypertext Transfer Protocol) is an application layer protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web."
     },
     {
       "question": "What is the name of a network protocol that secures web traffic via SSL/TLS encryption?",
       "options": ["SFTP", "HTTPS", "FTPS", "SHTTP"],
-      "correct_answers": ["HTTPS"]
+      "correct_answers": ["HTTPS"],
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet."
     },
     {
       "question": "The purpose of PCI DSS is to provide protection for:",
       "options": ["Credit cardholder data", "Licensed software", "User passwords", "Personal health information"],
-      "correct_answers": ["Credit cardholder data"]
+      "correct_answers": ["Credit cardholder data"],
+      "explanation": "PCI DSS (Payment Card Industry Data Security Standard) is a set of security standards designed to ensure that all companies that process, store or transmit credit card information maintain a secure environment."
     },
     {
       "question": "Which term describes the predicted loss of value to an asset based on a single security incident?",
       "options": ["SLE", "ARO", "ALE", "SLA"],
-      "correct_answers": ["SLE"]
+      "correct_answers": ["SLE"],
+      "explanation": "SLE (Single Loss Expectancy) is the monetary loss expected each time a risk materializes. It is a key component in quantitative risk assessment."
     },
     {
       "question": "Which of the following acronyms refers to a software that provides the functionality of a physical computer?",
       "options": ["SDN", "SaaS", "VM", "SoC"],
-      "correct_answers": ["VM"]
+      "correct_answers": ["VM"],
+      "explanation": "A VM (Virtual Machine) is an emulation of a computer system. Virtual machines are based on computer architectures and provide functionality of a physical computer."
     },
     {
       "question": "What is the common term for a group of protocols used to carry voice data over a packet-switched network?",
       "options": ["ISDN", "PBX", "VoIP", "PSTN"],
-      "correct_answers": ["VoIP"]
+      "correct_answers": ["VoIP"],
+      "explanation": "VoIP (Voice over Internet Protocol) is a methodology and group of technologies for the delivery of voice communications and multimedia sessions over Internet Protocol (IP) networks, such as the Internet."
     },
     {
       "question": "Which of the terms listed below refers to a formal contract between business partners outlining the rights, responsibilities, and obligations of each partner regarding the management, operation, and decision-making processes within the business?",
       "options": ["MSA", "SLA", "BPA", "MOA"],
-      "correct_answers": ["BPA"]
+      "correct_answers": ["BPA"],
+      "explanation": "A BPA (Business Partner Agreement) is a legal agreement between two or more parties that defines the terms and conditions of their business relationship. It outlines the rights, responsibilities, and obligations of each partner."
     },
     {
       "question": "Which of the following file transfer protocols does not provide encryption?",
       "options": ["SCP", "FTPS", "FTP", "SFTP"],
-      "correct_answers": ["FTP"]
+      "correct_answers": ["FTP"],
+      "explanation": "FTP (File Transfer Protocol) is a standard network protocol used for the transfer of computer files between a client and server on a computer network. FTP is built on a client–server model architecture and uses separate control and data connections between the client and the server. FTP does not provide encryption, making it insecure for transferring sensitive data."
     },
     {
       "question": "The US Health Insurance Portability and Accountability Act (HIPAA) provides privacy protection for:",
       "options": ["PII", "ESN", "PHI", "PIV"],
-      "correct_answers": ["PHI"]
+      "correct_answers": ["PHI"],
+      "explanation": "HIPAA (Health Insurance Portability and Accountability Act) is a United States federal statute that provides data privacy and security provisions for safeguarding medical information. PHI (Protected Health Information) is any information about health status, provision of health care, or payment for health care that is created or received by a covered entity."
     },
     {
       "question": "Which of the answers listed below refers to a hierarchical system for the creation, management, storage, distribution, and revocation of digital certificates?",
       "options": ["PKI", "RA", "PKCS", "CA"],
-      "correct_answers": ["PKI"]
+      "correct_answers": ["PKI"],
+      "explanation": "PKI (Public Key Infrastructure) is a set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption."
     },
     {
       "question": "Which of the following acronyms refers to any type of information pertaining to an individual that can be used to uniquely identify that person?",
       "options": ["PHI", "PIV", "PII", "PKI"],
-      "correct_answers": ["PII"]
+      "correct_answers": ["PII"],
+      "explanation": "PII (Personally Identifiable Information) is any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered PII."
     },
     {
       "question": "An authentication subsystem that enables a user to access multiple, connected system components (such as separate hosts on a network) after a single login on only one of the components is referred to as:",
       "options": ["NAC", "SSO", "AAA", "MFA"],
-      "correct_answers": ["SSO"]
+      "correct_answers": ["SSO"],
+      "explanation": "SSO (Single Sign-On) is an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems."
     },
     {
       "question": "Which of the cryptographic algorithms listed below is the least vulnerable to attacks?",
       "options": ["AES", "DES", "RC4", "3DES"],
-      "correct_answers": ["AES"]
+      "correct_answers": ["AES"],
+      "explanation": "AES (Advanced Encryption Standard) is a symmetric block cipher chosen by the U.S. government to protect classified information and is implemented in software and hardware throughout the world to encrypt sensitive data. It is considered the strongest among the given options."
     },
     {
       "question": "Which of the following answers illustrates the difference between passive and active network security breach response?",
       "options": ["HIPS vs. NIPS", "UTM vs. Firewall", "NIPS vs. UTM", "IDS vs. IPS"],
-      "correct_answers": ["IDS vs. IPS"]
+      "correct_answers": ["IDS vs. IPS"],
+      "explanation": "IDS (Intrusion Detection System) is a passive system that monitors network traffic for suspicious activity and generates alerts. IPS (Intrusion Prevention System) is an active system that not only detects but also takes action to prevent or block malicious activity."
     },
     {
       "question": "An SELinux kernel security feature for implementing stricter access controls and policies is known as:",
       "options": ["DAC", "RBAC", "MAC", "ABAC"],
-      "correct_answers": ["MAC"]
+      "correct_answers": ["MAC"],
+      "explanation": "MAC (Mandatory Access Control) is a type of access control where the operating system or a security kernel enforces access rules based on security labels. SELinux (Security-Enhanced Linux) is a Linux kernel security module that provides a mechanism for supporting access control security policies, including MAC."
     },
     {
       "question": "Which wireless security protocol has been deprecated in favor of newer standards due to known vulnerabilities resulting from implementation flaws?",
       "options": ["EAP", "AES", "WPA2", "WEP"],
-      "correct_answers": ["WEP"]
+      "correct_answers": ["WEP"],
+      "explanation": "WEP (Wired Equivalent Privacy) is a security algorithm for IEEE 802.11 wireless networks. Introduced in 1999, WEP was included as a Wi-Fi security standard but was later found to have serious security flaws and was deprecated in favor of WPA and WPA2."
     },
     {
       "question": "Which access control model allows for defining granular rules that consider user roles, time constraints, and network access restrictions?",
       "options": ["ABAC", "MAC", "RuBAC", "DAC", "RBAC"],
-      "correct_answers": ["ABAC"]
+      "correct_answers": ["ABAC"],
+      "explanation": "ABAC (Attribute-Based Access Control) is an access control model that grants access based on attributes of the user, resource, and environment. This allows for very granular and flexible access control policies."
     },
     {
       "question": "Which type of control access model connects user permissions to their specific responsibilities?",
       "options": ["DAC", "RBAC", "MAC", "ABAC"],
-      "correct_answers": ["RBAC"]
+      "correct_answers": ["RBAC"],
+      "explanation": "RBAC (Role-Based Access Control) is an access control model where permissions are assigned to roles, and users are assigned to roles. This simplifies access management and ensures that users have only the permissions they need to perform their job responsibilities."
     },
     {
       "question": "The term \"CIA triad\" is used to describe the basic principles of information security.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "The CIA triad (Confidentiality, Integrity, and Availability) is a model designed to guide policies for information security within an organization. It is a fundamental concept in cybersecurity."
     },
     {
       "question": "A type of document stipulating rules of behavior to be followed by users of computers, networks, and associated resources is called:",
       "options": ["SLA", "EULA", "AUP", "BPA"],
-      "correct_answers": ["AUP"]
+      "correct_answers": ["AUP"],
+      "explanation": "An AUP (Acceptable Use Policy) is a document that outlines the rules and guidelines for the proper use of an organization's computer systems, networks, and resources. It defines what is considered acceptable and unacceptable behavior."
     },
     {
       "question": "LDAP is an example of:",
       "options": ["Data encryption protocol", "Address resolution protocol", "Directory access protocol", "File exchange protocol"],
-      "correct_answers": ["Directory access protocol"]
+      "correct_answers": ["Directory access protocol"],
+      "explanation": "LDAP (Lightweight Directory Access Protocol) is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services. It is commonly used for centralized authentication and authorization."
     },
     {
       "question": "Which of the answers listed below refers to a suite of protocols used for connecting hosts on the Internet?",
       "options": ["NetBIOS", "IPv4", "TCP/IP", "IPv6"],
-      "correct_answers": ["TCP/IP"]
+      "correct_answers": ["TCP/IP"],
+      "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational suite of communication protocols used to interconnect network devices on the internet. It defines how data should be formatted, addressed, transmitted, routed, and received."
     },
     {
       "question": "The SMTP protocol is used for: (Select 2 answers)",
@@ -157,32 +186,38 @@
       "correct_answers": [
         "Sending email messages between mail servers",
         "Sending email messages from a client device"
-      ]
+      ],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is an Internet standard communication protocol for electronic mail transmission. It is used by mail servers to send and receive mail messages and by email clients to send mail messages to a mail server."
     },
     {
       "question": "Which of the following answers refers to a data storage device equipped with hardware-level encryption functionality?",
       "options": ["HSM", "TPM", "EFS", "SED"],
-      "correct_answers": ["SED"]
+      "correct_answers": ["SED"],
+      "explanation": "A SED (Self-Encrypting Drive) is a hard drive with a built-in encryption chip that automatically encrypts and decrypts data. This provides hardware-level encryption, enhancing data security."
     },
     {
       "question": "A documented plan outlining the steps that should be taken in each phase of a cybersecurity incident is referred to as:",
       "options": ["DRP", "BCP", "IRP", "ERP"],
-      "correct_answers": ["IRP"]
+      "correct_answers": ["IRP"],
+      "explanation": "An IRP (Incident Response Plan) is a documented plan outlining the steps that should be taken in each phase of a cybersecurity incident. It provides a structured approach to managing security incidents."
     },
     {
       "question": "Which of the terms listed below refers to a company that provides Internet access?",
       "options": ["ISP", "CSP", "IdP", "MSP"],
-      "correct_answers": ["ISP"]
+      "correct_answers": ["ISP"],
+      "explanation": "An ISP (Internet Service Provider) is an organization that provides services for accessing, using, or participating in the Internet. ISPs can be organized in various forms, such as commercial, community-owned, non-profit, or otherwise privately owned."
     },
     {
       "question": "As opposed to simple DoS attacks that usually are performed from a single system, a DDoS attack uses multiple compromised computer systems to perform the attack against its target... True or False?",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "This statement is true. A DDoS (Distributed Denial of Service) attack involves multiple compromised computer systems (often referred to as a botnet) attacking a single target, causing a denial of service for legitimate users."
     },
     {
       "question": "A type of cryptographic network protocol for secure data communication, remote command-line login, remote command execution, and other secure network services between two networked computers is known as:",
       "options": ["RDP", "SSH", "Telnet", "SCP"],
-      "correct_answers": ["SSH"]
+      "correct_answers": ["SSH"],
+      "explanation": "SSH (Secure Shell) is a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution."
     }
   ]
 }

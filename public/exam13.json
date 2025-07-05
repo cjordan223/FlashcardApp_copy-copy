@@ -3,102 +3,122 @@
     {
       "question": "Which of the answers listed below refers to a protocol used to set up secure connections and exchange of cryptographic keys in IPsec VPNs?",
       "options": ["SSL", "IKE", "ESP", "DHE"],
-      "correct_answers": ["IKE"]
+      "correct_answers": ["IKE"],
+      "explanation": "IKE (Internet Key Exchange) is the protocol used to set up a security association (SA) in the IPsec protocol suite. It is responsible for negotiating the cryptographic keys and algorithms to be used in the VPN tunnel."
     },
     {
       "question": "Which part of the IPsec protocol suite provides data integrity and authentication but not encryption?",
       "options": ["CRC", "AH", "IKE", "AES"],
-      "correct_answers": ["AH"]
+      "correct_answers": ["AH"],
+      "explanation": "AH (Authentication Header) is a member of the IPsec protocol suite. It provides data integrity and authentication, but it does not provide encryption. This means that the data is not confidential, but you can be sure that it has not been tampered with."
     },
     {
       "question": "Which part of IPsec provides confidentiality, data integrity, and authentication?",
       "options": ["AES", "SHA", "AH", "ESP"],
-      "correct_answers": ["ESP"]
+      "correct_answers": ["ESP"],
+      "explanation": "ESP (Encapsulating Security Payload) is a member of the IPsec protocol suite. It provides confidentiality, data integrity, and authentication. This means that the data is confidential, you can be sure that it has not been tampered with, and you can be sure who sent it."
     },
     {
       "question": "Which of the IPsec modes provides entire packet encryption?",
       "options": ["Tunnel", "Payload", "Transport", "Default"],
-      "correct_answers": ["Tunnel"]
+      "correct_answers": ["Tunnel"],
+      "explanation": "Tunnel mode is an IPsec mode that encrypts the entire packet, including the header. This provides the highest level of security, but it can also be the most resource-intensive."
     },
     {
       "question": "An IPsec mode providing encryption only for the payload (the data part of the packet) is referred to as:",
       "options": ["Protected mode", "Tunnel mode", "Transport mode", "Safe mode"],
-      "correct_answers": ["Transport mode"]
+      "correct_answers": ["Transport mode"],
+      "explanation": "Transport mode is an IPsec mode that encrypts only the payload of the packet. This provides a lower level of security than tunnel mode, but it is also less resource-intensive."
     },
     {
       "question": "The term \"SD-WAN\" refers to a network technology that uses software to manage and optimize network connections that extend over large geographic areas.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "SD-WAN (Software-Defined Wide Area Network) is a technology that uses software to manage and optimize network connections over a wide area. This can be used to improve performance, reduce costs, and increase security."
     },
     {
       "question": "Which of the following answers refers to a cybersecurity framework that combines network and security functions into a single cloud-based service?",
       "options": ["SASE", "SWG", "CASB", "SD-WAN"],
-      "correct_answers": ["SASE"]
+      "correct_answers": ["SASE"],
+      "explanation": "SASE (Secure Access Service Edge) is a cybersecurity framework that combines network and security functions into a single cloud-based service. This can be used to improve security, reduce costs, and simplify management."
     },
     {
       "question": "Which of the answers listed below refers to any type of information pertaining to an individual that can be used to uniquely identify that person?",
       "options": ["PHI", "Biometrics", "ID", "PII"],
-      "correct_answers": ["PII"]
+      "correct_answers": ["PII"],
+      "explanation": "PII (Personally Identifiable Information) is any information that can be used to identify an individual. This includes information such as name, address, Social Security number, and date of birth."
     },
     {
       "question": "Which of the following regulates personal data privacy of the EU citizens?",
       "options": ["PHI", "HIPAA", "PCI DSS", "GDPR"],
-      "correct_answers": ["GDPR"]
+      "correct_answers": ["GDPR"],
+      "explanation": "The GDPR (General Data Protection Regulation) is a regulation that protects the personal data of EU citizens. It gives individuals more control over their personal data and requires organizations to take steps to protect that data."
     },
     {
       "question": "The US Health Insurance Portability and Accountability Act (HIPAA) provides privacy protection for:",
       "options": ["PII", "PI", "PHI", "PIV"],
-      "correct_answers": ["PHI"]
+      "correct_answers": ["PHI"],
+      "explanation": "HIPAA (Health Insurance Portability and Accountability Act) is a US law that provides privacy protection for PHI (Protected Health Information). PHI is any information that can be used to identify an individual and that relates to their health."
     },
     {
       "question": "The purpose of PCI DSS is to provide protection for:",
       "options": ["Credit cardholder data", "Licensed software", "User passwords", "Personal health information"],
-      "correct_answers": ["Credit cardholder data"]
+      "correct_answers": ["Credit cardholder data"],
+      "explanation": "PCI DSS (Payment Card Industry Data Security Standard) is a set of security standards that are designed to protect credit cardholder data. All organizations that accept, process, store, or transmit credit card information must comply with PCI DSS."
     },
     {
       "question": "Which of the answers listed below refer(s) to encryption method(s) used to protect data at rest? (Select all that apply)",
       "options": ["FDE", "SED", "IPsec", "TLS", "VPN", "EFS"],
-      "correct_answers": ["FDE", "SED", "EFS"]
+      "correct_answers": ["FDE", "SED", "EFS"],
+      "explanation": "FDE (Full Disk Encryption), SED (Self-Encrypting Drive), and EFS (Encrypting File System) are all methods that can be used to protect data at rest. FDE encrypts the entire hard drive, SEDs have built-in encryption, and EFS can be used to encrypt individual files and folders."
     },
     {
       "question": "Encryption methods used to protect data in transit include: (Select all that apply)",
       "options": ["NFS", "VPN", "SED", "IPsec", "FDE", "TLS"],
-      "correct_answers": ["VPN", "IPsec", "TLS"]
+      "correct_answers": ["VPN", "IPsec", "TLS"],
+      "explanation": "VPNs, IPsec, and TLS are all methods that can be used to protect data in transit. VPNs create a secure tunnel between two devices, IPsec encrypts traffic at the network layer, and TLS encrypts traffic at the transport layer."
     },
     {
       "question": "Which of the following data states typically requires data to be processed in an unencrypted form?",
       "options": ["Data in motion", "Data at rest", "Data in transit", "Data in use"],
-      "correct_answers": ["Data in use"]
+      "correct_answers": ["Data in use"],
+      "explanation": "Data in use is data that is being processed by a computer. This data is typically unencrypted so that the computer can access it."
     },
     {
       "question": "Which of the answers listed below refer to examples of non-human readable data types? (Select 2 answers)",
       "options": ["Binary code", "XML files", "Machine language", "HTML code", "SQL queries"],
-      "correct_answers": ["Binary code", "Machine language"]
+      "correct_answers": ["Binary code", "Machine language"],
+      "explanation": "Binary code and machine language are both non-human readable data types. Binary code is a series of 1s and 0s that is used to represent data, while machine language is a low-level programming language that is used to control a computer."
     },
     {
       "question": "Which of the following answers refers to an individual or role responsible for overseeing and ensuring compliance with data protection laws and policies within an organization?",
       "options": ["CTO", "DPO", "CIO", "CSO"],
-      "correct_answers": ["DPO"]
+      "correct_answers": ["DPO"],
+      "explanation": "A DPO (Data Protection Officer) is an individual or role that is responsible for overseeing and ensuring compliance with data protection laws and policies within an organization."
     },
     {
       "question": "A mobile device's built-in functionality enabling the usage of locator applications is known as:",
       "options": ["WPS", "GSM", "SIM", "GPS"],
-      "correct_answers": ["GPS"]
+      "correct_answers": ["GPS"],
+      "explanation": "GPS (Global Positioning System) is a satellite-based navigation system that can be used to determine the location of a device."
     },
     {
       "question": "Which of the answers listed below refers to a technology that provides control over the usage of a mobile device within a designated area?",
       "options": ["Geofencing", "Device tracking", "Perimeter security", "Geolocation"],
-      "correct_answers": ["Geofencing"]
+      "correct_answers": ["Geofencing"],
+      "explanation": "Geofencing is a technology that uses GPS to create a virtual boundary around a real-world geographical area. This can be used to control the usage of a mobile device within that area."
     },
     {
       "question": "Which of the following converts plaintext data into ciphertext using an algorithm and a key?",
       "options": ["Encryption", "Masking", "Tokenization", "Obfuscation"],
-      "correct_answers": ["Encryption"]
+      "correct_answers": ["Encryption"],
+      "explanation": "Encryption is the process of converting plaintext data into ciphertext using an algorithm and a key. This makes the data unreadable to anyone who does not have the key."
     },
     {
       "question": "Which of the answers listed below refers to a technique that enables converting input data into a fixed-size string, making it difficult to reverse or retrieve the original data?",
       "options": ["Obfuscation", "Tokenization", "Hashing", "Encryption"],
-      "correct_answers": ["Hashing"]
+      "correct_answers": ["Hashing"],
+      "explanation": "Hashing is a technique that converts input data into a fixed-size string, making it difficult to reverse or retrieve the original data. This is often used to store passwords securely."
     },
     {
       "question": "Which of the following answers refer to data masking? (Select 2 answers)",
@@ -112,17 +132,20 @@
       "correct_answers": [
         "Replaces sensitive data with fictitious or modified data while retaining its original format",
         "Allows for data manipulation in environments where the actual values are not needed"
-      ]
+      ],
+      "explanation": "Data masking is a technique that replaces sensitive data with fictitious or modified data while retaining its original format. This allows for data manipulation in environments where the actual values are not needed."
     },
     {
       "question": "Which of the answers listed below refers to a situation where sensitive data is stored in a separate location and can be retrieved with a non-sensitive replacement that can also be processed just like the original data without the risk of revealing the contents of original data?",
       "options": ["Masking", "Obfuscation", "Encryption", "Tokenization"],
-      "correct_answers": ["Tokenization"]
+      "correct_answers": ["Tokenization"],
+      "explanation": "Tokenization is a technique where sensitive data is stored in a separate location and can be retrieved with a non-sensitive replacement that can also be processed just like the original data without the risk of revealing the contents of original data."
     },
     {
       "question": "Which of the following modifies data or code to make it difficult to understand or reverse-engineer, but without necessarily encrypting or hiding the data?",
       "options": ["Tokenization", "Encryption", "Obfuscation", "Hashing"],
-      "correct_answers": ["Obfuscation"]
+      "correct_answers": ["Obfuscation"],
+      "explanation": "Obfuscation is a technique that modifies data or code to make it difficult to understand or reverse-engineer, but without necessarily encrypting or hiding the data."
     },
     {
       "question": "Which of the answers listed below refer to the advantages of segmentation as a method for securing data? (Select 3 answers)",
@@ -137,12 +160,14 @@
         "Enhances security by limiting the spread of cyberattacks",
         "Helps organizations comply with data regulatory requirements by isolating and protecting specific data types",
         "Provides better control over user access to sensitive data"
-      ]
+      ],
+      "explanation": "Segmentation is a method of securing data that involves dividing a network into smaller, isolated zones. This can be used to enhance security, comply with regulations, and provide better control over user access."
     },
     {
       "question": "ACL, FACL, DAC, MAC, and RBAC are all access control mechanisms that can be used to manage user permissions and protect the confidentiality, integrity, and availability of data.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "ACL (Access Control List), FACL (File Access Control List), DAC (Discretionary Access Control), MAC (Mandatory Access Control), and RBAC (Role-Based Access Control) are all access control mechanisms that can be used to manage user permissions and protect data."
     }
   ]
 }

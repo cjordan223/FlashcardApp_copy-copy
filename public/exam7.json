@@ -8,22 +8,26 @@
         "Newly released systems/apps",
         "Systems/apps with zero-day vulnerability"
       ],
-      "correct_answers": ["Unsupported systems/apps"]
+      "correct_answers": ["Unsupported systems/apps"],
+      "explanation": "Unsupported systems and applications are no longer patched by the vendor, so known vulnerabilities are not fixed. This makes them a prime target for attackers."
     },
     {
       "question": "A solution that simplifies configuration of new wireless networks by allowing non-technical users to easily configure network security settings and add new devices to an existing network is called:",
       "options": ["WPA", "WPS", "WEP", "WAP"],
-      "correct_answers": ["WPS"]
+      "correct_answers": ["WPS"],
+      "explanation": "WPS (Wi-Fi Protected Setup) is a network security standard to create a secure wireless home network. It is designed to be easy to use, but it has known security vulnerabilities and is not recommended."
     },
     {
       "question": "Which of the wireless technologies listed below are considered potential threat vectors and should be avoided due to their known vulnerabilities? (Select all that apply)",
       "options": ["WPS", "WAP", "WPA", "WAF", "WPA2", "WEP"],
-      "correct_answers": ["WPS", "WPA", "WPA2", "WEP"]
+      "correct_answers": ["WPS", "WPA", "WPA2", "WEP"],
+      "explanation": "WPS, WPA, WPA2, and WEP all have known security vulnerabilities and should be avoided. WPA3 is the current standard and is much more secure."
     },
     {
       "question": "The term \"Evil twin\" refers to a rogue WAP set up for eavesdropping or stealing sensitive user data. Evil twin replaces the legitimate AP and by advertising its own presence with the same Service Set Identifier (SSID, a.k.a. network name) appears as a legitimate AP to connecting hosts.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "An evil twin is a fraudulent Wi-Fi access point that appears to be legitimate but is set up to eavesdrop on wireless communications. The evil twin is the wireless LAN equivalent of the phishing scam."
     },
     {
       "question": "Which of the following answers refers to a threat vector characteristic only to wired networks?",
@@ -34,12 +38,14 @@
         "Port sniffing",
         "All of the above"
       ],
-      "correct_answers": ["Cable tapping"]
+      "correct_answers": ["Cable tapping"],
+      "explanation": "Cable tapping is a physical attack that involves connecting to a network cable to intercept traffic. This is only possible on wired networks."
     },
     {
       "question": "Examples of threat vectors related to Bluetooth communication include: bluesmacking (a type of DoS attack that targets Bluetooth devices by overwhelming them with excessive traffic), bluejacking (the practice of sending unsolicited messages or data to a Bluetooth-enabled device), bluesnarfing (gaining unauthorized access to a Bluetooth device and data theft), and bluebugging (gaining remote control over a Bluetooth device).",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "This statement accurately describes several common Bluetooth attacks. These attacks exploit vulnerabilities in the Bluetooth protocol to gain unauthorized access to devices."
     },
     {
       "question": "Which of the answers listed below refers to the most probable cause of an unauthorized access caused by the exploitation of a specific network entry point?",
@@ -49,22 +55,26 @@
         "Open service ports",
         "Insufficient logging and monitoring"
       ],
-      "correct_answers": ["Open service ports"]
+      "correct_answers": ["Open service ports"],
+      "explanation": "Open service ports are a common entry point for attackers. If a service is not properly configured, an attacker can exploit it to gain unauthorized access to a system."
     },
     {
       "question": "The importance of changing default usernames and passwords can be illustrated by the example of certain network devices (such as routers), which are often shipped with default and well-known admin credentials that can be looked up on the web.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Many network devices are shipped with default usernames and passwords that are publicly known. Attackers can use these credentials to gain unauthorized access to devices."
     },
     {
       "question": "Which of the following would be the best solution for a company that needs IT services but lacks any IT personnel?",
       "options": ["MSA", "MaaS", "MSP", "MSSP"],
-      "correct_answers": ["MSP"]
+      "correct_answers": ["MSP"],
+      "explanation": "An MSP (Managed Service Provider) is a company that remotely manages a customer's IT infrastructure and/or end-user systems, typically on a proactive basis and under a subscription model."
     },
     {
       "question": "Which of the terms listed below refers to a third-party vendor offering IT security management services?",
       "options": ["MSP", "MaaS", "MSA", "MSSP"],
-      "correct_answers": ["MSSP"]
+      "correct_answers": ["MSSP"],
+      "explanation": "An MSSP (Managed Security Service Provider) provides outsourced monitoring and management of security devices and systems. Common services include managed firewall, intrusion detection, virtual private network, vulnerability scanning and anti-viral services."
     },
     {
       "question": "Which of the following answers refer to common threat vectors that apply to MSPs, vendors, and suppliers in the supply chain? (Select 2 answers)",
@@ -75,67 +85,80 @@
         "Operational disruptions",
         "Social engineering techniques"
       ],
-      "correct_answers": ["Propagation of malware", "Social engineering techniques"]
+      "correct_answers": ["Propagation of malware", "Social engineering techniques"],
+      "explanation": "MSPs, vendors, and suppliers can be a weak link in the supply chain. They can be targeted by attackers to propagate malware or to launch social engineering attacks."
     },
     {
       "question": "A social engineering technique whereby attackers under disguise of a legitimate request attempt to gain access to confidential information is commonly referred to as:",
       "options": ["Phishing", "Smishing", "Pharming", "Spoofing"],
-      "correct_answers": ["Phishing"]
+      "correct_answers": ["Phishing"],
+      "explanation": "Phishing is a type of social engineering attack where an attacker sends a fraudulent message designed to trick a human victim into revealing sensitive information to the attacker or to deploy malicious software on the victim's infrastructure like ransomware."
     },
     {
       "question": "Which social engineering attack relies on identity theft?",
       "options": ["Pretexting", "Spear phishing", "Tailgating", "Impersonation"],
-      "correct_answers": ["Impersonation"]
+      "correct_answers": ["Impersonation"],
+      "explanation": "Impersonation is a social engineering attack where an attacker pretends to be someone else to gain access to information or resources."
     },
     {
       "question": "A BEC attack is an example of:",
       "options": ["Smishing", "Phishing", "Vishing", "Pharming"],
-      "correct_answers": ["Phishing"]
+      "correct_answers": ["Phishing"],
+      "explanation": "A BEC (Business Email Compromise) attack is a type of phishing attack where an attacker impersonates a high-level executive to trick an employee into transferring money or sensitive information."
     },
     {
       "question": "Which of the answers listed below refers to a social engineering technique where an attacker creates a false scenario or situation to deceive the victim into revealing sensitive information?",
       "options": ["Impersonation", "Credential harvesting", "Pretexting", "Watering hole attack"],
-      "correct_answers": ["Pretexting"]
+      "correct_answers": ["Pretexting"],
+      "explanation": "Pretexting is a social engineering technique where an attacker creates a fabricated scenario to gain the victim's trust and convince them to reveal sensitive information."
     },
     {
       "question": "Which of the following terms refers to a platform used for watering hole attacks?",
       "options": ["Mail gateways", "Websites", "PBX systems", "Web browsers"],
-      "correct_answers": ["Websites"]
+      "correct_answers": ["Websites"],
+      "explanation": "A watering hole attack is a type of attack where an attacker compromises a website that is frequently visited by a specific group of users. The attacker then infects the website with malware, which is then downloaded by the users when they visit the website."
     },
     {
       "question": "The term \"URL hijacking\" (a.k.a. \"Typosquatting\") refers to a deceptive practice involving the deliberate registration of domain names with misspellings or slight variations that closely resemble well-established and popular domain names. The primary goal of this strategy is to exploit the common typographical errors made by users while entering URLs into their web browser's address bar. Beyond capturing inadvertent traffic, typosquatting may also be used for hosting phishing sites to trick users into divulging sensitive information, distributing malware through deceptive websites, generating ad revenue by redirecting mistyped traffic, or engaging in brand impersonation to harm the reputation of authentic brands or deceive users.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "URL hijacking, or typosquatting, is a form of cybersquatting, and possibly brandjacking which relies on mistakes such as typos made by Internet users when inputting a website address into a web browser."
     },
     {
       "question": "Which type of application attack relies on introducing external code into the address space of a running program?",
       "options": ["Buffer overflow", "Memory injection", "Replay attack", "Pointer dereference"],
-      "correct_answers": ["Memory injection"]
+      "correct_answers": ["Memory injection"],
+      "explanation": "Memory injection is a type of attack where an attacker injects malicious code into the memory of a running program. This can be used to execute arbitrary code on the system."
     },
     {
       "question": "A collection of precompiled functions designed to be used by more than one Microsoft Windows application simultaneously to save system resources is known as:",
       "options": ["DLL", "API", "EXE", "INI"],
-      "correct_answers": ["DLL"]
+      "correct_answers": ["DLL"],
+      "explanation": "A DLL (Dynamic Link Library) is a library of code that can be used by multiple applications. This saves system resources because the code does not need to be loaded into memory for each application."
     },
     {
       "question": "Which of the answers listed below refers to an application attack that relies on executing a library of code?",
       "options": ["Memory leak", "DLL injection", "Pointer dereference", "Buffer overflow"],
-      "correct_answers": ["DLL injection"]
+      "correct_answers": ["DLL injection"],
+      "explanation": "DLL injection is a type of attack where an attacker injects a malicious DLL into a running process. This can be used to execute arbitrary code on the system."
     },
     {
       "question": "A type of exploit in which an application overwrites the contents of a memory area it should not have access to is called:",
       "options": ["DLL injection", "Buffer overflow", "Memory leak", "Privilege escalation"],
-      "correct_answers": ["Buffer overflow"]
+      "correct_answers": ["Buffer overflow"],
+      "explanation": "A buffer overflow is a type of vulnerability where an application writes data beyond the end of a buffer. This can be used to overwrite important data or to execute arbitrary code on the system."
     },
     {
       "question": "A malfunction in a preprogrammed sequential access to a shared resource is described as:",
       "options": ["Race condition", "Concurrency error", "Multithreading", "Synchronization error"],
-      "correct_answers": ["Race condition"]
+      "correct_answers": ["Race condition"],
+      "explanation": "A race condition is a type of vulnerability that occurs when two or more threads try to access the same shared resource at the same time. This can lead to unexpected behavior or to security vulnerabilities."
     },
     {
       "question": "A type of vulnerability where the state of a resource is verified at one point in time but may change before the resource is actually used is referred to as:",
       "options": ["TOC", "TOC/TOU", "TOU", "TSIG"],
-      "correct_answers": ["TOC/TOU"]
+      "correct_answers": ["TOC/TOU"],
+      "explanation": "A TOC/TOU (Time-of-Check to Time-of-Use) vulnerability is a type of race condition where the state of a resource is checked at one point in time, but the resource is used at a later point in time. This can lead to security vulnerabilities if the state of the resource changes between the time it is checked and the time it is used."
     },
     {
       "question": "A malicious application update is a type of malware that can be installed through a seemingly legitimate software update. The introduction of a malicious update into the application code can be enabled through various means, including:\n\n- Unsigned application code\n- Unencrypted update channel (HTTP vs HTTPS)\n- Fake update website\n- Unauthorized access to update server\n- Compromised software development process",
@@ -147,7 +170,8 @@
         "Compromised software development process",
         "All of the above"
       ],
-      "correct_answers": ["All of the above"]
+      "correct_answers": ["All of the above"],
+      "explanation": "All of the listed options are ways that a malicious application update can be introduced into a system. It is important to be careful when installing software updates and to only install updates from trusted sources."
     },
     {
       "question": "Which of the following answers does not refer to a common type of OS-based vulnerability?",
@@ -160,7 +184,8 @@
         "Network-related vulnerabilities (DoS attacks, remote code execution attacks)",
         "All of the above answer choices are examples of OS-based vulnerabilities"
       ],
-      "correct_answers": ["All of the above answer choices are examples of OS-based vulnerabilities"]
+      "correct_answers": ["All of the above answer choices are examples of OS-based vulnerabilities"],
+      "explanation": "All of the listed options are common types of OS-based vulnerabilities. It is important to be aware of these vulnerabilities and to take steps to mitigate them."
     }
   ]
 }

@@ -3,47 +3,56 @@
     {
       "question": "Which of the following answers refers to a family of cryptographic hash functions designed for various security-related applications, including digital signatures, password storage, secure communications, and data integrity verification?",
       "options": ["RSA", "AES", "PKCS", "SHA"],
-      "correct_answers": ["SHA"]
+      "correct_answers": ["SHA"],
+      "explanation": "SHA (Secure Hash Algorithm) is a family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST)."
     },
     {
       "question": "Which of the hash functions listed below offers the highest level of security?",
       "options": ["MD5", "SHA-3", "RIPEMD-160", "HMAC"],
-      "correct_answers": ["SHA-3"]
+      "correct_answers": ["SHA-3"],
+      "explanation": "SHA-3 is the latest member of the Secure Hash Algorithm family of standards. It is more secure than the other options."
     },
     {
       "question": "Which of the following combines a cryptographic hash function with a secret key to provide a means of verifying both the authenticity and integrity of a message or data?",
       "options": ["MD5", "DSA", "HMAC", "DES"],
-      "correct_answers": ["HMAC"]
+      "correct_answers": ["HMAC"],
+      "explanation": "HMAC (Hash-based Message Authentication Code) is a type of message authentication code (MAC) involving a cryptographic hash function and a secret cryptographic key."
     },
     {
       "question": "Which of the answers listed below refers to a non-cryptographic hash function often used for error-checking purposes?",
       "options": ["MD5", "CRC", "SHA", "RIPEMD"],
-      "correct_answers": ["CRC"]
+      "correct_answers": ["CRC"],
+      "explanation": "A CRC (Cyclic Redundancy Check) is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data."
     },
     {
       "question": "Which of the following answers refers to a type of additional input that increases password complexity and provides better protection against brute-force, dictionary, and rainbow table attacks?",
       "options": ["Seed", "IV", "Salt", "Shim"],
-      "correct_answers": ["Salt"]
+      "correct_answers": ["Salt"],
+      "explanation": "A salt is random data that is used as an additional input to a one-way function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage."
     },
     {
       "question": "A pseudo-random data added to a password before hashing is referred to as:",
       "options": ["Shim", "Salt", "IV", "Seed"],
-      "correct_answers": ["Salt"]
+      "correct_answers": ["Salt"],
+      "explanation": "A salt is random data that is used as an additional input to a one-way function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage."
     },
     {
       "question": "Which cryptographic technique is used to prevent the effectiveness of rainbow tables in cracking hashed passwords?",
       "options": ["Data masking", "Two-Factor Authentication (2FA)", "Key stretching", "Salting"],
-      "correct_answers": ["Salting"]
+      "correct_answers": ["Salting"],
+      "explanation": "Salting is a technique that adds a random value to a password before it is hashed. This makes it more difficult for attackers to use rainbow tables to crack the password."
     },
     {
       "question": "Which of the answers listed below refers to a cryptographic technique that verifies the authenticity and integrity of digital documents or messages by using a unique encrypted identifier from the sender?",
       "options": ["Digital signature", "Cryptographic hash function", "Digital certificate", "Asymmetric encryption"],
-      "correct_answers": ["Digital signature"]
+      "correct_answers": ["Digital signature"],
+      "explanation": "A digital signature is a mathematical scheme for verifying the authenticity of digital messages or documents. A valid digital signature, where the prerequisites are satisfied, gives a recipient very high confidence that the message was created by a known sender (authenticity), and that the message was not altered in transit (integrity)."
     },
     {
       "question": "Which of the following answers refer to algorithms used for generating and verifying digital signatures? (Select 3 answers)",
       "options": ["ECDSA", "RSA", "ECDHE", "DSA", "GPG/PGP"],
-      "correct_answers": ["ECDSA", "RSA", "DSA"]
+      "correct_answers": ["ECDSA", "RSA", "DSA"],
+      "explanation": "ECDSA, RSA, and DSA are all algorithms that can be used to generate and verify digital signatures."
     },
     {
       "question": "Which of the answers listed below refer to DSA? (Select 3 answers)",
@@ -59,7 +68,8 @@
         "Asymmetric algorithm",
         "Provides authentication, integrity, and non-repudiation",
         "Specifically designed for creating and verifying digital signatures"
-      ]
+      ],
+      "explanation": "DSA (Digital Signature Algorithm) is an asymmetric algorithm that is specifically designed for creating and verifying digital signatures. It provides authentication, integrity, and non-repudiation."
     },
     {
       "question": "Which of the following answers refer to the characteristic features of RSA? (Select 3 answers)",
@@ -75,7 +85,8 @@
         "Asymmetric encryption algorithm",
         "A public key used for encryption and a private key used for decryption",
         "Used for secure communications, digital signatures, and key exchange"
-      ]
+      ],
+      "explanation": "RSA is an asymmetric encryption algorithm that is used for secure communications, digital signatures, and key exchange. It uses a public key to encrypt data and a private key to decrypt data."
     },
     {
       "question": "Which of the answers listed below describe(s) the characteristics of ECDSA? (Select all that apply)",
@@ -92,47 +103,56 @@
         "Based on elliptic curve cryptography",
         "Specifically designed for creating and verifying digital signatures",
         "More computationally efficient than other signature algorithms"
-      ]
+      ],
+      "explanation": "ECDSA (Elliptic Curve Digital Signature Algorithm) is a digital signature algorithm that is based on elliptic curve cryptography. It is more computationally efficient than other signature algorithms and provides authentication, integrity, and non-repudiation."
     },
     {
       "question": "Given the computational limitations of IoT devices, smartcards, and mobile devices, which of the following digital signature algorithms would be the most efficient choice due to its smaller key size and lower processing requirements?",
       "options": ["RSA", "ECDHE", "DSA", "ECDSA", "ECC"],
-      "correct_answers": ["ECDSA"]
+      "correct_answers": ["ECDSA"],
+      "explanation": "ECDSA is the most efficient choice for devices with limited computational power because it has a smaller key size and lower processing requirements than other digital signature algorithms."
     },
     {
       "question": "Key stretching is a cryptographic technique that enhances the security of sensitive data, such as cryptographic keys and passwords. It works by repeatedly applying a resource-intensive function or algorithm to the input data, thus increasing the computational effort required to derive the original key or password, which makes the data more resistant to brute-force, dictionary, or rainbow table attacks.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Key stretching is a technique that makes it more difficult for attackers to crack passwords. It works by repeatedly applying a hash function to the password, which increases the time it takes to crack the password."
     },
     {
       "question": "Which of the following is an example of a key stretching algorithm?",
       "options": ["RIPEMD", "SHA", "HMAC", "PBKDF2"],
-      "correct_answers": ["PBKDF2"]
+      "correct_answers": ["PBKDF2"],
+      "explanation": "PBKDF2 (Password-Based Key Derivation Function 2) is a key stretching algorithm that is used to protect passwords. It works by repeatedly applying a hash function to the password, which makes it more difficult for attackers to crack the password."
     },
     {
       "question": "The term \"Open public ledger\" is used to describe a distributed database stored across multiple computers in a P2P network.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "An open public ledger is a distributed database that is stored across multiple computers in a peer-to-peer network. It is used to record transactions in a secure and transparent way."
     },
     {
       "question": "Blockchain technology is an example of:",
       "options": ["Online payment gateway", "Centralized database", "Open public ledger", "Cloud storage system"],
-      "correct_answers": ["Open public ledger"]
+      "correct_answers": ["Open public ledger"],
+      "explanation": "Blockchain technology is a type of open public ledger that is used to record transactions in a secure and transparent way. It is the technology that underlies cryptocurrencies such as Bitcoin."
     },
     {
       "question": "Which of the answers listed below refers to a set of standards and specifications that define various cryptographic techniques, including formats for public keys, private keys, digital signatures, and digital certificates?",
       "options": ["ITIL", "RFC", "PKCS", "ISO/IEC"],
-      "correct_answers": ["PKCS"]
+      "correct_answers": ["PKCS"],
+      "explanation": "PKCS (Public-Key Cryptography Standards) is a set of standards for public-key cryptography. It defines the format of public keys, private keys, digital signatures, and digital certificates."
     },
     {
       "question": "Which of the following defines a file format for storing and exchanging personal identity information, including private keys and digital certificates?",
       "options": ["P10", "P11", "P12", "P13"],
-      "correct_answers": ["P12"]
+      "correct_answers": ["P12"],
+      "explanation": "P12 is a file format that is used to store and exchange personal identity information, including private keys and digital certificates. It is a secure format that is used to protect the privacy of users."
     },
     {
       "question": "A type of digital document that verifies the identity of an individual, device, service, or organization in online communications is known as:",
       "options": ["Encryption key", "Digital certificate", "Identity token", "Digital signature"],
-      "correct_answers": ["Digital certificate"]
+      "correct_answers": ["Digital certificate"],
+      "explanation": "A digital certificate is a digital document that is used to verify the identity of an individual, device, service, or organization in online communications. It is a secure way to protect the privacy of users."
     },
     {
       "question": "What is the role of Registration Authority (RA) in PKI? (Select 2 answers)",
@@ -146,27 +166,32 @@
       "correct_answers": [
         "Accepting requests for digital certificates",
         "Authenticating the entity making the request"
-      ]
+      ],
+      "explanation": "The Registration Authority (RA) is a component of a Public Key Infrastructure (PKI) that is responsible for accepting requests for digital certificates and authenticating the entity making the request."
     },
     {
       "question": "Which of the answers listed below refers to a trusted third party responsible for issuing, revoking, and managing digital certificates?",
       "options": ["RA", "DN", "CA", "CSP"],
-      "correct_answers": ["CA"]
+      "correct_answers": ["CA"],
+      "explanation": "A Certificate Authority (CA) is a trusted third party that is responsible for issuing, revoking, and managing digital certificates."
     },
     {
       "question": "Which of the following answers refers to a means for periodic publication of all digital certificates that have been revoked?",
       "options": ["CRL", "OSPF", "RA", "CSR"],
-      "correct_answers": ["CRL"]
+      "correct_answers": ["CRL"],
+      "explanation": "A Certificate Revocation List (CRL) is a list of digital certificates that have been revoked. It is published periodically by a Certificate Authority (CA)."
     },
     {
       "question": "Which of the answers listed below refers to a protocol that enables on-demand querying of the revocation status of a digital certificate?",
       "options": ["CSP", "OCSP", "DN", "CRL"],
-      "correct_answers": ["OCSP"]
+      "correct_answers": ["OCSP"],
+      "explanation": "OCSP (Online Certificate Status Protocol) is a protocol that enables on-demand querying of the revocation status of a digital certificate."
     },
     {
       "question": "What is the fastest way to check the validity of a single digital certificate?",
       "options": ["CSR", "DN", "CRL", "OCSP"],
-      "correct_answers": ["OCSP"]
+      "correct_answers": ["OCSP"],
+      "explanation": "OCSP is the fastest way to check the validity of a single digital certificate because it provides a real-time response."
     }
   ]
 }

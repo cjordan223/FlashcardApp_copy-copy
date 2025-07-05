@@ -3,102 +3,122 @@
     {
       "question": "A detailed agreement between a client and a vendor that describes the work to be performed on a project is called:",
       "options": ["MSA", "SLA", "WO", "SOW"],
-      "correct_answers": ["SOW"]
+      "correct_answers": ["SOW"],
+      "explanation": "A SOW (Statement of Work) is a formal document that outlines the entire scope of work required for a project. It includes deliverables, timelines, and payment terms."
     },
     {
       "question": "A legal contract between the holder of confidential information and another person to whom that information is disclosed restricting that other person from disclosing the confidential information to any other party is referred to as:",
       "options": ["ISA", "NDA", "BPA", "SLA"],
-      "correct_answers": ["NDA"]
+      "correct_answers": ["NDA"],
+      "explanation": "An NDA (Non-Disclosure Agreement) is a legal contract that creates a confidential relationship between two or more parties. It protects sensitive information from being shared with unauthorized individuals."
     },
     {
       "question": "Which of the terms listed below refers to a formal contract between business partners outlining the rights, responsibilities, and obligations of each partner regarding the management, operation, and decision-making processes within the business?",
       "options": ["MSA", "SLA", "BPA", "MOA"],
-      "correct_answers": ["BPA"]
+      "correct_answers": ["BPA"],
+      "explanation": "A BPA (Business Partner Agreement) is a formal contract between business partners that outlines their rights, responsibilities, and obligations. It ensures clear understanding and smooth operation of the partnership."
     },
     {
       "question": "Which of the following terms describes an investigation or assessment done upfront to ensure all facts and risks are known before proceeding?",
       "options": ["Fiduciary duty", "Due care", "Standard of care", "Due diligence"],
-      "correct_answers": ["Due diligence"]
+      "correct_answers": ["Due diligence"],
+      "explanation": "Due diligence is an investigation or assessment of a business or person prior to signing a contract, or an act with a certain standard of care. It ensures all facts and risks are known before proceeding."
     },
     {
       "question": "Which of the terms listed below is used to describe actions taken to address and mitigate already identified risks?",
       "options": ["Due diligence", "Standard of care", "Due care", "Fiduciary duty"],
-      "correct_answers": ["Due care"]
+      "correct_answers": ["Due care"],
+      "explanation": "Due care refers to the actions taken to address and mitigate already identified risks. It is the continuous effort to protect an organization's assets and information."
     },
     {
       "question": "Under data privacy regulations, the individual whose personal data undergoes collection and processing is known as:",
       "options": ["Data holder", "Data owner", "Data user", "Data subject"],
-      "correct_answers": ["Data subject"]
+      "correct_answers": ["Data subject"],
+      "explanation": "Under data privacy regulations, the data subject is the identified or identifiable natural person to whom personal data relates. They are the individual whose personal data is being collected and processed."
     },
     {
       "question": "Which of the following answers refers to an entity (such as an organization or individual) that determines the purpose and means of processing personal data?",
       "options": ["Data processor", "Data owner", "Data controller", "Data subject"],
-      "correct_answers": ["Data controller"]
+      "correct_answers": ["Data controller"],
+      "explanation": "A data controller is an entity that determines the purpose and means of processing personal data. They have the primary responsibility for compliance with data protection laws."
     },
     {
       "question": "An entity that acts under the instructions of a controller by processing personal data on behalf of the controller is called:",
       "options": ["Data steward", "Data processor", "Data subject", "Data custodian"],
-      "correct_answers": ["Data processor"]
+      "correct_answers": ["Data processor"],
+      "explanation": "A data processor is an entity that acts under the instructions of a data controller by processing personal data on behalf of the controller. They do not determine the purpose or means of processing."
     },
     {
       "question": "Which of the terms listed below refers to a legal principle that allows individuals to request the removal of personal information from Internet searches and other public sources?",
       "options": ["De-identification", "Right to be forgotten", "Anonymization", "Consent management"],
-      "correct_answers": ["Right to be forgotten"]
+      "correct_answers": ["Right to be forgotten"],
+      "explanation": "The right to be forgotten is a legal principle that allows individuals to request the removal of personal information from Internet searches and other public sources. It is a key component of data privacy regulations like GDPR."
     },
     {
       "question": "A formal declaration by an auditor that they have performed their work in accordance with all relevant standards and regulations is referred to as:",
       "options": ["Assertion", "Certification", "Validation", "Attestation"],
-      "correct_answers": ["Attestation"]
+      "correct_answers": ["Attestation"],
+      "explanation": "Attestation is a formal declaration by an auditor that they have performed their work in accordance with all relevant standards and regulations. It provides assurance regarding the accuracy and reliability of information."
     },
     {
       "question": "In the context of audits, an attestation is typically provided by:",
       "options": ["Regulatory body", "External auditor", "Audit committee", "Internal audit team"],
-      "correct_answers": ["External auditor"]
+      "correct_answers": ["External auditor"],
+      "explanation": "An attestation in audits is typically provided by an external auditor, who is an independent third party. This ensures objectivity and credibility of the audit findings."
     },
     {
       "question": "In cybersecurity exercises, red team takes on the role of:",
       "options": ["An attacker", "A defender", "Both an attacker and a defender", "An exercise overseer"],
-      "correct_answers": ["An attacker"]
+      "correct_answers": ["An attacker"],
+      "explanation": "In cybersecurity exercises, the red team simulates the role of an attacker, attempting to breach an organization's defenses to identify vulnerabilities."
     },
     {
       "question": "In cybersecurity exercises, the defending team is known as:",
       "options": ["Red team", "Blue team", "White team", "Purple team"],
-      "correct_answers": ["Blue team"]
+      "correct_answers": ["Blue team"],
+      "explanation": "In cybersecurity exercises, the blue team simulates the role of a defender, working to protect the organization's systems and data from attacks."
     },
     {
       "question": "In cybersecurity exercises, the role of an event overseer (i.e., the referee) is delegated to:",
       "options": ["Red team", "Blue team", "White team", "Purple team"],
-      "correct_answers": ["White team"]
+      "correct_answers": ["White team"],
+      "explanation": "In cybersecurity exercises, the white team acts as the event overseer or referee. They set the rules, monitor the exercise, and provide feedback to both the red and blue teams."
     },
     {
       "question": "In cybersecurity exercises, a purple team assumes the integrated role of all other teams (i.e., red, blue, and white).",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. A purple team is a collaborative effort between red and blue teams to improve security. It does not integrate the role of the white team."
     },
     {
       "question": "A penetration test performed by an authorized professional with full prior knowledge of how the system works is called:",
       "options": ["Black-hat hacking", "White-box testing", "Black-box testing", "White-hat hacking"],
-      "correct_answers": ["White-box testing"]
+      "correct_answers": ["White-box testing"],
+      "explanation": "White-box testing is a penetration test where the tester has full knowledge of the system's internal workings, including source code, architecture diagrams, and network configurations."
     },
     {
       "question": "Which of the following terms is used to describe a penetration test in which the person conducting the test has limited access to information on the internal workings of the targeted system?",
       "options": ["Black-box testing", "Fuzz testing", "Gray-box testing", "White-box testing"],
-      "correct_answers": ["Gray-box testing"]
+      "correct_answers": ["Gray-box testing"],
+      "explanation": "Gray-box testing is a penetration test where the tester has some limited knowledge of the system's internal workings, such as user-level access or documentation."
     },
     {
       "question": "A penetration test of a computer system performed without prior knowledge of how the system works is referred to as black-box testing.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "Black-box testing is a penetration test where the tester has no prior knowledge of the system's internal workings, simulating an external attacker."
     },
     {
       "question": "In penetration testing, active reconnaissance involves gathering any type of publicly available information that can be used later for exploiting vulnerabilities.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. Active reconnaissance involves directly interacting with the target system to gather information, such as port scanning or vulnerability scanning. Passive reconnaissance involves gathering publicly available information without direct interaction."
     },
     {
       "question": "In penetration testing, passive reconnaissance relies on gathering information on the targeted system with the use of non-invasive software tools and techniques.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. Passive reconnaissance involves gathering information without directly interacting with the target system, such as searching public databases or social media. Active reconnaissance involves direct interaction."
     },
     {
       "question": "In email communication, what signs can be of help in recognizing a phishing attempt?",
@@ -109,7 +129,8 @@
         "The message includes suspicious links or attachments",
         "Any of the above"
       ],
-      "correct_answers": ["Any of the above"]
+      "correct_answers": ["Any of the above"],
+      "explanation": "All the listed signs are common indicators of a phishing attempt. Phishing emails often use social engineering tactics to trick recipients into revealing sensitive information or clicking on malicious links."
     },
     {
       "question": "What would be an appropriate user response to an email phishing attempt? (Select all that apply)",
@@ -126,12 +147,14 @@
         "Reporting the message to the IT or security department, if applicable",
         "Deleting the message from the inbox",
         "Not clicking on any links or downloading any attachments in the message"
-      ]
+      ],
+      "explanation": "The appropriate responses to a phishing attempt include not interacting with the email, reporting it to the IT department, and deleting it. Forwarding it to the sender or opening attachments can be risky."
     },
     {
       "question": "Which term best describes a disgruntled employee abusing legitimate access to a company’s internal resources?",
       "options": ["APT", "Insider threat", "Gray hat", "Threat actor"],
-      "correct_answers": ["Insider threat"]
+      "correct_answers": ["Insider threat"],
+      "explanation": "An insider threat refers to a security risk that originates from within the organization, often from current or former employees, contractors, or business partners who have legitimate access to internal resources."
     },
     {
       "question": "Due to added functionality in its plug, a malicious USB cable can be used for:",
@@ -142,12 +165,14 @@
         "Delivering and executing malware",
         "Any of the above"
       ],
-      "correct_answers": ["Any of the above"]
+      "correct_answers": ["Any of the above"],
+      "explanation": "Malicious USB cables, often called \"BadUSB\" devices, can be engineered to perform various harmful actions, including acting as a keyboard to inject commands, exfiltrating data, or delivering malware."
     },
     {
       "question": "What is the best countermeasure against social engineering attacks?",
       "options": ["Situational awareness", "Implicit deny policy", "User education", "Strong security controls"],
-      "correct_answers": ["User education"]
+      "correct_answers": ["User education"],
+      "explanation": "User education is the most effective countermeasure against social engineering attacks. By training users to recognize and report social engineering tactics, organizations can significantly reduce their susceptibility to these attacks."
     }
   ]
 }

@@ -3,32 +3,38 @@
     {
       "question": "What is the fastest way for checking the validity of a digital certificate?",
       "options": ["CRL", "OSPF", "CSR", "OCSP"],
-      "correct_answers": ["OCSP"]
+      "correct_answers": ["OCSP"],
+      "explanation": "OCSP (Online Certificate Status Protocol) is a protocol that enables on-demand querying of the revocation status of a digital certificate. It provides a real-time response, making it the fastest way to check validity."
     },
     {
       "question": "Which of the terms listed below refers to a process of intercepting network traffic data for analysis and troubleshooting purposes?",
       "options": ["AIS", "PCAP", "EDR", "MaaS"],
-      "correct_answers": ["PCAP"]
+      "correct_answers": ["PCAP"],
+      "explanation": "PCAP (Packet Capture) refers to a process of intercepting network traffic data for analysis and troubleshooting purposes. It involves capturing data packets flowing across a network and saving them for later examination."
     },
     {
       "question": "In a Kerberos-protected network, this type of secure token is granted to users during their initial login to enable them access to multiple network services without the need to re-enter their login information.",
       "options": ["OTP", "TGT", "AS", "TGS"],
-      "correct_answers": ["TGT"]
+      "correct_answers": ["TGT"],
+      "explanation": "A TGT (Ticket-Granting Ticket) is a secure token granted to users during their initial login in a Kerberos-protected network. It allows them to access multiple network services without re-entering their credentials, promoting Single Sign-On (SSO)."
     },
     {
       "question": "Which of the following answers refers to a language primarily used for automating the assessment of security vulnerabilities and configuration issues on computer systems?",
       "options": ["OVAL", "SAML", "XML", "SOAP"],
-      "correct_answers": ["OVAL"]
+      "correct_answers": ["OVAL"],
+      "explanation": "OVAL (Open Vulnerability and Assessment Language) is an international, information security, community standard to promote open and publicly available security content, and standardize the transfer of this information across the entire spectrum of security tools and services. It is primarily used for automating the assessment of security vulnerabilities and configuration issues."
     },
     {
       "question": "A remote access authentication protocol used primarily in Microsoft networks that periodically re-authenticates client at random intervals to prevent session hijacking is known as:",
       "options": ["PEAP", "MSCHAP", "LEAP", "CHAP"],
-      "correct_answers": ["MSCHAP"]
+      "correct_answers": ["MSCHAP"],
+      "explanation": "MS-CHAP (Microsoft Challenge-Handshake Authentication Protocol) is a remote access authentication protocol used primarily in Microsoft networks. It periodically re-authenticates clients at random intervals to prevent session hijacking, offering more security than PAP."
     },
     {
       "question": "Which of the acronyms listed below refers to a formal and legally binding document that specifies detailed terms, obligations, and responsibilities of all parties involved?",
       "options": ["SOW", "MOA", "MSA", "MOU"],
-      "correct_answers": ["MSA"]
+      "correct_answers": ["MSA"],
+      "explanation": "An MSA (Master Service Agreement) is a formal and legally binding document that specifies detailed terms, obligations, and responsibilities of all parties involved. It serves as a foundational contract for future agreements."
     },
     {
       "question": "Which of the following answers refers to CSRF?",
@@ -38,82 +44,98 @@
         "A security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, potentially leading to data theft or manipulation",
         "A type of cyberattack where malicious code is injected into a web application's input fields to manipulate the database and gain unauthorized access to data or perform malicious actions"
       ],
-      "correct_answers": ["A type of malicious attack where unauthorized commands are transmitted from a user's browser to a web application without their knowledge or consent, often leading to actions being taken on their behalf"]
+      "correct_answers": ["A type of malicious attack where unauthorized commands are transmitted from a user's browser to a web application without their knowledge or consent, often leading to actions being taken on their behalf"],
+      "explanation": "CSRF (Cross-Site Request Forgery) is a type of malicious attack where unauthorized commands are transmitted from a user's browser to a web application without their knowledge or consent. It exploits the trust a web application has in an authenticated user."
     },
     {
       "question": "ARP provides:",
       "options": ["IP-to-FQDN mapping", "MAC-to-IP mapping", "FQDN-to-IP mapping", "IP-to-MAC mapping"],
-      "correct_answers": ["IP-to-MAC mapping"]
+      "correct_answers": ["IP-to-MAC mapping"],
+      "explanation": "ARP (Address Resolution Protocol) provides IP-to-MAC mapping. It is a communication protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address."
     },
     {
       "question": "A set of procedures put in place to recover IT systems and data following a major disruption is called:",
       "options": ["DRP", "BIA", "SLE", "BCP"],
-      "correct_answers": ["DRP"]
+      "correct_answers": ["DRP"],
+      "explanation": "A DRP (Disaster Recovery Plan) is a set of procedures put in place to recover IT systems and data following a major disruption. It focuses on restoring IT operations after a disaster."
     },
     {
       "question": "Which of the answers listed below refers to a network protocol used for synchronizing clocks over a computer network?",
       "options": ["NTP", "VTP", "NNTP", "RTP"],
-      "correct_answers": ["NTP"]
+      "correct_answers": ["NTP"],
+      "explanation": "NTP (Network Time Protocol) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks. It is used to ensure accurate timekeeping across devices."
     },
     {
       "question": "An integrated circuit combining components typically found in a standard computer system is referred to as:",
       "options": ["HSM", "TPM", "SoC", "BIOS"],
-      "correct_answers": ["SoC"]
+      "correct_answers": ["SoC"],
+      "explanation": "SoC (System on a Chip) is an integrated circuit that integrates all components of a computer or other electronic system into a single chip. It is commonly used in mobile devices and embedded systems."
     },
     {
       "question": "Which of the following acronyms refers to a document that authorizes, initiates, and tracks the progress and completion of a particular job or task?",
       "options": ["SOW", "WO", "SLA", "MSA"],
-      "correct_answers": ["WO"]
+      "correct_answers": ["WO"],
+      "explanation": "A WO (Work Order) is a document that authorizes, initiates, and tracks the progress and completion of a particular job or task. It is used to manage and track work within an organization."
     },
     {
       "question": "Which of the answers listed below refers to a protocol used by routers, hosts, and network devices to generate error messages and troubleshoot problems with delivery of IP packets?",
       "options": ["CCMP", "RSTP", "ICMP", "SNMP"],
-      "correct_answers": ["ICMP"]
+      "correct_answers": ["ICMP"],
+      "explanation": "ICMP (Internet Control Message Protocol) is a supporting protocol in the Internet protocol suite. It is used by network devices, including routers, to send error messages and operational information indicating, for example, that a requested service is not available or that a host or router could not be reached."
     },
     {
       "question": "Which of the following terms refer to the characteristic features of DSL? (Select 3 answers)",
       "options": ["Leased lines", "Copper cabling", "Telephone lines", "Fiber-optic cabling", "Last mile solutions", "WAN links"],
-      "correct_answers": ["Copper cabling", "Telephone lines", "Last mile solutions"]
+      "correct_answers": ["Copper cabling", "Telephone lines", "Last mile solutions"],
+      "explanation": "DSL (Digital Subscriber Line) is a family of technologies that are used to transmit digital data over telephone lines. It uses copper cabling and telephone lines to provide last-mile solutions for internet access."
     },
     {
       "question": "A type of trusted third party that issues digital certificates used for creating digital signatures and public-private key pairs is known as:",
       "options": ["RA", "IKE", "CA", "CSP"],
-      "correct_answers": ["CA"]
+      "correct_answers": ["CA"],
+      "explanation": "A CA (Certificate Authority) is a trusted third party that issues digital certificates used for creating digital signatures and public-private key pairs. It plays a crucial role in Public Key Infrastructure (PKI)."
     },
     {
       "question": "Which of the answers listed below refers to a mobile device deployment model that allows employees to use private mobile devices for accessing company's restricted data and applications?",
       "options": ["COPE", "BYOD", "JBOD", "CYOD"],
-      "correct_answers": ["BYOD"]
+      "correct_answers": ["BYOD"],
+      "explanation": "BYOD (Bring Your Own Device) is a mobile device deployment model that allows employees to use private mobile devices for accessing company's restricted data and applications. It offers flexibility but requires careful security management."
     },
     {
       "question": "What is the name of a U.S. government initiative providing a set of procedures and plans that an organization can implement to ensure continued performance of its essential functions during unexpected events?",
       "options": ["SLA", "COOP", "RPO", "BCP"],
-      "correct_answers": ["COOP"]
+      "correct_answers": ["COOP"],
+      "explanation": "COOP (Continuity of Operations) is a U.S. government initiative providing a set of procedures and plans that an organization can implement to ensure continued performance of its essential functions during unexpected events. It focuses on maintaining essential functions during disruptions."
     },
     {
       "question": "Which of the following answers refers to a policy framework that allows domain owners to specify how email receivers should handle emails that fail authentication checks?",
       "options": ["DKIM", "SPF", "PGP", "DMARC"],
-      "correct_answers": ["DMARC"]
+      "correct_answers": ["DMARC"],
+      "explanation": "DMARC (Domain-based Message Authentication, Reporting & Conformance) is a policy framework that allows domain owners to specify how email receivers should handle emails that fail authentication checks. It helps to prevent email spoofing and phishing."
     },
     {
       "question": "Which of the answers listed below refers to a deprecated wireless authentication protocol developed by Cisco?",
       "options": ["PEAP", "EAP-TTLS", "LEAP", "EAP-TLS"],
-      "correct_answers": ["LEAP"]
+      "correct_answers": ["LEAP"],
+      "explanation": "LEAP (Lightweight Extensible Authentication Protocol) is a deprecated wireless authentication protocol developed by Cisco. It has known vulnerabilities and has been replaced by more secure protocols."
     },
     {
       "question": "A cloud-based solution that provides ongoing oversight and supervision of IT assets and services is called:",
       "options": ["PaaS", "IaaS", "SaaS", "MaaS"],
-      "correct_answers": ["MaaS"]
+      "correct_answers": ["MaaS"],
+      "explanation": "MaaS (Monitoring as a Service) is a cloud-based solution that provides ongoing oversight and supervision of IT assets and services. It allows organizations to monitor their IT infrastructure without having to deploy and maintain their own monitoring tools."
     },
     {
       "question": "Which of the following terms is used to describe all aspects of software development?",
       "options": ["PLC", "SDLC", "QA", "SDLM"],
-      "correct_answers": ["SDLM"]
+      "correct_answers": ["SDLM"],
+      "explanation": "SDLM (Software Development Life Cycle Management) is a comprehensive term that encompasses all aspects of software development, from planning and design to deployment and maintenance. It ensures a structured approach to software creation."
     },
     {
       "question": "Which of the answers listed below refers to a markup language for exchanging authentication and authorization data?",
       "options": ["SAML", "XML", "SOAP", "XHTML"],
-      "correct_answers": ["SAML"]
+      "correct_answers": ["SAML"],
+      "explanation": "SAML (Security Assertion Markup Language) is an XML-based open standard for exchanging authentication and authorization data between an identity provider and a service provider. It is commonly used for Single Sign-On (SSO)."
     },
     {
       "question": "What are the characteristic features of SAML? (Select 3 answers)",
@@ -130,67 +152,80 @@
         "Handles both authentication and authorization for SSO",
         "Uses XML for data exchange",
         "Commonly used in enterprise environments and legacy systems"
-      ]
+      ],
+      "explanation": "SAML (Security Assertion Markup Language) is an XML-based open standard for exchanging authentication and authorization data between an identity provider and a service provider. It is commonly used in enterprise environments and legacy systems for SSO."
     },
     {
       "question": "Which DNS TXT records are used for spam management? (Select 3 answers)",
       "options": ["SPF", "DKIM", "SRV", "DMARC", "PTR"],
-      "correct_answers": ["SPF", "DKIM", "DMARC"]
+      "correct_answers": ["SPF", "DKIM", "DMARC"],
+      "explanation": "SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), and DMARC (Domain-based Message Authentication, Reporting & Conformance) are DNS TXT records used for spam management. They help to prevent email spoofing and phishing."
     },
     {
       "question": "Which of the following terms can be used as a synonym for an aerial drone?",
       "options": ["UGV", "UAV", "USV", "UAP"],
-      "correct_answers": ["UAV"]
+      "correct_answers": ["UAV"],
+      "explanation": "UAV (Unmanned Aerial Vehicle) is a common synonym for an aerial drone. It refers to an aircraft without a human pilot aboard."
     },
     {
       "question": "A software development approach that aims for speedy application creation and continuous improvement through iterative development and user collaboration is referred to as:",
       "options": ["FDD", "DevOps", "RAD", "SaaS"],
-      "correct_answers": ["RAD"]
+      "correct_answers": ["RAD"],
+      "explanation": "RAD (Rapid Application Development) is a software development approach that aims for speedy application creation and continuous improvement through iterative development and user collaboration. It emphasizes rapid prototyping and quick feedback."
     },
     {
       "question": "Which of the protocols listed below is referred to as a connectionless, unreliable, or best-effort protocol?",
       "options": ["MPLS", "TCP", "SMTP", "UDP"],
-      "correct_answers": ["UDP"]
+      "correct_answers": ["UDP"],
+      "explanation": "UDP (User Datagram Protocol) is a connectionless, unreliable, or best-effort protocol. It does not establish a connection before sending data and does not guarantee delivery, order, or error-checking."
     },
     {
       "question": "Which of the following answers refers to a software tool that provides a single management interface for mobile devices, PCs, printers, IoT devices and wearables?",
       "options": ["MDM", "RCS", "UEM", "MAM"],
-      "correct_answers": ["UEM"]
+      "correct_answers": ["UEM"],
+      "explanation": "UEM (Unified Endpoint Management) is a software tool that provides a single management interface for mobile devices, PCs, printers, IoT devices, and wearables. It simplifies endpoint management and security."
     },
     {
       "question": "Which of the answers listed below refers to a technology that allows USB devices to act as both hosts and peripherals, enabling them to connect to and communicate with other USB devices directly without the need for a computer or dedicated host?",
       "options": ["PnP", "OTG", "P2P", "HCI"],
-      "correct_answers": ["OTG"]
+      "correct_answers": ["OTG"],
+      "explanation": "OTG (On-The-Go) is a technology that allows USB devices to act as both hosts and peripherals, enabling them to connect to and communicate with other USB devices directly without the need for a computer or dedicated host. It is commonly found in smartphones and tablets."
     },
     {
       "question": "A messaging service that allows users to send content such as images, videos, and audio along with text messages to mobile devices is known as:",
       "options": ["MMS", "IRC", "IM", "SMS"],
-      "correct_answers": ["MMS"]
+      "correct_answers": ["MMS"],
+      "explanation": "MMS (Multimedia Messaging Service) is a messaging service that allows users to send content such as images, videos, and audio along with text messages to mobile devices. It is an extension of SMS."
     },
     {
       "question": "What is a common target of XSS?",
       "options": ["Physical security", "Alternate sites", "Dynamic web pages", "Removable storage"],
-      "correct_answers": ["Dynamic web pages"]
+      "correct_answers": ["Dynamic web pages"],
+      "explanation": "XSS (Cross-Site Scripting) commonly targets dynamic web pages. These are web pages that generate content based on user input, making them vulnerable to injection of malicious scripts."
     },
     {
       "question": "Which of the following answers refers to a security policy enforcement software tool or service placed between cloud service users and cloud applications?",
       "options": ["UTM", "CASB", "NGFW", "DMVPN"],
-      "correct_answers": ["CASB"]
+      "correct_answers": ["CASB"],
+      "explanation": "CASB (Cloud Access Security Broker) is a security policy enforcement software tool or service placed between cloud service users and cloud applications. It helps organizations extend their security policies to the cloud."
     },
     {
       "question": "Which of the answers listed below refers to a set of procedures put in place to recover IT systems and data following a major disruption?",
       "options": ["BCP", "DRP", "IRP", "ERP"],
-      "correct_answers": ["DRP"]
+      "correct_answers": ["DRP"],
+      "explanation": "DRP (Disaster Recovery Plan) is a set of procedures put in place to recover IT systems and data following a major disruption. It focuses on restoring IT operations after a disaster."
     },
     {
       "question": "A technology that enables real-time analysis of security alerts generated by network hardware and applications is called:",
       "options": ["LACP", "DSCP", "SIEM", "LWAPP"],
-      "correct_answers": ["SIEM"]
+      "correct_answers": ["SIEM"],
+      "explanation": "SIEM (Security Information and Event Management) is a technology that enables real-time analysis of security alerts generated by network hardware and applications. It combines SIM (Security Information Management) and SEM (Security Event Management) functions."
     },
     {
       "question": "Which of the following acronyms refers to a senior executive responsible for technology-related decision-making and planning?",
       "options": ["CIO", "CEO", "CTO", "CSO"],
-      "correct_answers": ["CTO"]
+      "correct_answers": ["CTO"],
+      "explanation": "CTO (Chief Technology Officer) is a senior executive responsible for technology-related decision-making and planning. They oversee the development and implementation of technology strategies."
     }
   ]
 }

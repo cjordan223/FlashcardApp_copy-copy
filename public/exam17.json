@@ -1,5 +1,3 @@
-
-
 {
   "questions": [
     {
@@ -16,7 +14,8 @@
         "Typically used later in the software development lifecycle",
         "Analyzes runtime properties like memory usage, performance, and error handling to identify issues such as memory leaks, performance bottlenecks, and runtime errors",
         "Involves executing the code and analyzing its behavior at runtime"
-      ]
+      ],
+      "explanation": "Dynamic code analysis is the process of testing and evaluating an application during runtime. It is used to identify issues such as memory leaks, performance bottlenecks, and runtime errors."
     },
     {
       "question": "Which of the terms listed below refers to tracking and managing software application components, such as third-party libraries and other dependencies?",
@@ -26,17 +25,20 @@
         "Configuration enforcement",
         "Application hardening"
       ],
-      "correct_answers": ["Package monitoring"]
+      "correct_answers": ["Package monitoring"],
+      "explanation": "Package monitoring is the process of tracking and managing software application components, such as third-party libraries and other dependencies. This is important for security because it can help to identify and mitigate vulnerabilities in these components."
     },
     {
       "question": "Which of the following terms refers to threat intelligence gathered from publicly available sources?",
       "options": ["IoC", "OSINT", "RFC", "CVE/NVD"],
-      "correct_answers": ["OSINT"]
+      "correct_answers": ["OSINT"],
+      "explanation": "OSINT (Open-Source Intelligence) is threat intelligence that is gathered from publicly available sources, such as social media, news articles, and public records."
     },
     {
       "question": "Which of the terms listed below refers to a US government initiative for real-time sharing of cyber threat indicators?",
       "options": ["AIS", "STIX", "TTP", "CVSS"],
-      "correct_answers": ["AIS"]
+      "correct_answers": ["AIS"],
+      "explanation": "AIS (Automated Indicator Sharing) is a US government initiative for real-time sharing of cyber threat indicators. This helps organizations to protect themselves from cyberattacks."
     },
     {
       "question": "What is STIX?",
@@ -46,17 +48,20 @@
         "US government initiative for real-time sharing of cyber threat indicators",
         "Transport mechanism for cyber threat information"
       ],
-      "correct_answers": ["Common language for describing cyber threat information"]
+      "correct_answers": ["Common language for describing cyber threat information"],
+      "explanation": "STIX (Structured Threat Information Expression) is a common language for describing cyber threat information. This helps organizations to share threat intelligence and to protect themselves from cyberattacks."
     },
     {
       "question": "A dedicated transport mechanism for cyber threat information is called:",
       "options": ["TCP/IP", "TLS", "TAXII", "S/MIME"],
-      "correct_answers": ["TAXII"]
+      "correct_answers": ["TAXII"],
+      "explanation": "TAXII (Trusted Automated eXchange of Intelligence Information) is a dedicated transport mechanism for cyber threat information. This helps organizations to share threat intelligence and to protect themselves from cyberattacks."
     },
     {
       "question": "Which of the following provides insights into the methods and tools used by cybercriminals to carry out attacks?",
       "options": ["CVE", "IoC", "AIS", "TTP"],
-      "correct_answers": ["TTP"]
+      "correct_answers": ["TTP"],
+      "explanation": "TTP (Tactics, Techniques, and Procedures) provides insights into the methods and tools used by cybercriminals to carry out attacks. This helps organizations to protect themselves from cyberattacks."
     },
     {
       "question": "Which of the following statements does not apply to dark web?",
@@ -66,7 +71,8 @@
         "Not indexed by traditional search engines",
         "Often associated with trading stolen data, malware, and cyber threats"
       ],
-      "correct_answers": ["Forms a large part of the deep web"]
+      "correct_answers": ["Forms a large part of the deep web"],
+      "explanation": "The dark web is a small part of the deep web. The deep web is the part of the internet that is not indexed by traditional search engines."
     },
     {
       "question": "Penetration testing: (Select all that apply)",
@@ -81,42 +87,50 @@
         "Bypasses security controls",
         "Actively tests security controls",
         "Exploits vulnerabilities"
-      ]
+      ],
+      "explanation": "Penetration testing is the process of actively testing security controls to find and exploit vulnerabilities."
     },
     {
       "question": "A responsible disclosure program is a formal process established by an organization to encourage security researchers and ethical hackers to report vulnerabilities they discover in the organization's systems or software. A bug bounty program is a specific type of responsible disclosure program that offers financial rewards to security researchers for reporting valid vulnerabilities.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A responsible disclosure program is a formal process for reporting security vulnerabilities. A bug bounty program is a type of responsible disclosure program that offers financial rewards for reporting vulnerabilities."
     },
     {
       "question": "An antivirus software identifying a non-malicious file as a virus due to a faulty virus signature file is an example of:",
       "options": ["Fault tolerance", "False positive error", "Quarantine feature", "False negative error"],
-      "correct_answers": ["False positive error"]
+      "correct_answers": ["False positive error"],
+      "explanation": "A false positive error is a situation where a security system incorrectly identifies a non-malicious file as a virus."
     },
     {
       "question": "Which of the answers listed below refers to a situation where no alarm is raised when an attack has taken place?",
       "options": ["False negative", "True positive", "False positive", "True negative"],
-      "correct_answers": ["False negative"]
+      "correct_answers": ["False negative"],
+      "explanation": "A false negative is a situation where a security system fails to identify a malicious file as a virus."
     },
     {
       "question": "A measure of the likelihood that a security system will incorrectly reject an access attempt by an authorized user is referred to as:",
       "options": ["FAR", "CER", "CRC", "FRR"],
-      "correct_answers": ["FRR"]
+      "correct_answers": ["FRR"],
+      "explanation": "FRR (False Rejection Rate) is a measure of the likelihood that a security system will incorrectly reject an access attempt by an authorized user."
     },
     {
       "question": "Which of the following terms refers to a framework and knowledge base that provides understanding of TTPs used during cyberattacks?",
       "options": ["CVSS", "ATT&CK", "STIX", "TAXII"],
-      "correct_answers": ["ATT&CK"]
+      "correct_answers": ["ATT&CK"],
+      "explanation": "ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) is a framework and knowledge base that provides understanding of TTPs used during cyberattacks."
     },
     {
       "question": "Which of the answers listed below refers to an industry standard for assessing and scoring the severity of computer system security vulnerabilities?",
       "options": ["SIEM", "CVSS", "OSINT", "SOAR"],
-      "correct_answers": ["CVSS"]
+      "correct_answers": ["CVSS"],
+      "explanation": "CVSS (Common Vulnerability Scoring System) is an industry standard for assessing and scoring the severity of computer system security vulnerabilities."
     },
     {
       "question": "Which of the following refers to a system that identifies, defines, and catalogs publicly known cybersecurity vulnerabilities?",
       "options": ["TAXII", "CVE", "STIX", "CVSS"],
-      "correct_answers": ["CVE"]
+      "correct_answers": ["CVE"],
+      "explanation": "CVE (Common Vulnerabilities and Exposures) is a system that identifies, defines, and catalogs publicly known cybersecurity vulnerabilities."
     },
     {
       "question": "What is Exposure Factor (EF) in vulnerability analysis?",
@@ -126,7 +140,8 @@
         "The degree of loss that a realized threat would have on a specific asset",
         "The measure of the potential impact of a vulnerability on an organization's assets"
       ],
-      "correct_answers": ["The degree of loss that a realized threat would have on a specific asset"]
+      "correct_answers": ["The degree of loss that a realized threat would have on a specific asset"],
+      "explanation": "EF (Exposure Factor) is the degree of loss that a realized threat would have on a specific asset."
     },
     {
       "question": "Which of the statements listed below does not refer to a vulnerability response and remediation technique?",
@@ -138,12 +153,14 @@
         "Delaying or forgoing a patch for a specific system, e.g., when applying a patch may not be feasible due to compatibility issues or potential disruptions to critical systems (exceptions and exemptions)",
         "All of the above answers are examples of vulnerability response and remediation techniques"
       ],
-      "correct_answers": ["All of the above answers are examples of vulnerability response and remediation techniques"]
+      "correct_answers": ["All of the above answers are examples of vulnerability response and remediation techniques"],
+      "explanation": "All of the listed options are valid vulnerability response and remediation techniques."
     },
     {
       "question": "The practice of isolating potentially malicious or suspicious entities to prevent them from causing harm to the rest of the network or system is known as:",
       "options": ["Sandboxing", "Containerization", "Quarantine", "Segmentation"],
-      "correct_answers": ["Quarantine"]
+      "correct_answers": ["Quarantine"],
+      "explanation": "Quarantine is the practice of isolating potentially malicious or suspicious entities to prevent them from causing harm to the rest of the network or system."
     },
     {
       "question": "Which of the answers listed below refer to SCAP? (Select 3 answers)",
@@ -159,7 +176,8 @@
         "A collection of standards developed by NIST",
         "Provides a common language for communicating security information",
         "Allows different security tools to share data and work together more effectively"
-      ]
+      ],
+      "explanation": "SCAP (Security Content Automation Protocol) is a collection of standards that are developed by NIST. It provides a common language for communicating security information and allows different security tools to share data and work together more effectively."
     },
     {
       "question": "Which of the answers listed below refer to SIEM? (Select 3 answers)",
@@ -175,27 +193,32 @@
         "Designed to provide a centralized user interface for accessing collected data",
         "Enables real-time threat detection, incident response, and compliance monitoring",
         "A type of security system designed to collect logs and events from various sources"
-      ]
+      ],
+      "explanation": "SIEM (Security Information and Event Management) is a type of security system that is designed to collect logs and events from various sources. It provides a centralized user interface for accessing collected data and enables real-time threat detection, incident response, and compliance monitoring."
     },
     {
       "question": "Which of the following acronyms refers to software or hardware-based security solutions designed to detect and prevent unauthorized use and transmission of confidential information?",
       "options": ["IPS", "DLP", "IDS", "DEP"],
-      "correct_answers": ["DLP"]
+      "correct_answers": ["DLP"],
+      "explanation": "DLP (Data Loss Prevention) is a type of software or hardware-based security solution that is designed to detect and prevent unauthorized use and transmission of confidential information."
     },
     {
       "question": "Simple Network Management Protocol (SNMP) is a UDP-based, application layer protocol used in network management systems to monitor network-attached devices... The manager receives notifications (Traps and InformRequests) on UDP port 162, while the SNMP Agent receives requests on UDP port 161.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "SNMP is a UDP-based, application layer protocol that is used in network management systems to monitor network-attached devices."
     },
     {
       "question": "An SNMP-compliant device includes a virtual database containing information about configuration and state of the device that can be queried by an SNMP management station. This type of data repository is referred to as:",
       "options": ["MIB", "DCS", "NMS", "SIEM"],
-      "correct_answers": ["MIB"]
+      "correct_answers": ["MIB"],
+      "explanation": "A MIB (Management Information Base) is a virtual database that contains information about the configuration and state of a device."
     },
     {
       "question": "Of the three existing versions of the Simple Network Management Protocol (SNMP), versions 1 and 2 (SNMPv1 and SNMPv2) offer authentication based on community strings sent in an unencrypted form (a.k.a. cleartext). SNMPv3 provides packet encryption, authentication, and hashing mechanisms that allow for checking whether data has changed in transit.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "SNMPv3 is the most secure version of SNMP. It provides packet encryption, authentication, and hashing mechanisms that allow for checking whether data has changed in transit."
     }
   ]
 }

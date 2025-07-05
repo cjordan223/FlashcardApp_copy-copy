@@ -3,177 +3,212 @@
     {
       "question": "A network protocol used for secure file transfer over SSH is known as:",
       "options": ["TFTP", "SFTP", "SCP", "FTPS"],
-      "correct_answers": ["SFTP"]
+      "correct_answers": ["SFTP"],
+      "explanation": "SFTP (SSH File Transfer Protocol) is a network protocol that provides file access, file transfer, and file management over any reliable data stream. It was designed by the Internet Engineering Task Force (IETF) as an extension of the Secure Shell protocol (SSH) version 2.0 to provide secure file transfer capabilities."
     },
     {
       "question": "Which of the answers listed below refers to a virtualization platform for delivering virtual desktops to a community of users?",
       "options": ["VDE", "VNC", "VDI", "RDP"],
-      "correct_answers": ["VDI"]
+      "correct_answers": ["VDI"],
+      "explanation": "VDI (Virtual Desktop Infrastructure) is a virtualization technology that hosts desktop operating systems and applications on a centralized server. It allows users to access their desktops from any device, anywhere."
     },
     {
       "question": "A solution that simplifies configuration of new wireless networks by allowing non-technical users to easily configure network security settings and add new devices to an existing network is called:",
       "options": ["WPA", "WPS", "WEP", "WAP"],
-      "correct_answers": ["WPS"]
+      "correct_answers": ["WPS"],
+      "explanation": "WPS (Wi-Fi Protected Setup) is a network security standard to create a secure wireless home network. It is designed to be easy to use, but it has known security vulnerabilities and is not recommended."
     },
     {
       "question": "Which of the following answers refers to a text-based command interpreter and scripting language for Unix-like operating systems?",
       "options": ["CLI", "JS", "Bash", "cmd.exe"],
-      "correct_answers": ["Bash"]
+      "correct_answers": ["Bash"],
+      "explanation": "Bash (Bourne Again SHell) is a Unix shell and command language. It is a text-based command interpreter and scripting language for Unix-like operating systems."
     },
     {
       "question": "A networking hardware device connecting wireless devices to a wired network is referred to as:",
       "options": ["WAF", "AP", "RAS", "NIC"],
-      "correct_answers": ["AP"]
+      "correct_answers": ["AP"],
+      "explanation": "An AP (Access Point) is a networking hardware device that allows a Wi-Fi device to connect to a wired network. It acts as a central hub for wireless devices."
     },
     {
       "question": "Which of the answers listed below refers to a mobile device deployment model where organizations provide and own the devices while allowing their personal use?",
       "options": ["BYOD", "COPE", "VDI", "CYOD"],
-      "correct_answers": ["COPE"]
+      "correct_answers": ["COPE"],
+      "explanation": "COPE (Corporate-Owned, Personally Enabled) is a mobile device deployment model where organizations provide and own the devices while allowing their personal use. This offers a balance between corporate control and employee flexibility."
     },
     {
       "question": "Which of the following answers refers to a non-cryptographic hash function often used for error-checking purposes?",
       "options": ["MD5", "CRC", "SHA", "RIPEMD"],
-      "correct_answers": ["CRC"]
+      "correct_answers": ["CRC"],
+      "explanation": "A CRC (Cyclic Redundancy Check) is a non-cryptographic hash function often used for error-checking purposes. It is used to detect accidental changes to raw data, but not malicious alterations."
     },
     {
       "question": "What is the name of a network layer protocol that specifies the format of packets and addressing scheme in network communications?",
       "options": ["UDP", "IP", "TCP", "NetBIOS"],
-      "correct_answers": ["IP"]
+      "correct_answers": ["IP"],
+      "explanation": "IP (Internet Protocol) is the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. It specifies the format of packets and addressing scheme in network communications."
     },
     {
       "question": "The term \"P2P\" refers to a centralized network architecture in which each participant in the network can act both as a client and a server, enabling direct communication and file sharing between individual users without the need for a central server or intermediary.",
       "options": ["True", "False"],
-      "correct_answers": ["False"]
+      "correct_answers": ["False"],
+      "explanation": "This statement is false. P2P (Peer-to-Peer) refers to a decentralized network architecture where each participant can act as both a client and a server, enabling direct communication and file sharing without a central server. The description provided is for a centralized architecture."
     },
     {
       "question": "Which of the answers listed below refers to a set of standards and specifications that define various cryptographic techniques, including formats for public keys, private keys, digital signatures, and digital certificates?",
       "options": ["ITIL", "RFC", "PKCS", "ISO/IEC"],
-      "correct_answers": ["PKCS"]
+      "correct_answers": ["PKCS"],
+      "explanation": "PKCS (Public-Key Cryptography Standards) is a set of de facto standards for public-key cryptography, developed by RSA Security. They define various cryptographic techniques, including formats for public keys, private keys, digital signatures, and digital certificates."
     },
     {
       "question": "Which of the following answers refers to a tunneling point-to-point protocol?",
       "options": ["EAP", "PPTP", "MPLS", "PPP"],
-      "correct_answers": ["PPTP"]
+      "correct_answers": ["PPTP"],
+      "explanation": "PPTP (Point-to-Point Tunneling Protocol) is a method for implementing virtual private networks (VPNs). PPTP uses a control channel over TCP and a GRE tunnel operating to encapsulate PPP packets."
     },
     {
       "question": "Which of the answers listed below refers to a logical operation commonly used in the context of cybersecurity, particularly in encryption and obfuscation techniques?",
       "options": ["AND", "OR", "NOT", "XOR"],
-      "correct_answers": ["XOR"]
+      "correct_answers": ["XOR"],
+      "explanation": "XOR (exclusive OR) is a logical operation that outputs true only when inputs differ (one is true, the other is false). It is commonly used in cryptography because it is a simple and efficient way to combine a key with plaintext to produce ciphertext."
     },
     {
       "question": "Which of the following answers refers to a public-key cryptosystem used for digital signatures, secure key exchange, and encryption?",
       "options": ["DHE", "RSA", "AES", "DSA"],
-      "correct_answers": ["RSA"]
+      "correct_answers": ["RSA"],
+      "explanation": "RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem that is widely used for secure data transmission. It is also one of the oldest."
     },
     {
       "question": "An authentication mechanism that generates one-time passwords based on the current time and a secret key is known as:",
       "options": ["OAuth", "TOTP", "RADIUS", "HOTP"],
-      "correct_answers": ["TOTP"]
+      "correct_answers": ["TOTP"],
+      "explanation": "TOTP (Time-based One-Time Password) is an authentication mechanism that generates one-time passwords based on the current time and a secret key. It is commonly used in multi-factor authentication."
     },
     {
       "question": "Which of the answers listed below refers to the process of maintaining the integrity of files and data?",
       "options": ["DLP", "SIEM", "FIM", "SHA"],
-      "correct_answers": ["FIM"]
+      "correct_answers": ["FIM"],
+      "explanation": "FIM (File Integrity Monitoring) is a technology that monitors changes to files and data. It is used to detect unauthorized changes to files, which can indicate a security breach."
     },
     {
       "question": "Which of the following provides a countermeasure against SPOF?",
       "options": ["HA", "DLP", "VM", "AAA"],
-      "correct_answers": ["HA"]
+      "correct_answers": ["HA"],
+      "explanation": "HA (High Availability) is a countermeasure against SPOF (Single Point of Failure). It ensures that systems and applications remain operational even if a component fails."
     },
     {
       "question": "In the AAA security architecture, the process of tracking accessed services and logging resource consumption is called:",
       "options": ["Auditing", "Authentication", "Authorization", "Accounting"],
-      "correct_answers": ["Accounting"]
+      "correct_answers": ["Accounting"],
+      "explanation": "Accounting is the process of tracking accessed services and logging resource consumption in the AAA (Authentication, Authorization, and Accounting) security architecture. It provides a record of user activity."
     },
     {
       "question": "Which of the answers listed below refers to a method that enables secure conversion of user passwords into cryptographic keys?",
       "options": ["PBKDF2", "PFS", "RIPEMD", "PKCS #7"],
-      "correct_answers": ["PBKDF2"]
+      "correct_answers": ["PBKDF2"],
+      "explanation": "PBKDF2 (Password-Based Key Derivation Function 2) is a method that enables secure conversion of user passwords into cryptographic keys. It is used to strengthen passwords against brute-force attacks."
     },
     {
       "question": "Which of the following solutions provides passive network security breach response on an individual computer system?",
       "options": ["HIDS", "NIPS", "HIPS", "NIDS"],
-      "correct_answers": ["HIDS"]
+      "correct_answers": ["HIDS"],
+      "explanation": "A HIDS (Host-based Intrusion Detection System) is a security solution that provides passive network security breach response on an individual computer system. It monitors and alerts on suspicious activity but does not actively block it."
     },
     {
       "question": "Which of the answers listed below refers to a system that identifies, defines, and catalogs publicly known cybersecurity vulnerabilities?",
       "options": ["TAXII", "CVE", "STIX", "CVSS"],
-      "correct_answers": ["CVE"]
+      "correct_answers": ["CVE"],
+      "explanation": "CVE (Common Vulnerabilities and Exposures) is a system that identifies, defines, and catalogs publicly known cybersecurity vulnerabilities. It provides a common identifier for publicly known information security vulnerabilities."
     },
     {
       "question": "Which of the following answers refers to a deprecated (largely replaced by AES) symmetric-key block cipher encryption algorithm?",
       "options": ["ECDSA", "RSA", "IDEA", "DSA"],
-      "correct_answers": ["IDEA"]
+      "correct_answers": ["IDEA"],
+      "explanation": "IDEA (International Data Encryption Algorithm) is a symmetric-key block cipher encryption algorithm that has been largely replaced by AES. It is considered deprecated due to its smaller key size and known vulnerabilities."
     },
     {
       "question": "A limit on the maximum amount of data that can be transmitted over a network without fragmentation is referred to as:",
       "options": ["DSU", "CSU", "FPS", "MTU"],
-      "correct_answers": ["MTU"]
+      "correct_answers": ["MTU"],
+      "explanation": "MTU (Maximum Transmission Unit) is a limit on the maximum amount of data that can be transmitted over a network without fragmentation. It is the largest packet size that can be sent over a network."
     },
     {
       "question": "Which of the answers listed below refers to a standardized method employed by the U.S. federal government to authenticate the identities of employees and contractors via smart card-based credentials?",
       "options": ["PIV", "MFA", "SAE", "PKI"],
-      "correct_answers": ["PIV"]
+      "correct_answers": ["PIV"],
+      "explanation": "PIV (Personal Identity Verification) is a standardized method employed by the U.S. federal government to authenticate the identities of employees and contractors via smart card-based credentials. It is used for logical and physical access control."
     },
     {
       "question": "Which of the following answers refers to an organized approach to managing and mitigating security incidents?",
       "options": ["XDR", "IR", "SOAR", "IRP"],
-      "correct_answers": ["IR"]
+      "correct_answers": ["IR"],
+      "explanation": "IR (Incident Response) is an organized approach to managing and mitigating security incidents. It involves a set of procedures and processes to detect, analyze, contain, eradicate, and recover from security incidents."
     },
     {
       "question": "Which type of technology enables contactless payment transactions?",
       "options": ["NFC", "IR", "PED", "WAP"],
-      "correct_answers": ["NFC"]
+      "correct_answers": ["NFC"],
+      "explanation": "NFC (Near Field Communication) is a set of communication protocols for communication between two electronic devices over a distance of 4 cm or less. NFC devices are used in contactless payment systems, and can be used to share data."
     },
     {
       "question": "An agreement between a service provider and users defining the nature, availability, quality, and scope of the service to be provided is known as:",
       "options": ["SOW", "MSA", "SLA", "MOU"],
-      "correct_answers": ["SLA"]
+      "correct_answers": ["SLA"],
+      "explanation": "An SLA (Service Level Agreement) is a contract between a service provider and users that defines the nature, availability, quality, and scope of the service to be provided. It sets expectations for service performance."
     },
     {
       "question": "Which of the answers listed below refers to a cybersecurity approach that focuses on recognizing and addressing potential threats originating from multiple sources?",
       "options": ["XDR", "WAF", "EDR", "SWG"],
-      "correct_answers": ["XDR"]
+      "correct_answers": ["XDR"],
+      "explanation": "XDR (Extended Detection and Response) is a cybersecurity approach that focuses on recognizing and addressing potential threats originating from multiple sources. It integrates and correlates data from various security layers to provide a holistic view of threats."
     },
     {
       "question": "Which of the following acronyms refers to a client authentication method used in WPA3?",
       "options": ["SAE", "IKE", "PSK", "AES"],
-      "correct_answers": ["SAE"]
+      "correct_answers": ["SAE"],
+      "explanation": "SAE (Simultaneous Authentication of Equals) is a client authentication method used in WPA3. It is a more secure key exchange protocol that protects against offline dictionary attacks."
     },
     {
       "question": "Which of the answers listed below refers to a solution used for authentication, authorization, and user identity management?",
       "options": ["ICS", "AAA", "CIA", "IAM"],
-      "correct_answers": ["IAM"]
+      "correct_answers": ["IAM"],
+      "explanation": "IAM (Identity and Access Management) is a solution used for authentication, authorization, and user identity management. It encompasses policies, processes, and technologies that enable organizations to manage digital identities and control user access to resources."
     },
     {
       "question": "Which of the following answers refers to a security solution that provides control over elevated (i.e., administrative type) accounts?",
       "options": ["MFA", "IAM", "SSO", "PAM"],
-      "correct_answers": ["PAM"]
+      "correct_answers": ["PAM"],
+      "explanation": "PAM (Privileged Access Management) is a security solution that provides control over elevated (i.e., administrative type) accounts. It helps to secure, manage, and monitor privileged access to critical systems and data."
     },
     {
       "question": "A device designed to provide emergency power during an unexpected main power source outage is called:",
       "options": ["UPS", "PoE", "SVC", "PSU"],
-      "correct_answers": ["UPS"]
+      "correct_answers": ["UPS"],
+      "explanation": "A UPS (Uninterruptible Power Supply) is a device that provides emergency power during an unexpected main power source outage. It provides temporary power to connected equipment, allowing for a graceful shutdown or transition to backup power."
     },
     {
       "question": "Which of the answers listed below refers to an authentication method that enables the signing of an outbound email message with a digital signature?",
       "options": ["SPF", "DKIM", "SRV", "DMARC"],
-      "correct_answers": ["DKIM"]
+      "correct_answers": ["DKIM"],
+      "explanation": "DKIM (DomainKeys Identified Mail) is an authentication method that enables the signing of an outbound email message with a digital signature. It helps to verify the authenticity of the sender and prevent email spoofing."
     },
     {
       "question": "The term \"VLAN\" refers to a logical grouping of computers that allow computer hosts to function as if they were attached to the same broadcast domain regardless of their physical location.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "VLAN (Virtual Local Area Network) is a logical grouping of computers that allows computer hosts to function as if they were attached to the same broadcast domain regardless of their physical location. It improves network performance and security by segmenting the network."
     },
     {
       "question": "Which of the following answers refers to a method that binds a combination of private IP address and port number with a corresponding public IP address and port information?",
       "options": ["PAT", "NAC", "DNS", "ARP"],
-      "correct_answers": ["PAT"]
+      "correct_answers": ["PAT"],
+      "explanation": "PAT (Port Address Translation) is a method that binds a combination of private IP address and port number with a corresponding public IP address and port information. It allows multiple devices on a private network to share a single public IP address."
     },
     {
       "question": "A file system format used in Windows OSs that offers improved performance, security, and file management is referred to as:",
       "options": ["ext4", "EFS", "NTFS", "HFS+"],
-      "correct_answers": ["NTFS"]
+      "correct_answers": ["NTFS"],
+      "explanation": "NTFS (New Technology File System) is a file system format used in Windows operating systems that offers improved performance, security, and file management compared to older file systems like FAT32. It supports features like file permissions, encryption, and journaling."
     }
   ]
 }

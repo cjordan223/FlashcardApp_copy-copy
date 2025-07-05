@@ -3,17 +3,20 @@
     {
       "question": "A computer system or an application that acts as an intermediary between another computer and the Internet is commonly referred to as:",
       "options": ["Bridge", "Active hub", "Server", "Proxy"],
-      "correct_answers": ["Proxy"]
+      "correct_answers": ["Proxy"],
+      "explanation": "A proxy server acts as an intermediary for requests from clients seeking resources from other servers. It can be used for a variety of purposes, including filtering web content, providing anonymity, and caching frequently accessed content."
     },
     {
       "question": "Which of the answers listed below refers to a solution that simplifies web browser configurations by using predefined rules or scripts to make server selection decisions for specific web traffic?",
       "options": ["PAC", "DDNS", "PAM", "NAT"],
-      "correct_answers": ["PAC"]
+      "correct_answers": ["PAC"],
+      "explanation": "A PAC (Proxy Auto-Config) file is a text file that defines how web browsers and other user agents can automatically choose the appropriate proxy server (access method) for fetching a given URL."
     },
     {
       "question": "Which of the following provides passive network security breach response on an individual computer system?",
       "options": ["HIDS", "NIPS", "HIPS", "NIDS"],
-      "correct_answers": ["HIDS"]
+      "correct_answers": ["HIDS"],
+      "explanation": "A HIDS (Host-based Intrusion Detection System) is a type of security software that monitors a single computer for suspicious activity. It is a passive system, meaning that it only detects and alerts on suspicious activity, but does not take any action to block it."
     },
     {
       "question": "Which of the answers listed below refer to the characteristic features of a NIDS? (Select 3 answers)",
@@ -29,7 +32,8 @@
         "Does not take direct action to block or prevent attacks",
         "Generates alerts and notifies security personnel or administrators when suspicious activity is detected",
         "Monitors network traffic without direct involvement in traffic routing or packet modification"
-      ]
+      ],
+      "explanation": "A NIDS (Network-based Intrusion Detection System) is a type of security software that monitors a network for suspicious activity. It is a passive system, meaning that it only detects and alerts on suspicious activity, but does not take any action to block it."
     },
     {
       "question": "Which of the following answers refer to a NIPS? (Select 3 answers)",
@@ -44,62 +48,74 @@
         "Takes proactive measures to block or mitigate intrusion attempts",
         "Operates in an inline mode, actively intercepting and inspecting network traffic",
         "Can drop or reject network packets, terminate connections, or take other actions to stop the attack"
-      ]
+      ],
+      "explanation": "A NIPS (Network-based Intrusion Prevention System) is a type of security software that monitors a network for suspicious activity and can take action to block it. It is an active system, meaning that it can take action to block suspicious activity, such as by dropping packets or terminating connections."
     },
     {
       "question": "Which of the answers listed below refers to network security technology designed to monitor WLANs for unauthorized access, security threats, and suspicious activities?",
       "options": ["UTM", "WIDS", "NGFW", "WAF"],
-      "correct_answers": ["WIDS"]
+      "correct_answers": ["WIDS"],
+      "explanation": "A WIDS (Wireless Intrusion Detection System) is a type of security software that monitors a wireless network for suspicious activity. It is a passive system, meaning that it only detects and alerts on suspicious activity, but does not take any action to block it."
     },
     {
       "question": "Which of the following answers refers to network security technology designed to monitor, detect, and mitigate unauthorized access, security threats, and suspicious activities in WLANs?",
       "options": ["WIPS", "NIDS", "WIDS", "NIPS"],
-      "correct_answers": ["WIPS"]
+      "correct_answers": ["WIPS"],
+      "explanation": "A WIPS (Wireless Intrusion Prevention System) is a type of security software that monitors a wireless network for suspicious activity and can take action to block it. It is an active system, meaning that it can take action to block suspicious activity, such as by dropping packets or terminating connections."
     },
     {
       "question": "A network hardware or software solution designed for managing the optimal distribution of workloads across multiple computing resources is known as:",
       "options": ["Content filter", "Proxy server", "Load balancer", "Domain controller"],
-      "correct_answers": ["Load balancer"]
+      "correct_answers": ["Load balancer"],
+      "explanation": "A load balancer is a device that distributes network or application traffic across a number of servers. Load balancers are used to increase capacity (concurrent users) and reliability of applications."
     },
     {
       "question": "In active-active mode, load balancers distribute network traffic across:",
       "options": ["Least utilized servers", "None of the servers", "All servers", "Most utilized servers"],
-      "correct_answers": ["All servers"]
+      "correct_answers": ["All servers"],
+      "explanation": "In active-active mode, all servers are active and the load balancer distributes traffic across all of them. This provides high availability and scalability."
     },
     {
       "question": "In active-passive mode, load balancers distribute network traffic across:",
       "options": ["All servers", "Servers marked as active", "Least utilized servers", "Servers marked as passive"],
-      "correct_answers": ["Servers marked as active"]
+      "correct_answers": ["Servers marked as active"],
+      "explanation": "In active-passive mode, one server is active and the other is passive. The load balancer sends all traffic to the active server. If the active server fails, the load balancer will switch to the passive server."
     },
     {
       "question": "Which of the answers listed below refers to an IEEE standard that can be implemented in a situation where an Ethernet switch acts as an authenticator for devices that intend to connect to a network through one of its ports?",
       "options": ["IEEE 802.1X", "IEEE 802.11ac", "IEEE 802.1D", "IEEE 802.11x"],
-      "correct_answers": ["IEEE 802.1X"]
+      "correct_answers": ["IEEE 802.1X"],
+      "explanation": "IEEE 802.1X is a standard for port-based Network Access Control (PNAC). It provides an authentication mechanism to devices wishing to attach to a LAN or WLAN."
     },
     {
       "question": "Extensible Authentication Protocol (EAP) is an authentication framework frequently used in wireless networks and point-to-point connections. EAP provides an authentication framework, not a specific authentication mechanism. There are many authentication mechanisms (referred to as EAP methods) that can be used with EAP. Wireless networks take advantage of several EAP methods, including PEAP, LEAP, EAP-FAST, EAP-TLS, and EAP-TTLS.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "EAP is a framework that provides a number of authentication methods. It is used in wireless networks to provide a high level of security."
     },
     {
       "question": "Which of the following EAP methods offers the highest level of security?",
       "options": ["PEAP", "EAP-FAST", "EAP-TLS", "EAP-TTLS"],
-      "correct_answers": ["EAP-TLS"]
+      "correct_answers": ["EAP-TLS"],
+      "explanation": "EAP-TLS is the most secure EAP method because it uses a client-side certificate to authenticate the client to the server."
     },
     {
       "question": "A dedicated security solution that filters, monitors, and blocks HTTP/HTTPS traffic between a web application and the Internet is called:",
       "options": ["UTM", "NGFW", "UEM", "WAF"],
-      "correct_answers": ["WAF"]
+      "correct_answers": ["WAF"],
+      "explanation": "A WAF (Web Application Firewall) is a type of firewall that is designed to protect web applications from attack. It does this by filtering, monitoring, and blocking HTTP/HTTPS traffic between a web application and the Internet."
     },
     {
       "question": "The term \"Unified Threat Management\" (UTM) refers to a network security solution, commonly in the form of a dedicated device (called UTM appliance or web security gateway), which combines the functionality of a firewall with additional features such as URL filtering, content inspection, spam filtering, gateway antivirus protection, IDS/IPS function, or malware inspection.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "A UTM (Unified Threat Management) appliance is a single device that provides a variety of security features, such as a firewall, IDS/IPS, and antivirus."
     },
     {
       "question": "Which of the answers listed below refers to a firewall type that improves upon first- and second-generation firewalls by offering additional features, such as more in-depth inspection of network traffic and application-level inspection?",
       "options": ["IDS", "Packet filter", "NGFW", "Stateful firewall"],
-      "correct_answers": ["NGFW"]
+      "correct_answers": ["NGFW"],
+      "explanation": "A NGFW (Next-Generation Firewall) is a type of firewall that provides more advanced features than traditional firewalls, such as application-level inspection and intrusion prevention."
     },
     {
       "question": "Which of the following answers refer to the characteristic features of a Layer 4 firewall? (Select 3 answers)",
@@ -115,7 +131,8 @@
         "Filters traffic based on source/destination IP addresses, ports, and protocol types (e.g., TCP/UDP)",
         "Offers basic (faster) traffic filtering",
         "Operates at the transport layer of the OSI model"
-      ]
+      ],
+      "explanation": "A Layer 4 firewall operates at the transport layer of the OSI model and filters traffic based on source and destination IP addresses, ports, and protocol types."
     },
     {
       "question": "Which of the answers listed below refer to a Layer 7 firewall? (Select 3 answers)",
@@ -131,42 +148,50 @@
         "Offers complex (slower) traffic filtering",
         "Adds the ability to inspect the contents of data packets in addition to the header information",
         "Operates at the application layer of the OSI model"
-      ]
+      ],
+      "explanation": "A Layer 7 firewall operates at the application layer of the OSI model and can inspect the contents of data packets. This allows it to provide more granular control over traffic than a Layer 4 firewall."
     },
     {
       "question": "Examples of protocols typically used for implementing secure VPN tunnels include: (Select all that apply)",
       "options": ["IPsec", "SRTP", "TLS", "bcrypt", "L2TP"],
-      "correct_answers": ["IPsec", "TLS", "L2TP"]
+      "correct_answers": ["IPsec", "TLS", "L2TP"],
+      "explanation": "IPsec, TLS, and L2TP are all protocols that can be used to create secure VPN tunnels."
     },
     {
       "question": "Which of the following terms is used to describe a type of VPN that alleviates bottlenecks and conserves bandwidth by enabling utilization of both the VPN and public network links?",
       "options": ["Split tunnel", "Clientless", "Full tunnel", "Remote access"],
-      "correct_answers": ["Split tunnel"]
+      "correct_answers": ["Split tunnel"],
+      "explanation": "A split tunnel VPN is a type of VPN that allows you to route some of your traffic through the VPN and some of your traffic through your local network. This can be useful for conserving bandwidth and for accessing local network resources."
     },
     {
       "question": "Which VPN type is used for connecting computers to a network? (Select 2 answers)",
       "options": ["Remote access", "Intranet-based", "Client-to-site", "Site-to-site", "Extranet-based"],
-      "correct_answers": ["Remote access", "Client-to-site"]
+      "correct_answers": ["Remote access", "Client-to-site"],
+      "explanation": "A remote access VPN is a type of VPN that allows you to connect to a network from a remote location. A client-to-site VPN is a type of remote access VPN that connects a single computer to a network."
     },
     {
       "question": "Which type of VPN enables connectivity between two networks?",
       "options": ["Site-to-site", "Host-to-network", "Remote access", "Client-to-site"],
-      "correct_answers": ["Site-to-site"]
+      "correct_answers": ["Site-to-site"],
+      "explanation": "A site-to-site VPN is a type of VPN that connects two networks together. This can be used to connect a branch office to a corporate office, for example."
     },
     {
       "question": "An HTML5 VPN portal is an example of clientless VPN implementation where an HTML5-compliant web browser along with TLS encryption can be used instead of a dedicated VPN client software.",
       "options": ["True", "False"],
-      "correct_answers": ["True"]
+      "correct_answers": ["True"],
+      "explanation": "An HTML5 VPN portal is a type of clientless VPN that allows you to connect to a network from a web browser. This is a convenient way to connect to a network without having to install any software."
     },
     {
       "question": "Which of the answers listed below refers to a hardware or software solution providing secure remote access to networks and resources?",
       "options": ["NAC", "RDP", "SSH", "RAS"],
-      "correct_answers": ["RAS"]
+      "correct_answers": ["RAS"],
+      "explanation": "A RAS (Remote Access Service) is a hardware or software solution that provides secure remote access to networks and resources."
     },
     {
       "question": "Which of the following answers refers to a protocol designed to secure data transmitted over WLANs?",
       "options": ["SCP", "IPsec", "SSH", "WTLS"],
-      "correct_answers": ["WTLS"]
+      "correct_answers": ["WTLS"],
+      "explanation": "WTLS (Wireless Transport Layer Security) is a protocol that is designed to secure data transmitted over WLANs. It is based on the TLS protocol and provides a high level of security."
     }
   ]
 }

@@ -1,0 +1,274 @@
+{
+  "questions": [
+    {
+      "question": "A detailed agreement between a client and a vendor describing the work to be performed on a project is referred to as:",
+      "options": ["MSA", "SLA", "WO", "SOW"],
+      "correct_answers": ["SOW"],
+      "explanation": "SOW (Statement of Work) is a formal document that outlines the entire scope of work required for a project. It includes deliverables, timelines, and payment terms."
+    },
+    {
+      "question": "Which of the following answers refers to an analog telephone service providing basic voice communication over copper telephone lines?",
+      "options": ["PSTN", "ISDN", "PBX", "POTS"],
+      "correct_answers": ["POTS"],
+      "explanation": "POTS (Plain Old Telephone Service) refers to the traditional analog telephone service providing basic voice communication over copper telephone lines. It is the original form of telephone service."
+    },
+    {
+      "question": "A protocol designed to improve the security of existing WEP implementations is known as:",
+      "options": ["SRTP", "TKIP", "CCMP", "WPA2"],
+      "correct_answers": ["TKIP"],
+      "explanation": "TKIP (Temporal Key Integrity Protocol) was a stopgap security protocol used in the IEEE 802.11 wireless networking standard. TKIP was designed to replace WEP without requiring the replacement of legacy hardware."
+    },
+    {
+      "question": "Which of the acronyms listed below refers to a technology used in cameras and surveillance systems that enables remote control of camera functions?",
+      "options": ["RDP", "CCTV", "PTZ", "TCP/IP"],
+      "correct_answers": ["PTZ"],
+      "explanation": "PTZ (Pan-Tilt-Zoom) refers to a technology used in cameras and surveillance systems that enables remote control of camera functions, including panning (horizontal movement), tilting (vertical movement), and zooming (magnification)."
+    },
+    {
+      "question": "Which of the following provides granular control over user access to specific network segments and resources based on their assigned roles and permissions?",
+      "options": ["IAM", "SSO", "PAM", "MFA"],
+      "correct_answers": ["IAM"],
+      "explanation": "IAM (Identity and Access Management) provides granular control over user access to specific network segments and resources based on their assigned roles and permissions. It encompasses policies, processes, and technologies that enable organizations to manage digital identities and control user access to resources."
+    },
+    {
+      "question": "A security solution designed to detect anomalies in the log and event data collected from multiple network devices is called:",
+      "options": ["SNMP", "PCAP", "HIPS", "SIEM"],
+      "correct_answers": ["SIEM"],
+      "explanation": "SIEM (Security Information and Event Management) is a security solution designed to detect anomalies in the log and event data collected from multiple network devices. It combines SIM (Security Information Management) and SEM (Security Event Management) functions."
+    },
+    {
+      "question": "Which of the answers listed below refers to a smart card used in mobile phones to identify the phone user?",
+      "options": ["IMSI", "SoC", "IMEI", "SIM"],
+      "correct_answers": ["SIM"],
+      "explanation": "SIM (Subscriber Identity Module) refers to a smart card used in mobile phones to identify the phone user. It stores the subscriber's international mobile subscriber identity (IMSI) number and its related key, which are used to identify and authenticate subscribers on mobile telephony devices."
+    },
+    {
+      "question": "Which of the following devices would be used for connecting a router to a T1 line?",
+      "options": ["CSU", "IDF", "NIC", "EDR"],
+      "correct_answers": ["CSU"],
+      "explanation": "CSU (Channel Service Unit) is a device that connects a router to a T1 line. It provides termination for the digital signal and performs line coding and error correction."
+    },
+    {
+      "question": "What are the applications of PGP? (Select 3 answers)",
+      "options": ["Compressing data", "Encrypting and decrypting data", "Signing and verifying digital signatures", "Managing public and private keys", "Securing website traffic"],
+      "correct_answers": ["Encrypting and decrypting data", "Signing and verifying digital signatures", "Managing public and private keys"],
+      "explanation": "PGP (Pretty Good Privacy) is a cryptographic software program that provides cryptographic privacy and authentication for data communication. It is used for encrypting and decrypting data, signing and verifying digital signatures, and managing public and private keys."
+    },
+    {
+      "question": "A field in an SSL/TLS certificate that allows the certificate to be used for multiple domain names or IP addresses is referred to as:",
+      "options": ["CNAME", "SAN", "MX", "PTR"],
+      "correct_answers": ["SAN"],
+      "explanation": "SAN (Subject Alternative Name) is a field in an SSL/TLS certificate that allows the certificate to be used for multiple domain names or IP addresses. It is commonly used for securing multiple websites on a single server."
+    },
+    {
+      "question": "Which of the answers listed below refers to a tunneling protocol commonly used in creating VPNs?",
+      "options": ["VRRP", "GRE", "RTSP", "BGP"],
+      "correct_answers": ["GRE"],
+      "explanation": "GRE (Generic Routing Encapsulation) is a tunneling protocol commonly used in creating VPNs. It encapsulates a wide variety of network layer protocols inside virtual point-to-point links over an Internet Protocol network."
+    },
+    {
+      "question": "Which of the following answers refers to a professional that oversees the management and maintenance of an information repository?",
+      "options": ["CTO", "PM", "DBA", "CIO"],
+      "correct_answers": ["DBA"],
+      "explanation": "DBA (Database Administrator) is a professional that oversees the management and maintenance of an information repository, typically a database. They are responsible for the design, implementation, and maintenance of databases."
+    },
+    {
+      "question": "Which of the terms listed below refers to a US government initiative for real-time sharing of cyber threat indicators?",
+      "options": ["NVD", "AIS", "TTP", "CVSS"],
+      "correct_answers": ["AIS"],
+      "explanation": "AIS (Automated Indicator Sharing) is a US government initiative for real-time sharing of cyber threat indicators. It enables organizations to share threat intelligence in a standardized and automated manner."
+    },
+    {
+      "question": "A type of OS characterized by low delay between the execution of tasks required in specific applications, such as in military missile guidance systems or in automotive braking systems, is known as:",
+      "options": ["UNIX", "Windows NT", "POSIX", "RTOS"],
+      "correct_answers": ["RTOS"],
+      "explanation": "RTOS (Real-Time Operating System) is a type of OS characterized by low delay between the execution of tasks required in specific applications, such as in military missile guidance systems or in automotive braking systems. It is designed for applications that require precise timing and deterministic behavior."
+    },
+    {
+      "question": "Which of the following block cipher modes is the simplest/weakest and therefore not recommended for use?",
+      "options": ["CBC", "GCM", "ECB", "CTR"],
+      "correct_answers": ["ECB"],
+      "explanation": "ECB (Electronic Codebook) is the simplest block cipher mode. However, it is not recommended for use because it is deterministic, meaning that identical plaintext blocks produce identical ciphertext blocks. This can reveal patterns in the data."
+    },
+    {
+      "question": "Which communication method supports real-time text-based messaging, multimedia sharing, group chats, and video calls?",
+      "options": ["SMS", "MMS", "IM", "RTC"],
+      "correct_answers": ["IM"],
+      "explanation": "IM (Instant Messaging) is a communication method that supports real-time text-based messaging, multimedia sharing, group chats, and video calls. It allows for immediate communication between users."
+    },
+    {
+      "question": "Which senior executive position assumes the responsibility for protecting assets, data, and people from potential threats?",
+      "options": ["CEO", "CIO", "CSO", "CTO"],
+      "correct_answers": ["CSO"],
+      "explanation": "CSO (Chief Security Officer) is a senior executive position that assumes the responsibility for protecting assets, data, and people from potential threats. They are responsible for the overall security posture of an organization."
+    },
+    {
+      "question": "Which cybersecurity role is primarily responsible for hands-on implementation and oversight of security measures for specific systems and networks?",
+      "options": ["CSO", "CTO", "DPO", "ISSO"],
+      "correct_answers": ["ISSO"],
+      "explanation": "ISSO (Information System Security Officer) is a cybersecurity role that is primarily responsible for hands-on implementation and oversight of security measures for specific systems and networks. They ensure that security policies are implemented and enforced."
+    },
+    {
+      "question": "A company or organization that offers cloud computing services over the Internet is called:",
+      "options": ["ISP", "MSSP", "CSP", "MSP"],
+      "correct_answers": ["CSP"],
+      "explanation": "CSP (Cloud Service Provider) is a company or organization that offers cloud computing services over the Internet. These services can include infrastructure, platforms, and software."
+    },
+    {
+      "question": "Which of the terms listed below refers to a global community focused around the development of engineering standards?",
+      "options": ["ANSI", "NIST", "CERT", "IEEE"],
+      "correct_answers": ["IEEE"],
+      "explanation": "IEEE (Institute of Electrical and Electronics Engineers) is a global community focused around the development of engineering standards. It is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity."
+    },
+    {
+      "question": "Which of the following answers refers to a device designed to supply (and monitor the quality of) electric power to multiple outlets?",
+      "options": ["PSU", "MDF", "PDU", "IDF"],
+      "correct_answers": ["PDU"],
+      "explanation": "PDU (Power Distribution Unit) is a device designed to supply (and monitor the quality of) electric power to multiple outlets. It is commonly used in data centers and server rooms."
+    },
+    {
+      "question": "Which of the answers listed below refers to a global standard development organization composed of different national standards bodies?",
+      "options": ["NIST", "ISO", "IEEE", "ANSI"],
+      "correct_answers": ["ISO"],
+      "explanation": "ISO (International Organization for Standardization) is a global standard development organization composed of different national standards bodies. It develops and publishes a wide range of standards, including those related to information security."
+    },
+    {
+      "question": "Which of the following acronyms refers to the process of identifying and preparing for potential disruptions or unexpected events to ensure business continuity?",
+      "options": ["BIA", "SLE", "CP", "BPA"],
+      "correct_answers": ["CP"],
+      "explanation": "CP (Contingency Planning) refers to the process of identifying and preparing for potential disruptions or unexpected events to ensure business continuity. It involves developing plans and procedures to respond to various scenarios."
+    },
+    {
+      "question": "A dedicated local network consisting of devices providing data access is referred to as:",
+      "options": ["SDN", "NAS", "iSCSI", "SAN"],
+      "correct_answers": ["SAN"],
+      "explanation": "SAN (Storage Area Network) is a dedicated local network consisting of devices providing data access. It provides high-speed access to block-level data storage, commonly used in enterprise environments."
+    },
+    {
+      "question": "Which senior executive is responsible for managing an organization's IT strategy and systems?",
+      "options": ["CEO", "CIO", "CSO", "CTO"],
+      "correct_answers": ["CIO"],
+      "explanation": "CIO (Chief Information Officer) is a senior executive responsible for managing an organization's IT strategy and systems. They align IT initiatives with business goals and oversee technology operations."
+    },
+    {
+      "question": "Which of the answers listed below refers to a framework used on Unix-like OSs to manage authentication-related tasks?",
+      "options": ["PAM", "SSO", "MFA", "OAuth"],
+      "correct_answers": ["PAM"],
+      "explanation": "PAM (Pluggable Authentication Modules) refers to a framework used on Unix-like OSs to manage authentication-related tasks. It provides a flexible and modular approach to authentication, allowing administrators to choose from various authentication methods."
+    },
+    {
+      "question": "Which of the following answers refers to a network protocol for delivering audio and video over IP networks?",
+      "options": ["RDP", "VoIP", "RTP", "UDP"],
+      "correct_answers": ["RTP"],
+      "explanation": "RTP (Real-time Transport Protocol) is a network protocol for delivering audio and video over IP networks. It is commonly used in conjunction with other protocols, such as RTCP, for real-time communication applications."
+    },
+    {
+      "question": "Which of the terms listed below refers to a specialized suite of software tools used for developing applications for a specific platform?",
+      "options": ["GUI", "SDLC", "API", "SDK"],
+      "correct_answers": ["SDK"],
+      "explanation": "SDK (Software Development Kit) refers to a specialized suite of software tools used for developing applications for a specific platform. It typically includes libraries, documentation, code samples, and development tools."
+    },
+    {
+      "question": "A type of software that serves as an intermediary between users and the hardware, allowing users to interact with the computer and run applications is known as:",
+      "options": ["ROM", "BIOS", "OS", "RAM"],
+      "correct_answers": ["OS"],
+      "explanation": "OS (Operating System) is a type of software that serves as an intermediary between users and the hardware, allowing users to interact with the computer and run applications. It manages computer hardware and software resources."
+    },
+    {
+      "question": "Which of the following answers refers to an encryption protocol primarily used in Wi-Fi networks implementing the WPA2 security standard?",
+      "options": ["TKIP", "CCMP", "SSL", "HMAC"],
+      "correct_answers": ["CCMP"],
+      "explanation": "CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol) is an encryption protocol primarily used in Wi-Fi networks implementing the WPA2 security standard. It provides strong data confidentiality and integrity."
+    },
+    {
+      "question": "In telecommunications, a type of main hub connecting internal networks with outside cabling is called:",
+      "options": ["MDF", "ICS", "MDI", "IDF"],
+      "correct_answers": ["MDF"],
+      "explanation": "MDF (Main Distribution Frame) is a type of main hub in telecommunications that connects internal networks with outside cabling. It serves as a central point for cross-connecting and managing telecommunication cables."
+    },
+    {
+      "question": "Which of the acronyms listed below refers to a protocol used in network management systems for monitoring network-attached devices?",
+      "options": ["SSH", "VNC", "SNMP", "RDP"],
+      "correct_answers": ["SNMP"],
+      "explanation": "SNMP (Simple Network Management Protocol) is a protocol used in network management systems for monitoring network-attached devices. It allows network administrators to manage network performance, find and solve network problems, and plan for network growth."
+    },
+    {
+      "question": "Which of the following answers refers to a routing protocol?",
+      "options": ["RTP", "BGP", "RDP", "EAP"],
+      "correct_answers": ["BGP"],
+      "explanation": "BGP (Border Gateway Protocol) is a routing protocol that enables routing decisions on the Internet. It is used to exchange routing information between autonomous systems (AS) on the Internet."
+    },
+    {
+      "question": "A specific URI type most commonly used to identify web pages is referred to as:",
+      "options": ["DOI", "ISBN", "OUI", "URL"],
+      "correct_answers": ["URL"],
+      "explanation": "URL (Uniform Resource Locator) is a specific URI type most commonly used to identify web pages. It specifies the location of a resource on the Internet and the mechanism for retrieving it."
+    },
+    {
+      "question": "Which of the answers listed below refers to a solution that simplifies web browser configurations by using predefined rules or scripts to make server selection decisions for specific web traffic?",
+      "options": ["PAC", "DDNS", "PAM", "NAT"],
+      "correct_answers": ["PAC"],
+      "explanation": "PAC (Proxy Auto-Config) refers to a solution that simplifies web browser configurations by using predefined rules or scripts to make server selection decisions for specific web traffic. It allows for dynamic proxy configuration."
+    },
+    {
+      "question": "Which of the following terms refers to a network of physical devices, vehicles, buildings, and other items embedded with sensors, software, and other technologies that connect and exchange data with other devices and systems over the Internet?",
+      "options": ["SoC", "PAN", "IoT", "WMN"],
+      "correct_answers": ["IoT"],
+      "explanation": "IoT (Internet of Things) refers to a network of physical devices, vehicles, buildings, and other items embedded with sensors, software, and other technologies that connect and exchange data with other devices and systems over the Internet. It enables these objects to collect and exchange data."
+    },
+    {
+      "question": "Which of the answers listed below refers to a unique 32-bit identifier embedded in older mobile phones and used by network operators to identify and authenticate the device on the cellular network?",
+      "options": ["MAC", "ESN", "IP", "OID"],
+      "correct_answers": ["ESN"],
+      "explanation": "ESN (Electronic Serial Number) refers to a unique 32-bit identifier embedded in older mobile phones and used by network operators to identify and authenticate the device on the cellular network. It has largely been replaced by IMEI."
+    },
+    {
+      "question": "Which of the following answers refers to a software-based solution that allows users to access and interact with a virtual OS from anywhere using any device with an Internet connection?",
+      "options": ["VDU", "VTC", "VDE", "VNC"],
+      "correct_answers": ["VDE"],
+      "explanation": "VDE (Virtual Desktop Environment) refers to a software-based solution that allows users to access and interact with a virtual OS from anywhere using any device with an Internet connection. It provides a personalized desktop experience from a centralized server."
+    },
+    {
+      "question": "Which of the acronyms listed below refers to a broader term used to describe an organization responsible for responding to computer-related emergencies?",
+      "options": ["CIRT", "CERN", "CERT", "CSIRT"],
+      "correct_answers": ["CERT"],
+      "explanation": "CERT (Computer Emergency Response Team) refers to a broader term used to describe an organization responsible for responding to computer-related emergencies. It is a generic term for teams that handle computer security incidents."
+    },
+    {
+      "question": "Which of the following acronyms refers to a discontinued research program focused on promoting innovation and development in the field of telecommunications and information technology?",
+      "options": ["IETF", "CERN", "DARPA", "RACE"],
+      "correct_answers": ["RACE"],
+      "explanation": "RACE (Research and Development in Advanced Communications Technologies in Europe) refers to a discontinued research program focused on promoting innovation and development in the field of telecommunications and information technology. It was a European Union initiative."
+    },
+    {
+      "question": "Which of the answers listed below refers to a team of experts within an organization focused on responding to a wide variety of computer-related incidents?",
+      "options": ["CERT", "CSIRT", "CIRT", "CERN"],
+      "correct_answers": ["CIRT"],
+      "explanation": "CIRT (Computer Incident Response Team) refers to a team of experts within an organization focused on responding to a wide variety of computer-related incidents. They are responsible for handling security incidents from detection to resolution."
+    },
+    {
+      "question": "GPG is used for: (Select all that apply)",
+      "options": ["Securing website traffic", "Managing public and private keys", "Signing and verifying digital signatures", "Compressing data", "Encrypting and decrypting data"],
+      "correct_answers": ["Managing public and private keys", "Signing and verifying digital signatures", "Encrypting and decrypting data"],
+      "explanation": "GPG (GNU Privacy Guard) is a free software implementation of the OpenPGP standard. It is used for managing public and private keys, signing and verifying digital signatures, and encrypting and decrypting data. It is a powerful tool for secure communication."
+    },
+    {
+      "question": "A software system that integrates and manages various business processes and functions across an organization is known as:",
+      "options": ["BCP", "CMS", "ERP", "BIA"],
+      "correct_answers": ["ERP"],
+      "explanation": "ERP (Enterprise Resource Planning) is a software system that integrates and manages various business processes and functions across an organization. It provides a centralized system for managing resources, finances, and operations."
+    },
+    {
+      "question": "What is RIPEMD?",
+      "options": ["Block cipher encryption mode", "Digital signature algorithm", "Family of cryptographic hash functions", "Symmetric encryption algorithm"],
+      "correct_answers": ["Family of cryptographic hash functions"],
+      "explanation": "RIPEMD (RACE Integrity Primitives Evaluation Message Digest) is a family of cryptographic hash functions. It is used to generate a fixed-size hash value from a variable-size input, ensuring data integrity."
+    },
+    {
+      "question": "Which of the following acronyms refers to a dedicated facility responsible for monitoring, detecting, investigating, and responding to cybersecurity incidents?",
+      "options": ["NOC", "C2", "ISAC", "SOC"],
+      "correct_answers": ["SOC"],
+      "explanation": "SOC (Security Operations Center) refers to a dedicated facility responsible for monitoring, detecting, investigating, and responding to cybersecurity incidents. It is the central hub for an organization's security operations."
+    }
+  ]
+}
