@@ -119,6 +119,7 @@ function App() {
   // Main quiz UI
   const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
   const currentQuestion = questions[currentQuestionIndex];
+  const progressPercent = Math.round(progress);
 
   // Handlers for bottom nav
   const handlePrev = () => {
@@ -226,7 +227,10 @@ function App() {
         <button className="chevron-back" onClick={() => setSelectedDeck(null)} aria-label="Back to Decks">
           <FiChevronLeft size={28} />
         </button>
-        <div className="mobile-title">{selectedDeck.name}</div>
+        <div className="mobile-title-row">
+          <span className="mobile-title">{selectedDeck.name}</span>
+          <span className="progress-pill">{progressPercent}%</span>
+        </div>
       </div>
       <div className="mobile-progress-bar-wrap">
         <div className="progress-bar-tappable" onClick={() => setShowProgressModal(true)}>
@@ -267,7 +271,6 @@ function App() {
           isAnswered={answeredQuestions.has(currentQuestionIndex)}
         />
       </div>
-      {/* Bottom Navigation Bar */}
       <div className="mobile-bottom-nav">
         <button
           className="bottom-nav-btn prev"
@@ -290,7 +293,6 @@ function App() {
           Next
         </button>
       </div>
-      {/* Finish Exam Confirmation Popup */}
       {showFinishConfirm && (
         <div className="finish-confirm-overlay" onClick={() => setShowFinishConfirm(false)}>
           <div className="finish-confirm-modal" onClick={e => e.stopPropagation()}>
