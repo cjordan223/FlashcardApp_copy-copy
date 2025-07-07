@@ -41,7 +41,13 @@ const examDecks = [
   { id: 'exam24', name: 'Practice Exam 24', path: 'exam24.json', category: 'Practice' }
 ];
 
-const DeckSelector = ({ onDeckSelect }) => {
+const statusColors = {
+  'completed': 'green',
+  'in-progress': 'goldenrod',
+  'not-started': 'gray'
+};
+
+const DeckSelector = ({ onDeckSelect, progress }) => {
   const [questionCounts, setQuestionCounts] = useState({});
   const [openSection, setOpenSection] = useState('acronyms');
 
@@ -66,22 +72,48 @@ const DeckSelector = ({ onDeckSelect }) => {
 
   const renderDeckGrid = (decks) => (
     <div className="decks-grid compact">
-      {decks.map((deck) => (
-        <div
-          key={deck.id}
-          className="deck-card compact"
-          onClick={() => onDeckSelect(deck)}
-        >
-          <div className="deck-icon compact">
-            {deck.category === 'Terminology' ? '📚' : '📝'}
+      {decks.map((deck) => {
+        const deckProgress = progress?.decks?.[deck.id] || {};
+        const status = deckProgress.status || 'not-started';
+        const highScore = deckProgress.highScore;
+        let scoreBadge = null;
+        let scoreColor = 'gray';
+        if (typeof highScore === 'number') {
+          if (highScore === 100) {
+            scoreColor = 'green';
+          } else if (highScore > 0) {
+            scoreColor = 'goldenrod';
+          } else {
+            scoreColor = 'red';
+          }
+          scoreBadge = (
+            <span className="deck-best-effort-badge" style={{ background: scoreColor, color: scoreColor === 'goldenrod' ? '#222' : '#fff' }}>{highScore}%</span>
+          );
+        } else {
+          scoreBadge = (
+            <span className="deck-best-effort-badge" style={{ background: 'gray', color: '#fff' }}>0%</span>
+          );
+        }
+        return (
+          <div
+            key={deck.id}
+            className={`deck-card compact status-${status}`}
+            onClick={() => onDeckSelect(deck)}
+            style={{ borderColor: statusColors[status], borderWidth: status !== 'not-started' ? 2 : 1, borderStyle: 'solid' }}
+          >
+            <div className="deck-icon compact">
+              {deck.category === 'Terminology' ? '📚' : '📝'}
+              <span className="deck-status-dot" style={{ background: statusColors[status] }}></span>
+            </div>
+            <div className="deck-title-row">
+              <span className="deck-title">{deck.name}</span>
+              <span className="deck-badge">{questionCounts[deck.id] ? `${questionCounts[deck.id]}` : '...'} Qs</span>
+            </div>
+            <span className={`deck-type-badge ${deck.category === 'Terminology' ? 'acronym' : 'practice'}`}>{deck.category}</span>
+            <div className="deck-best-effort-row">{scoreBadge}</div>
           </div>
-          <div className="deck-title-row">
-            <span className="deck-title">{deck.name}</span>
-            <span className="deck-badge">{questionCounts[deck.id] ? `${questionCounts[deck.id]}` : '...'} Qs</span>
-          </div>
-          <span className={`deck-type-badge ${deck.category === 'Terminology' ? 'acronym' : 'practice'}`}>{deck.category}</span>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 
@@ -90,6 +122,11 @@ const DeckSelector = ({ onDeckSelect }) => {
       <div className="dashboard-header">
         <h1>Security+ Flashcards</h1>
         <span className="dashboard-sub">Choose a deck to start studying</span>
+        {progress && (
+          <div className="streak-display">
+            <span role="img" aria-label="fire">🔥</span> Current Streak: <b>{progress.studyStreak}</b> day{progress.studyStreak === 1 ? '' : 's'}
+          </div>
+        )}
       </div>
       <div className="section-group">
         <div className="section-header" onClick={() => setOpenSection(openSection === 'acronyms' ? null : 'acronyms')}>

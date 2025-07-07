@@ -5,8 +5,9 @@ import Flashcard from './components/Flashcard';
 import ProgressBar from './components/ProgressBar';
 import { FiChevronLeft, FiX } from 'react-icons/fi';
 import { useSwipeable } from 'react-swipeable';
+import { ProgressProvider, useProgress } from './contexts/ProgressContext';
 
-function App() {
+function AppContent() {
   const [selectedDeck, setSelectedDeck] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -17,6 +18,7 @@ function App() {
   const [userAnswers, setUserAnswers] = useState({});
   const [showProgressModal, setShowProgressModal] = useState(false);
   const [showFinishConfirm, setShowFinishConfirm] = useState(false);
+  const { progress, updateDeckProgress, reloadProgress } = useProgress();
 
   useEffect(() => {
     if (selectedDeck) {
@@ -70,9 +72,12 @@ function App() {
     }
   };
 
-  const finishExam = () => {
+  const finishExam = async () => {
     setShowResults(true);
     setShowReview(true);
+    if (selectedDeck && selectedDeck.id) {
+      await updateDeckProgress(selectedDeck.id, score, questions.length);
+    }
   };
 
   const resetQuiz = () => {
@@ -84,7 +89,7 @@ function App() {
     setUserAnswers({});
   };
 
-  const backToDeckSelection = () => {
+  const backToDeckSelection = async () => {
     setSelectedDeck(null);
     setQuestions([]);
     setCurrentQuestionIndex(0);
@@ -93,6 +98,7 @@ function App() {
     setShowReview(false);
     setAnsweredQuestions(new Set());
     setUserAnswers({});
+    if (reloadProgress) await reloadProgress();
   };
 
   const goToQuestion = (idx) => {
@@ -117,9 +123,19 @@ function App() {
   });
 
   // Main quiz UI
-  const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+  const progressPercent = questions.length > 0 ? Math.round(((currentQuestionIndex + 1) / questions.length) * 100) : 0;
   const currentQuestion = questions[currentQuestionIndex];
-  const progressPercent = Math.round(progress);
+
+  // Get high score for current deck
+  let highScoreDisplay = null;
+  if (selectedDeck && progress && progress.decks && progress.decks[selectedDeck.id]) {
+    const highScore = progress.decks[selectedDeck.id].highScore;
+    if (highScore === null) {
+      highScoreDisplay = `0/${questions.length}`;
+    } else {
+      highScoreDisplay = `${highScore}%`;
+    }
+  }
 
   // Handlers for bottom nav
   const handlePrev = () => {
@@ -129,14 +145,9 @@ function App() {
     if (currentQuestionIndex < questions.length - 1 && answeredQuestions.has(currentQuestionIndex)) setCurrentQuestionIndex(currentQuestionIndex + 1);
   };
   const handleFinish = () => setShowFinishConfirm(true);
-  const confirmFinish = () => {
-    setShowFinishConfirm(false);
-    setShowResults(true);
-    setShowReview(true);
-  };
 
   if (!selectedDeck) {
-    return <DeckSelector onDeckSelect={setSelectedDeck} />;
+    return <DeckSelector onDeckSelect={setSelectedDeck} progress={progress} />;
   }
 
   if (showResults && showReview) {
@@ -229,12 +240,14 @@ function App() {
         </button>
         <div className="mobile-title-row">
           <span className="mobile-title">{selectedDeck.name}</span>
-          <span className="progress-pill">{progressPercent}%</span>
+          {highScoreDisplay && (
+            <span className="progress-pill">{highScoreDisplay}</span>
+          )}
         </div>
       </div>
       <div className="mobile-progress-bar-wrap">
         <div className="progress-bar-tappable" onClick={() => setShowProgressModal(true)}>
-          <ProgressBar progress={progress} />
+          <ProgressBar progress={progressPercent} />
         </div>
       </div>
       {showProgressModal && (
@@ -300,12 +313,20 @@ function App() {
             <div className="finish-confirm-desc">Are you sure you want to finish the exam? You can review your answers after finishing.</div>
             <div className="finish-confirm-actions">
               <button className="finish-confirm-btn cancel" onClick={() => setShowFinishConfirm(false)}>Cancel</button>
-              <button className="finish-confirm-btn confirm" onClick={confirmFinish}>Yes, Finish</button>
+              <button className="finish-confirm-btn confirm" onClick={finishExam}>Yes, Finish</button>
             </div>
           </div>
         </div>
       )}
     </div>
+  );
+}
+
+function App() {
+  return (
+    <ProgressProvider>
+      <AppContent />
+    </ProgressProvider>
   );
 }
 

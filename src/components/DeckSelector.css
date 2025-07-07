@@ -332,4 +332,65 @@ body {
     font-size: 0.75rem;
     padding: 2px 5px;
   }
+}
+
+.deck-status-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 6px;
+  vertical-align: middle;
+  border: 1.5px solid #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.15);
+}
+
+.deck-card.status-completed {
+  border-color: green !important;
+}
+.deck-card.status-in-progress {
+  border-color: goldenrod !important;
+}
+.deck-card.status-not-started {
+  border-color: #ccc !important;
+}
+
+.deck-highscore {
+  margin-top: 6px;
+  font-size: 0.95em;
+  color: #2e7d32;
+  font-weight: 600;
+  background: #e8f5e9;
+  border-radius: 8px;
+  padding: 2px 8px;
+  display: inline-block;
+}
+
+.streak-display {
+  margin-top: 10px;
+  font-size: 1.15em;
+  font-weight: 500;
+  color: #e25822;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+}
+
+.deck-best-effort-row {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+.deck-best-effort-badge {
+  display: inline-block;
+  min-width: 38px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 1.01em;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  letter-spacing: 0.01em;
+  margin-left: 2px;
 } 
